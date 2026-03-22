@@ -583,7 +583,7 @@ def finances_panel(leaderboard, finance_summary):
     )
     net_rows = ""
     for i, (mgr, f) in enumerate(net_sorted, 1):
-        if f["paid"] == 0:
+        if f["paid"] == 0 and f["won"] == 0:
             continue
         net = f["net"]
         net_str = ("+$" if net >= 0 else "-$") + str(abs(int(net)))
