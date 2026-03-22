@@ -59,13 +59,14 @@ EXCLUDE_MANAGERS = {
 # Use canonical manager names (after MANAGER_ALIASES are applied).
 SEASON_AWARDS = {
     # President's Trophy and Tritty Tax introduced in 2018.
-    "2018": { "presidents_trophy": "Jordan",  "tritty_tax": "Byron"    },
-    "2019": { "presidents_trophy": "Braeden", "tritty_tax": "Tristan"  },
-    "2020": { "presidents_trophy": "Pete",    "tritty_tax": "Tom"      },
-    "2021": { "presidents_trophy": "Jordan",  "tritty_tax": "Graham"   },
-    "2022": { "presidents_trophy": "Derek",   "tritty_tax": "Pete"     },
-    "2023": { "presidents_trophy": "Derek",   "tritty_tax": "Alex"     },
-    "2024": { "presidents_trophy": "Jordan",  "tritty_tax": "Johnnie"  },
+    # Confirmed from Facebook message archive (end-of-season payment discussions).
+    "2018": { "presidents_trophy": "Jordan",  "tritty_tax": "Tristan"  },  # Apr 2019: "last place is Chaz" (Tristan), "Tristan pays Jordan $100"
+    "2019": { "presidents_trophy": "Braeden", "tritty_tax": "Tristan"  },  # COVID season; Braeden rank 1, Tristan rank 10
+    "2020": { "presidents_trophy": "Pete",    "tritty_tax": "Tom"      },  # Pete rank 4 (reg season best), Tom tanked
+    "2021": { "presidents_trophy": "Jordan",  "tritty_tax": "Graham"   },  # Apr 2022: "Gmelt pays tax to JLaw"
+    "2022": { "presidents_trophy": "Derek",   "tritty_tax": "Pete"     },  # Apr 2023: "Papa johns pays tax to Hughes" + "$50 tax for pete"
+    "2023": { "presidents_trophy": "Derek",   "tritty_tax": "Alex"     },  # Apr 2024: "That's your tax @Alexandre Desrochers - paying to Hughes Yo Daddy"
+    "2024": { "presidents_trophy": "Jordan",  "tritty_tax": "Johnnie"  },  # Apr 2025: Jordan collecting; Johnnie rank 10 / "big fat loser paying $175"
     # 2025 is in progress — awards added once season ends
 }
 
@@ -80,13 +81,72 @@ TRITTY_TAX_AMOUNT = 50
 #          (only include managers who received a payout — do NOT include
 #           the Tritty Tax here, that is handled automatically above)
 SEASON_FINANCES = {
-    # "2025": {
-    #     "buyin": 40,
-    #     "payouts": {
-    #         "Johnnie": 200,   # 1st place
-    #         "Graham":   80,   # 2nd place
-    #         "Derek":    40,   # 3rd place
-    #     }
-    # },
-    # … fill in for each season
+    # Payouts confirmed from Facebook message archive end-of-season payment posts.
+    # Formula (10 teams): 1st = 7×buyin, 2nd = 2×buyin, 3rd = 1×buyin (buy-in refunded).
+    # Tritty Tax ($50) is handled separately above — do NOT include it here.
+
+    "2017": {  # NHL 2017-18; Apr 2018: "Everyone else pays $50 to Tom"
+        "buyin": 50,
+        "payouts": {
+            "Tom":     350,   # 1st place — playoff champion
+            "Braeden": 100,   # 2nd place
+            "Graham":   50,   # 3rd place
+        },
+    },
+    "2018": {  # NHL 2018-19; Apr 2019: "1st $350, 2nd $100, 3rd $50 (incl. own $50 back)"
+        "buyin": 50,
+        "payouts": {
+            "Tom":    350,   # 1st place — playoff champion
+            "Jordan": 100,   # 2nd place
+            "Pete":    50,   # 3rd place
+        },
+    },
+    "2019": {  # NHL 2019-20 (COVID); Jun 2020: "$100 buy-in; 1st $700, 2nd $200, 3rd $100"
+        "buyin": 100,
+        "payouts": {
+            "Braeden": 700,   # 1st place — playoff champion
+            "Graham":  200,   # 2nd place
+            "Pete":    100,   # 3rd place
+        },
+    },
+    "2020": {  # NHL 2020-21; May 2021: "Pay outs at $100 per person as agreed at the start"
+        "buyin": 100,
+        "payouts": {
+            "David":   700,   # 1st place — playoff champion (David Scott)
+            "Braeden": 200,   # 2nd place
+            "Jeremy":  100,   # 3rd place
+        },
+    },
+    "2021": {  # NHL 2021-22; Apr 2022: "Everyone else pays Pete"; "4th place pays $100 to second"
+        "buyin": 100,
+        "payouts": {
+            "Pete":  700,   # 1st place — playoff champion
+            "Derek": 200,   # 2nd place
+            "Tom":   100,   # 3rd place
+        },
+    },
+    "2022": {  # NHL 2022-23; Apr 2023: "$125 buy in"; "1st $875, 2nd $250, 3rd $125"
+        "buyin": 125,
+        "payouts": {
+            "Braeden": 875,   # 1st place — playoff champion
+            "Derek":   250,   # 2nd place
+            "Graham":  125,   # 3rd place
+        },
+    },
+    "2023": {  # NHL 2023-24; Apr 2024: "Buy-in was $125"; "1st Monsieur J-Baby, 2nd Hughes Yo Daddy, 3rd Hugh Jasule"
+        "buyin": 125,
+        "payouts": {
+            "Jeremy": 875,   # 1st place — playoff champion
+            "Derek":  250,   # 2nd place
+            "Jordan": 125,   # 3rd place
+        },
+    },
+    "2024": {  # NHL 2024-25; Apr 2025: "$125 buy in"; "4th place Derek pays 2nd place Jeremy $125"
+        "buyin": 125,
+        "payouts": {
+            "Jordan":  875,   # 1st place — playoff champion
+            "Jeremy":  250,   # 2nd place
+            "Braeden": 125,   # 3rd place
+        },
+    },
 }
