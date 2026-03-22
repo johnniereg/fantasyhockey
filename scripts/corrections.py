@@ -84,10 +84,38 @@ TRITTY_TAX_AMOUNT = 50
 SEASON_FINANCES = {
     # Payouts confirmed from Facebook message archive end-of-season payment posts.
     # Keys use NHL season format (e.g. "2017-18" = NHL season starting Oct 2017).
-    # Formula (10 teams): 1st = 7×buyin, 2nd = 2×buyin, 3rd = 1×buyin (buy-in refunded).
+    # Formula (10 teams, post-2017): 1st = 7×buyin, 2nd = 2×buyin, 3rd = 1×buyin (buy-in refunded).
+    # Pre-2017: winner-take-all (full pool = n_teams × buyin to 1st place).
     # Tritty Tax ($50) is handled separately above — do NOT include it here.
+    # NOTE: 2013-14 was the first season with a buy-in (Johnnie won back-to-back in 2013-14 and 2014-15).
+    # Seasons before 2013-14 had no buy-in.
 
-    "2017-18": {  # Apr 2018: "Everyone else pays $50 to Tom"
+    "2013-14": {  # First money season. 12 teams × $50 = $600, winner-take-all → Johnnie
+        "buyin": 50,
+        "payouts": {
+            "Johnnie": 600,   # 1st place — winner-take-all (12 teams)
+        },
+    },
+    "2014-15": {  # 12 teams × $50 = $600, winner-take-all → Johnnie (back-to-back)
+        "buyin": 50,
+        "payouts": {
+            "Johnnie": 600,   # 1st place — winner-take-all (12 teams)
+        },
+    },
+    "2015-16": {  # 10 teams × $50 = $500, winner-take-all → Justin
+        "buyin": 50,
+        "payouts": {
+            "Justin": 500,    # 1st place — winner-take-all (10 teams)
+        },
+    },
+    "2016-17": {  # 10 teams × $50 = $500, winner-take-all → Braeden
+        "buyin": 50,
+        "payouts": {
+            "Braeden": 500,   # 1st place — winner-take-all (10 teams)
+        },
+    },
+
+    "2017-18": {  # Apr 2018: "Everyone else pays $50 to Tom" — first season with 2nd/3rd payouts
         "buyin": 50,
         "payouts": {
             "Tom":     350,   # 1st place — playoff champion
