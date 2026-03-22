@@ -13,22 +13,22 @@ SEASON_FINANCES    — buy-in amounts and prize payouts per season
 # ── Per-season team → manager overrides ──────────────────────────────────────
 # Use this to fix hidden managers or team transfers.
 MANAGER_OVERRIDES = {
-    # Alex took over Justin's team starting in 2020
-    "2020": { "Bruiser Brigade":     "Alex" },
-    "2021": { "Bruiser Brigade":     "Alex" },
-    "2022": { "Last Dance Energy":   "Alex" },
-    "2023": { "Last Dance Energy":   "Alex" },
-    "2024": { "Last Dance Energy":   "Alex" },
-    "2025": { "Last Dance Energy":   "Alex" },
+    # Alex took over Justin's team starting in 2020-21
+    "2020-21": { "Bruiser Brigade":     "Alex" },
+    "2021-22": { "Bruiser Brigade":     "Alex" },
+    "2022-23": { "Last Dance Energy":   "Alex" },
+    "2023-24": { "Last Dance Energy":   "Alex" },
+    "2024-25": { "Last Dance Energy":   "Alex" },
+    "2025-26": { "Last Dance Energy":   "Alex" },
 
     # Tom's hidden seasons — confirm which of these are his:
-    # "2007": { "Children Of Tim":       "Tom" },
-    # "2008": { "Cranky Cockatoos":      "Tom" },
-    # "2009": { "Sim Sim Salabimster":   "Tom" },
-    # "2010": { "Braggarttaggart!":      "Tom" },
-    # "2012": { "PuppetMaster":          "Tom" },
-    # "2013": { "Gloryholes":            "Tom" },
-    # "2014": { "Letme Take a Shelfie":  "Tom" },
+    # "2007-08": { "Children Of Tim":       "Tom" },
+    # "2008-09": { "Cranky Cockatoos":      "Tom" },
+    # "2009-10": { "Sim Sim Salabimster":   "Tom" },
+    # "2010-11": { "Braggarttaggart!":      "Tom" },
+    # "2012-13": { "PuppetMaster":          "Tom" },
+    # "2013-14": { "Gloryholes":            "Tom" },
+    # "2014-15": { "Letme Take a Shelfie":  "Tom" },
 }
 
 # ── Manager name aliases ──────────────────────────────────────────────────────
@@ -58,16 +58,17 @@ EXCLUDE_MANAGERS = {
 # tritty_tax:        manager who finished last in the regular season
 # Use canonical manager names (after MANAGER_ALIASES are applied).
 SEASON_AWARDS = {
-    # President's Trophy and Tritty Tax introduced in 2018.
+    # President's Trophy and Tritty Tax introduced in 2018-19.
+    # Keys use NHL season format (e.g. "2018-19" = NHL season starting Oct 2018).
     # Confirmed from Facebook message archive (end-of-season payment discussions).
-    "2018": { "presidents_trophy": "Jordan",  "tritty_tax": "Tristan"  },  # Apr 2019: "last place is Chaz" (Tristan), "Tristan pays Jordan $100"
-    "2019": { "presidents_trophy": "Braeden", "tritty_tax": "Tristan"  },  # COVID season; Braeden rank 1, Tristan rank 10
-    "2020": { "presidents_trophy": "Pete",    "tritty_tax": "Tom"      },  # Pete rank 4 (reg season best), Tom tanked
-    "2021": { "presidents_trophy": "Jordan",  "tritty_tax": "Graham"   },  # Apr 2022: "Gmelt pays tax to JLaw"
-    "2022": { "presidents_trophy": "Derek",   "tritty_tax": "Pete"     },  # Apr 2023: "Papa johns pays tax to Hughes" + "$50 tax for pete"
-    "2023": { "presidents_trophy": "Derek",   "tritty_tax": "Alex"     },  # Apr 2024: "That's your tax @Alexandre Desrochers - paying to Hughes Yo Daddy"
-    "2024": { "presidents_trophy": "Jordan",  "tritty_tax": "Johnnie"  },  # Apr 2025: Jordan collecting; Johnnie rank 10 / "big fat loser paying $175"
-    # 2025 is in progress — awards added once season ends
+    "2018-19": { "presidents_trophy": "Jordan",  "tritty_tax": "Tristan"  },  # Apr 2019: "last place is Chaz" (Tristan), "Tristan pays Jordan $100"
+    "2019-20": { "presidents_trophy": "Braeden", "tritty_tax": "Tristan"  },  # COVID season; Braeden rank 1, Tristan rank 10
+    "2020-21": { "presidents_trophy": "Pete",    "tritty_tax": "Tom"      },  # Pete rank 4 (reg season best), Tom tanked
+    "2021-22": { "presidents_trophy": "Jordan",  "tritty_tax": "Graham"   },  # Apr 2022: "Gmelt pays tax to JLaw"
+    "2022-23": { "presidents_trophy": "Derek",   "tritty_tax": "Pete"     },  # Apr 2023: "Papa johns pays tax to Hughes" + "$50 tax for pete"
+    "2023-24": { "presidents_trophy": "Derek",   "tritty_tax": "Alex"     },  # Apr 2024: "That's your tax @Alexandre Desrochers - paying to Hughes Yo Daddy"
+    "2024-25": { "presidents_trophy": "Jordan",  "tritty_tax": "Johnnie"  },  # Apr 2025: Jordan collecting; Johnnie rank 10 / "big fat loser paying $175"
+    # 2025-26 is in progress — awards added once season ends
 }
 
 # ── Tritty Tax amount ─────────────────────────────────────────────────────────
@@ -82,10 +83,11 @@ TRITTY_TAX_AMOUNT = 50
 #           the Tritty Tax here, that is handled automatically above)
 SEASON_FINANCES = {
     # Payouts confirmed from Facebook message archive end-of-season payment posts.
+    # Keys use NHL season format (e.g. "2017-18" = NHL season starting Oct 2017).
     # Formula (10 teams): 1st = 7×buyin, 2nd = 2×buyin, 3rd = 1×buyin (buy-in refunded).
     # Tritty Tax ($50) is handled separately above — do NOT include it here.
 
-    "2017": {  # NHL 2017-18; Apr 2018: "Everyone else pays $50 to Tom"
+    "2017-18": {  # Apr 2018: "Everyone else pays $50 to Tom"
         "buyin": 50,
         "payouts": {
             "Tom":     350,   # 1st place — playoff champion
@@ -93,7 +95,7 @@ SEASON_FINANCES = {
             "Graham":   50,   # 3rd place
         },
     },
-    "2018": {  # NHL 2018-19; Apr 2019: "1st $350, 2nd $100, 3rd $50 (incl. own $50 back)"
+    "2018-19": {  # Apr 2019: "1st $350, 2nd $100, 3rd $50 (incl. own $50 back)"
         "buyin": 50,
         "payouts": {
             "Tom":    350,   # 1st place — playoff champion
@@ -101,7 +103,7 @@ SEASON_FINANCES = {
             "Pete":    50,   # 3rd place
         },
     },
-    "2019": {  # NHL 2019-20 (COVID); Jun 2020: "$100 buy-in; 1st $700, 2nd $200, 3rd $100"
+    "2019-20": {  # Jun 2020: "$100 buy-in; 1st $700, 2nd $200, 3rd $100" (COVID season)
         "buyin": 100,
         "payouts": {
             "Braeden": 700,   # 1st place — playoff champion
@@ -109,7 +111,7 @@ SEASON_FINANCES = {
             "Pete":    100,   # 3rd place
         },
     },
-    "2020": {  # NHL 2020-21; May 2021: "Pay outs at $100 per person as agreed at the start"
+    "2020-21": {  # May 2021: "Pay outs at $100 per person as agreed at the start"
         "buyin": 100,
         "payouts": {
             "David":   700,   # 1st place — playoff champion (David Scott)
@@ -117,7 +119,7 @@ SEASON_FINANCES = {
             "Jeremy":  100,   # 3rd place
         },
     },
-    "2021": {  # NHL 2021-22; Apr 2022: "Everyone else pays Pete"; "4th place pays $100 to second"
+    "2021-22": {  # Apr 2022: "Everyone else pays Pete"; "4th place pays $100 to second"
         "buyin": 100,
         "payouts": {
             "Pete":  700,   # 1st place — playoff champion
@@ -125,7 +127,7 @@ SEASON_FINANCES = {
             "Tom":   100,   # 3rd place
         },
     },
-    "2022": {  # NHL 2022-23; Apr 2023: "$125 buy in"; "1st $875, 2nd $250, 3rd $125"
+    "2022-23": {  # Apr 2023: "$125 buy in"; "1st $875, 2nd $250, 3rd $125"
         "buyin": 125,
         "payouts": {
             "Braeden": 875,   # 1st place — playoff champion
@@ -133,7 +135,7 @@ SEASON_FINANCES = {
             "Graham":  125,   # 3rd place
         },
     },
-    "2023": {  # NHL 2023-24; Apr 2024: "Buy-in was $125"; "1st Monsieur J-Baby, 2nd Hughes Yo Daddy, 3rd Hugh Jasule"
+    "2023-24": {  # Apr 2024: "Buy-in was $125"; "1st Monsieur J-Baby, 2nd Hughes Yo Daddy, 3rd Hugh Jasule"
         "buyin": 125,
         "payouts": {
             "Jeremy": 875,   # 1st place — playoff champion
@@ -141,7 +143,7 @@ SEASON_FINANCES = {
             "Jordan": 125,   # 3rd place
         },
     },
-    "2024": {  # NHL 2024-25; Apr 2025: "$125 buy in"; "4th place Derek pays 2nd place Jeremy $125"
+    "2024-25": {  # Apr 2025: "$125 buy in"; "4th place Derek pays 2nd place Jeremy $125"
         "buyin": 125,
         "payouts": {
             "Jordan":  875,   # 1st place — playoff champion

@@ -27,9 +27,16 @@ LEAGUE_RULES = [
     {
         "title": "Buy-In & Payouts",
         "content": (
-            "Each manager pays a buy-in at the start of the season. The prize pool is distributed "
-            "to the top finishers at season end. Payout structure and buy-in amounts have varied "
-            "over the years — see the Finances tab for historical figures."
+            "Each manager pays a buy-in at the start of the season. Buy-in has increased over the years: "
+            "$50 (2017–2018), $100 (2019–2021), $125 (2022–2024), $150 (2025–2026).\n\n"
+            "Payout structure (based on playoff finish, 10 teams):\n"
+            "  1st place — collects the buy-in from every manager who finished 5th or worse\n"
+            "  2nd place — collects the buy-in from the 4th-place finisher\n"
+            "  3rd place — gets their own buy-in refunded (free season)\n"
+            "  4th place — pays their buy-in to 2nd place\n"
+            "  5th–10th  — each pays their buy-in to 1st place\n\n"
+            "Net at $150 buy-in: 1st +$900, 2nd +$150, 3rd $0, 4th–10th −$150.\n"
+            "See the Finances tab for historical buy-ins and full payout records."
         ),
     },
     {
@@ -37,14 +44,18 @@ LEAGUE_RULES = [
         "content": (
             "Awarded to the manager with the best record at the end of the regular season "
             "(before playoffs begin). A separate recognition from the championship — you can "
-            "win the President's Trophy and still lose in the playoffs."
+            "win the President's Trophy and still lose in the playoffs. "
+            "The Tritty Tax payer sends $50 to the President's Trophy winner each season."
         ),
     },
     {
         "title": "Tritty Tax",
         "content": (
-            "The manager who finishes last in the regular season standings must pay the Tritty Tax. "
-            "Amount and form of payment TBD / varies by season."
+            "The manager who finishes last in the regular season standings — before playoffs begin — "
+            "must pay the Tritty Tax: $50 sent to the President's Trophy winner. "
+            "Playoff results do not affect who pays; it is determined solely by regular season record. "
+            "Named after Tristan Melton, who paid it two years running (2018–2019). "
+            "It has since been referred to as the Melton Tax in his honour."
         ),
     },
     {
