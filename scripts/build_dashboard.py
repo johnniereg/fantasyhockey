@@ -322,31 +322,41 @@ def leaderboard_table(leaderboard, finance_summary):
         if fin["paid"] > 0:
             net_str = ("+$" if net >= 0 else "-$") + str(abs(int(net)))
             net_cls = "pos-money" if net > 0 else ("neg-money" if net < 0 else "")
+            net_val = net
         else:
             net_str = "—"
             net_cls = ""
-        pres_ct  = s.get("presidents", 0)
+            net_val = -999999   # sort no-buy-in managers to bottom
+        pres_ct   = s.get("presidents", 0)
         tritty_ct = s.get("tritty", 0)
 
         rows += f"""<tr>
-          <td class="num">{i}</td>
-          <td class="mgr-link" onclick="showManager('{_esc(mgr)}')">{_esc(mgr)}</td>
-          <td class="num">{s["seasons"]}</td>
-          <td class="num bold">{s["titles"]}</td>
-          <td class="num">{pres_ct}</td>
-          <td class="num">{tritty_ct}</td>
-          <td class="num">{s["top3"]}</td>
-          <td class="num">{s["wins"]}–{s["losses"]}–{s["ties"]}</td>
-          <td class="num">{pct:.3f}</td>
-          <td class="num">{s["points"]:.0f}</td>
-          <td class="num {net_cls}">{net_str}</td>
+          <td class="num" data-val="{i}">{i}</td>
+          <td class="mgr-link" data-val="{_esc(mgr)}" onclick="showManager('{_esc(mgr)}')">{_esc(mgr)}</td>
+          <td class="num" data-val="{s['seasons']}">{s["seasons"]}</td>
+          <td class="num bold" data-val="{s['titles']}">{s["titles"]}</td>
+          <td class="num" data-val="{pres_ct}">{pres_ct}</td>
+          <td class="num" data-val="{tritty_ct}">{tritty_ct}</td>
+          <td class="num" data-val="{s['top3']}">{s["top3"]}</td>
+          <td class="num" data-val="{s['wins']}">{s["wins"]}–{s["losses"]}–{s["ties"]}</td>
+          <td class="num" data-val="{pct:.4f}">{pct:.3f}</td>
+          <td class="num" data-val="{s['points']:.0f}">{s["points"]:.0f}</td>
+          <td class="num {net_cls}" data-val="{net_val}">{net_str}</td>
         </tr>"""
 
-    return f"""<div class="table-wrap"><table>
+    return f"""<div class="table-wrap"><table class="sortable-table" id="leaderboard-table">
   <thead><tr>
-    <th class="num">#</th><th>Manager</th><th class="num">Seasons</th><th class="num">Titles</th>
-    <th class="num">Pres.</th><th class="num">Tax</th><th class="num">Top 3</th>
-    <th class="num">W–L–T</th><th class="num">Win%</th><th class="num">Total Pts</th><th class="num">Net $</th>
+    <th class="num sortable-col" onclick="sortTable(this)">#<span class="sort-arrow"> ↕</span></th>
+    <th class="sortable-col" onclick="sortTable(this)">Manager<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Seasons<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Titles<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Pres.<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Tax<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Top 3<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">W–L–T<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Win%<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Total Pts<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Net $<span class="sort-arrow"> ↕</span></th>
   </tr></thead>
   <tbody>{rows}</tbody>
 </table></div>"""
@@ -878,6 +888,15 @@ def build_html(data):
     .mgr-link { cursor: pointer; text-decoration: underline; text-underline-offset: 2px; text-decoration-color: #ccc; }
     .mgr-link:hover { text-decoration-color: #111; }
 
+    /* Sortable table */
+    .sortable-col { cursor: pointer; user-select: none; white-space: nowrap; }
+    .sortable-col:hover { background: #f0f0f0; }
+    .sort-arrow { font-size: 0.7rem; color: #bbb; margin-left: 2px; }
+    .sortable-col.sort-asc .sort-arrow::after  { content: " ▲"; color: #333; }
+    .sortable-col.sort-desc .sort-arrow::after { content: " ▼"; color: #333; }
+    .sortable-col.sort-asc .sort-arrow,
+    .sortable-col.sort-desc .sort-arrow { display: none; }
+
     /* Matchups */
     .matchup-grid {
       display: grid;
@@ -949,6 +968,36 @@ function showTab(id) {
   document.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
   document.getElementById('panel-' + id).classList.add('active');
   document.getElementById('tab-' + id).classList.add('active');
+}
+
+function sortTable(th) {
+  var table = th.closest('table');
+  var tbody = table.querySelector('tbody');
+  var ths   = Array.from(th.closest('tr').querySelectorAll('th'));
+  var col   = ths.indexOf(th);
+  var asc   = !th.classList.contains('sort-asc');
+
+  // Clear sort state on all headers
+  ths.forEach(function(h) { h.classList.remove('sort-asc', 'sort-desc'); });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+
+  // Collect and sort rows
+  var rows = Array.from(tbody.querySelectorAll('tr'));
+  rows.sort(function(a, b) {
+    var aCell = a.querySelectorAll('td')[col];
+    var bCell = b.querySelectorAll('td')[col];
+    var aVal  = aCell ? aCell.getAttribute('data-val') : '';
+    var bVal  = bCell ? bCell.getAttribute('data-val') : '';
+    // Try numeric comparison first
+    var aNum = parseFloat(aVal);
+    var bNum = parseFloat(bVal);
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return asc ? aNum - bNum : bNum - aNum;
+    }
+    // Fall back to string
+    return asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+  });
+  rows.forEach(function(r) { tbody.appendChild(r); });
 }
     """
 

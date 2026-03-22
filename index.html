@@ -112,6 +112,15 @@
     .mgr-link { cursor: pointer; text-decoration: underline; text-underline-offset: 2px; text-decoration-color: #ccc; }
     .mgr-link:hover { text-decoration-color: #111; }
 
+    /* Sortable table */
+    .sortable-col { cursor: pointer; user-select: none; white-space: nowrap; }
+    .sortable-col:hover { background: #f0f0f0; }
+    .sort-arrow { font-size: 0.7rem; color: #bbb; margin-left: 2px; }
+    .sortable-col.sort-asc .sort-arrow::after  { content: " ▲"; color: #333; }
+    .sortable-col.sort-desc .sort-arrow::after { content: " ▼"; color: #333; }
+    .sortable-col.sort-asc .sort-arrow,
+    .sortable-col.sort-desc .sort-arrow { display: none; }
+
     /* Matchups */
     .matchup-grid {
       display: grid;
@@ -215,180 +224,188 @@
   <section>
     <h2>All-Time Leaderboard</h2>
     <p class="section-note">Ranked by championships, then total wins. Click a name to view their profile.</p>
-    <div class="table-wrap"><table>
+    <div class="table-wrap"><table class="sortable-table" id="leaderboard-table">
   <thead><tr>
-    <th class="num">#</th><th>Manager</th><th class="num">Seasons</th><th class="num">Titles</th>
-    <th class="num">Pres.</th><th class="num">Tax</th><th class="num">Top 3</th>
-    <th class="num">W–L–T</th><th class="num">Win%</th><th class="num">Total Pts</th><th class="num">Net $</th>
+    <th class="num sortable-col" onclick="sortTable(this)">#<span class="sort-arrow"> ↕</span></th>
+    <th class="sortable-col" onclick="sortTable(this)">Manager<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Seasons<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Titles<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Pres.<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Tax<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Top 3<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">W–L–T<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Win%<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Total Pts<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)">Net $<span class="sort-arrow"> ↕</span></th>
   </tr></thead>
   <tbody><tr>
-          <td class="num">1</td>
-          <td class="mgr-link" onclick="showManager('Pete')">Pete</td>
-          <td class="num">19</td>
-          <td class="num bold">3</td>
-          <td class="num">1</td>
-          <td class="num">1</td>
-          <td class="num">9</td>
-          <td class="num">1694–1671–525</td>
-          <td class="num">0.435</td>
-          <td class="num">3913</td>
-          <td class="num neg-money">-$125</td>
+          <td class="num" data-val="1">1</td>
+          <td class="mgr-link" data-val="Pete" onclick="showManager('Pete')">Pete</td>
+          <td class="num" data-val="19">19</td>
+          <td class="num bold" data-val="3">3</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="9">9</td>
+          <td class="num" data-val="1694">1694–1671–525</td>
+          <td class="num" data-val="0.4355">0.435</td>
+          <td class="num" data-val="3913">3913</td>
+          <td class="num neg-money" data-val="-125">-$125</td>
         </tr><tr>
-          <td class="num">2</td>
-          <td class="mgr-link" onclick="showManager('Johnnie')">Johnnie</td>
-          <td class="num">19</td>
-          <td class="num bold">3</td>
-          <td class="num">0</td>
-          <td class="num">1</td>
-          <td class="num">5</td>
-          <td class="num">1609–1778–503</td>
-          <td class="num">0.414</td>
-          <td class="num">3721</td>
-          <td class="num pos-money">+$175</td>
+          <td class="num" data-val="2">2</td>
+          <td class="mgr-link" data-val="Johnnie" onclick="showManager('Johnnie')">Johnnie</td>
+          <td class="num" data-val="19">19</td>
+          <td class="num bold" data-val="3">3</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="5">5</td>
+          <td class="num" data-val="1609">1609–1778–503</td>
+          <td class="num" data-val="0.4136">0.414</td>
+          <td class="num" data-val="3721">3721</td>
+          <td class="num pos-money" data-val="175">+$175</td>
         </tr><tr>
-          <td class="num">3</td>
-          <td class="mgr-link" onclick="showManager('Braeden')">Braeden</td>
-          <td class="num">14</td>
-          <td class="num bold">3</td>
-          <td class="num">1</td>
-          <td class="num">0</td>
-          <td class="num">7</td>
-          <td class="num">1327–1107–346</td>
-          <td class="num">0.477</td>
-          <td class="num">3000</td>
-          <td class="num pos-money">+$1625</td>
+          <td class="num" data-val="3">3</td>
+          <td class="mgr-link" data-val="Braeden" onclick="showManager('Braeden')">Braeden</td>
+          <td class="num" data-val="14">14</td>
+          <td class="num bold" data-val="3">3</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="7">7</td>
+          <td class="num" data-val="1327">1327–1107–346</td>
+          <td class="num" data-val="0.4773">0.477</td>
+          <td class="num" data-val="3000">3000</td>
+          <td class="num pos-money" data-val="1625">+$1625</td>
         </tr><tr>
-          <td class="num">4</td>
-          <td class="mgr-link" onclick="showManager('Tom')">Tom</td>
-          <td class="num">15</td>
-          <td class="num bold">2</td>
-          <td class="num">0</td>
-          <td class="num">1</td>
-          <td class="num">5</td>
-          <td class="num">1301–1296–393</td>
-          <td class="num">0.435</td>
-          <td class="num">2995</td>
-          <td class="num neg-money">-$225</td>
+          <td class="num" data-val="4">4</td>
+          <td class="mgr-link" data-val="Tom" onclick="showManager('Tom')">Tom</td>
+          <td class="num" data-val="15">15</td>
+          <td class="num bold" data-val="2">2</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="5">5</td>
+          <td class="num" data-val="1301">1301–1296–393</td>
+          <td class="num" data-val="0.4351">0.435</td>
+          <td class="num" data-val="2995">2995</td>
+          <td class="num neg-money" data-val="-225">-$225</td>
         </tr><tr>
-          <td class="num">5</td>
-          <td class="mgr-link" onclick="showManager('Justin')">Justin</td>
-          <td class="num">13</td>
-          <td class="num bold">2</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">7</td>
-          <td class="num">1283–1041–356</td>
-          <td class="num">0.479</td>
-          <td class="num">2922</td>
-          <td class="num pos-money">+$100</td>
+          <td class="num" data-val="5">5</td>
+          <td class="mgr-link" data-val="Justin" onclick="showManager('Justin')">Justin</td>
+          <td class="num" data-val="13">13</td>
+          <td class="num bold" data-val="2">2</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="7">7</td>
+          <td class="num" data-val="1283">1283–1041–356</td>
+          <td class="num" data-val="0.4787">0.479</td>
+          <td class="num" data-val="2922">2922</td>
+          <td class="num pos-money" data-val="100">+$100</td>
         </tr><tr>
-          <td class="num">6</td>
-          <td class="mgr-link" onclick="showManager('Jordan')">Jordan</td>
-          <td class="num">11</td>
-          <td class="num bold">2</td>
-          <td class="num">3</td>
-          <td class="num">0</td>
-          <td class="num">4</td>
-          <td class="num">1110–854–286</td>
-          <td class="num">0.493</td>
-          <td class="num">2506</td>
-          <td class="num pos-money">+$425</td>
+          <td class="num" data-val="6">6</td>
+          <td class="mgr-link" data-val="Jordan" onclick="showManager('Jordan')">Jordan</td>
+          <td class="num" data-val="11">11</td>
+          <td class="num bold" data-val="2">2</td>
+          <td class="num" data-val="3">3</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="4">4</td>
+          <td class="num" data-val="1110">1110–854–286</td>
+          <td class="num" data-val="0.4933">0.493</td>
+          <td class="num" data-val="2506">2506</td>
+          <td class="num pos-money" data-val="425">+$425</td>
         </tr><tr>
-          <td class="num">7</td>
-          <td class="mgr-link" onclick="showManager('David')">David</td>
-          <td class="num">11</td>
-          <td class="num bold">1</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">1</td>
-          <td class="num">926–1009–315</td>
-          <td class="num">0.412</td>
-          <td class="num">2167</td>
-          <td class="num neg-money">-$225</td>
+          <td class="num" data-val="7">7</td>
+          <td class="mgr-link" data-val="David" onclick="showManager('David')">David</td>
+          <td class="num" data-val="11">11</td>
+          <td class="num bold" data-val="1">1</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="926">926–1009–315</td>
+          <td class="num" data-val="0.4116">0.412</td>
+          <td class="num" data-val="2167">2167</td>
+          <td class="num neg-money" data-val="-225">-$225</td>
         </tr><tr>
-          <td class="num">8</td>
-          <td class="mgr-link" onclick="showManager('Jeremy')">Jeremy</td>
-          <td class="num">6</td>
-          <td class="num bold">1</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">3</td>
-          <td class="num">573–469–168</td>
-          <td class="num">0.474</td>
-          <td class="num">1314</td>
-          <td class="num pos-money">+$650</td>
+          <td class="num" data-val="8">8</td>
+          <td class="mgr-link" data-val="Jeremy" onclick="showManager('Jeremy')">Jeremy</td>
+          <td class="num" data-val="6">6</td>
+          <td class="num bold" data-val="1">1</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="3">3</td>
+          <td class="num" data-val="573">573–469–168</td>
+          <td class="num" data-val="0.4736">0.474</td>
+          <td class="num" data-val="1314">1314</td>
+          <td class="num pos-money" data-val="650">+$650</td>
         </tr><tr>
-          <td class="num">9</td>
-          <td class="mgr-link" onclick="showManager('Graham')">Graham</td>
-          <td class="num">19</td>
-          <td class="num bold">0</td>
-          <td class="num">0</td>
-          <td class="num">1</td>
-          <td class="num">3</td>
-          <td class="num">1682–1687–521</td>
-          <td class="num">0.432</td>
-          <td class="num">3885</td>
-          <td class="num neg-money">-$650</td>
+          <td class="num" data-val="9">9</td>
+          <td class="mgr-link" data-val="Graham" onclick="showManager('Graham')">Graham</td>
+          <td class="num" data-val="19">19</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="3">3</td>
+          <td class="num" data-val="1682">1682–1687–521</td>
+          <td class="num" data-val="0.4324">0.432</td>
+          <td class="num" data-val="3885">3885</td>
+          <td class="num neg-money" data-val="-650">-$650</td>
         </tr><tr>
-          <td class="num">10</td>
-          <td class="mgr-link" onclick="showManager('Tristan')">Tristan</td>
-          <td class="num">10</td>
-          <td class="num bold">0</td>
-          <td class="num">0</td>
-          <td class="num">2</td>
-          <td class="num">0</td>
-          <td class="num">757–990–253</td>
-          <td class="num">0.379</td>
-          <td class="num">1767</td>
-          <td class="num neg-money">-$500</td>
+          <td class="num" data-val="10">10</td>
+          <td class="mgr-link" data-val="Tristan" onclick="showManager('Tristan')">Tristan</td>
+          <td class="num" data-val="10">10</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="2">2</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="757">757–990–253</td>
+          <td class="num" data-val="0.3785">0.379</td>
+          <td class="num" data-val="1767">1767</td>
+          <td class="num neg-money" data-val="-500">-$500</td>
         </tr><tr>
-          <td class="num">11</td>
-          <td class="mgr-link" onclick="showManager('Derek')">Derek</td>
-          <td class="num">7</td>
-          <td class="num bold">0</td>
-          <td class="num">2</td>
-          <td class="num">0</td>
-          <td class="num">3</td>
-          <td class="num">647–566–187</td>
-          <td class="num">0.462</td>
-          <td class="num">1481</td>
-          <td class="num pos-money">+$125</td>
+          <td class="num" data-val="11">11</td>
+          <td class="mgr-link" data-val="Derek" onclick="showManager('Derek')">Derek</td>
+          <td class="num" data-val="7">7</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="2">2</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="3">3</td>
+          <td class="num" data-val="647">647–566–187</td>
+          <td class="num" data-val="0.4621">0.462</td>
+          <td class="num" data-val="1481">1481</td>
+          <td class="num pos-money" data-val="125">+$125</td>
         </tr><tr>
-          <td class="num">12</td>
-          <td class="mgr-link" onclick="showManager('Alex')">Alex</td>
-          <td class="num">6</td>
-          <td class="num bold">0</td>
-          <td class="num">0</td>
-          <td class="num">1</td>
-          <td class="num">0</td>
-          <td class="num">480–562–168</td>
-          <td class="num">0.397</td>
-          <td class="num">1128</td>
-          <td class="num neg-money">-$625</td>
+          <td class="num" data-val="12">12</td>
+          <td class="mgr-link" data-val="Alex" onclick="showManager('Alex')">Alex</td>
+          <td class="num" data-val="6">6</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="480">480–562–168</td>
+          <td class="num" data-val="0.3967">0.397</td>
+          <td class="num" data-val="1128">1128</td>
+          <td class="num neg-money" data-val="-625">-$625</td>
         </tr><tr>
-          <td class="num">13</td>
-          <td class="mgr-link" onclick="showManager('Byron')">Byron</td>
-          <td class="num">3</td>
-          <td class="num bold">0</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">241–308–81</td>
-          <td class="num">0.383</td>
-          <td class="num">563</td>
-          <td class="num neg-money">-$150</td>
+          <td class="num" data-val="13">13</td>
+          <td class="mgr-link" data-val="Byron" onclick="showManager('Byron')">Byron</td>
+          <td class="num" data-val="3">3</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="241">241–308–81</td>
+          <td class="num" data-val="0.3825">0.383</td>
+          <td class="num" data-val="563">563</td>
+          <td class="num neg-money" data-val="-150">-$150</td>
         </tr><tr>
-          <td class="num">14</td>
-          <td class="mgr-link" onclick="showManager('Geoff')">Geoff</td>
-          <td class="num">1</td>
-          <td class="num bold">0</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">0</td>
-          <td class="num">90–84–26</td>
-          <td class="num">0.450</td>
-          <td class="num">206</td>
-          <td class="num ">—</td>
+          <td class="num" data-val="14">14</td>
+          <td class="mgr-link" data-val="Geoff" onclick="showManager('Geoff')">Geoff</td>
+          <td class="num" data-val="1">1</td>
+          <td class="num bold" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="0">0</td>
+          <td class="num" data-val="90">90–84–26</td>
+          <td class="num" data-val="0.4500">0.450</td>
+          <td class="num" data-val="206">206</td>
+          <td class="num " data-val="-999999">—</td>
         </tr></tbody>
 </table></div>
   </section>
@@ -2351,6 +2368,36 @@ function showTab(id) {
   document.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
   document.getElementById('panel-' + id).classList.add('active');
   document.getElementById('tab-' + id).classList.add('active');
+}
+
+function sortTable(th) {
+  var table = th.closest('table');
+  var tbody = table.querySelector('tbody');
+  var ths   = Array.from(th.closest('tr').querySelectorAll('th'));
+  var col   = ths.indexOf(th);
+  var asc   = !th.classList.contains('sort-asc');
+
+  // Clear sort state on all headers
+  ths.forEach(function(h) { h.classList.remove('sort-asc', 'sort-desc'); });
+  th.classList.add(asc ? 'sort-asc' : 'sort-desc');
+
+  // Collect and sort rows
+  var rows = Array.from(tbody.querySelectorAll('tr'));
+  rows.sort(function(a, b) {
+    var aCell = a.querySelectorAll('td')[col];
+    var bCell = b.querySelectorAll('td')[col];
+    var aVal  = aCell ? aCell.getAttribute('data-val') : '';
+    var bVal  = bCell ? bCell.getAttribute('data-val') : '';
+    // Try numeric comparison first
+    var aNum = parseFloat(aVal);
+    var bNum = parseFloat(bVal);
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return asc ? aNum - bNum : bNum - aNum;
+    }
+    // Fall back to string
+    return asc ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+  });
+  rows.forEach(function(r) { tbody.appendChild(r); });
 }
     </script>
 </body>
