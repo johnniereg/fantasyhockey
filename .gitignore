@@ -1,3 +1,7 @@
-data/*
-scripts/*
-run.py
+# Yahoo OAuth token — contains sensitive credentials, never commit this
+data/yahoo_token.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
