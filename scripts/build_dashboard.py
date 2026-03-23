@@ -50,6 +50,40 @@ def load_cache():
 
 # ── Data computation ───────────────────────────────────────────────────────────
 
+def get_playoff_cutoff(season_data):
+    """
+    Returns the number of teams that made the actual (non-consolation) playoffs.
+
+    Strategy: sort teams by regular-season total_points and test candidate
+    cutoffs (6 is standard; 2016-17 used 8).  A cutoff N is valid when every
+    top-N-RS team has a playoff rank ≤ N AND every bottom team has rank > N.
+    Falls back to 6 if nothing fits.
+    """
+    standings = season_data.get("standings", [])
+    if not standings:
+        return 6
+
+    sorted_teams = sorted(
+        standings,
+        key=lambda x: float(x.get("total_points") or 0),
+        reverse=True,
+    )
+
+    for cutoff in [6, 8, 4]:
+        if cutoff >= len(sorted_teams):
+            continue
+        top_ranks = [int(t.get("rank", 99)) for t in sorted_teams[:cutoff]
+                     if str(t.get("rank", "")).isdigit()]
+        bot_ranks = [int(t.get("rank", 99)) for t in sorted_teams[cutoff:]
+                     if str(t.get("rank", "")).isdigit()]
+        if not top_ranks or not bot_ranks:
+            continue
+        if max(top_ranks) <= cutoff and min(bot_ranks) > cutoff:
+            return cutoff
+
+    return 6  # fallback
+
+
 def compute_alltime(seasons):
     """
     Returns (champions, leaderboard, season_awards_list).
@@ -59,6 +93,7 @@ def compute_alltime(seasons):
     managers = defaultdict(lambda: {
         "seasons": 0, "wins": 0, "losses": 0, "ties": 0,
         "points": 0.0, "titles": 0, "top3": 0,
+        "playoffs": 0,
         "presidents": 0, "tritty": 0,
         "season_history": [],
     })
@@ -81,6 +116,7 @@ def compute_alltime(seasons):
         tritty_team = ""
 
         in_progress = (str(year) == str(CURRENT_SEASON))
+        playoff_cutoff = get_playoff_cutoff(s) if not in_progress else 4
 
         for t in standings:
             team_name = t.get("name", "")
@@ -105,12 +141,17 @@ def compute_alltime(seasons):
                 tritty_team = team_name
 
             rank = str(t.get("rank", ""))
+            made_playoffs = bool(
+                not in_progress and rank.isdigit() and int(rank) <= playoff_cutoff
+            )
             if rank == "1" and not in_progress:
                 managers[mgr]["titles"] += 1
                 champion_mgr  = mgr
                 champion_team = team_name
             if rank in ("1","2","3") and not in_progress:
                 managers[mgr]["top3"] += 1
+            if made_playoffs:
+                managers[mgr]["playoffs"] += 1
 
             managers[mgr]["season_history"].append({
                 "year":             year,
@@ -122,6 +163,7 @@ def compute_alltime(seasons):
                 "points":           float(t.get("total_points") or 0),
                 "presidents_trophy": is_pres,
                 "tritty_tax":        is_tritty,
+                "made_playoffs":    made_playoffs,
                 "buyin":            buyin,
                 "prize":            prize,
             })
@@ -327,14 +369,16 @@ def leaderboard_table(leaderboard, finance_summary):
             net_str = "—"
             net_cls = ""
             net_val = -999999   # sort no-buy-in managers to bottom
-        pres_ct   = s.get("presidents", 0)
-        tritty_ct = s.get("tritty", 0)
+        pres_ct     = s.get("presidents", 0)
+        tritty_ct   = s.get("tritty", 0)
+        playoffs_ct = s.get("playoffs", 0)
 
         rows += f"""<tr>
           <td class="num" data-val="{i}">{i}</td>
           <td class="mgr-link" data-val="{_esc(mgr)}" onclick="showManager('{_esc(mgr)}')">{_esc(mgr)}</td>
           <td class="num" data-val="{s['seasons']}">{s["seasons"]}</td>
           <td class="num bold" data-val="{s['titles']}">{s["titles"]}</td>
+          <td class="num" data-val="{playoffs_ct}">{playoffs_ct}</td>
           <td class="num" data-val="{pres_ct}">{pres_ct}</td>
           <td class="num" data-val="{tritty_ct}">{tritty_ct}</td>
           <td class="num" data-val="{s['top3']}">{s["top3"]}</td>
@@ -350,6 +394,7 @@ def leaderboard_table(leaderboard, finance_summary):
     <th class="sortable-col" onclick="sortTable(this)">Manager<span class="sort-arrow"> ↕</span></th>
     <th class="num sortable-col" onclick="sortTable(this)">Seasons<span class="sort-arrow"> ↕</span></th>
     <th class="num sortable-col" onclick="sortTable(this)">Titles<span class="sort-arrow"> ↕</span></th>
+    <th class="num sortable-col" onclick="sortTable(this)" title="Playoff appearances (non-consolation)">Playoffs<span class="sort-arrow"> ↕</span></th>
     <th class="num sortable-col" onclick="sortTable(this)">Pres.<span class="sort-arrow"> ↕</span></th>
     <th class="num sortable-col" onclick="sortTable(this)">Tax<span class="sort-arrow"> ↕</span></th>
     <th class="num sortable-col" onclick="sortTable(this)">Top 3<span class="sort-arrow"> ↕</span></th>
