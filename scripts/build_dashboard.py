@@ -853,6 +853,7 @@ def build_html(data):
       border-bottom: 1px solid #e0e0e0;
       padding: 0 32px;
       overflow-x: auto;
+      overflow-y: hidden;
     }
     .tab-btn {
       background: none; border: none;
