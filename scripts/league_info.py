@@ -69,10 +69,30 @@ LEAGUE_RULES = [
         ),
     },
     {
+        "title": "Draft",
+        "content": (
+            "Traditional (non-snake) format draft. Each manager picks once per round in the same fixed order.\n\n"
+            "Draft order is determined by the previous season's playoff finish:\n"
+            "  Pick 1  — 7th place\n"
+            "  Pick 2  — 8th place\n"
+            "  Pick 3  — 9th place\n"
+            "  Pick 4  — 10th place\n"
+            "  Pick 5  — 5th place (consolation bracket winner)\n"
+            "  Pick 6  — 6th place\n"
+            "  Pick 7  — 4th place\n"
+            "  Pick 8  — 3rd place\n"
+            "  Pick 9  — 2nd place\n"
+            "  Pick 10 — 1st place (champion picks last)"
+        ),
+    },
+    {
         "title": "Trade Deadline",
         "content": (
-            "Trades close at the Yahoo-set trade deadline. No trades are permitted after that point. "
-            "Specific deadline week varies by season."
+            "In-season trades close at the Yahoo-set trade deadline. No in-season trades are permitted after that point. "
+            "Specific deadline week varies by season.\n\n"
+            "Off-season trades are permitted outside of Yahoo. Managers agree on trades via the group chat "
+            "and notify the league before the deal is finalised. The off-season trade deadline is "
+            "2 weeks before the draft date."
         ),
     },
     {
