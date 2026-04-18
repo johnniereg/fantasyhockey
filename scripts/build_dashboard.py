@@ -871,7 +871,8 @@ def build_html(data):
         league_name = meta.get("name", f"Season {year}")
         cur_week    = meta.get("current_week","?")
         num_teams   = meta.get("num_teams","?")
-        scoring     = meta.get("scoring_type","?")
+        scoring_raw = meta.get("scoring_type","?")
+        scoring     = {"head": "Head-to-Head"}.get(scoring_raw, scoring_raw)
         start_week  = meta.get("start_week","?")
         end_week    = meta.get("end_week","?")
 
