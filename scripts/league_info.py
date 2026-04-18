@@ -61,8 +61,11 @@ LEAGUE_RULES = [
     {
         "title": "Playoffs",
         "content": (
-            "The top teams qualify for playoffs in the final weeks of the season. "
-            "Playoff format and bracket details to be filled in."
+            "The top 6 teams qualify for the championship bracket. Seeds 1 and 2 receive a first-round bye; "
+            "seeds 3–6 play in the first round.\n\n"
+            "The bottom 4 teams (7th–10th) compete in a consolation bracket for the 1st overall pick "
+            "in the following season's draft. The first two teams eliminated from the championship bracket "
+            "play each other for the 5th overall pick."
         ),
     },
     {
@@ -75,7 +78,9 @@ LEAGUE_RULES = [
     {
         "title": "Waivers",
         "content": (
-            "Standard Yahoo waiver system. Details to be filled in."
+            "Waiver Type: Free Agent Acquisition Budget (FAB) with a continual rolling list tiebreak.\n"
+            "Waiver Mode: Standard.\n"
+            "Waiver Period: 2 days."
         ),
     },
     {
