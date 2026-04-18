@@ -323,6 +323,54 @@ def standings_table(standings, year):
 </table></div>"""
 
 
+def season_highlights(standings, year):
+    """Card row showing top-3 finishers and President's Trophy for a completed season."""
+    year_awards = SEASON_AWARDS.get(str(year), {})
+    pres_mgr = year_awards.get("presidents_trophy", "")
+
+    rank_map = {}
+    for t in standings:
+        rank = str(t.get("rank", ""))
+        if rank in ("1", "2", "3"):
+            team_name = t.get("name", "")
+            mgr = resolve_manager(year, team_name, t.get("manager", "Unknown"))
+            rank_map[rank] = {"mgr": mgr, "team": team_name}
+
+    medals = [("1", "🥇", "1st Place"), ("2", "🥈", "2nd Place"), ("3", "🥉", "3rd Place")]
+    cards = ""
+    for rank, medal, label in medals:
+        entry = rank_map.get(rank)
+        if entry:
+            cards += (
+                f"<div class='highlight-card'>"
+                f"<div class='highlight-medal'>{medal}</div>"
+                f"<div class='highlight-label'>{label}</div>"
+                f"<div class='highlight-mgr'>{_esc(entry['mgr'])}</div>"
+                f"<div class='highlight-team'>{_esc(entry['team'])}</div>"
+                f"</div>"
+            )
+
+    if pres_mgr:
+        pres_team = ""
+        for t in standings:
+            mgr = resolve_manager(year, t.get("name", ""), t.get("manager", "Unknown"))
+            if mgr == pres_mgr:
+                pres_team = t.get("name", "")
+                break
+        cards += (
+            f"<div class='highlight-card highlight-card-pres'>"
+            f"<div class='highlight-medal'><span class='badge badge-pres' style='font-size:0.9rem;padding:3px 7px'>P</span></div>"
+            f"<div class='highlight-label'>President's Trophy</div>"
+            f"<div class='highlight-mgr'>{_esc(pres_mgr)}</div>"
+            f"<div class='highlight-team'>{_esc(pres_team)}</div>"
+            f"</div>"
+        )
+
+    if not cards:
+        return ""
+    return f"<div class='season-highlights'>{cards}</div>"
+
+
 def matchup_section(matchups, current_week):
     if not matchups:
         return ""
@@ -804,12 +852,15 @@ def build_html(data):
                 parts.append(f"<span class='badge badge-tritty'>T</span> <strong>Tritty Tax:</strong> {_esc(tritty_mgr)}")
             awards_banner = "<div class='awards-banner'>" + " &nbsp;·&nbsp; ".join(parts) + "</div>"
 
+        in_progress_season = (str(year) == str(CURRENT_SEASON))
         if "error" in s:
             body = f"<p class='empty'>Error loading season: {s['error']}</p>"
         else:
             matchups = s.get("scoreboard",{}).get("matchups",[])
-            mu_html  = matchup_section(matchups, cur_week) if str(year) == str(CURRENT_SEASON) else ""
+            mu_html  = matchup_section(matchups, cur_week) if in_progress_season else ""
+            highlights_html = "" if in_progress_season else season_highlights(s.get("standings", []), year)
             body = f"""{mu_html}
+{highlights_html}
 <section>
   <h2>Standings</h2>
   {standings_table(s.get("standings",[]), year)}
@@ -895,6 +946,24 @@ def build_html(data):
     .badge-pres   { background: #e8f0fe; color: #1a56db; }
     .badge-tritty { background: #fef3c7; color: #92400e; }
     .badge-champ  { background: #fef9c3; color: #854d0e; }
+
+    /* Season highlights */
+    .season-highlights {
+      display: flex; flex-wrap: wrap; gap: 12px;
+      padding: 20px 0 8px;
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 8px;
+    }
+    .highlight-card {
+      border: 1px solid #e0e0e0; border-radius: 8px;
+      padding: 14px 20px; min-width: 130px; text-align: center;
+      background: #fafafa;
+    }
+    .highlight-card-pres { background: #f0f5ff; border-color: #c7d7f8; }
+    .highlight-medal { font-size: 1.5rem; line-height: 1; margin-bottom: 6px; }
+    .highlight-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: #888; margin-bottom: 4px; }
+    .highlight-mgr { font-size: 1rem; font-weight: 700; color: #111; }
+    .highlight-team { font-size: 0.72rem; color: #aaa; margin-top: 2px; }
 
     /* Awards banner */
     .awards-banner {
