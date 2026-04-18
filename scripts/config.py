@@ -47,7 +47,9 @@ LEAGUE_IDS = {
 }
 
 # Season you want shown as "current" in the dashboard
-CURRENT_SEASON = "2025-26"
+# 2025-26 wrapped up Apr 2026 — bumped to 2026-27 so 2025-26 is treated as completed.
+# Once the league ID for 2026-27 is known, add it to LEAGUE_IDS above and re-run fetch_data.
+CURRENT_SEASON = "2026-27"
 
 # ── File paths ───────────────────────────────────────────────────────────────
 import os

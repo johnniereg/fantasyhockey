@@ -68,7 +68,7 @@ SEASON_AWARDS = {
     "2022-23": { "presidents_trophy": "Derek",   "tritty_tax": "Pete"     },  # Apr 2023: "Papa johns pays tax to Hughes" + "$50 tax for pete"
     "2023-24": { "presidents_trophy": "Derek",   "tritty_tax": "Alex"     },  # Apr 2024: "That's your tax @Alexandre Desrochers - paying to Hughes Yo Daddy"
     "2024-25": { "presidents_trophy": "Jordan",  "tritty_tax": "Johnnie"  },  # Apr 2025: Jordan collecting; Johnnie rank 10 / "big fat loser paying $175"
-    # 2025-26 is in progress — awards added once season ends
+    "2025-26": { "presidents_trophy": "Alex",    "tritty_tax": "Pete"     },  # Apr 2026: Alex led reg season (234 pts); Pete tied for last (173 pts) and ranked #10
 }
 
 # ── Tritty Tax amount ─────────────────────────────────────────────────────────
@@ -177,6 +177,14 @@ SEASON_FINANCES = {
             "Jordan":  875,   # 1st place — playoff champion
             "Jeremy":  250,   # 2nd place
             "Braeden": 125,   # 3rd place
+        },
+    },
+    "2025-26": {  # Apr 2026: $150 buy-in; pool = 10 × $150 = $1,500
+        "buyin": 150,
+        "payouts": {
+            "Tom":    1050,   # 1st place — playoff champion (7 × $150)
+            "Jeremy":  300,   # 2nd place (2 × $150)
+            "Alex":    150,   # 3rd place (1 × $150, buy-in refunded)
         },
     },
 }
