@@ -277,6 +277,22 @@ def _esc(s):
     return str(s).replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"','&quot;')
 
 
+import re as _re
+_EMOJI_RE = _re.compile(
+    "["
+    "\U0001F300-\U0001FAFF"
+    "\U00002702-\U000027B0"
+    "\U0000FE00-\U0000FE0F"
+    "\U0001F1E0-\U0001F1FF"
+    "]+",
+    flags=_re.UNICODE,
+)
+
+def _clean_team(name):
+    """Strip emoji from a team name and trim whitespace."""
+    return _EMOJI_RE.sub("", str(name)).strip()
+
+
 def standings_table(standings, year):
     if not standings:
         return "<p class='empty'>No standings data.</p>"
@@ -308,7 +324,7 @@ def standings_table(standings, year):
 
         rows += f"""<tr>
           <td class="rank-cell">{rank}</td>
-          <td class="name-cell">{_esc(team_name)} {badges}<span class="mgr">{_esc(mgr)}</span></td>
+          <td class="name-cell">{_esc(_clean_team(team_name))} {badges}<span class="mgr">{_esc(mgr)}</span></td>
           <td class="num">{w}–{l}–{ti}</td>
           <td class="num">{pts}</td>
           {stat_cells}
@@ -346,7 +362,7 @@ def season_highlights(standings, year):
                 f"<div class='highlight-medal'>{medal}</div>"
                 f"<div class='highlight-label'>{label}</div>"
                 f"<div class='highlight-mgr'>{_esc(entry['mgr'])}</div>"
-                f"<div class='highlight-team'>{_esc(entry['team'])}</div>"
+                f"<div class='highlight-team'>{_esc(_clean_team(entry['team']))}</div>"
                 f"</div>"
             )
 
@@ -365,7 +381,7 @@ def season_highlights(standings, year):
             f"<div class='highlight-medal'><span class='badge badge-pres' style='font-size:0.9rem;padding:3px 7px'>P</span></div>"
             f"<div class='highlight-label'>President's Trophy</div>"
             f"<div class='highlight-mgr'>{_esc(pres_mgr)}</div>"
-            f"<div class='highlight-team'>{_esc(pres_team)}</div>"
+            f"<div class='highlight-team'>{_esc(_clean_team(pres_team))}</div>"
             f"</div>"
         )
 
@@ -381,7 +397,7 @@ def season_highlights(standings, year):
             f"<div class='highlight-medal'><span class='badge badge-tritty' style='font-size:0.9rem;padding:3px 7px'>T</span></div>"
             f"<div class='highlight-label'>Tritty Tax</div>"
             f"<div class='highlight-mgr'>{_esc(tritty_mgr)}</div>"
-            f"<div class='highlight-team'>{_esc(tritty_team)}</div>"
+            f"<div class='highlight-team'>{_esc(_clean_team(tritty_team))}</div>"
             f"</div>"
         )
 
@@ -482,11 +498,11 @@ def awards_table(awards_list):
         suffix = "<span class='in-progress'> in progress</span>" if is_current else ""
 
         champ = _esc(a["champion"]) if a["champion"] else "—"
-        champ_team = _esc(a["champion_team"]) if a["champion_team"] else ""
+        champ_team = _esc(_clean_team(a["champion_team"])) if a["champion_team"] else ""
         pres  = _esc(a["president"]) if a["president"] else "—"
-        pres_team = _esc(a["president_team"]) if a["president_team"] else ""
+        pres_team = _esc(_clean_team(a["president_team"])) if a["president_team"] else ""
         trit  = _esc(a["tritty"]) if a["tritty"] else "—"
-        trit_team = _esc(a["tritty_team"]) if a["tritty_team"] else ""
+        trit_team = _esc(_clean_team(a["tritty_team"])) if a["tritty_team"] else ""
 
         def cell(name, team):
             if name == "—":
@@ -563,7 +579,8 @@ def managers_panel(leaderboard, h2h_records, finance_summary):
                 "net":       fin["net"],
             },
             "seasons": sorted(
-                s["season_history"], key=lambda x: x["year"], reverse=True
+                [{**h, "team": _clean_team(h["team"])} for h in s["season_history"]],
+                key=lambda x: x["year"], reverse=True
             ),
             "h2h": h2h,
         }
