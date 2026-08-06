@@ -1,11 +1,16 @@
 name: Update Dashboard
 
 on:
-  schedule:
-    # Runs daily at 8am UTC (4am ET / 1am PT) — after overnight NHL games settle
-    - cron: '0 8 * * *'
+  # Daily schedule paused for the offseason. The Yahoo app lost its Fantasy
+  # Sports API permission (every call 403s), so scheduled runs only produced
+  # failure notifications. Re-enable this block once auth is fixed — see
+  # https://github.com/johnniereg/fantasyhockey/issues/1
+  #
+  # schedule:
+  #   # Runs daily at 8am UTC (4am ET / 1am PT) — after overnight NHL games settle
+  #   - cron: '0 8 * * *'
   workflow_dispatch:
-    # Also allows manual trigger from the GitHub Actions tab
+    # Manual trigger from the GitHub Actions tab (still available)
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
