@@ -20,6 +20,7 @@ MANAGER_OVERRIDES = {
     "2023-24": { "Last Dance Energy":   "Alex" },
     "2024-25": { "Last Dance Energy":   "Alex" },
     "2025-26": { "Last Dance Energy":   "Alex" },
+    "2026-27": { "Last Dance Energy":   "Alex" },
 
     # Tom's hidden seasons — confirm which of these are his:
     # "2007-08": { "Children Of Tim":       "Tom" },
@@ -186,5 +187,10 @@ SEASON_FINANCES = {
             "Jeremy":  300,   # 2nd place (2 × $150)
             "Alex":    150,   # 3rd place (1 × $150, buy-in refunded)
         },
+    },
+    "2026-27": {  # Buy-in held at $150; pool = 10 × $150 = $1,500.
+        "buyin": 150,
+        # Season in progress — payouts get filled in once it finishes.
+        "payouts": {},
     },
 }

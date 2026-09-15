@@ -230,17 +230,27 @@ def fetch_stat_categories(league_key, token):
     data        = yahoo_get(f"/league/{league_key}/settings", token)
     league_list = data["fantasy_content"]["league"]
 
-    settings = {}
+    settings = None
     for item in league_list:
         if isinstance(item, dict) and "settings" in item:
             settings = item["settings"]
             break
 
-    cats_raw = {}
-    if isinstance(settings, dict):
-        cats_raw = settings.get("stat_categories", {}).get("stats", {}).get("stat", [])
-    if not isinstance(cats_raw, list):
-        cats_raw = [cats_raw] if cats_raw else []
+    # "settings" comes back as a list of dicts; stat_categories lives in one of
+    # them, and its "stats" is a list of {"stat": {...}} wrappers.
+    blocks = settings if isinstance(settings, list) else [settings]
+    cats_raw = []
+    for block in blocks:
+        if isinstance(block, dict) and "stat_categories" in block:
+            stats = block["stat_categories"].get("stats", [])
+            if isinstance(stats, dict):
+                stats = stats.get("stat", [])
+            if not isinstance(stats, list):
+                stats = [stats] if stats else []
+            for entry in stats:
+                if isinstance(entry, dict):
+                    cats_raw.append(entry.get("stat", entry))
+            break
 
     return [
         {"id": str(c.get("stat_id", "")), "name": c.get("display_name", c.get("name", "?"))}

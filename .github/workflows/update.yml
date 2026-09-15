@@ -1,14 +1,11 @@
 name: Update Dashboard
 
 on:
-  # Daily schedule paused for the offseason. The Yahoo app lost its Fantasy
-  # Sports API permission (every call 403s), so scheduled runs only produced
-  # failure notifications. Re-enable this block once auth is fixed — see
-  # https://github.com/johnniereg/fantasyhockey/issues/1
-  #
-  # schedule:
-  #   # Runs daily at 8am UTC (4am ET / 1am PT) — after overnight NHL games settle
-  #   - cron: '0 8 * * *'
+  schedule:
+    # Runs daily at 8am UTC (4am ET / 1am PT) — after overnight NHL games settle.
+    # Re-enabled 2026-09-15: the Yahoo app's Fantasy Sports permission was
+    # restored, so fetches succeed again ahead of the 2026-09-29 season start.
+    - cron: '0 8 * * *'
   workflow_dispatch:
     # Manual trigger from the GitHub Actions tab (still available)
 
@@ -35,6 +32,8 @@ jobs:
 
       - name: Fetch data and rebuild dashboard
         env:
+          YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
         run: python3 run.py
 

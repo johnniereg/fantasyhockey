@@ -1,24 +1,48 @@
 """
 Yahoo Fantasy Hockey - Configuration
 =====================================
-Fill in your Yahoo Developer App credentials here after creating your app at:
-https://developer.yahoo.com/apps/create/
+Create your Yahoo Developer App at https://developer.yahoo.com/apps/create/
+  - Redirect URI(s):   oob  (for command-line / desktop use)
+  - API Permissions:   Fantasy Sports (Read) -> fspt-r
 
-Steps to get credentials:
-1. Go to https://developer.yahoo.com/apps/create/
-2. Sign in with your Yahoo account
-3. Fill in:
-   - App Name: anything (e.g. "My Hockey Dashboard")
-   - Description: anything
-   - Redirect URI(s): oob  (for command-line / desktop use)
-   - API Permissions: Fantasy Sports (Read) -> fspt-r
-4. Click Create App
-5. Copy your Client ID and Client Secret below
+This file is tracked in a PUBLIC repo, so credentials must never be written
+here. Supply them one of two ways:
+
+  Local:  create data/yahoo_app.json (gitignored) containing
+            {"client_id": "...", "client_secret": "..."}
+  CI:     set the YAHOO_CLIENT_ID / YAHOO_CLIENT_SECRET env vars
+          (GitHub Actions reads them from repository secrets)
 """
 
+import json
+import os
+
+# ── File paths ───────────────────────────────────────────────────────────────
+BASE_DIR    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR    = os.path.join(BASE_DIR, "data")
+TOKEN_FILE  = os.path.join(DATA_DIR, "yahoo_token.json")
+CACHE_FILE  = os.path.join(DATA_DIR, "league_cache.json")
+APP_FILE    = os.path.join(DATA_DIR, "yahoo_app.json")
+
+
 # ── Yahoo Developer App credentials ─────────────────────────────────────────
-CLIENT_ID     = "dj0yJmk9YW1RanJGbnlOZ1IwJmQ9WVdrOWRGTjNXbWRNTmtJbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PWQz"
-CLIENT_SECRET = "d2d29f151397ef5036040617281e02eba4ae6ed6"
+def _load_app_credentials():
+    """Return (client_id, client_secret) from the environment or APP_FILE."""
+    cid  = os.environ.get("YAHOO_CLIENT_ID", "").strip()
+    csec = os.environ.get("YAHOO_CLIENT_SECRET", "").strip()
+    if cid and csec:
+        return cid, csec
+
+    if os.path.exists(APP_FILE):
+        with open(APP_FILE) as f:
+            creds = json.load(f)
+        return (str(creds.get("client_id", "")).strip(),
+                str(creds.get("client_secret", "")).strip())
+
+    return "", ""
+
+
+CLIENT_ID, CLIENT_SECRET = _load_app_credentials()
 
 # ── Your Yahoo Fantasy league IDs ────────────────────────────────────────────
 # Find your league ID in the Yahoo Fantasy URL:
@@ -44,16 +68,11 @@ LEAGUE_IDS = {
     "2023-24": "15739",
     "2024-25": "18866",
     "2025-26": "36483",
+    "2026-27": "12088",
 }
 
 # Season you want shown as "current" in the dashboard
-# 2025-26 wrapped up Apr 2026 — bumped to 2026-27 so 2025-26 is treated as completed.
-# Once the league ID for 2026-27 is known, add it to LEAGUE_IDS above and re-run fetch_data.
+# 2025-26 wrapped up Apr 2026. The 2026-27 league (477.l.12088) is in predraft
+# until the season starts 2026-09-29; standings stay empty until games are played.
 CURRENT_SEASON = "2026-27"
 
-# ── File paths ───────────────────────────────────────────────────────────────
-import os
-BASE_DIR    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR    = os.path.join(BASE_DIR, "data")
-TOKEN_FILE  = os.path.join(DATA_DIR, "yahoo_token.json")
-CACHE_FILE  = os.path.join(DATA_DIR, "league_cache.json")

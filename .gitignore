@@ -1,6 +1,9 @@
 # Yahoo OAuth token — contains sensitive credentials, never commit this
 data/yahoo_token.json
 
+# Yahoo Developer App client id/secret — never commit this
+data/yahoo_app.json
+
 # Python cache
 __pycache__/
 *.pyc

@@ -109,9 +109,12 @@ def get_valid_token() -> dict:
 
 def authenticate() -> dict:
     """Full OAuth2 authorization_code flow (out-of-band / copy-paste)."""
-    if CLIENT_ID == "YOUR_CLIENT_ID_HERE":
-        print("\n❌  Please set CLIENT_ID and CLIENT_SECRET in scripts/config.py first!")
-        print("   See: https://developer.yahoo.com/apps/create/\n")
+    if not CLIENT_ID or not CLIENT_SECRET:
+        print("\n❌  No Yahoo app credentials found.")
+        print("   Create data/yahoo_app.json (gitignored) containing:")
+        print('     {"client_id": "...", "client_secret": "..."}')
+        print("   ...or set YAHOO_CLIENT_ID / YAHOO_CLIENT_SECRET in the environment.")
+        print("   Get credentials at: https://developer.yahoo.com/apps/create/\n")
         sys.exit(1)
 
     # PKCE
