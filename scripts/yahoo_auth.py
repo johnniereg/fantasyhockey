@@ -13,6 +13,7 @@ import base64
 import secrets
 import urllib.parse
 import urllib.request
+import urllib.error
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -71,8 +72,20 @@ def _post_token(data: dict) -> dict:
     req    = urllib.request.Request(TOKEN_URL, data=body, method="POST")
     req.add_header("Authorization", f"Basic {creds}")
     req.add_header("Content-Type",  "application/x-www-form-urlencoded")
-    with urllib.request.urlopen(req) as resp:
-        return json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body = e.read().decode(errors="replace")[:300]
+        if (data.get("grant_type") == "refresh_token" and e.code in (400, 401)
+                and os.environ.get("YAHOO_REFRESH_TOKEN")):
+            msg = ("Yahoo refresh token rejected — re-auth needed. Run `python3 run.py --auth` "
+                   "locally, then copy the new refresh_token from data/yahoo_token.json into the "
+                   f"YAHOO_REFRESH_TOKEN repo secret. (HTTP {e.code}: {body})")
+            if os.environ.get("GITHUB_ACTIONS"):
+                print(f"::error title=Yahoo auth::{msg}")
+            raise SystemExit(msg)
+        raise RuntimeError(f"Yahoo token endpoint HTTP {e.code}: {body}")
 
 
 def get_valid_token() -> dict:

@@ -2,12 +2,17 @@ name: Update Dashboard
 
 on:
   schedule:
-    # Runs daily at 8am UTC (4am ET / 1am PT) — after overnight NHL games settle.
-    # Re-enabled 2026-09-15: the Yahoo app's Fantasy Sports permission was
-    # restored, so fetches succeed again ahead of the 2026-09-29 season start.
-    - cron: '0 8 * * *'
+    # Off-the-hour minutes: GitHub delays top-of-hour crons by hours.
+    # 09:17 UTC = 5:17am ET (after overnight games settle; on Sundays, after the 3am ET add reset)
+    - cron: '17 9 * * *'
+    # 17:17 UTC = 1:17pm ET (pre-game lineup check)
+    - cron: '17 17 * * *'
   workflow_dispatch:
-    # Manual trigger from the GitHub Actions tab (still available)
+    # Manual: Actions tab → Update Dashboard → Run workflow, or `gh workflow run update.yml`
+
+concurrency:
+  group: update-dashboard
+  cancel-in-progress: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -16,7 +21,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit index.html back to the repo
+      contents: write   # needed to commit data back to the repo
 
     steps:
       - name: Checkout repository
@@ -30,7 +35,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch data and rebuild dashboard
+      - name: Fetch in-season data (AGM)
+        id: inseason
+        env:
+          YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python3 scripts/fetch_inseason.py
+
+      - name: Fetch history and rebuild dashboard
         env:
           YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
@@ -38,10 +51,26 @@ jobs:
         run: python3 run.py
 
       - name: Commit updated files
+        # Commit whatever succeeded, even if the dashboard step failed
+        if: always() && steps.inseason.outcome == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html data/league_cache.json
+          git add index.html data/league_cache.json data/inseason
           git diff --staged --quiet \
             || git commit -m "chore: update dashboard data [skip ci]"
+          git pull --rebase
           git push
+
+      - name: Fail loudly if in-season endpoints failed
+        if: steps.inseason.outcome == 'success'
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          m = json.load(open("data/inseason/manifest.json"))
+          errs = m.get("errors", {})
+          if errs:
+              print("In-season endpoints failed:", ", ".join(errs))
+              sys.exit(1)
+          print(f"All {len(m['ok'])} in-season endpoints OK")
+          EOF
