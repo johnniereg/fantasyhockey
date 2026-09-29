@@ -1,0 +1,461 @@
+{
+ "fantasy_content": {
+  "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+  "league": [
+   {
+    "allow_add_to_dl_extra_pos": 0,
+    "current_date": "2026-09-29",
+    "current_week": 1,
+    "draft_status": "postdraft",
+    "edit_key": "2026-09-30",
+    "end_date": "2027-04-10",
+    "end_week": "27",
+    "felo_tier": "silver",
+    "game_code": "nhl",
+    "iris_group_chat_id": "",
+    "is_cash_league": "0",
+    "is_guillotine": "0",
+    "is_highscore": false,
+    "is_plus_league": "0",
+    "is_pro_league": "0",
+    "league_id": "12088",
+    "league_key": "477.l.12088",
+    "league_type": "private",
+    "league_update_timestamp": null,
+    "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
+    "matchup_week": 1,
+    "max_teams": "10",
+    "name": "Tim McCabe Memorial Cup",
+    "num_teams": 10,
+    "password": "",
+    "renew": "465_36483",
+    "renewed": "",
+    "roster_type": "date",
+    "scoring_label": "H2H Cat",
+    "scoring_type": "head",
+    "season": "2026",
+    "short_invitation_url": "https://hockey.fantasysports.yahoo.com/hockey/12088/invitation?key=9b996814e22fcb44&ikey=60c8bc6aa354bff3",
+    "start_date": "2026-09-29",
+    "start_week": "1",
+    "url": "https://hockey.fantasysports.yahoo.com/hockey/12088",
+    "weekly_deadline": ""
+   },
+   {
+    "settings": [
+     {
+      "can_trade_draft_picks": "1",
+      "cant_cut_list": "none",
+      "custom_scoring_preset_logo": "",
+      "custom_scoring_preset_name": "",
+      "draft_pick_time": "60",
+      "draft_time": "1789952400",
+      "draft_together": 0,
+      "draft_type": "live",
+      "has_multiweek_championship": 0,
+      "has_playoff_consolation_games": true,
+      "invite_permission": "commissioner",
+      "is_auction_draft": "0",
+      "is_highscore": false,
+      "league_premium_features": [],
+      "max_teams": "10",
+      "max_weekly_adds": "4",
+      "num_playoff_consolation_teams": 6,
+      "num_playoff_teams": "6",
+      "persistent_url": "https://hockey.fantasysports.yahoo.com/league/mccabememorialcup",
+      "player_pool": "ALL",
+      "playoff_start_week": "25",
+      "post_draft_players": "W",
+      "roster_import_deadline": "2026-09-16",
+      "roster_positions": [
+       {
+        "roster_position": {
+         "count": 2,
+         "is_starting_position": 1,
+         "position": "C",
+         "position_type": "P"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 2,
+         "is_starting_position": 1,
+         "position": "LW",
+         "position_type": "P"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 2,
+         "is_starting_position": 1,
+         "position": "RW",
+         "position_type": "P"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 4,
+         "is_starting_position": 1,
+         "position": "D",
+         "position_type": "P"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 2,
+         "is_starting_position": 1,
+         "position": "G",
+         "position_type": "G"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 4,
+         "is_starting_position": 0,
+         "position": "BN"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 2,
+         "is_starting_position": 0,
+         "position": "IR"
+        }
+       },
+       {
+        "roster_position": {
+         "count": 1,
+         "is_starting_position": 0,
+         "position": "IR+"
+        }
+       }
+      ],
+      "scoring_label": "H2H Cat",
+      "scoring_type": "head",
+      "sendbird_channel_url": "8ba7cdf40c306a60a22072d6e1f8ca43",
+      "stat_categories": {
+       "groups": [
+        {
+         "group": {
+          "group_abbr": "Offense",
+          "group_display_name": "Offense",
+          "group_name": "offense"
+         }
+        },
+        {
+         "group": {
+          "group_abbr": "Goaltending",
+          "group_display_name": "Goaltending",
+          "group_name": "goaltending"
+         }
+        }
+       ],
+       "stats": [
+        {
+         "stat": {
+          "abbr": "G",
+          "display_name": "G",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Goals",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 1,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "A",
+          "display_name": "A",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Assists",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 2,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "+/-",
+          "display_name": "+/-",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Plus/Minus",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 4,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "PIM",
+          "display_name": "PIM",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Penalty Minutes",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 5,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "PPP",
+          "display_name": "PPP",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Powerplay Points",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 8,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "GWG",
+          "display_name": "GWG",
+          "enabled": "1",
+          "group": "offense",
+          "name": "Game-Winning Goals",
+          "position_type": "P",
+          "sort_order": "1",
+          "stat_id": 12,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "P"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "W",
+          "display_name": "W",
+          "enabled": "1",
+          "group": "goaltending",
+          "name": "Wins",
+          "position_type": "G",
+          "sort_order": "1",
+          "stat_id": 19,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "GA",
+          "display_name": "GA",
+          "enabled": "1",
+          "group": "goaltending",
+          "is_only_display_stat": "1",
+          "name": "Goals Against",
+          "position_type": "G",
+          "sort_order": "0",
+          "stat_id": 22,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "is_only_display_stat": "1",
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "GAA",
+          "display_name": "GAA",
+          "enabled": "1",
+          "group": "goaltending",
+          "name": "Goals Against Average",
+          "position_type": "G",
+          "sort_order": "0",
+          "stat_id": 23,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "SV",
+          "display_name": "SV",
+          "enabled": "1",
+          "group": "goaltending",
+          "is_only_display_stat": "1",
+          "name": "Saves",
+          "position_type": "G",
+          "sort_order": "1",
+          "stat_id": 25,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "is_only_display_stat": "1",
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "SA",
+          "display_name": "SA",
+          "enabled": "1",
+          "group": "goaltending",
+          "is_only_display_stat": "1",
+          "name": "Shots Against",
+          "position_type": "G",
+          "sort_order": "1",
+          "stat_id": 24,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "is_only_display_stat": "1",
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "SV%",
+          "display_name": "SV%",
+          "enabled": "1",
+          "group": "goaltending",
+          "name": "Save Percentage",
+          "position_type": "G",
+          "sort_order": "1",
+          "stat_id": 26,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        },
+        {
+         "stat": {
+          "abbr": "SHO",
+          "display_name": "SHO",
+          "enabled": "1",
+          "group": "goaltending",
+          "name": "Shutouts",
+          "position_type": "G",
+          "sort_order": "1",
+          "stat_id": 27,
+          "stat_position_types": [
+           {
+            "stat_position_type": {
+             "position_type": "G"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      },
+      "trade_end_date": "2027-03-03",
+      "trade_ratify_type": "none",
+      "trade_reject_time": "0",
+      "uses_faab": "1",
+      "uses_lock_eliminated_teams": 0,
+      "uses_median_score": false,
+      "uses_playoff": "1",
+      "uses_playoff_reseeding": 1,
+      "uses_roster_import": "1",
+      "waiver_rule": "all",
+      "waiver_time": "2",
+      "waiver_type": "FR"
+     },
+     {
+      "min_games_played": "3",
+      "week_has_enough_qualifying_days": {
+       "1": 1,
+       "10": 1,
+       "11": 1,
+       "12": 1,
+       "13": 0,
+       "14": 1,
+       "15": 1,
+       "16": 1,
+       "17": 1,
+       "18": 1,
+       "19": 1,
+       "2": 1,
+       "20": 1,
+       "21": 1,
+       "22": 1,
+       "23": 1,
+       "24": 1,
+       "25": 1,
+       "26": 1,
+       "27": 1,
+       "3": 1,
+       "4": 1,
+       "5": 1,
+       "6": 1,
+       "7": 1,
+       "8": 1,
+       "9": 1
+      }
+     }
+    ]
+   }
+  ],
+  "refresh_rate": "30",
+  "time": "96.951961517334ms",
+  "xml:lang": "en-US",
+  "yahoo:uri": "/fantasy/v2/league/477.l.12088/settings"
+ }
+}
