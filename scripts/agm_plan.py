@@ -181,6 +181,7 @@ def main():
     settings = load("league_settings")
     slots = roster_slots(settings)
     names = stat_names(settings)
+    g_min = int(next(walk(settings, "min_games_played"), 3) or 3)
     games = nhl_games_by_date()
 
     week = a.week or m.get("current_week")
@@ -238,10 +239,20 @@ def main():
         lg = sum(1 for d in light if p["team"] in games.get(d, set()))
         print(f"| {p['name']} | {p['pos']} | {p['team']} | {p['status'] or '—'} | {p['slot']} | "
               f"{g} | {lg} | {starts[p['key']]} | {benched[p['key']]} |")
-    total_empty = sum(empty.values())
-    print(f"\n**Empty skater/goalie slot-days:** {total_empty} "
-          f"({', '.join(f'{d[5:]}: {n}' for d, n in empty.items() if n)})")
-    print("_Goalie 'starts' = team games; actual starts depend on the crease — confirm daily._")
+    sk_slots = {k: v for k, v in slots.items() if k != "G"}
+    _, _, sk_empty = simulate([p for p in roster if "G" not in p["elig"]], dates, games, sk_slots)
+    print(f"\n**Empty skater slot-days:** {sum(sk_empty.values())} "
+          f"({', '.join(f'{d[5:]}: {n}' for d, n in sk_empty.items() if n) or 'none'})")
+
+    # Goalies: a floor to clear, not a count to maximise
+    g_nights = [d for d in dates if any("G" in p["elig"] and p["status"] not in OUT_STATUSES
+                and p["slot"] not in ("IR", "IR+") and p["team"] in games.get(d, set()) for p in roster)]
+    g_avail = sum(starts[p["key"]] for p in roster if "G" in p["elig"])
+    print(f"\n## Goalies — minimum {g_min} appearances/week\n")
+    print(f"Possible goalie appearances this window: **{g_avail}** over {len(g_nights)} nights "
+          f"({'clears' if g_avail >= g_min else '⚠️ SHORT of'} the {g_min}-appearance floor). "
+          "Team games are an upper bound; the crease decides real starts. Past the floor, each extra "
+          "start trades W/SHO upside against GAA/SV% risk, so decide from how the week's ratios stand.")
 
     base_total = sum(starts.values())
 
@@ -260,6 +271,9 @@ def main():
         lw = {p["key"]: p["stats"] for p in players_in(load(f"fa_{pos}_lastweek"))}
         if not fas:
             print(f"### {pos}\n\n_no data_\n"); continue
+        if pos == "G":
+            print(f"_Goalie adds matter only if you're short of {g_min} appearances or chasing W/SHO "
+                  "with ratios safe. +Starts here is a ceiling, not a target._\n")
         rows = []
         for p in fas:
             if p["status"] in OUT_STATUSES:
