@@ -1110,9 +1110,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1790472034
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1790784506
         }
        ],
        {
@@ -1683,6 +1685,17 @@
         [],
         []
        ],
+       {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-10-01"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
        {
         "player_stats": {
          "0": {
@@ -3551,7 +3564,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "85.648775100708ms",
+  "time": "157.42015838623ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/stats;type=lastweek"
  }

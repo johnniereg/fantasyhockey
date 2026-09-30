@@ -47,6 +47,102 @@
       "transaction": [
        {
         "status": "successful",
+        "timestamp": "1790806527",
+        "transaction_id": "24",
+        "transaction_key": "477.l.12088.tr.24",
+        "type": "add/drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.8877"
+            },
+            {
+             "player_id": "8877"
+            },
+            {
+             "name": {
+              "ascii_first": "Owen",
+              "ascii_last": "Power",
+              "first": "Owen",
+              "full": "Owen Power",
+              "last": "Power"
+             }
+            },
+            {
+             "editorial_team_abbr": "BUF"
+            },
+            {
+             "display_position": "D"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.10",
+              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.4681"
+            },
+            {
+             "player_id": "4681"
+            },
+            {
+             "name": {
+              "ascii_first": "John",
+              "ascii_last": "Tavares",
+              "first": "John",
+              "full": "John Tavares",
+              "last": "Tavares"
+             }
+            },
+            {
+             "editorial_team_abbr": "TOR"
+            },
+            {
+             "display_position": "C"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.10",
+             "source_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 2
+        }
+       }
+      ]
+     },
+     "1": {
+      "transaction": [
+       {
+        "status": "successful",
         "timestamp": "1790769514",
         "transaction_id": "23",
         "transaction_key": "477.l.12088.tr.23",
@@ -139,14 +235,14 @@
        }
       ]
      },
-     "1": {
+     "10": {
       "transaction": [
        {
-        "faab_bid": "11",
+        "faab_bid": "0",
         "status": "successful",
-        "timestamp": "1790755661",
-        "transaction_id": "22",
-        "transaction_key": "477.l.12088.tr.22",
+        "timestamp": "1790150048",
+        "transaction_id": "14",
+        "transaction_key": "477.l.12088.tr.14",
         "type": "add"
        },
        {
@@ -155,25 +251,25 @@
           "player": [
            [
             {
-             "player_key": "477.p.6184"
+             "player_key": "477.p.8288"
             },
             {
-             "player_id": "6184"
+             "player_id": "8288"
             },
             {
              "name": {
-              "ascii_first": "MacKenzie",
-              "ascii_last": "Weegar",
-              "first": "MacKenzie",
-              "full": "MacKenzie Weegar",
-              "last": "Weegar"
+              "ascii_first": "Vasily",
+              "ascii_last": "Podkolzin",
+              "first": "Vasily",
+              "full": "Vasily Podkolzin",
+              "last": "Podkolzin"
              }
             },
             {
-             "editorial_team_abbr": "UTA"
+             "editorial_team_abbr": "EDM"
             },
             {
-             "display_position": "D"
+             "display_position": "LW,RW"
             },
             {
              "position_type": "P"
@@ -182,8 +278,8 @@
            {
             "transaction_data": [
              {
-              "destination_team_key": "477.l.12088.t.9",
-              "destination_team_name": "The BIG TICKETS",
+              "destination_team_key": "477.l.12088.t.2",
+              "destination_team_name": "Big Papa Johns \ud83c\udfc6",
               "destination_type": "team",
               "source_type": "waivers",
               "type": "add"
@@ -197,7 +293,7 @@
        }
       ]
      },
-     "10": {
+     "11": {
       "transaction": [
        {
         "faab_bid": "0",
@@ -255,7 +351,7 @@
        }
       ]
      },
-     "11": {
+     "12": {
       "transaction": [
        {
         "faab_bid": "0",
@@ -313,7 +409,7 @@
        }
       ]
      },
-     "12": {
+     "13": {
       "transaction": [
        {
         "faab_bid": "0",
@@ -371,7 +467,7 @@
        }
       ]
      },
-     "13": {
+     "14": {
       "transaction": [
        {
         "status": "successful",
@@ -414,7 +510,7 @@
             "transaction_data": [
              {
               "destination_team_key": "477.l.12088.t.10",
-              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6",
+              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
               "destination_type": "team",
               "source_type": "freeagents",
               "type": "add"
@@ -428,7 +524,7 @@
        }
       ]
      },
-     "14": {
+     "15": {
       "transaction": [
        {
         "status": "successful",
@@ -485,7 +581,7 @@
        }
       ]
      },
-     "15": {
+     "16": {
       "transaction": [
        {
         "status": "successful",
@@ -528,7 +624,7 @@
             "transaction_data": {
              "destination_type": "waivers",
              "source_team_key": "477.l.12088.t.10",
-             "source_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6",
+             "source_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
              "source_type": "team",
              "type": "drop"
             }
@@ -540,7 +636,7 @@
        }
       ]
      },
-     "16": {
+     "17": {
       "transaction": [
        {
         "status": "successful",
@@ -596,6 +692,64 @@
       ]
      },
      "2": {
+      "transaction": [
+       {
+        "faab_bid": "11",
+        "status": "successful",
+        "timestamp": "1790755661",
+        "transaction_id": "22",
+        "transaction_key": "477.l.12088.tr.22",
+        "type": "add"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.6184"
+            },
+            {
+             "player_id": "6184"
+            },
+            {
+             "name": {
+              "ascii_first": "MacKenzie",
+              "ascii_last": "Weegar",
+              "first": "MacKenzie",
+              "full": "MacKenzie Weegar",
+              "last": "Weegar"
+             }
+            },
+            {
+             "editorial_team_abbr": "UTA"
+            },
+            {
+             "display_position": "D"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.9",
+              "destination_team_name": "The BIG TICKETS",
+              "destination_type": "team",
+              "source_type": "waivers",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "count": 1
+        }
+       }
+      ]
+     },
+     "3": {
       "transaction": [
        {
         "status": "successful",
@@ -691,7 +845,7 @@
        }
       ]
      },
-     "3": {
+     "4": {
       "transaction": [
        {
         "status": "successful",
@@ -734,7 +888,7 @@
             "transaction_data": [
              {
               "destination_team_key": "477.l.12088.t.10",
-              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6",
+              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
               "destination_type": "team",
               "source_type": "freeagents",
               "type": "add"
@@ -748,7 +902,7 @@
        }
       ]
      },
-     "4": {
+     "5": {
       "transaction": [
        {
         "status": "successful",
@@ -805,7 +959,7 @@
        }
       ]
      },
-     "5": {
+     "6": {
       "transaction": [
        {
         "status": "successful",
@@ -901,7 +1055,7 @@
        }
       ]
      },
-     "6": {
+     "7": {
       "transaction": [
        {
         "status": "successful",
@@ -997,7 +1151,7 @@
        }
       ]
      },
-     "7": {
+     "8": {
       "transaction": [
        {
         "status": "successful",
@@ -1054,7 +1208,7 @@
        }
       ]
      },
-     "8": {
+     "9": {
       "transaction": [
        {
         "status": "successful",
@@ -1111,70 +1265,12 @@
        }
       ]
      },
-     "9": {
-      "transaction": [
-       {
-        "faab_bid": "0",
-        "status": "successful",
-        "timestamp": "1790150048",
-        "transaction_id": "14",
-        "transaction_key": "477.l.12088.tr.14",
-        "type": "add"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.8288"
-            },
-            {
-             "player_id": "8288"
-            },
-            {
-             "name": {
-              "ascii_first": "Vasily",
-              "ascii_last": "Podkolzin",
-              "first": "Vasily",
-              "full": "Vasily Podkolzin",
-              "last": "Podkolzin"
-             }
-            },
-            {
-             "editorial_team_abbr": "EDM"
-            },
-            {
-             "display_position": "LW,RW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.2",
-              "destination_team_name": "Big Papa Johns \ud83c\udfc6",
-              "destination_type": "team",
-              "source_type": "waivers",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "count": 1
-        }
-       }
-      ]
-     },
-     "count": 17
+     "count": 18
     }
    }
   ],
   "refresh_rate": "30",
-  "time": "46.041011810303ms",
+  "time": "52.117109298706ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/transactions;types=add,drop,trade;count=40"
  }
