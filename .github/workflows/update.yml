@@ -2,11 +2,14 @@ name: Update Dashboard
 
 on:
   schedule:
-    # Off-the-hour minutes: GitHub delays top-of-hour crons by hours.
+    # Off-the-hour minutes: GitHub delays top-of-hour crons by hours, and sometimes skips runs.
+    # Times below are EDT (UTC-4); in EST (from Nov) each lands one hour earlier in ET.
     # 09:17 UTC = 5:17am ET (after overnight games settle; on Sundays, after the 3am ET add reset)
     - cron: '17 9 * * *'
-    # 17:17 UTC = 1:17pm ET (pre-game lineup check)
-    - cron: '17 17 * * *'
+    # 10:47 UTC = 6:47am ET (second chance before the ~7:50am AGM morning brief)
+    - cron: '47 10 * * *'
+    # 19:47 UTC = 3:47pm ET (feeds the ~4:50pm AGM goalie check; catches afternoon moves)
+    - cron: '47 19 * * *'
   workflow_dispatch:
     # Manual: Actions tab → Update Dashboard → Run workflow, or `gh workflow run update.yml`
 

@@ -21,6 +21,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scripts.config import LEAGUE_IDS, CURRENT_SEASON, DATA_DIR
 from scripts.yahoo_auth import get_valid_token
 from scripts.fetch_data import yahoo_get
+from scripts.agm_plan import players_in, flat, walk
+from zoneinfo import ZoneInfo
 
 OUT_DIR   = os.path.join(DATA_DIR, "inseason")
 MY_TEAM   = os.environ.get("AGM_TEAM_NUM", "1")          # Flow Riders = t.1
@@ -85,9 +87,42 @@ def find_week_dates(game_weeks_raw, today):
     return sorted(set(out))
 
 
+def log_roster_moves(all_rosters, today):
+    """Diff every team's roster against the previous fetch and append adds/drops to
+    roster_moves_log.json. Catches moves even when they scroll out of the 40-item
+    transactions feed. First run only seeds the snapshot."""
+    snap_p = os.path.join(OUT_DIR, "roster_snapshot.json")
+    log_p  = os.path.join(OUT_DIR, "roster_moves_log.json")
+    cur = {}
+    for t in walk(all_rosters, "team"):
+        if not (isinstance(t, list) and len(t) > 1):
+            continue
+        meta = flat(t[0])
+        cur[meta.get("team_key")] = {
+            "name": meta.get("name"),
+            "players": {p["key"]: {"name": p["name"], "pos": p["pos"], "team": p["team"]}
+                        for p in players_in(t[1])},
+        }
+    prev = json.load(open(snap_p)) if os.path.exists(snap_p) else None
+    log  = json.load(open(log_p)) if os.path.exists(log_p) else []
+    if prev:
+        now = manifest["fetched_at_utc"]
+        for tkey, team in cur.items():
+            before = (prev.get("teams", {}).get(tkey) or {}).get("players", {})
+            added   = [dict(key=k, **v) for k, v in team["players"].items() if k not in before]
+            dropped = [dict(key=k, **v) for k, v in before.items() if k not in team["players"]]
+            if added or dropped:
+                log.append({"detected_at_utc": now, "since_utc": prev.get("fetched_at_utc"),
+                            "date_et": today.isoformat(), "team_key": tkey, "team_name": team["name"],
+                            "added": added, "dropped": dropped})
+    save("roster_moves_log", log[-400:])
+    save("roster_snapshot", {"fetched_at_utc": manifest["fetched_at_utc"], "teams": cur})
+    manifest["ok"].append("roster_moves_log")
+
+
 def main():
     manifest["fetched_at_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=-4))).date()   # ET-ish; exact tz irrelevant here
+    today = dt.datetime.now(ZoneInfo("America/Toronto")).date()   # Yahoo lineups are per ET date
     token = get_valid_token()     # exits loudly if the refresh token is rejected
 
     print("\n🏒 In-season fetch")
@@ -117,15 +152,44 @@ def main():
     grab("my_team",          lambda: yahoo_get(f"/team/{tk}/metadata", token))   # includes roster_adds used this week
     grab("my_roster_today",  lambda: yahoo_get(f"/team/{tk}/roster;date={today}/players", token))
     grab("my_roster_stats",  lambda: yahoo_get(f"/team/{tk}/roster;date={today}/players/stats;type=season", token))
+    matchup = None
     if cur_week:
-        grab("my_matchup",   lambda: yahoo_get(f"/team/{tk}/matchups;weeks={cur_week}", token))
+        matchup = grab("my_matchup", lambda: yahoo_get(f"/team/{tk}/matchups;weeks={cur_week}", token))
+    opp_tk = next((k for k in walk(matchup or {}, "team_key") if k != tk), None)
+    manifest["opp_team_key"] = opp_tk
+
+    # ── Lineups for every remaining day of the week (Yahoo rosters are per date) ──
+    # my_roster_today only shows the lineup for the fetch date; the brief must see the
+    # lineup Johnnie has actually set for tonight and each later night, and the opponent's.
+    try:
+        week_end = dt.date.fromisoformat(wd[cur_week][1]) if cur_week in wd else today + dt.timedelta(days=6)
+    except Exception:
+        week_end = today + dt.timedelta(days=6)
+    roster_dates = []
+    d = today
+    while d <= week_end and len(roster_dates) < 7:
+        roster_dates.append(d.isoformat())
+        grab(f"my_roster_{d}", lambda d=d: yahoo_get(f"/team/{tk}/roster;date={d}/players", token))
+        if opp_tk:
+            grab(f"opp_roster_{d}", lambda d=d: yahoo_get(f"/team/{opp_tk}/roster;date={d}/players", token))
+        d += dt.timedelta(days=1)
+    manifest["roster_dates"] = roster_dates
+    for fn in os.listdir(OUT_DIR):
+        for pre in ("my_roster_2", "opp_roster_2"):
+            if fn.startswith(pre) and fn[len(pre) - 1:-5] not in roster_dates:
+                os.remove(os.path.join(OUT_DIR, fn))
 
     # ── League-wide ───────────────────────────────────────────────────────
     if cur_week:
         grab("scoreboard_current", lambda: yahoo_get(f"/league/{lk}/scoreboard;week={cur_week}", token))
         if cur_week > 1:
             grab("scoreboard_previous", lambda: yahoo_get(f"/league/{lk}/scoreboard;week={cur_week-1}", token))
-    grab("all_rosters",  lambda: yahoo_get(f"/league/{lk}/teams/roster;date={today}", token))
+    all_rosters = grab("all_rosters", lambda: yahoo_get(f"/league/{lk}/teams/roster;date={today}", token))
+    if all_rosters:
+        try:
+            log_roster_moves(all_rosters, today)
+        except Exception as e:
+            manifest["errors"]["roster_moves_log"] = str(e)[:600]
     grab("transactions", lambda: yahoo_get(f"/league/{lk}/transactions;types=add,drop,trade;count=40", token))
 
     # ── Free agents, by position, preseason-rank order + ownership ────────
