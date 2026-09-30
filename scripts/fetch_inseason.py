@@ -157,6 +157,11 @@ def main():
         matchup = grab("my_matchup", lambda: yahoo_get(f"/team/{tk}/matchups;weeks={cur_week}", token))
     opp_tk = next((k for k in walk(matchup or {}, "team_key") if k != tk), None)
     manifest["opp_team_key"] = opp_tk
+    # Next week's opponent, for the Sunday week-ahead brief
+    next_matchup = None
+    if cur_week and (cur_week + 1) in wd:
+        next_matchup = grab("next_matchup", lambda: yahoo_get(f"/team/{tk}/matchups;weeks={cur_week + 1}", token))
+    manifest["next_opp_team_key"] = next((k for k in walk(next_matchup or {}, "team_key") if k != tk), None)
 
     # ── Lineups for every remaining day of the week (Yahoo rosters are per date) ──
     # my_roster_today only shows the lineup for the fetch date; the brief must see the
