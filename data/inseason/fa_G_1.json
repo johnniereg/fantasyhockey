@@ -166,10 +166,6 @@
          "url": "https://sports.yahoo.com/nhl/players/8741"
         },
         {
-         "status": "NA",
-         "status_full": "Not Active"
-        },
-        {
          "editorial_player_key": "nhl.p.8741"
         },
         {
@@ -192,7 +188,7 @@
          }
         },
         {
-         "uniform_number": ""
+         "uniform_number": "33"
         },
         {
          "display_position": "G"
@@ -228,9 +224,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1790525457
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1790875581
         }
        ],
        {
@@ -238,6 +236,9 @@
          {
           "coverage_type": "week",
           "week": 1
+         },
+         {
+          "value": 1
          },
          {
           "delta": "0"
@@ -336,6 +337,9 @@
          {
           "coverage_type": "week",
           "week": 1
+         },
+         {
+          "value": 1
          },
          {
           "delta": "0"
@@ -2547,7 +2551,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "99.249124526978ms",
+  "time": "58.091878890991ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=25/percent_owned"
  }
