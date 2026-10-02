@@ -178,9 +178,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1790833873
           }
@@ -294,9 +292,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1790392257
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1790916174
           }
          ],
          {
@@ -408,9 +408,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1790832942
           }
@@ -631,9 +629,15 @@
           },
           [],
           [],
-          [],
-          [],
-          []
+          {
+           "has_player_notes": 1
+          },
+          {
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1790919771
+          }
          ],
          {
           "selected_position": [
@@ -738,7 +742,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1790880402
+           "player_notes_last_timestamp": 1790921808
           }
          ],
          {
@@ -844,7 +848,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1790874602
+           "player_notes_last_timestamp": 1790917977
           }
          ],
          {
@@ -1874,12 +1878,12 @@
      "minimum_games": {
       "coverage_type": "week",
       "coverage_value": 1,
-      "value": "1"
+      "value": "3"
      }
     }
    }
   ],
-  "time": "76.313018798828ms",
+  "time": "69.565057754517ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-04/players"
  }
