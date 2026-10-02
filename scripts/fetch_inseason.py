@@ -30,7 +30,8 @@ POSITIONS = ["C", "LW", "RW", "D", "G"]
 FA_PAGES  = 2                                            # 25 per page
 NHL_BASE  = "https://api-web.nhle.com/v1"
 
-manifest = {"fetched_at_utc": None, "ok": [], "errors": {}}
+manifest = {"fetched_at_utc": None, "ok": [], "errors": {}, "warnings": []}
+FINAL_STATES = {"OFF", "FINAL"}                          # NHL gameState values for a finished game
 
 
 def save(name, payload):
@@ -87,6 +88,24 @@ def find_week_dates(game_weeks_raw, today):
     return sorted(set(out))
 
 
+def game_state_summary(schedule_payloads, today):
+    """How complete is the NHL picture at fetch time? Lets briefs tell a clean post-games
+    fetch from a mid-game one. Yahoo stats/scoreboard are only trustworthy for a date once
+    every NHL game on that date is final."""
+    by_date = {}
+    for blk in schedule_payloads:
+        for day in (blk or {}).get("gameWeek", []):
+            by_date[day["date"]] = [g.get("gameState") for g in day.get("games", [])]
+    def state(d):
+        st = by_date.get(d.isoformat())
+        if st is None:
+            return {"date": d.isoformat(), "games": None, "final": None, "all_final": None}
+        n_final = sum(1 for x in st if x in FINAL_STATES)
+        return {"date": d.isoformat(), "games": len(st), "final": n_final, "all_final": n_final == len(st)}
+    live = sum(1 for sts in by_date.values() for x in sts if x in ("LIVE", "CRIT"))
+    return {"yesterday": state(today - dt.timedelta(days=1)), "today": state(today), "live_now": live}
+
+
 def log_roster_moves(all_rosters, today):
     """Diff every team's roster against the previous fetch and append adds/drops to
     roster_moves_log.json. Catches moves even when they scroll out of the 40-item
@@ -122,6 +141,7 @@ def log_roster_moves(all_rosters, today):
 
 def main():
     manifest["fetched_at_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    manifest["trigger"] = os.environ.get("AGM_TRIGGER") or os.environ.get("GITHUB_EVENT_NAME") or "local"
     today = dt.datetime.now(ZoneInfo("America/Toronto")).date()   # Yahoo lineups are per ET date
     token = get_valid_token()     # exits loudly if the refresh token is rejected
 
@@ -145,6 +165,11 @@ def main():
         pass
     week_dates = find_week_dates(weeks, today) if weeks else []
     wd = {w: (s, e) for w, s, e in week_dates}
+    # Cross-check Yahoo's current_week against the week whose dates contain today (ET).
+    by_date = next((w for w, s_, e_ in week_dates if s_ <= today.isoformat() <= e_), None)
+    if by_date and cur_week != by_date:
+        manifest["warnings"].append(f"Yahoo current_week={cur_week} but today {today} is in week {by_date}; using {by_date}")
+        cur_week = by_date
     manifest["current_week"] = cur_week
     manifest["week_dates"] = {str(w): wd[w] for w in (cur_week, (cur_week or 0) + 1) if w in wd}
 
@@ -218,26 +243,41 @@ def main():
     except Exception:
         start, end = today, today + dt.timedelta(days=14)
     manifest["nhl_range"] = [start.isoformat(), end.isoformat()]
-    d, blocks = start, []
+    d, blocks, payloads = start, [], []
     while d <= end and len(blocks) < 5:
         blk = grab(f"nhl_schedule_{d}", lambda d=d: nhl_get(f"/schedule/{d}"))
         blocks.append(d.isoformat())
+        payloads.append(blk or {})
         nxt_start = (blk or {}).get("nextStartDate")
         d = dt.date.fromisoformat(nxt_start) if nxt_start else d + dt.timedelta(days=7)
     manifest["nhl_blocks"] = blocks
     grab("nhl_standings", lambda: nhl_get("/standings/now"))
+    # Yesterday may sit in the previous week's block (e.g. Monday) — make sure it's covered.
+    yday = today - dt.timedelta(days=1)
+    if yday < start:
+        try:
+            payloads.append(nhl_get(f"/schedule/{yday}"))
+        except Exception as e:
+            manifest["warnings"].append(f"couldn't load NHL schedule for {yday}: {str(e)[:200]}")
+    try:
+        manifest["games"] = game_state_summary(payloads, today)
+    except Exception as e:
+        manifest["errors"]["games_summary"] = str(e)[:600]
 
     # Remove NHL blocks from earlier runs that are no longer in range
     for fn in os.listdir(OUT_DIR):
         if fn.startswith("nhl_schedule_") and fn[len("nhl_schedule_"):-5] not in blocks:
             os.remove(os.path.join(OUT_DIR, fn))
 
+    manifest["finished_at_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     save("manifest", manifest)
     n_err = len(manifest["errors"])
     print(f"\n💾 {len(manifest['ok'])} saved, {n_err} failed → {OUT_DIR}")
     if n_err:
         for k, v in manifest["errors"].items():
             print(f"::warning title=AGM fetch: {k}::{v[:200]}")
+    for w in manifest["warnings"]:
+        print(f"::warning title=AGM fetch::{w[:200]}")
 
 
 if __name__ == "__main__":

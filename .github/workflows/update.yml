@@ -1,17 +1,20 @@
 name: Update Dashboard
 
 on:
-  schedule:
-    # Off-the-hour minutes: GitHub delays top-of-hour crons by hours, and sometimes skips runs.
-    # Times below are EDT (UTC-4); in EST (from Nov) each lands one hour earlier in ET.
-    # 09:17 UTC = 5:17am ET (after overnight games settle; on Sundays, after the 3am ET add reset)
-    - cron: '17 9 * * *'
-    # 10:47 UTC = 6:47am ET (second chance before the ~7:50am AGM morning brief)
-    - cron: '47 10 * * *'
-    # 19:47 UTC = 3:47pm ET (feeds the ~4:50pm AGM goalie check; catches afternoon moves)
-    - cron: '47 19 * * *'
+  # PRIMARY trigger: workflow_dispatch from an external scheduler (cron-job.org) at exact ET
+  # times — see SCHEDULE.md. GitHub's own `schedule` is
+  # best-effort: in Sep/Oct 2026 the 09:17/10:47 UTC runs landed 4-7h late or not at all,
+  # so the morning brief read a mid-game fetch from the previous evening.
   workflow_dispatch:
-    # Manual: Actions tab → Update Dashboard → Run workflow, or `gh workflow run update.yml`
+    inputs:
+      reason:
+        description: "Which brief this fetch feeds (morning / goalie / sunday / manual)"
+        required: false
+        default: manual
+  schedule:
+    # FALLBACK only. If the external scheduler is down this still produces a fetch eventually;
+    # the brief gate (scripts/agm_gate.py) rejects it if it lands too late or mid-game.
+    - cron: '23 8 * * *'     # 08:23 UTC = 4:23am EDT / 3:23am EST
 
 concurrency:
   group: update-dashboard
@@ -44,6 +47,7 @@ jobs:
           YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+          AGM_TRIGGER:         ${{ github.event_name }}:${{ inputs.reason || 'schedule' }}
         run: python3 scripts/fetch_inseason.py
 
       - name: Fetch history and rebuild dashboard
@@ -61,9 +65,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html data/league_cache.json data/inseason
           git diff --staged --quiet \
-            || git commit -m "chore: update dashboard data [skip ci]"
-          git pull --rebase
-          git push
+            || git commit -m "chore: update dashboard data (${{ inputs.reason || 'schedule' }}) [skip ci]"
+          # Retry: a code push landing mid-run shouldn't lose the fetch
+          for i in 1 2 3; do
+            git pull --rebase -X theirs && git push && exit 0
+            sleep 10
+          done
+          exit 1
 
       - name: Fail loudly if in-season endpoints failed
         if: steps.inseason.outcome == 'success'
