@@ -15,6 +15,12 @@ on:
     # FALLBACK only. If the external scheduler is down this still produces a fetch eventually;
     # the brief gate (scripts/agm_gate.py) rejects it if it lands too late or mid-game.
     - cron: '23 8 * * *'     # 08:23 UTC = 4:23am EDT / 3:23am EST
+    # TEMP fallback until external dispatch is live
+    - cron: '47 10 * * *'
+    # TEMP fallback until external dispatch is live
+    - cron: '47 19 * * *'
+    # TEMP fallback until external dispatch is live
+    - cron: '17 15 * * 0'
 
 concurrency:
   group: update-dashboard
