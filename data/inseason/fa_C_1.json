@@ -344,9 +344,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1790964104
         }
@@ -384,6 +382,13 @@
         },
         {
          "url": "https://sports.yahoo.com/nhl/players/9276"
+        },
+        {
+         "status": "O",
+         "status_full": "Out"
+        },
+        {
+         "injury_note": "Upper Body"
         },
         {
          "editorial_player_key": "nhl.p.9276"
@@ -436,6 +441,9 @@
           },
           {
            "position": "LW"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -454,9 +462,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1790489406
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791044573
         }
        ],
        {
@@ -2621,9 +2631,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1790964604
         }
@@ -2635,7 +2643,7 @@
           "week": 1
          },
          {
-          "value": 3
+          "value": 4
          },
          {
           "delta": "0"
@@ -2762,7 +2770,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "62.973022460938ms",
+  "time": "68.475008010864ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=25/percent_owned"
  }
