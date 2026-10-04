@@ -82,7 +82,7 @@
          "faab_balance": "100"
         },
         {
-         "number_of_moves": 2
+         "number_of_moves": 3
         },
         {
          "number_of_trades": 0
@@ -91,7 +91,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 1,
-          "value": "2"
+          "value": "3"
          }
         },
         [],
@@ -350,7 +350,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1574,7 +1574,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -3553,9 +3553,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791045507
               }
@@ -4747,9 +4745,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791005530
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791131984
               }
              ],
              {
@@ -4763,6 +4763,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -9285,9 +9296,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791135251
+              }
              ],
              {
               "selected_position": [
@@ -10150,9 +10167,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790922015
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791135626
               }
              ],
              {
@@ -10727,6 +10746,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -11916,9 +11946,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791047515
               }
@@ -13477,9 +13505,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791135928
+              }
              ],
              {
               "selected_position": [
@@ -18742,9 +18776,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791033544
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791132236
               }
              ],
              {
@@ -18758,6 +18794,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -19761,7 +19808,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "180.8500289917ms",
+  "time": "140.05398750305ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-04"
  }
