@@ -16,18 +16,38 @@ Every brief reads `data/inseason/`, so each one needs a fetch that (a) ran **tod
 | 16:52 | Goalie check (`agm_gate.py goalie --wait 20`) | |
 | 04:23 / 03:23 (EDT/EST) | GitHub `schedule` fallback | Best-effort only; may land hours late |
 
-## External scheduler (cron-job.org)
+Bold rows are fired by the Claude scheduled tasks below. The other rows are the briefs, which run as their own scheduled tasks.
 
-GitHub `schedule` runs are best-effort and were landing 4–7h late or not at all. `workflow_dispatch` runs start within about a minute, so the fetches are fired from cron-job.org instead.
+## Fetch triggers: Claude scheduled tasks (primary)
+
+GitHub `schedule` runs are best-effort and were landing 2–7h late or not at all. `workflow_dispatch` runs start within about a minute, so four Claude cloud scheduled tasks (routines, America/Toronto time) fire the fetches:
+
+| Task | Fires (ET) | `reason` | ID |
+|---|---|---|---|
+| AGM fetch dispatch: morning (5:40am ET) | 05:40 daily | `morning` | [trig_01RXmNYJiA7nQC4vSc54QpFM](https://claude.ai/code/routines/trig_01RXmNYJiA7nQC4vSc54QpFM) |
+| AGM fetch dispatch: morning-backup (7:25am ET) | 07:25 daily | `morning-backup` | [trig_01NBRvLHfGF93tNT9r3rmMW2](https://claude.ai/code/routines/trig_01NBRvLHfGF93tNT9r3rmMW2) |
+| AGM fetch dispatch: sunday (Sun 11:15am ET) | 11:15 Sundays | `sunday` | [trig_01DjDxbhp4estd1YTYTBT2Rp](https://claude.ai/code/routines/trig_01DjDxbhp4estd1YTYTBT2Rp) |
+| AGM fetch dispatch: goalie (4:15pm ET) | 16:15 daily | `goalie` | [trig_01Rw1ETwwMRnARwVSXi2FWAH](https://claude.ai/code/routines/trig_01Rw1ETwwMRnARwVSXi2FWAH) |
+
+Each task runs `gh workflow run update.yml --ref main -f reason=<reason>`, watches the run, and sends a push notification only if the dispatch or the run fails. Success = a commit `chore: update dashboard data (<reason>) [skip ci]` and `"trigger": "workflow_dispatch:<reason>"` in `manifest.json`. Edit, pause or run them at https://claude.ai/code/routines.
+
+## GitHub fallback crons
+
+`update.yml` keeps `23 8 * * *` permanently as a last resort. Three extra crons marked "TEMP fallback until external dispatch is live" (`47 10 * * *`, `47 19 * * *`, `17 15 * * 0`) stay until the scheduled tasks have run cleanly for 3–4 days. A one-time check on Oct 8 removes them if every `morning`, `morning-backup`, `goalie` and `sunday` fetch since Oct 4 landed on time.
+
+## Backup option: cron-job.org
+
+If the Claude scheduled tasks stop working, the same dispatches can be fired from cron-job.org:
 
 1. GitHub → Settings → Developer settings → **Fine-grained token**: repository `johnniereg/fantasyhockey` only; permission **Actions: Read and write**. Note the expiry date.
-2. cron-job.org → one job per row in bold above, timezone **America/Toronto**:
+2. cron-job.org → one job per bold row above, timezone **America/Toronto**:
    - URL: `https://api.github.com/repos/johnniereg/fantasyhockey/actions/workflows/update.yml/dispatches`
    - Method: `POST`
    - Headers: `Authorization: Bearer <token>` · `Accept: application/vnd.github+json` · `X-GitHub-Api-Version: 2022-11-28`
    - Body: `{"ref":"main","inputs":{"reason":"morning"}}` (change `reason` per job)
    - Success = HTTP 204. Turn on failure notifications.
 3. Test: run one job manually and confirm a commit `chore: update dashboard data (morning) [skip ci]` appears within ~2 min.
+4. Pause the matching Claude tasks so fetches aren't doubled.
 
 ## Brief contract
 
