@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-04 15:17:13",
+  "fetched_at": "2026-10-04 15:30:44",
   "seasons": {
     "2007-08": {
       "meta": {
@@ -7258,7 +7258,769 @@
       }
     },
     "2016-17": {
-      "error": "HTTP 500 for https://fantasysports.yahooapis.com/fantasy/v2/league/363.l.33236/metadata?format=json: "
+      "meta": {
+        "league_key": "363.l.33236",
+        "name": "Tim McCabe Memorial Cup",
+        "season": "2016",
+        "num_teams": 10,
+        "current_week": 24,
+        "start_week": "1",
+        "end_week": "24",
+        "scoring_type": "head",
+        "url": "https://hockey.fantasysports.yahoo.com/2016/hockey/33236"
+      },
+      "categories": [
+        {
+          "id": "1",
+          "name": "G"
+        },
+        {
+          "id": "2",
+          "name": "A"
+        },
+        {
+          "id": "4",
+          "name": "+/-"
+        },
+        {
+          "id": "5",
+          "name": "PIM"
+        },
+        {
+          "id": "8",
+          "name": "PPP"
+        },
+        {
+          "id": "12",
+          "name": "GWG"
+        },
+        {
+          "id": "19",
+          "name": "W"
+        },
+        {
+          "id": "22",
+          "name": "GA"
+        },
+        {
+          "id": "23",
+          "name": "GAA"
+        },
+        {
+          "id": "25",
+          "name": "SV"
+        },
+        {
+          "id": "24",
+          "name": "SA"
+        },
+        {
+          "id": "26",
+          "name": "SV%"
+        },
+        {
+          "id": "27",
+          "name": "SHO"
+        }
+      ],
+      "standings": [
+        {
+          "rank": 1,
+          "team_key": "363.l.33236.t.8",
+          "name": "Latzy's Legends",
+          "manager": "Braeden",
+          "wins": "91",
+          "losses": "87",
+          "ties": "32",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "218"
+            },
+            {
+              "stat_id": "2",
+              "value": "453"
+            },
+            {
+              "stat_id": "4",
+              "value": "78"
+            },
+            {
+              "stat_id": "5",
+              "value": "509"
+            },
+            {
+              "stat_id": "8",
+              "value": "216"
+            },
+            {
+              "stat_id": "12",
+              "value": "36"
+            },
+            {
+              "stat_id": "19",
+              "value": "63"
+            },
+            {
+              "stat_id": "22",
+              "value": "331"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.61"
+            },
+            {
+              "stat_id": "25",
+              "value": "3442"
+            },
+            {
+              "stat_id": "24",
+              "value": "3773"
+            },
+            {
+              "stat_id": "26",
+              "value": ".912"
+            },
+            {
+              "stat_id": "27",
+              "value": "7"
+            }
+          ],
+          "total_points": "214"
+        },
+        {
+          "rank": 2,
+          "team_key": "363.l.33236.t.4",
+          "name": "Big Papa Johns",
+          "manager": "Pete",
+          "wins": "93",
+          "losses": "88",
+          "ties": "29",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "291"
+            },
+            {
+              "stat_id": "2",
+              "value": "411"
+            },
+            {
+              "stat_id": "4",
+              "value": "49"
+            },
+            {
+              "stat_id": "5",
+              "value": "410"
+            },
+            {
+              "stat_id": "8",
+              "value": "197"
+            },
+            {
+              "stat_id": "12",
+              "value": "59"
+            },
+            {
+              "stat_id": "19",
+              "value": "71"
+            },
+            {
+              "stat_id": "22",
+              "value": "309"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.49"
+            },
+            {
+              "stat_id": "25",
+              "value": "3258"
+            },
+            {
+              "stat_id": "24",
+              "value": "3567"
+            },
+            {
+              "stat_id": "26",
+              "value": ".913"
+            },
+            {
+              "stat_id": "27",
+              "value": "8"
+            }
+          ],
+          "total_points": "215"
+        },
+        {
+          "rank": 3,
+          "team_key": "363.l.33236.t.1",
+          "name": "ISIS Ices",
+          "manager": "johnnie",
+          "wins": "103",
+          "losses": "85",
+          "ties": "22",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "238"
+            },
+            {
+              "stat_id": "2",
+              "value": "375"
+            },
+            {
+              "stat_id": "4",
+              "value": "6"
+            },
+            {
+              "stat_id": "5",
+              "value": "443"
+            },
+            {
+              "stat_id": "8",
+              "value": "185"
+            },
+            {
+              "stat_id": "12",
+              "value": "46"
+            },
+            {
+              "stat_id": "19",
+              "value": "91"
+            },
+            {
+              "stat_id": "22",
+              "value": "365"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.35"
+            },
+            {
+              "stat_id": "25",
+              "value": "4315"
+            },
+            {
+              "stat_id": "24",
+              "value": "4680"
+            },
+            {
+              "stat_id": "26",
+              "value": ".922"
+            },
+            {
+              "stat_id": "27",
+              "value": "16"
+            }
+          ],
+          "total_points": "228"
+        },
+        {
+          "rank": 4,
+          "team_key": "363.l.33236.t.7",
+          "name": "byron's Groovy Team",
+          "manager": "byron",
+          "wins": "87",
+          "losses": "91",
+          "ties": "32",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "215"
+            },
+            {
+              "stat_id": "2",
+              "value": "358"
+            },
+            {
+              "stat_id": "4",
+              "value": "87"
+            },
+            {
+              "stat_id": "5",
+              "value": "399"
+            },
+            {
+              "stat_id": "8",
+              "value": "182"
+            },
+            {
+              "stat_id": "12",
+              "value": "37"
+            },
+            {
+              "stat_id": "19",
+              "value": "72"
+            },
+            {
+              "stat_id": "22",
+              "value": "299"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.44"
+            },
+            {
+              "stat_id": "25",
+              "value": "3429"
+            },
+            {
+              "stat_id": "24",
+              "value": "3728"
+            },
+            {
+              "stat_id": "26",
+              "value": ".920"
+            },
+            {
+              "stat_id": "27",
+              "value": "9"
+            }
+          ],
+          "total_points": "206"
+        },
+        {
+          "rank": 5,
+          "team_key": "363.l.33236.t.3",
+          "name": "Bismack's Biyombos",
+          "manager": "Tom",
+          "wins": "101",
+          "losses": "86",
+          "ties": "23",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "252"
+            },
+            {
+              "stat_id": "2",
+              "value": "420"
+            },
+            {
+              "stat_id": "4",
+              "value": "30"
+            },
+            {
+              "stat_id": "5",
+              "value": "440"
+            },
+            {
+              "stat_id": "8",
+              "value": "245"
+            },
+            {
+              "stat_id": "12",
+              "value": "53"
+            },
+            {
+              "stat_id": "19",
+              "value": "53"
+            },
+            {
+              "stat_id": "22",
+              "value": "313"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.63"
+            },
+            {
+              "stat_id": "25",
+              "value": "3131"
+            },
+            {
+              "stat_id": "24",
+              "value": "3444"
+            },
+            {
+              "stat_id": "26",
+              "value": ".909"
+            },
+            {
+              "stat_id": "27",
+              "value": "7"
+            }
+          ],
+          "total_points": "225"
+        },
+        {
+          "rank": 6,
+          "team_key": "363.l.33236.t.2",
+          "name": "OpenWide",
+          "manager": "jordan",
+          "wins": "84",
+          "losses": "99",
+          "ties": "27",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "198"
+            },
+            {
+              "stat_id": "2",
+              "value": "396"
+            },
+            {
+              "stat_id": "4",
+              "value": "-44"
+            },
+            {
+              "stat_id": "5",
+              "value": "378"
+            },
+            {
+              "stat_id": "8",
+              "value": "204"
+            },
+            {
+              "stat_id": "12",
+              "value": "38"
+            },
+            {
+              "stat_id": "19",
+              "value": "67"
+            },
+            {
+              "stat_id": "22",
+              "value": "317"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.41"
+            },
+            {
+              "stat_id": "25",
+              "value": "3600"
+            },
+            {
+              "stat_id": "24",
+              "value": "3917"
+            },
+            {
+              "stat_id": "26",
+              "value": ".919"
+            },
+            {
+              "stat_id": "27",
+              "value": "9"
+            }
+          ],
+          "total_points": "195"
+        },
+        {
+          "rank": 7,
+          "team_key": "363.l.33236.t.6",
+          "name": "Bruiser Brigade",
+          "manager": "justin",
+          "wins": "96",
+          "losses": "87",
+          "ties": "27",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "225"
+            },
+            {
+              "stat_id": "2",
+              "value": "417"
+            },
+            {
+              "stat_id": "4",
+              "value": "-4"
+            },
+            {
+              "stat_id": "5",
+              "value": "596"
+            },
+            {
+              "stat_id": "8",
+              "value": "214"
+            },
+            {
+              "stat_id": "12",
+              "value": "42"
+            },
+            {
+              "stat_id": "19",
+              "value": "57"
+            },
+            {
+              "stat_id": "22",
+              "value": "299"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.65"
+            },
+            {
+              "stat_id": "25",
+              "value": "3059"
+            },
+            {
+              "stat_id": "24",
+              "value": "3358"
+            },
+            {
+              "stat_id": "26",
+              "value": ".911"
+            },
+            {
+              "stat_id": "27",
+              "value": "6"
+            }
+          ],
+          "total_points": "219"
+        },
+        {
+          "rank": 8,
+          "team_key": "363.l.33236.t.9",
+          "name": "Tristan Melton",
+          "manager": "TMeltron",
+          "wins": "94",
+          "losses": "89",
+          "ties": "27",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "224"
+            },
+            {
+              "stat_id": "2",
+              "value": "376"
+            },
+            {
+              "stat_id": "4",
+              "value": "114"
+            },
+            {
+              "stat_id": "5",
+              "value": "341"
+            },
+            {
+              "stat_id": "8",
+              "value": "181"
+            },
+            {
+              "stat_id": "12",
+              "value": "48"
+            },
+            {
+              "stat_id": "19",
+              "value": "83"
+            },
+            {
+              "stat_id": "22",
+              "value": "369"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.57"
+            },
+            {
+              "stat_id": "25",
+              "value": "3973"
+            },
+            {
+              "stat_id": "24",
+              "value": "4342"
+            },
+            {
+              "stat_id": "26",
+              "value": ".915"
+            },
+            {
+              "stat_id": "27",
+              "value": "9"
+            }
+          ],
+          "total_points": "215"
+        },
+        {
+          "rank": "9",
+          "team_key": "363.l.33236.t.5",
+          "name": "Dangerous Danglers",
+          "manager": "David",
+          "wins": "81",
+          "losses": "99",
+          "ties": "30",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "212"
+            },
+            {
+              "stat_id": "2",
+              "value": "388"
+            },
+            {
+              "stat_id": "4",
+              "value": "-52"
+            },
+            {
+              "stat_id": "5",
+              "value": "487"
+            },
+            {
+              "stat_id": "8",
+              "value": "191"
+            },
+            {
+              "stat_id": "12",
+              "value": "37"
+            },
+            {
+              "stat_id": "19",
+              "value": "61"
+            },
+            {
+              "stat_id": "22",
+              "value": "351"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.68"
+            },
+            {
+              "stat_id": "25",
+              "value": "3539"
+            },
+            {
+              "stat_id": "24",
+              "value": "3890"
+            },
+            {
+              "stat_id": "26",
+              "value": ".910"
+            },
+            {
+              "stat_id": "27",
+              "value": "10"
+            }
+          ],
+          "total_points": "192"
+        },
+        {
+          "rank": "10",
+          "team_key": "363.l.33236.t.10",
+          "name": "The BIG TICKETS",
+          "manager": "graham",
+          "wins": "79",
+          "losses": "98",
+          "ties": "33",
+          "stats": [
+            {
+              "stat_id": "1",
+              "value": "220"
+            },
+            {
+              "stat_id": "2",
+              "value": "395"
+            },
+            {
+              "stat_id": "4",
+              "value": "-14"
+            },
+            {
+              "stat_id": "5",
+              "value": "449"
+            },
+            {
+              "stat_id": "8",
+              "value": "201"
+            },
+            {
+              "stat_id": "12",
+              "value": "36"
+            },
+            {
+              "stat_id": "19",
+              "value": "65"
+            },
+            {
+              "stat_id": "22",
+              "value": "323"
+            },
+            {
+              "stat_id": "23",
+              "value": "2.68"
+            },
+            {
+              "stat_id": "25",
+              "value": "3426"
+            },
+            {
+              "stat_id": "24",
+              "value": "3749"
+            },
+            {
+              "stat_id": "26",
+              "value": ".914"
+            },
+            {
+              "stat_id": "27",
+              "value": "10"
+            }
+          ],
+          "total_points": "191"
+        }
+      ],
+      "scoreboard": {
+        "matchups": [
+          {
+            "week": "24",
+            "teams": [
+              {
+                "name": "ISIS Ices",
+                "points": "6"
+              },
+              {
+                "name": "byron's Groovy Team",
+                "points": "4"
+              }
+            ]
+          },
+          {
+            "week": "24",
+            "teams": [
+              {
+                "name": "OpenWide",
+                "points": "3"
+              },
+              {
+                "name": "Bismack's Biyombos",
+                "points": "5"
+              }
+            ]
+          },
+          {
+            "week": "24",
+            "teams": [
+              {
+                "name": "Big Papa Johns",
+                "points": "2"
+              },
+              {
+                "name": "Latzy's Legends",
+                "points": "8"
+              }
+            ]
+          },
+          {
+            "week": "24",
+            "teams": [
+              {
+                "name": "Bruiser Brigade",
+                "points": "5"
+              },
+              {
+                "name": "Tristan Melton",
+                "points": "3"
+              }
+            ]
+          }
+        ]
+      }
     },
     "2017-18": {
       "meta": {
