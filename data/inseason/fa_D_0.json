@@ -141,7 +141,7 @@
           "week": 1
          },
          {
-          "value": 1
+          "value": 2
          },
          {
           "delta": "0"
@@ -365,7 +365,7 @@
           "week": 1
          },
          {
-          "value": 16
+          "value": 17
          },
          {
           "delta": "0"
@@ -461,9 +461,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791124092
+        }
        ],
        {
         "percent_owned": [
@@ -906,7 +912,7 @@
           "week": 1
          },
          {
-          "value": 5
+          "value": 6
          },
          {
           "delta": "0"
@@ -1339,9 +1345,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1790874628
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791124405
         }
        ],
        {
@@ -2809,7 +2817,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "66.540002822876ms",
+  "time": "118.12806129456ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }
