@@ -240,7 +240,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -992,9 +992,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790917977
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791149976
               }
              ],
              {
@@ -1012,7 +1014,18 @@
               ]
              },
              {
-              "is_editable": 1
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 1
+               }
+              ]
+             },
+             {
+              "is_editable": 0
              }
             ]
            },
@@ -1122,7 +1135,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1918,7 +1931,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -3210,9 +3223,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791005300
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791150861
               }
              ],
              {
@@ -4749,7 +4764,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791131984
+               "player_notes_last_timestamp": 1791150043
               }
              ],
              {
@@ -6691,9 +6706,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790912549
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791149577
               }
              ],
              {
@@ -6707,6 +6724,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -7015,9 +7043,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791151916
+              }
              ],
              {
               "selected_position": [
@@ -7556,9 +7590,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791152227
+              }
              ],
              {
               "selected_position": [
@@ -10508,9 +10548,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790730501
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791150392
               }
              ],
              {
@@ -10524,6 +10566,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-04"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -18778,7 +18831,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791132236
+               "player_notes_last_timestamp": 1791150431
               }
              ],
              {
@@ -19806,7 +19859,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "173.23303222656ms",
+  "time": "290.9529209137ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-04"
  }

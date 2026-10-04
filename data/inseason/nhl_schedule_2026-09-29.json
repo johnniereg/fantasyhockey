@@ -3669,28 +3669,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
       "id": 68,
       "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+105"
-       },
-       {
-        "providerId": 6,
-        "value": "2.07"
-       },
-       {
-        "providerId": 8,
-        "value": "+104"
-       },
-       {
-        "providerId": 7,
-        "value": "+104"
-       },
-       {
-        "providerId": 3,
-        "value": "2.04"
-       }
-      ],
       "placeName": {
        "default": "Utah"
       },
@@ -3698,12 +3676,13 @@
        "default": "Utah",
        "fr": "de l'Utah"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/uta-vs-nyr/2026/10/04/2026020036",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NYR",
@@ -3714,28 +3693,6 @@
       "homeSplitSquad": false,
       "id": 3,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-125"
-       },
-       {
-        "providerId": 6,
-        "value": "1.76"
-       },
-       {
-        "providerId": 8,
-        "value": "-127"
-       },
-       {
-        "providerId": 7,
-        "value": "-125"
-       },
-       {
-        "providerId": 3,
-        "value": "1.81"
-       }
-      ],
       "placeName": {
        "default": "New York"
       },
@@ -3743,7 +3700,8 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8",
+      "score": 0
      },
      "id": 2026020036,
      "neutralSite": false,
@@ -3754,8 +3712,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T22:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/3B0064F1B1D6443F?brand=nhl&wt.mc_id=NHL_LEAGUE_NYR_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYR&utm_content=SCHED_PG_GM2&CAMEFROM=CFC_RANGERS_WEB_NHL_SCHED_260803",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/3B0064F1B1D6443F?brand=nhl&wt.mc_id=NHL_LEAGUE_NYR_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYR&utm_content=SCHED_PG_GM2&CAMEFROM=CFC_RANGERS_WEB_NHL_SCHED_260803",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3797,28 +3753,28 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "2.08"
-       },
-       {
-        "providerId": 8,
-        "value": "-136"
-       },
-       {
-        "providerId": 7,
-        "value": "-134"
-       },
-       {
         "providerId": 9,
         "value": "-135"
        },
        {
+        "providerId": 6,
+        "value": "2.11"
+       },
+       {
+        "providerId": 8,
+        "value": "-138"
+       },
+       {
+        "providerId": 7,
+        "value": "-142"
+       },
+       {
         "providerId": 3,
-        "value": "1.75"
+        "value": "1.73"
        },
        {
         "providerId": 10,
-        "value": "2.25"
+        "value": "2.20"
        }
       ],
       "placeName": {
@@ -3847,24 +3803,24 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "1.74"
-       },
-       {
-        "providerId": 8,
-        "value": "+113"
-       },
-       {
-        "providerId": 7,
-        "value": "+114"
-       },
-       {
         "providerId": 9,
         "value": "+114"
        },
        {
+        "providerId": 6,
+        "value": "1.73"
+       },
+       {
+        "providerId": 8,
+        "value": "+114"
+       },
+       {
+        "providerId": 7,
+        "value": "+118"
+       },
+       {
         "providerId": 3,
-        "value": "2.12"
+        "value": "2.14"
        },
        {
         "providerId": 10,
@@ -3939,24 +3895,24 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "2.34"
+        "providerId": 7,
+        "value": "+130"
+       },
+       {
+        "providerId": 3,
+        "value": "2.30"
+       },
+       {
+        "providerId": 9,
+        "value": "+130"
        },
        {
         "providerId": 8,
         "value": "+129"
        },
        {
-        "providerId": 7,
-        "value": "+130"
-       },
-       {
-        "providerId": 3,
-        "value": "2.31"
-       },
-       {
-        "providerId": 9,
-        "value": "+130"
+        "providerId": 6,
+        "value": "2.25"
        },
        {
         "providerId": 10,
@@ -3988,14 +3944,6 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "1.60"
-       },
-       {
-        "providerId": 8,
-        "value": "-157"
-       },
-       {
         "providerId": 7,
         "value": "-156"
        },
@@ -4006,6 +3954,14 @@
        {
         "providerId": 9,
         "value": "-155"
+       },
+       {
+        "providerId": 8,
+        "value": "-157"
+       },
+       {
+        "providerId": 6,
+        "value": "1.64"
        },
        {
         "providerId": 10,
@@ -4074,15 +4030,15 @@
       "odds": [
        {
         "providerId": 6,
-        "value": "2.98"
+        "value": "3.40"
        },
        {
         "providerId": 8,
-        "value": "-299"
+        "value": "-296"
        },
        {
         "providerId": 7,
-        "value": "-295"
+        "value": "-285"
        },
        {
         "providerId": 9,
@@ -4090,11 +4046,11 @@
        },
        {
         "providerId": 3,
-        "value": "1.35"
+        "value": "1.34"
        },
        {
         "providerId": 10,
-        "value": "1.63"
+        "value": "1.57"
        }
       ],
       "placeName": {
@@ -4123,15 +4079,15 @@
       "odds": [
        {
         "providerId": 6,
-        "value": "1.39"
+        "value": "1.32"
        },
        {
         "providerId": 8,
-        "value": "+235"
+        "value": "+234"
        },
        {
         "providerId": 7,
-        "value": "+235"
+        "value": "+230"
        },
        {
         "providerId": 9,
@@ -4139,11 +4095,11 @@
        },
        {
         "providerId": 3,
-        "value": "3.24"
+        "value": "3.28"
        },
        {
         "providerId": 10,
-        "value": "4.70"
+        "value": "5.00"
        }
       ],
       "placeName": {
