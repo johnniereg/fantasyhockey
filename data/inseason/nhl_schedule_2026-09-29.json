@@ -2368,7 +2368,7 @@
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
      "threeMinRecap": "/video/ott-at-tor-recap-6406192834112",
-     "threeMinRecapFr": "/fr/video/ott-vs-tor-03-10-2026-resume-6406193955112",
+     "threeMinRecapFr": "/fr/video/ott-vs-tor-03-10-2026-resume-6406195574112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3058,7 +3058,7 @@
       "lastPeriodType": "REG"
      },
      "gameScheduleState": "OK",
-     "gameState": "FINAL",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NSH",
@@ -3088,6 +3088,7 @@
      "season": 20262027,
      "startTimeUTC": "2026-10-04T00:00:00Z",
      "threeMinRecap": "/video/dal-at-nsh-recap-6406196115112",
+     "threeMinRecapFr": "/fr/video/dal-vs-nsh-03-10-2026-resume-6406195627112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3151,13 +3152,14 @@
       },
       "score": 1
      },
+     "condensedGame": "/video/bos-at-min-condensed-game-6406196714112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/bos-vs-min/2026/10/03/2026020031",
      "gameOutcome": {
       "lastPeriodType": "REG"
      },
      "gameScheduleState": "OK",
-     "gameState": "FINAL",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "MIN",
@@ -3186,6 +3188,8 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T00:00:00Z",
+     "threeMinRecap": "/video/bos-at-min-recap-6406195247112",
+     "threeMinRecapFr": "/fr/video/bos-vs-min-03-10-2026-resume-6406194554112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3257,13 +3261,16 @@
        "default": "St. Louis",
        "fr": "de St. Louis"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
-      "score": 0
+      "score": 1
      },
+     "condensedGame": "/video/stl-at-col-condensed-game-6406198813112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/stl-vs-col/2026/10/03/2026020032",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "COL",
@@ -3281,18 +3288,19 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
       "score": 6
      },
      "id": 2026020032,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T01:00:00Z",
+     "threeMinRecap": "/video/stl-at-col-recap-6406197358112",
+     "threeMinRecapFr": "/fr/video/stl-vs-col-03-10-2026-resume-6406197551112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3320,7 +3328,27 @@
       "default": "Ball Arena"
      },
      "venueTimezone": "America/Denver",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "cs": "Ne\u010das",
+       "default": "Necas",
+       "sk": "Ne\u010das"
+      },
+      "playerId": 8480039
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Blackwood"
+      },
+      "playerId": 8478406
+     }
     },
     {
      "awayTeam": {
@@ -3339,13 +3367,17 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8",
       "score": 1
      },
+     "condensedGame": "/video/cgy-at-van-condensed-game-6406200068112",
+     "condensedGameFr": "/fr/video/match-condense-flames-canucks-03-10-2026-6406200083112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/cgy-vs-van/2026/10/03/2026020033",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VAN",
@@ -3363,18 +3395,19 @@
        "default": "Vancouver",
        "fr": "de Vancouver"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8",
-      "score": 0
+      "score": 4
      },
      "id": 2026020033,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T02:00:00Z",
+     "threeMinRecap": "/video/cgy-at-van-recap-6406198701112",
+     "threeMinRecapFr": "/fr/video/cgy-vs-van-03-10-2026-resume-6406201542112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3395,7 +3428,25 @@
       "default": "Rogers Arena"
      },
      "venueTimezone": "America/Vancouver",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "E."
+      },
+      "lastName": {
+       "default": "Pettersson"
+      },
+      "playerId": 8483678
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Meril\u00e4inen"
+      },
+      "playerId": 8482447
+     }
     },
     {
      "awayTeam": {
@@ -3414,13 +3465,16 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
-      "score": 1
+      "score": 4
      },
+     "condensedGame": "/video/lak-at-sjs-condensed-game-6406199280112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/lak-vs-sjs/2026/10/03/2026020034",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -3438,18 +3492,19 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
-      "score": 0
+      "score": 5
      },
      "id": 2026020034,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T02:00:00Z",
+     "threeMinRecap": "/video/lak-at-sjs-recap-6406199471112",
+     "threeMinRecapFr": "/fr/video/lak-vs-sjs-03-10-2026-resume-6406197783112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3472,7 +3527,25 @@
       "fr": "SAP Center de San Jose"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "I."
+      },
+      "lastName": {
+       "default": "Chernyshov"
+      },
+      "playerId": 8484994
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "Y."
+      },
+      "lastName": {
+       "default": "Askarov"
+      },
+      "playerId": 8482137
+     }
     }
    ],
    "numberOfGames": 13
