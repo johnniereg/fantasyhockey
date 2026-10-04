@@ -2,14 +2,14 @@
  "current_week": 1,
  "date_et": "2026-10-03",
  "errors": {},
- "fetched_at_utc": "2026-10-03T22:26:05+00:00",
- "finished_at_utc": "2026-10-03T22:26:17+00:00",
+ "fetched_at_utc": "2026-10-04T02:52:40+00:00",
+ "finished_at_utc": "2026-10-04T02:52:50+00:00",
  "games": {
-  "live_now": 0,
+  "live_now": 3,
   "today": {
    "all_final": false,
    "date": "2026-10-03",
-   "final": 0,
+   "final": 10,
    "games": 13
   },
   "yesterday": {
@@ -71,7 +71,7 @@
   "2026-10-04"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
   "1": [

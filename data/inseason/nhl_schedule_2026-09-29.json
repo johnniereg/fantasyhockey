@@ -2224,32 +2224,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
       "id": 16,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+190"
-       },
-       {
-        "providerId": 8,
-        "value": "+191"
-       },
-       {
-        "providerId": 3,
-        "value": "2.91"
-       },
-       {
-        "providerId": 7,
-        "value": "+198"
-       },
-       {
-        "providerId": 6,
-        "value": "1.44"
-       },
-       {
-        "providerId": 10,
-        "value": "4.00"
-       }
-      ],
       "placeName": {
        "default": "Chicago"
       },
@@ -2257,12 +2231,16 @@
        "default": "Chicago",
        "fr": "de Chicago"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/chi-at-buf-condensed-game-6406193683112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/chi-vs-buf/2026/10/03/2026020022",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -2273,32 +2251,6 @@
       "homeSplitSquad": false,
       "id": 7,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-230"
-       },
-       {
-        "providerId": 8,
-        "value": "-238"
-       },
-       {
-        "providerId": 3,
-        "value": "1.41"
-       },
-       {
-        "providerId": 7,
-        "value": "-245"
-       },
-       {
-        "providerId": 6,
-        "value": "2.81"
-       },
-       {
-        "providerId": 10,
-        "value": "1.75"
-       }
-      ],
       "placeName": {
        "default": "Buffalo"
       },
@@ -2306,19 +2258,19 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "score": 4
      },
      "id": 2026020022,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/000064EFCB087F1F?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM1",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/000064EFCB087F1F?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM1",
+     "threeMinRecap": "/video/chi-at-buf-recap-6406192226112",
+     "threeMinRecapFr": "/fr/video/chi-vs-buf-03-10-2026-resume-6406193210112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2339,7 +2291,25 @@
       "default": "KeyBank Center"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Kulich"
+      },
+      "playerId": 8483468
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "U."
+      },
+      "lastName": {
+       "default": "Luukkonen"
+      },
+      "playerId": 8480045
+     }
     },
     {
      "awayTeam": {
@@ -2352,32 +2322,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.96"
-       },
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 8,
-        "value": "-109"
-       },
-       {
-        "providerId": 7,
-        "value": "-105"
-       },
-       {
-        "providerId": 6,
-        "value": "1.88"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -2385,12 +2329,16 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/ott-at-tor-condensed-game-6406194084112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ott-vs-tor/2026/10/03/2026020023",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "TOR",
@@ -2401,32 +2349,6 @@
       "homeSplitSquad": false,
       "id": 10,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.88"
-       },
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 8,
-        "value": "-114"
-       },
-       {
-        "providerId": 7,
-        "value": "-114"
-       },
-       {
-        "providerId": 6,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Toronto"
       },
@@ -2434,19 +2356,19 @@
        "default": "Toronto",
        "fr": "de Toronto"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8"
+      "score": 2
      },
      "id": 2026020023,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/100064FECCCDF79C?brand=nhl&wt.mc_id=NHL_LEAGUE_TOR_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_TOR&utm_content=SCHED_PG_GM3",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/100064FECCCDF79C?brand=nhl&wt.mc_id=NHL_LEAGUE_TOR_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_TOR&utm_content=SCHED_PG_GM3",
+     "threeMinRecap": "/video/ott-at-tor-recap-6406192834112",
+     "threeMinRecapFr": "/fr/video/ott-vs-tor-03-10-2026-resume-6406193955112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -2460,7 +2382,25 @@
       "default": "Scotiabank Arena"
      },
      "venueTimezone": "America/Toronto",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Halliday"
+      },
+      "playerId": 8483676
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Ullmark"
+      },
+      "playerId": 8476999
+     }
     },
     {
      "awayTeam": {
@@ -2472,32 +2412,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
       "id": 15,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+170"
-       },
-       {
-        "providerId": 8,
-        "value": "+165"
-       },
-       {
-        "providerId": 3,
-        "value": "2.62"
-       },
-       {
-        "providerId": 7,
-        "value": "+164"
-       },
-       {
-        "providerId": 6,
-        "value": "2.54"
-       },
-       {
-        "providerId": 10,
-        "value": "3.55"
-       }
-      ],
       "placeName": {
        "default": "Washington"
       },
@@ -2505,12 +2419,16 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/wsh-at-tbl-condensed-game-6406193896112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/wsh-vs-tbl/2026/10/03/2026020024",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "TBL",
@@ -2521,32 +2439,6 @@
       "homeSplitSquad": false,
       "id": 14,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-205"
-       },
-       {
-        "providerId": 8,
-        "value": "-204"
-       },
-       {
-        "providerId": 3,
-        "value": "1.50"
-       },
-       {
-        "providerId": 7,
-        "value": "-200"
-       },
-       {
-        "providerId": 6,
-        "value": "1.51"
-       },
-       {
-        "providerId": 10,
-        "value": "1.87"
-       }
-      ],
       "placeName": {
        "default": "Tampa Bay"
       },
@@ -2554,19 +2446,19 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
+      "score": 3
      },
      "id": 2026020024,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF209D57?brand=nhl&wt.mc_id=NHL_LEAGUE_TBL_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_TBL&utm_content=SCHED_PG_GM1",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF209D57?brand=nhl&wt.mc_id=NHL_LEAGUE_TBL_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_TBL&utm_content=SCHED_PG_GM1",
+     "threeMinRecap": "/video/wsh-at-tbl-recap-6406192730112",
+     "threeMinRecapFr": "/fr/video/wsh-vs-tbl-03-10-2026-resume-6406195589112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2587,7 +2479,28 @@
       "default": "Benchmark International Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Geekie"
+      },
+      "playerId": 8483447
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "cs": "Vasilevskij",
+       "default": "Vasilevskiy",
+       "fi": "Vasilevski",
+       "sk": "Vasilevskij"
+      },
+      "playerId": 8476883
+     }
     },
     {
      "awayTeam": {
@@ -2599,32 +2512,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
       "id": 12,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.75"
-       },
-       {
-        "providerId": 9,
-        "value": "-130"
-       },
-       {
-        "providerId": 7,
-        "value": "-130"
-       },
-       {
-        "providerId": 8,
-        "value": "-132"
-       },
-       {
-        "providerId": 6,
-        "value": "1.76"
-       },
-       {
-        "providerId": 10,
-        "value": "2.30"
-       }
-      ],
       "placeName": {
        "default": "Carolina",
        "fr": "Caroline"
@@ -2633,12 +2520,16 @@
        "default": "Carolina",
        "fr": "de la Caroline"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/car-at-phi-condensed-game-6406193978112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/car-vs-phi/2026/10/03/2026020025",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PHI",
@@ -2649,32 +2540,6 @@
       "homeSplitSquad": false,
       "id": 4,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.12"
-       },
-       {
-        "providerId": 9,
-        "value": "+110"
-       },
-       {
-        "providerId": 7,
-        "value": "+108"
-       },
-       {
-        "providerId": 8,
-        "value": "+108"
-       },
-       {
-        "providerId": 6,
-        "value": "2.05"
-       },
-       {
-        "providerId": 10,
-        "value": "2.75"
-       }
-      ],
       "placeName": {
        "default": "Philadelphia",
        "fr": "Philadelphie"
@@ -2683,19 +2548,19 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "score": 2
      },
      "id": 2026020025,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/300064EEEE90E144?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/300064EEEE90E144?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM2",
+     "threeMinRecap": "/video/car-at-phi-recap-6406192447112",
+     "threeMinRecapFr": "/fr/video/car-vs-phi-03-10-2026-resume-6406194136112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2723,7 +2588,26 @@
       "default": "Xfinity Mobile Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Gostisbehere"
+      },
+      "playerId": 8476906
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "P."
+      },
+      "lastName": {
+       "default": "Kochetkov",
+       "fi": "Kotshetkov"
+      },
+      "playerId": 8481611
+     }
     },
     {
      "awayTeam": {
@@ -2735,32 +2619,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
       "id": 8,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 8,
-        "value": "-117"
-       },
-       {
-        "providerId": 3,
-        "value": "1.86"
-       },
-       {
-        "providerId": 7,
-        "value": "-118"
-       },
-       {
-        "providerId": 6,
-        "value": "1.95"
-       },
-       {
-        "providerId": 10,
-        "value": "2.40"
-       }
-      ],
       "placeName": {
        "default": "Montr\u00e9al"
       },
@@ -2768,12 +2626,17 @@
        "default": "Montr\u00e9al",
        "fr": "de Montr\u00e9al"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/mtl-at-pit-condensed-game-6406193454112",
+     "condensedGameFr": "/fr/video/match-condense-canadiens-penguins-03-10-2026-6406194422112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/mtl-vs-pit/2026/10/03/2026020026",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PIT",
@@ -2784,32 +2647,6 @@
       "homeSplitSquad": false,
       "id": 5,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 8,
-        "value": "-105"
-       },
-       {
-        "providerId": 3,
-        "value": "1.98"
-       },
-       {
-        "providerId": 7,
-        "value": "-102"
-       },
-       {
-        "providerId": 6,
-        "value": "1.84"
-       },
-       {
-        "providerId": 10,
-        "value": "2.55"
-       }
-      ],
       "placeName": {
        "default": "Pittsburgh"
       },
@@ -2817,19 +2654,19 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
+      "score": 6
      },
      "id": 2026020026,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/160064EAF5E9B973?brand=nhl&wt.mc_id=NHL_LEAGUE_PIT_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PIT&utm_content=SCHED_PG_GM1&camefrom=NHLPENGUINS_WEB_NHL_SCHEDULE_PG",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF5E9B973?brand=nhl&wt.mc_id=NHL_LEAGUE_PIT_SCHED_PG_GM1&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PIT&utm_content=SCHED_PG_GM1&camefrom=NHLPENGUINS_WEB_NHL_SCHEDULE_PG",
+     "threeMinRecap": "/video/mtl-at-pit-recap-6406194502112",
+     "threeMinRecapFr": "/fr/video/mtl-vs-pit-03-10-2026-resume-6406196390112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -2857,7 +2694,27 @@
       "default": "PPG Paints Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Novak"
+      },
+      "playerId": 8478438
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "cs": "\u0160ilovs",
+       "default": "Silovs",
+       "sk": "\u0160ilovs"
+      },
+      "playerId": 8481668
+     }
     },
     {
      "awayTeam": {
@@ -2869,28 +2726,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg",
       "id": 68,
       "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.87"
-       },
-       {
-        "providerId": 9,
-        "value": "-118"
-       },
-       {
-        "providerId": 8,
-        "value": "-118"
-       },
-       {
-        "providerId": 7,
-        "value": "-120"
-       },
-       {
-        "providerId": 6,
-        "value": "1.87"
-       }
-      ],
       "placeName": {
        "default": "Utah"
       },
@@ -2898,12 +2733,16 @@
        "default": "Utah",
        "fr": "de l'Utah"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/uta-at-cbj-condensed-game-6406194368112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/uta-vs-cbj/2026/10/03/2026020027",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CBJ",
@@ -2914,28 +2753,6 @@
       "homeSplitSquad": false,
       "id": 29,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.98"
-       },
-       {
-        "providerId": 9,
-        "value": "-102"
-       },
-       {
-        "providerId": 8,
-        "value": "-104"
-       },
-       {
-        "providerId": 7,
-        "value": "+100"
-       },
-       {
-        "providerId": 6,
-        "value": "1.94"
-       }
-      ],
       "placeName": {
        "default": "Columbus"
       },
@@ -2943,19 +2760,19 @@
        "default": "Columbus",
        "fr": "de Columbus"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8"
+      "score": 1
      },
      "id": 2026020027,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/050064EDB0B27FDB?brand=nhl&wt.mc_id=NHL_LEAGUE_CBJ_SCHED_PG_GM2&utm_source=web_schedule&utm_medium=NHL.com&utm_campaign=NHL_LEAGUE_CBJ&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDB0B27FDB?brand=nhl&wt.mc_id=NHL_LEAGUE_CBJ_SCHED_PG_GM2&utm_source=web_schedule&utm_medium=NHL.com&utm_campaign=NHL_LEAGUE_CBJ&utm_content=SCHED_PG_GM2",
+     "threeMinRecap": "/video/uta-at-cbj-recap-6406191636112",
+     "threeMinRecapFr": "/fr/video/uta-vs-cbj-03-10-2026-resume-6406193836112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2983,7 +2800,25 @@
       "default": "Nationwide Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "N."
+      },
+      "lastName": {
+       "default": "Schmaltz"
+      },
+      "playerId": 8477951
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Cossa"
+      },
+      "playerId": 8482657
+     }
     },
     {
      "awayTeam": {
@@ -2995,32 +2830,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
       "id": 55,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.61"
-       },
-       {
-        "providerId": 9,
-        "value": "+170"
-       },
-       {
-        "providerId": 8,
-        "value": "+166"
-       },
-       {
-        "providerId": 7,
-        "value": "+164"
-       },
-       {
-        "providerId": 6,
-        "value": "1.50"
-       },
-       {
-        "providerId": 10,
-        "value": "3.60"
-       }
-      ],
       "placeName": {
        "default": "Seattle"
       },
@@ -3028,12 +2837,16 @@
        "default": "Seattle",
        "fr": "de Seattle"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20262027/SEA-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/sea-at-edm-condensed-game-6406192241112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/sea-vs-edm/2026/10/03/2026020028",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "EDM",
@@ -3044,32 +2857,6 @@
       "homeSplitSquad": false,
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.50"
-       },
-       {
-        "providerId": 9,
-        "value": "-205"
-       },
-       {
-        "providerId": 8,
-        "value": "-207"
-       },
-       {
-        "providerId": 7,
-        "value": "-200"
-       },
-       {
-        "providerId": 6,
-        "value": "2.60"
-       },
-       {
-        "providerId": 10,
-        "value": "1.85"
-       }
-      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -3077,19 +2864,19 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 3
      },
      "id": 2026020028,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006513A5E5A439?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A5E5A439?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM2",
+     "threeMinRecap": "/video/sea-at-edm-recap-6406192732112",
+     "threeMinRecapFr": "/fr/video/sea-vs-edm-03-10-2026-resume-6406195199112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3124,7 +2911,25 @@
       "default": "Rogers Place"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Draisaitl"
+      },
+      "playerId": 8477934
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Levi"
+      },
+      "playerId": 8482221
+     }
     },
     {
      "awayTeam": {
@@ -3136,32 +2941,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
       "id": 1,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 8,
-        "value": "-139"
-       },
-       {
-        "providerId": 3,
-        "value": "1.74"
-       },
-       {
-        "providerId": 7,
-        "value": "-137"
-       },
-       {
-        "providerId": 6,
-        "value": "2.11"
-       },
-       {
-        "providerId": 10,
-        "value": "2.20"
-       }
-      ],
       "placeName": {
        "default": "New Jersey"
       },
@@ -3169,12 +2948,16 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "score": 0
      },
+     "condensedGame": "/video/njd-at-nyi-condensed-game-6406195795112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/njd-vs-nyi/2026/10/03/2026020029",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NYI",
@@ -3185,32 +2968,6 @@
       "homeSplitSquad": false,
       "id": 2,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 8,
-        "value": "+114"
-       },
-       {
-        "providerId": 3,
-        "value": "2.13"
-       },
-       {
-        "providerId": 7,
-        "value": "+114"
-       },
-       {
-        "providerId": 6,
-        "value": "1.72"
-       },
-       {
-        "providerId": 10,
-        "value": "2.85"
-       }
-      ],
       "placeName": {
        "default": "New York"
       },
@@ -3218,19 +2975,19 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8"
+      "score": 6
      },
      "id": 2026020029,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-03T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/300064E2D24B6194?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_SCHED_PG_GM1&utm_source=nhl_website&utm_medium=leagueschedule&utm_campaign=NHL_LEAGUE_NYI&utm_content=SCHED_PG_GM1",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/300064E2D24B6194?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_SCHED_PG_GM1&utm_source=nhl_website&utm_medium=leagueschedule&utm_campaign=NHL_LEAGUE_NYI&utm_content=SCHED_PG_GM1",
+     "threeMinRecap": "/video/njd-at-nyi-recap-6406193646112",
+     "threeMinRecapFr": "/fr/video/njd-vs-nyi-03-10-2026-resume-6406194732112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3251,7 +3008,29 @@
       "default": "UBS Arena"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "cs": "Holmstr\u00f6m",
+       "default": "Holmstrom",
+       "fi": "Holmstr\u00f6m",
+       "sk": "Holmstr\u00f6m",
+       "sv": "Holmstr\u00f6m"
+      },
+      "playerId": 8481601
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "I."
+      },
+      "lastName": {
+       "default": "Sorokin"
+      },
+      "playerId": 8478009
+     }
     },
     {
      "awayTeam": {
@@ -3263,32 +3042,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
       "id": 25,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.70"
-       },
-       {
-        "providerId": 9,
-        "value": "-142"
-       },
-       {
-        "providerId": 7,
-        "value": "-140"
-       },
-       {
-        "providerId": 8,
-        "value": "-143"
-       },
-       {
-        "providerId": 6,
-        "value": "1.71"
-       },
-       {
-        "providerId": 10,
-        "value": "2.17"
-       }
-      ],
       "placeName": {
        "default": "Dallas"
       },
@@ -3296,12 +3049,16 @@
        "default": "Dallas",
        "fr": "de Dallas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/dal-at-nsh-condensed-game-6406196700112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/dal-vs-nsh/2026/10/03/2026020030",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "FINAL",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NSH",
@@ -3312,32 +3069,6 @@
       "homeSplitSquad": false,
       "id": 18,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.19"
-       },
-       {
-        "providerId": 9,
-        "value": "+120"
-       },
-       {
-        "providerId": 7,
-        "value": "+116"
-       },
-       {
-        "providerId": 8,
-        "value": "+117"
-       },
-       {
-        "providerId": 6,
-        "value": "2.14"
-       },
-       {
-        "providerId": 10,
-        "value": "2.85"
-       }
-      ],
       "placeName": {
        "default": "Nashville"
       },
@@ -3345,19 +3076,18 @@
        "default": "Nashville",
        "fr": "de Nashville"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+      "score": 2
      },
      "id": 2026020030,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1B006507EFE4E420?brand=nhl&wt.mc_id=NHL_LEAGUE_NSH_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_NSH&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507EFE4E420?brand=nhl&wt.mc_id=NHL_LEAGUE_NSH_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_NSH&utm_content=SCHED_PG_GM2",
+     "threeMinRecap": "/video/dal-at-nsh-recap-6406196115112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3378,7 +3108,29 @@
       "default": "Bridgestone Arena"
      },
      "venueTimezone": "US/Central",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "N."
+      },
+      "lastName": {
+       "cs": "H\u00f6glander",
+       "default": "Hoglander",
+       "fi": "H\u00f6glander",
+       "sk": "H\u00f6glander",
+       "sv": "H\u00f6glander"
+      },
+      "playerId": 8481535
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Saros"
+      },
+      "playerId": 8477424
+     }
     },
     {
      "awayTeam": {
@@ -3390,32 +3142,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
       "id": 6,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+170"
-       },
-       {
-        "providerId": 3,
-        "value": "2.70"
-       },
-       {
-        "providerId": 7,
-        "value": "+176"
-       },
-       {
-        "providerId": 8,
-        "value": "+170"
-       },
-       {
-        "providerId": 6,
-        "value": "2.64"
-       },
-       {
-        "providerId": 10,
-        "value": "3.70"
-       }
-      ],
       "placeName": {
        "default": "Boston"
       },
@@ -3423,12 +3149,15 @@
        "default": "Boston",
        "fr": "de Boston"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+      "score": 1
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/bos-vs-min/2026/10/03/2026020031",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "FINAL",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "MIN",
@@ -3439,32 +3168,6 @@
       "homeSplitSquad": false,
       "id": 30,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-205"
-       },
-       {
-        "providerId": 3,
-        "value": "1.47"
-       },
-       {
-        "providerId": 7,
-        "value": "-215"
-       },
-       {
-        "providerId": 8,
-        "value": "-210"
-       },
-       {
-        "providerId": 6,
-        "value": "1.48"
-       },
-       {
-        "providerId": 10,
-        "value": "1.83"
-       }
-      ],
       "placeName": {
        "default": "Minnesota"
       },
@@ -3472,19 +3175,17 @@
        "default": "Minnesota",
        "fr": "du Minnesota"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+      "score": 4
      },
      "id": 2026020031,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T00:00:00Z",
-     "ticketsLink": "https://mnwild.co/nbtcp3gl",
-     "ticketsLinkFr": "https://mnwild.co/nbtcp3gl",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3519,7 +3220,25 @@
       "default": "Grand Casino Arena"
      },
      "venueTimezone": "US/Central",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "Q."
+      },
+      "lastName": {
+       "default": "Hughes"
+      },
+      "playerId": 8480800
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Wallstedt"
+      },
+      "playerId": 8482661
+     }
     },
     {
      "awayTeam": {
@@ -3531,32 +3250,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg",
       "id": 19,
       "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "3.28"
-       },
-       {
-        "providerId": 9,
-        "value": "+230"
-       },
-       {
-        "providerId": 7,
-        "value": "+240"
-       },
-       {
-        "providerId": 8,
-        "value": "+234"
-       },
-       {
-        "providerId": 6,
-        "value": "3.20"
-       },
-       {
-        "providerId": 10,
-        "value": "4.70"
-       }
-      ],
       "placeName": {
        "default": "St. Louis"
       },
@@ -3564,12 +3257,13 @@
        "default": "St. Louis",
        "fr": "de St. Louis"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/stl-vs-col/2026/10/03/2026020032",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "COL",
@@ -3580,32 +3274,6 @@
       "homeSplitSquad": false,
       "id": 21,
       "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.34"
-       },
-       {
-        "providerId": 9,
-        "value": "-285"
-       },
-       {
-        "providerId": 7,
-        "value": "-300"
-       },
-       {
-        "providerId": 8,
-        "value": "-297"
-       },
-       {
-        "providerId": 6,
-        "value": "1.35"
-       },
-       {
-        "providerId": 10,
-        "value": "1.63"
-       }
-      ],
       "placeName": {
        "default": "Colorado"
       },
@@ -3613,19 +3281,18 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
+      "score": 6
      },
      "id": 2026020032,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T01:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1E0064EEB2A99EA3?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1E0064EEB2A99EA3?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM2",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3665,32 +3332,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.95"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 7,
-        "value": "-105"
-       },
-       {
-        "providerId": 8,
-        "value": "-110"
-       },
-       {
-        "providerId": 6,
-        "value": "1.91"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -3698,12 +3339,13 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8",
+      "score": 1
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/cgy-vs-van/2026/10/03/2026020033",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VAN",
@@ -3714,32 +3356,6 @@
       "homeSplitSquad": false,
       "id": 23,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.89"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 7,
-        "value": "-114"
-       },
-       {
-        "providerId": 8,
-        "value": "-112"
-       },
-       {
-        "providerId": 6,
-        "value": "1.89"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Vancouver"
       },
@@ -3747,7 +3363,8 @@
        "default": "Vancouver",
        "fr": "de Vancouver"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8",
+      "score": 0
      },
      "id": 2026020033,
      "neutralSite": false,
@@ -3758,8 +3375,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T02:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006503F081BB3C?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM2&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F081BB3C?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM2&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3792,32 +3407,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
       "id": 26,
       "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.93"
-       },
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 7,
-        "value": "-104"
-       },
-       {
-        "providerId": 8,
-        "value": "-106"
-       },
-       {
-        "providerId": 6,
-        "value": "1.88"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Los Angeles"
       },
@@ -3825,12 +3414,13 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
+      "score": 1
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/lak-vs-sjs/2026/10/03/2026020034",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -3841,32 +3431,6 @@
       "homeSplitSquad": false,
       "id": 28,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.91"
-       },
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 7,
-        "value": "-115"
-       },
-       {
-        "providerId": 8,
-        "value": "-116"
-       },
-       {
-        "providerId": 6,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "San Jose"
       },
@@ -3874,7 +3438,8 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
+      "score": 0
      },
      "id": 2026020034,
      "neutralSite": false,
@@ -3885,8 +3450,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-04T02:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1C0064E79AB19B37?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1C0064E79AB19B37?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM2",
      "tvBroadcasts": [
       {
        "countryCode": "US",

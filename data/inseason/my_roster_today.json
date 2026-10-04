@@ -198,7 +198,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -312,7 +312,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -750,11 +750,139 @@
           ]
          },
          {
-          "is_editable": 1
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-03"
+           },
+           {
+            "is_starting": 0
+           }
+          ]
+         },
+         {
+          "is_editable": 0
          }
         ]
        },
        "14": {
+        "player": [
+         [
+          {
+           "player_key": "477.p.30111"
+          },
+          {
+           "player_id": "30111"
+          },
+          {
+           "name": {
+            "ascii_first": "Devon",
+            "ascii_last": "Levi",
+            "first": "Devon",
+            "full": "Devon Levi",
+            "last": "Levi"
+           }
+          },
+          {
+           "url": "https://sports.yahoo.com/nhl/players/30111"
+          },
+          {
+           "editorial_player_key": "nhl.p.30111"
+          },
+          {
+           "editorial_team_key": "nhl.t.6"
+          },
+          {
+           "editorial_team_full_name": "Edmonton Oilers"
+          },
+          {
+           "editorial_team_abbr": "EDM"
+          },
+          {
+           "editorial_team_url": "https://sports.yahoo.com/nhl/teams/edmonton/"
+          },
+          {
+           "is_keeper": {
+            "cost": false,
+            "kept": false,
+            "status": false
+           }
+          },
+          {
+           "uniform_number": "27"
+          },
+          {
+           "display_position": "G"
+          },
+          {
+           "headshot": {
+            "size": "small",
+            "url": "https://s.yimg.com/iu/api/res/1.2/75zv_4mTFboiUFTHYkmnRw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10092025/30111.png"
+           },
+           "image_url": "https://s.yimg.com/iu/api/res/1.2/75zv_4mTFboiUFTHYkmnRw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10092025/30111.png"
+          },
+          {
+           "is_undroppable": "0"
+          },
+          {
+           "position_type": "G"
+          },
+          {
+           "primary_position": "G"
+          },
+          {
+           "eligible_positions": [
+            {
+             "position": "G"
+            }
+           ]
+          },
+          {
+           "eligible_positions_to_add": []
+          },
+          [],
+          [],
+          {
+           "has_player_notes": 1
+          },
+          {
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791067349
+          }
+         ],
+         {
+          "selected_position": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-03"
+           },
+           {
+            "position": "G"
+           },
+           {
+            "is_flex": 0
+           }
+          ]
+         },
+         {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-03"
+           },
+           {
+            "is_starting": 1
+           }
+          ]
+         },
+         {
+          "is_editable": 0
+         }
+        ]
+       },
+       "15": {
         "player": [
          [
           {
@@ -846,110 +974,6 @@
             "date": "2026-10-03"
            },
            {
-            "position": "G"
-           },
-           {
-            "is_flex": 0
-           }
-          ]
-         },
-         {
-          "is_editable": 1
-         }
-        ]
-       },
-       "15": {
-        "player": [
-         [
-          {
-           "player_key": "477.p.30111"
-          },
-          {
-           "player_id": "30111"
-          },
-          {
-           "name": {
-            "ascii_first": "Devon",
-            "ascii_last": "Levi",
-            "first": "Devon",
-            "full": "Devon Levi",
-            "last": "Levi"
-           }
-          },
-          {
-           "url": "https://sports.yahoo.com/nhl/players/30111"
-          },
-          {
-           "editorial_player_key": "nhl.p.30111"
-          },
-          {
-           "editorial_team_key": "nhl.t.6"
-          },
-          {
-           "editorial_team_full_name": "Edmonton Oilers"
-          },
-          {
-           "editorial_team_abbr": "EDM"
-          },
-          {
-           "editorial_team_url": "https://sports.yahoo.com/nhl/teams/edmonton/"
-          },
-          {
-           "is_keeper": {
-            "cost": false,
-            "kept": false,
-            "status": false
-           }
-          },
-          {
-           "uniform_number": "27"
-          },
-          {
-           "display_position": "G"
-          },
-          {
-           "headshot": {
-            "size": "small",
-            "url": "https://s.yimg.com/iu/api/res/1.2/75zv_4mTFboiUFTHYkmnRw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10092025/30111.png"
-           },
-           "image_url": "https://s.yimg.com/iu/api/res/1.2/75zv_4mTFboiUFTHYkmnRw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10092025/30111.png"
-          },
-          {
-           "is_undroppable": "0"
-          },
-          {
-           "position_type": "G"
-          },
-          {
-           "primary_position": "G"
-          },
-          {
-           "eligible_positions": [
-            {
-             "position": "G"
-            }
-           ]
-          },
-          {
-           "eligible_positions_to_add": []
-          },
-          [],
-          [],
-          {
-           "has_player_notes": 1
-          },
-          [],
-          {
-           "player_notes_last_timestamp": 1790921808
-          }
-         ],
-         {
-          "selected_position": [
-           {
-            "coverage_type": "date",
-            "date": "2026-10-03"
-           },
-           {
             "position": "BN"
            },
            {
@@ -958,7 +982,18 @@
           ]
          },
          {
-          "is_editable": 1
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-03"
+           },
+           {
+            "is_starting": 0
+           }
+          ]
+         },
+         {
+          "is_editable": 0
          }
         ]
        },
@@ -1068,7 +1103,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1182,7 +1217,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1296,7 +1331,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1410,7 +1445,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1746,7 +1781,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1862,7 +1897,7 @@
           ]
          },
          {
-          "is_editable": 1
+          "is_editable": 0
          }
         ]
        },
@@ -1881,7 +1916,7 @@
     }
    }
   ],
-  "time": "72.751045227051ms",
+  "time": "69.967031478882ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-03/players"
  }
