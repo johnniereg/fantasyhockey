@@ -1,33 +1,33 @@
 {
- "current_week": 1,
- "date_et": "2026-10-04",
+ "current_week": 2,
+ "date_et": "2026-10-05",
  "errors": {},
- "fetched_at_utc": "2026-10-04T22:31:55+00:00",
- "finished_at_utc": "2026-10-04T22:32:10+00:00",
+ "fetched_at_utc": "2026-10-05T09:41:08+00:00",
+ "finished_at_utc": "2026-10-05T09:41:18+00:00",
  "games": {
-  "live_now": 1,
+  "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-10-04",
-   "final": 1,
-   "games": 5
+   "date": "2026-10-05",
+   "final": 0,
+   "games": 4
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-10-03",
-   "final": 13,
-   "games": 13
+   "date": "2026-10-04",
+   "final": 5,
+   "games": 5
   }
  },
  "league_key": "477.l.12088",
- "next_opp_team_key": "477.l.12088.t.5",
+ "next_opp_team_key": "477.l.12088.t.7",
  "nhl_blocks": [
-  "2026-09-29",
-  "2026-10-06"
+  "2026-10-05",
+  "2026-10-12"
  ],
  "nhl_range": [
-  "2026-09-29",
-  "2026-10-11"
+  "2026-10-05",
+  "2026-10-18"
  ],
  "ok": [
   "league_settings",
@@ -38,9 +38,22 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-10-04",
-  "opp_roster_2026-10-04",
+  "my_roster_2026-10-05",
+  "opp_roster_2026-10-05",
+  "my_roster_2026-10-06",
+  "opp_roster_2026-10-06",
+  "my_roster_2026-10-07",
+  "opp_roster_2026-10-07",
+  "my_roster_2026-10-08",
+  "opp_roster_2026-10-08",
+  "my_roster_2026-10-09",
+  "opp_roster_2026-10-09",
+  "my_roster_2026-10-10",
+  "opp_roster_2026-10-10",
+  "my_roster_2026-10-11",
+  "opp_roster_2026-10-11",
   "scoreboard_current",
+  "scoreboard_previous",
   "all_rosters",
   "roster_moves_log",
   "transactions",
@@ -59,25 +72,31 @@
   "fa_RW_lastweek",
   "fa_D_lastweek",
   "fa_G_lastweek",
-  "nhl_schedule_2026-09-29",
-  "nhl_schedule_2026-10-06",
+  "nhl_schedule_2026-10-05",
+  "nhl_schedule_2026-10-12",
   "nhl_standings"
  ],
- "opp_team_key": "477.l.12088.t.9",
+ "opp_team_key": "477.l.12088.t.5",
  "roster_dates": [
-  "2026-10-04"
+  "2026-10-05",
+  "2026-10-06",
+  "2026-10-07",
+  "2026-10-08",
+  "2026-10-09",
+  "2026-10-10",
+  "2026-10-11"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
-  "1": [
-   "2026-09-29",
-   "2026-10-04"
-  ],
   "2": [
    "2026-10-05",
    "2026-10-11"
+  ],
+  "3": [
+   "2026-10-12",
+   "2026-10-18"
   ]
  }
 }
