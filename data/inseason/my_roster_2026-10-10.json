@@ -406,9 +406,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791202245
           }
@@ -971,9 +969,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791201931
           }
@@ -1357,6 +1353,13 @@
            "url": "https://sports.yahoo.com/nhl/players/32790"
           },
           {
+           "status": "O",
+           "status_full": "Out"
+          },
+          {
+           "injury_note": "Lower Body"
+          },
+          {
            "editorial_player_key": "nhl.p.32790"
           },
           {
@@ -1404,6 +1407,9 @@
            "eligible_positions": [
             {
              "position": "RW"
+            },
+            {
+             "position": "IR+"
             }
            ]
           },
@@ -1425,9 +1431,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791125083
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791297957
           }
          ],
          {
@@ -1922,7 +1930,7 @@
     }
    }
   ],
-  "time": "78.243017196655ms",
+  "time": "75.303077697754ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-10/players"
  }
