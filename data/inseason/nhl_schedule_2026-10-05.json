@@ -15,32 +15,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
       "id": 4,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-      "odds": [
-       {
-        "providerId": 7,
-        "value": "+184"
-       },
-       {
-        "providerId": 9,
-        "value": "+180"
-       },
-       {
-        "providerId": 8,
-        "value": "+178"
-       },
-       {
-        "providerId": 6,
-        "value": "3.10"
-       },
-       {
-        "providerId": 3,
-        "value": "2.80"
-       },
-       {
-        "providerId": 10,
-        "value": "3.95"
-       }
-      ],
       "placeName": {
        "default": "Philadelphia",
        "fr": "Philadelphie"
@@ -49,12 +23,13 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8",
+      "score": 1
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/phi-vs-tbl/2026/10/05/2026020040",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "TBL",
@@ -65,32 +40,6 @@
       "homeSplitSquad": false,
       "id": 14,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-      "odds": [
-       {
-        "providerId": 7,
-        "value": "-225"
-       },
-       {
-        "providerId": 9,
-        "value": "-218"
-       },
-       {
-        "providerId": 8,
-        "value": "-222"
-       },
-       {
-        "providerId": 6,
-        "value": "1.37"
-       },
-       {
-        "providerId": 3,
-        "value": "1.44"
-       },
-       {
-        "providerId": 10,
-        "value": "1.77"
-       }
-      ],
       "placeName": {
        "default": "Tampa Bay"
       },
@@ -98,19 +47,18 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
+      "score": 2
      },
      "id": 2026020040,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/0D0064F8CF249D61?brand=nhl&wt.mc_id=NHL_LEAGUE_TBL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_TBL&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/0D0064F8CF249D61?brand=nhl&wt.mc_id=NHL_LEAGUE_TBL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_TBL&utm_content=SCHED_PG_GM2",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -151,32 +99,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.85"
-       },
-       {
-        "providerId": 7,
-        "value": "-118"
-       },
-       {
-        "providerId": 9,
-        "value": "-118"
-       },
-       {
-        "providerId": 8,
-        "value": "-118"
-       },
-       {
-        "providerId": 6,
-        "value": "1.87"
-       },
-       {
-        "providerId": 10,
-        "value": "2.40"
-       }
-      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -184,12 +106,13 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8",
+      "score": 4
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ott-vs-bos/2026/10/05/2026020041",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BOS",
@@ -200,32 +123,6 @@
       "homeSplitSquad": false,
       "id": 6,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.00"
-       },
-       {
-        "providerId": 7,
-        "value": "-102"
-       },
-       {
-        "providerId": 9,
-        "value": "-102"
-       },
-       {
-        "providerId": 8,
-        "value": "-104"
-       },
-       {
-        "providerId": 6,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.60"
-       }
-      ],
       "placeName": {
        "default": "Boston"
       },
@@ -233,19 +130,18 @@
        "default": "Boston",
        "fr": "de Boston"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
+      "score": 0
      },
      "id": 2026020041,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/010064EDC4EC799C?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC4EC799C?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCHED_PG_GM2",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -285,32 +181,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
       "id": 52,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.46"
-       },
-       {
-        "providerId": 7,
-        "value": "+150"
-       },
-       {
-        "providerId": 9,
-        "value": "+150"
-       },
-       {
-        "providerId": 8,
-        "value": "+147"
-       },
-       {
-        "providerId": 6,
-        "value": "1.57"
-       },
-       {
-        "providerId": 10,
-        "value": "3.30"
-       }
-      ],
       "placeName": {
        "default": "Winnipeg"
       },
@@ -318,12 +188,13 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PIT",
@@ -334,32 +205,6 @@
       "homeSplitSquad": false,
       "id": 5,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.56"
-       },
-       {
-        "providerId": 7,
-        "value": "-182"
-       },
-       {
-        "providerId": 9,
-        "value": "-180"
-       },
-       {
-        "providerId": 8,
-        "value": "-181"
-       },
-       {
-        "providerId": 6,
-        "value": "2.42"
-       },
-       {
-        "providerId": 10,
-        "value": "1.95"
-       }
-      ],
       "placeName": {
        "default": "Pittsburgh"
       },
@@ -367,19 +212,18 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
+      "score": 0
      },
      "id": 2026020042,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/160064EAF574B896?brand=nhl&wt.mc_id=NHL_LEAGUE_PIT_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PIT&utm_content=SCHED_PG_GM2&camefrom=NHLPENGUINS_WEB_NHL_SCHEDULE_PG",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/160064EAF574B896?brand=nhl&wt.mc_id=NHL_LEAGUE_PIT_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PIT&utm_content=SCHED_PG_GM2&camefrom=NHLPENGUINS_WEB_NHL_SCHEDULE_PG",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -412,32 +256,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
       "id": 28,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
-      "odds": [
-       {
-        "providerId": 7,
-        "value": "+168"
-       },
-       {
-        "providerId": 9,
-        "value": "+170"
-       },
-       {
-        "providerId": 3,
-        "value": "2.64"
-       },
-       {
-        "providerId": 6,
-        "value": "2.40"
-       },
-       {
-        "providerId": 8,
-        "value": "+163"
-       },
-       {
-        "providerId": 10,
-        "value": "3.55"
-       }
-      ],
       "placeName": {
        "default": "San Jose"
       },
@@ -445,12 +263,13 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/sjs-vs-dal/2026/10/05/2026020043",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "DAL",
@@ -461,32 +280,6 @@
       "homeSplitSquad": false,
       "id": 25,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-      "odds": [
-       {
-        "providerId": 7,
-        "value": "-205"
-       },
-       {
-        "providerId": 9,
-        "value": "-205"
-       },
-       {
-        "providerId": 3,
-        "value": "1.49"
-       },
-       {
-        "providerId": 6,
-        "value": "1.57"
-       },
-       {
-        "providerId": 8,
-        "value": "-202"
-       },
-       {
-        "providerId": 10,
-        "value": "1.85"
-       }
-      ],
       "placeName": {
        "default": "Dallas"
       },
@@ -494,19 +287,18 @@
        "default": "Dallas",
        "fr": "de Dallas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8",
+      "score": 1
      },
      "id": 2026020043,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-06T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/0C0064EDDB82A477?brand=nhl&wt.mc_id=NHL_LEAGUE_DAL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DAL&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/0C0064EDDB82A477?brand=nhl&wt.mc_id=NHL_LEAGUE_DAL_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DAL&utm_content=SCHED_PG_GM2",
      "tvBroadcasts": [
       {
        "countryCode": "US",
