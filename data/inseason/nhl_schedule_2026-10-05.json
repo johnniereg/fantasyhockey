@@ -23,13 +23,16 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8",
       "score": 1
      },
+     "condensedGame": "/video/phi-at-tbl-condensed-game-6406334910112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/phi-vs-tbl/2026/10/05/2026020040",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "TBL",
@@ -47,18 +50,19 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
-      "score": 2
+      "score": 4
      },
      "id": 2026020040,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:00:00Z",
+     "threeMinRecap": "/video/phi-at-tbl-recap-6406336676112",
+     "threeMinRecapFr": "/fr/video/phi-vs-tbl-05-10-2026-resume-6406336587112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -86,7 +90,28 @@
       "default": "Benchmark International Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "P."
+      },
+      "lastName": {
+       "default": "Holmberg"
+      },
+      "playerId": 8480995
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "cs": "Vasilevskij",
+       "default": "Vasilevskiy",
+       "fi": "Vasilevski",
+       "sk": "Vasilevskij"
+      },
+      "playerId": 8476883
+     }
     },
     {
      "awayTeam": {
@@ -106,13 +131,17 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8",
       "score": 4
      },
+     "condensedGame": "/video/ott-at-bos-condensed-game-6406335815112",
+     "condensedGameFr": "/fr/video/match-condense-senators-bruins-05-10-2026-6406337501112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ott-vs-bos/2026/10/05/2026020041",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BOS",
@@ -130,18 +159,19 @@
        "default": "Boston",
        "fr": "de Boston"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8",
-      "score": 0
+      "score": 1
      },
      "id": 2026020041,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:30:00Z",
+     "threeMinRecap": "/video/ott-at-bos-recap-6406336403112",
+     "threeMinRecapFr": "/fr/video/ott-vs-bos-05-10-2026-resume-6406337313112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -169,7 +199,25 @@
       "default": "TD Garden"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "St\u00fctzle"
+      },
+      "playerId": 8482116
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Ullmark"
+      },
+      "playerId": 8476999
+     }
     },
     {
      "awayTeam": {
@@ -188,13 +236,16 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
-      "score": 0
+      "score": 3
      },
+     "condensedGame": "/video/wpg-at-pit-condensed-game-6406336033112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/wpg-vs-pit/2026/10/05/2026020042",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PIT",
@@ -212,18 +263,19 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
-      "score": 0
+      "score": 2
      },
      "id": 2026020042,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-05T23:30:00Z",
+     "threeMinRecap": "/video/wpg-at-pit-recap-6406337204112",
+     "threeMinRecapFr": "/fr/video/wpg-vs-pit-05-10-2026-resume-6406337137112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -244,7 +296,25 @@
       "default": "PPG Paints Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Perfetti"
+      },
+      "playerId": 8482149
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Stevenson"
+      },
+      "playerId": 8483532
+     }
     },
     {
      "awayTeam": {
@@ -263,13 +333,16 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
       "score": 0
      },
+     "condensedGame": "/video/sjs-at-dal-condensed-game-6406337144112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/sjs-vs-dal/2026/10/05/2026020043",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "DAL",
@@ -287,18 +360,19 @@
        "default": "Dallas",
        "fr": "de Dallas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8",
-      "score": 1
+      "score": 5
      },
      "id": 2026020043,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-06T00:00:00Z",
+     "threeMinRecap": "/video/sjs-at-dal-recap-6406337023112",
+     "threeMinRecapFr": "/fr/video/sjs-vs-dal-05-10-2026-resume-6406336154112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -319,7 +393,25 @@
       "default": "American Airlines Center"
      },
      "venueTimezone": "US/Central",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Heiskanen"
+      },
+      "playerId": 8480036
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Oettinger"
+      },
+      "playerId": 8479979
+     }
     }
    ],
    "numberOfGames": 4
