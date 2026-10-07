@@ -1375,6 +1375,17 @@
         }
        ],
        {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-10-08"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
+       {
         "player_stats": {
          "0": {
           "coverage_type": "lastweek"
@@ -1785,9 +1796,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791120815
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791388457
         }
        ],
        {
@@ -2861,9 +2874,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/Q0BFHF90VsQiDPFympk7EA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10272025/5734.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/69kGFtMeVj7k75Wm__xfhg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5734.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/Q0BFHF90VsQiDPFympk7EA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10272025/5734.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/69kGFtMeVj7k75Wm__xfhg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5734.png"
         },
         {
          "is_undroppable": "0"
@@ -3508,7 +3521,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "99.199056625366ms",
+  "time": "82.257986068726ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/stats;type=lastweek"
  }
