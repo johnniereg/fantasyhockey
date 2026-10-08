@@ -1219,9 +1219,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/zi4DVjbENtfR2a8IKKpEQw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10162025/5756.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/YlENf_q2TB_Ove31GyU6yA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/zi4DVjbENtfR2a8IKKpEQw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10162025/5756.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/YlENf_q2TB_Ove31GyU6yA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.png"
         },
         {
          "is_undroppable": "0"
@@ -1611,11 +1611,14 @@
          "url": "https://sports.yahoo.com/nhl/players/7157"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Upper Body"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.7157"
@@ -1667,6 +1670,9 @@
            "position": "D"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -1689,9 +1695,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791341912
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791477531
         }
        ],
        {
@@ -3584,7 +3592,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "110.66293716431ms",
+  "time": "126.48487091064ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/stats;type=lastweek"
  }
