@@ -1380,13 +1380,16 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
-      "score": 1
+      "score": 3
      },
+     "condensedGame": "/video/pit-at-wsh-condensed-game-6406448569112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/pit-vs-wsh/2026/10/07/2026020053",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WSH",
@@ -1404,18 +1407,19 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8",
-      "score": 1
+      "score": 5
      },
      "id": 2026020053,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-07T23:30:00Z",
+     "threeMinRecap": "/video/pit-at-wsh-recap-6406449956112",
+     "threeMinRecapFr": "/fr/video/pit-vs-wsh-07-10-2026-resume-6406451929112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1436,7 +1440,25 @@
       "default": "Capital One Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Tuch"
+      },
+      "playerId": 8477949
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Thompson"
+      },
+      "playerId": 8480313
+     }
     },
     {
      "awayTeam": {
@@ -1455,13 +1477,17 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8",
-      "score": 0
+      "score": 2
      },
+     "condensedGame": "/video/col-at-wpg-condensed-game-6406452129112",
+     "condensedGameFr": "/fr/video/match-condense-avalanche-jets-07-10-2026-6406452326112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/col-vs-wpg/2026/10/07/2026020054",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WPG",
@@ -1479,18 +1505,19 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8",
-      "score": 0
+      "score": 3
      },
      "id": 2026020054,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-07T23:30:00Z",
+     "threeMinRecap": "/video/col-at-wpg-recap-6406448857112",
+     "threeMinRecapFr": "/fr/video/col-vs-wpg-07-10-2026-resume-6406451746112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1511,7 +1538,25 @@
       "default": "Canada Life Centre"
      },
      "venueTimezone": "America/Winnipeg",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "K."
+      },
+      "lastName": {
+       "default": "Connor"
+      },
+      "playerId": 8478398
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Skinner"
+      },
+      "playerId": 8479973
+     }
     },
     {
      "awayTeam": {
@@ -1523,32 +1568,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.76"
-       },
-       {
-        "providerId": 6,
-        "value": "2.10"
-       },
-       {
-        "providerId": 7,
-        "value": "-134"
-       },
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 8,
-        "value": "-136"
-       },
-       {
-        "providerId": 10,
-        "value": "2.20"
-       }
-      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -1556,12 +1575,16 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/edm-at-ana-condensed-game-6406455519112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/edm-vs-ana/2026/10/07/2026020055",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "ANA",
@@ -1572,32 +1595,6 @@
       "homeSplitSquad": false,
       "id": 24,
       "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.11"
-       },
-       {
-        "providerId": 6,
-        "value": "1.73"
-       },
-       {
-        "providerId": 7,
-        "value": "+112"
-       },
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 8,
-        "value": "+111"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Anaheim"
       },
@@ -1605,19 +1602,19 @@
        "default": "Anaheim",
        "fr": "d'Anaheim"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8"
+      "score": 2
      },
      "id": 2026020055,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-08T02:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/090064EA1908558F?brand=nhl&wt.mc_id=NHL_LEAGUE_ANA_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_ANA&utm_content=SCHED_PG_GM2",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/090064EA1908558F?brand=nhl&wt.mc_id=NHL_LEAGUE_ANA_SCHED_PG_GM2&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_ANA&utm_content=SCHED_PG_GM2",
+     "threeMinRecap": "/video/edm-at-ana-recap-6406456779112",
+     "threeMinRecapFr": "/fr/video/edm-vs-ana-07-10-2026-resume-6406455092112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1645,7 +1642,25 @@
       "default": "Honda Center"
      },
      "venueTimezone": "America/Los_Angeles",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "E."
+      },
+      "lastName": {
+       "default": "Bouchard"
+      },
+      "playerId": 8480803
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Levi"
+      },
+      "playerId": 8482221
+     }
     }
    ],
    "numberOfGames": 3
