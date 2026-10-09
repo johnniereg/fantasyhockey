@@ -82,7 +82,7 @@
          "faab_balance": "84"
         },
         {
-         "number_of_moves": 5
+         "number_of_moves": 6
         },
         {
          "number_of_trades": 0
@@ -91,7 +91,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 2,
-          "value": "2"
+          "value": "3"
          }
         },
         [],
@@ -2902,7 +2902,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791471177
+               "player_notes_last_timestamp": 1791551959
               }
              ],
              {
@@ -3889,9 +3889,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791382717
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791554251
               }
              ],
              {
@@ -4316,9 +4318,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790925234
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791545281
               }
              ],
              {
@@ -4571,113 +4575,6 @@
             "player": [
              [
               {
-               "player_key": "477.p.30201"
-              },
-              {
-               "player_id": "30201"
-              },
-              {
-               "name": {
-                "ascii_first": "Jacob",
-                "ascii_last": "Fowler",
-                "first": "Jacob",
-                "full": "Jacob Fowler",
-                "last": "Fowler"
-               }
-              },
-              {
-               "url": "https://sports.yahoo.com/nhl/players/30201"
-              },
-              {
-               "status": "NA",
-               "status_full": "Not Active"
-              },
-              {
-               "editorial_player_key": "nhl.p.30201"
-              },
-              {
-               "editorial_team_key": "nhl.t.10"
-              },
-              {
-               "editorial_team_full_name": "Montreal Canadiens"
-              },
-              {
-               "editorial_team_abbr": "MTL"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/montreal/"
-              },
-              {
-               "is_keeper": {
-                "cost": false,
-                "kept": false,
-                "status": false
-               }
-              },
-              {
-               "uniform_number": "32"
-              },
-              {
-               "display_position": "G"
-              },
-              {
-               "headshot": {
-                "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/TgUa.1JBrXPOp0oOhuu14g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/30201.png"
-               },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/TgUa.1JBrXPOp0oOhuu14g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/30201.png"
-              },
-              {
-               "is_undroppable": "0"
-              },
-              {
-               "position_type": "G"
-              },
-              {
-               "primary_position": "G"
-              },
-              {
-               "eligible_positions": [
-                {
-                 "position": "G"
-                }
-               ]
-              },
-              {
-               "eligible_positions_to_add": []
-              },
-              [],
-              [],
-              {
-               "has_player_notes": 1
-              },
-              {
-               "has_recent_player_notes": 1
-              },
-              {
-               "player_notes_last_timestamp": 1791470654
-              }
-             ],
-             {
-              "selected_position": [
-               {
-                "coverage_type": "date",
-                "date": "2026-10-09"
-               },
-               {
-                "position": "G"
-               },
-               {
-                "is_flex": 0
-               }
-              ]
-             }
-            ]
-           },
-           "14": {
-            "player": [
-             [
-              {
                "player_key": "477.p.9118"
               },
               {
@@ -4772,10 +4669,21 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
-           "15": {
+           "14": {
             "player": [
              [
               {
@@ -4855,9 +4763,118 @@
               {
                "has_player_notes": 1
               },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791552516
+              }
+             ],
+             {
+              "selected_position": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "position": "G"
+               },
+               {
+                "is_flex": 0
+               }
+              ]
+             }
+            ]
+           },
+           "15": {
+            "player": [
+             [
+              {
+               "player_key": "477.p.30201"
+              },
+              {
+               "player_id": "30201"
+              },
+              {
+               "name": {
+                "ascii_first": "Jacob",
+                "ascii_last": "Fowler",
+                "first": "Jacob",
+                "full": "Jacob Fowler",
+                "last": "Fowler"
+               }
+              },
+              {
+               "url": "https://sports.yahoo.com/nhl/players/30201"
+              },
+              {
+               "status": "NA",
+               "status_full": "Not Active"
+              },
+              {
+               "editorial_player_key": "nhl.p.30201"
+              },
+              {
+               "editorial_team_key": "nhl.t.10"
+              },
+              {
+               "editorial_team_full_name": "Montreal Canadiens"
+              },
+              {
+               "editorial_team_abbr": "MTL"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/montreal/"
+              },
+              {
+               "is_keeper": {
+                "cost": false,
+                "kept": false,
+                "status": false
+               }
+              },
+              {
+               "uniform_number": "32"
+              },
+              {
+               "display_position": "G"
+              },
+              {
+               "headshot": {
+                "size": "small",
+                "url": "https://s.yimg.com/iu/api/res/1.2/TgUa.1JBrXPOp0oOhuu14g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/30201.png"
+               },
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/TgUa.1JBrXPOp0oOhuu14g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/30201.png"
+              },
+              {
+               "is_undroppable": "0"
+              },
+              {
+               "position_type": "G"
+              },
+              {
+               "primary_position": "G"
+              },
+              {
+               "eligible_positions": [
+                {
+                 "position": "G"
+                }
+               ]
+              },
+              {
+               "eligible_positions_to_add": []
+              },
+              [],
               [],
               {
-               "player_notes_last_timestamp": 1791388486
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791551434
               }
              ],
              {
@@ -6379,9 +6396,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791040384
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791545720
               }
              ],
              {
@@ -7250,9 +7269,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791393125
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791545941
               }
              ],
              {
@@ -7361,9 +7382,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791258475
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791551355
               }
              ],
              {
@@ -8609,8 +8632,8 @@
                "url": "https://sports.yahoo.com/nhl/players/32763"
               },
               {
-               "status": "O",
-               "status_full": "Out"
+               "status": "DTD",
+               "status_full": "Day-to-Day"
               },
               {
                "injury_note": "Lower Body"
@@ -8893,9 +8916,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791429448
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791557111
               }
              ],
              {
@@ -8909,6 +8934,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -9105,9 +9141,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791258271
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791551580
               }
              ],
              {
@@ -10305,9 +10343,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791551473
+              }
              ],
              {
               "selected_position": [
@@ -12922,8 +12966,8 @@
                "url": "https://sports.yahoo.com/nhl/players/8645"
               },
               {
-               "status": "O",
-               "status_full": "Out"
+               "status": "DTD",
+               "status_full": "Day-to-Day"
               },
               {
                "injury_note": "Lower Body"
@@ -13309,7 +13353,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791476664
+               "player_notes_last_timestamp": 1791551798
               }
              ],
              {
@@ -13864,9 +13908,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791135928
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791546826
               }
              ],
              {
@@ -14086,9 +14132,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1790964267
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791553824
               }
              ],
              {
@@ -14407,9 +14455,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791359110
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791553324
               }
              ],
              {
@@ -17380,7 +17430,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791475597
+               "player_notes_last_timestamp": 1791551060
               }
              ],
              {
@@ -20291,7 +20341,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "144.76490020752ms",
+  "time": "150.62189102173ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-09"
  }
