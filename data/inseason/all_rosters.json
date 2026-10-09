@@ -3665,9 +3665,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791477558
               }
@@ -6555,8 +6553,8 @@
                "url": "https://sports.yahoo.com/nhl/players/5992"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Upper Body"
@@ -6633,9 +6631,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791423394
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791562840
               }
              ],
              {
@@ -6835,9 +6835,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791343699
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791560528
               }
              ],
              {
@@ -6851,6 +6853,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -11147,6 +11160,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -12375,11 +12399,11 @@
                "url": "https://sports.yahoo.com/nhl/players/8883"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
-               "injury_note": "Lower Body"
+               "injury_note": "Ankle"
               },
               {
                "editorial_player_key": "nhl.p.8883"
@@ -12457,7 +12481,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791505295
+               "player_notes_last_timestamp": 1791564012
               }
              ],
              {
@@ -13044,9 +13068,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791473229
               }
@@ -17221,13 +17243,9 @@
               },
               [],
               [],
-              {
-               "has_player_notes": 1
-              },
               [],
-              {
-               "player_notes_last_timestamp": 1790698874
-              }
+              [],
+              []
              ],
              {
               "selected_position": [
@@ -19303,9 +19321,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791477201
               }
@@ -20341,7 +20357,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "150.62189102173ms",
+  "time": "141.52503013611ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-09"
  }
