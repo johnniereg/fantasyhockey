@@ -240,7 +240,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -354,7 +354,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1146,7 +1146,18 @@
               ]
              },
              {
-              "is_editable": 1
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-09"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
+             },
+             {
+              "is_editable": 0
              }
             ]
            },
@@ -1260,7 +1271,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1374,7 +1385,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1602,7 +1613,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1830,7 +1841,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1944,7 +1955,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -2058,7 +2069,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -6215,8 +6226,8 @@
                "url": "https://sports.yahoo.com/nhl/players/4681"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Personal"
@@ -6297,7 +6308,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791573843
+               "player_notes_last_timestamp": 1791581545
               }
              ],
              {
@@ -8739,7 +8750,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791502127
+               "player_notes_last_timestamp": 1791580426
               }
              ],
              {
@@ -20375,7 +20386,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "145.04814147949ms",
+  "time": "151.89695358276ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-09"
  }
