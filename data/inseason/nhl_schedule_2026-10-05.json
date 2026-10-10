@@ -3283,13 +3283,16 @@
        "default": "Vancouver",
        "fr": "de Vancouver"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8",
       "score": 1
      },
+     "condensedGame": "/video/van-at-njd-condensed-game-6406619194112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/van-vs-njd/2026/10/10/2026020071",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NJD",
@@ -3307,18 +3310,19 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8",
-      "score": 2
+      "score": 4
      },
      "id": 2026020071,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-10T19:30:00Z",
+     "threeMinRecap": "/video/van-at-njd-recap-6406617716112",
+     "threeMinRecapFr": "/fr/video/van-vs-njd-10-10-2026-resume-6406617139112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3339,7 +3343,25 @@
       "default": "Prudential Center"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Boqvist"
+      },
+      "playerId": 8480003
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Allen"
+      },
+      "playerId": 8474596
+     }
     },
     {
      "awayTeam": {
@@ -3358,13 +3380,16 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8",
-      "score": 0
+      "score": 3
      },
+     "condensedGame": "/video/edm-at-sjs-condensed-game-6406619220112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/edm-vs-sjs/2026/10/10/2026020072",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "FINAL",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -3382,18 +3407,19 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
-      "score": 0
+      "score": 1
      },
      "id": 2026020072,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-10T20:00:00Z",
+     "threeMinRecap": "/video/edm-at-sjs-recap-6406620595112",
+     "threeMinRecapFr": "/fr/video/edm-vs-sjs-10-10-2026-resume-6406618337112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3423,7 +3449,25 @@
       "fr": "SAP Center de San Jose"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "V."
+      },
+      "lastName": {
+       "default": "Podkolzin"
+      },
+      "playerId": 8481617
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Jarry"
+      },
+      "playerId": 8477465
+     }
     },
     {
      "awayTeam": {
@@ -3435,32 +3479,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
       "id": 30,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 3,
-        "value": "2.12"
-       },
-       {
-        "providerId": 6,
-        "value": "1.73"
-       },
-       {
-        "providerId": 7,
-        "value": "+114"
-       },
-       {
-        "providerId": 8,
-        "value": "+113"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Minnesota"
       },
@@ -3468,12 +3486,13 @@
        "default": "Minnesota",
        "fr": "du Minnesota"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8",
+      "score": 2
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/min-vs-fla/2026/10/10/2026020073",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "FLA",
@@ -3484,32 +3503,6 @@
       "homeSplitSquad": false,
       "id": 13,
       "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-      "odds": [
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 3,
-        "value": "1.74"
-       },
-       {
-        "providerId": 6,
-        "value": "2.11"
-       },
-       {
-        "providerId": 7,
-        "value": "-137"
-       },
-       {
-        "providerId": 8,
-        "value": "-138"
-       },
-       {
-        "providerId": 10,
-        "value": "2.25"
-       }
-      ],
       "placeName": {
        "default": "Florida",
        "fr": "Floride"
@@ -3518,7 +3511,8 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
+      "score": 0
      },
      "id": 2026020073,
      "neutralSite": false,
@@ -3529,8 +3523,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-10T22:00:00Z",
-     "ticketsLink": "https://seatgeek.com/florida-panthers-tickets/10-10-2026-sunrise-florida-amerant-bank-arena/nhl/18362731?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
-     "ticketsLinkFr": "https://seatgeek.com/florida-panthers-tickets/10-10-2026-sunrise-florida-amerant-bank-arena/nhl/18362731?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3573,11 +3565,11 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.91"
+        "value": "1.88"
        },
        {
         "providerId": 6,
-        "value": "1.82"
+        "value": "1.89"
        },
        {
         "providerId": 7,
@@ -3589,7 +3581,7 @@
        },
        {
         "providerId": 8,
-        "value": "-113"
+        "value": "-114"
        }
       ],
       "placeName": {
@@ -3604,7 +3596,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/uta-vs-buf/2026/10/10/2026020074",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -3618,11 +3610,11 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.93"
+        "value": "1.96"
        },
        {
         "providerId": 6,
-        "value": "1.98"
+        "value": "1.91"
        },
        {
         "providerId": 7,
@@ -3634,7 +3626,7 @@
        },
        {
         "providerId": 8,
-        "value": "-109"
+        "value": "-108"
        }
       ],
       "placeName": {
@@ -3692,11 +3684,11 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "2.64"
+        "value": "2.56"
        },
        {
         "providerId": 7,
-        "value": "+168"
+        "value": "+152"
        },
        {
         "providerId": 9,
@@ -3704,15 +3696,15 @@
        },
        {
         "providerId": 8,
-        "value": "+166"
+        "value": "+161"
        },
        {
         "providerId": 6,
-        "value": "1.57"
+        "value": "1.52"
        },
        {
         "providerId": 10,
-        "value": "3.60"
+        "value": "3.40"
        }
       ],
       "placeName": {
@@ -3727,7 +3719,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/det-vs-mtl/2026/10/10/2026020075",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "MTL",
@@ -3741,11 +3733,11 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.49"
+        "value": "1.52"
        },
        {
         "providerId": 7,
-        "value": "-205"
+        "value": "-184"
        },
        {
         "providerId": 9,
@@ -3753,15 +3745,15 @@
        },
        {
         "providerId": 8,
-        "value": "-206"
+        "value": "-200"
        },
        {
         "providerId": 6,
-        "value": "2.42"
+        "value": "2.54"
        },
        {
         "providerId": 10,
-        "value": "1.83"
+        "value": "1.90"
        }
       ],
       "placeName": {
@@ -3830,11 +3822,11 @@
        },
        {
         "providerId": 6,
-        "value": "2.44"
+        "value": "2.30"
        },
        {
         "providerId": 7,
-        "value": "+132"
+        "value": "+146"
        },
        {
         "providerId": 9,
@@ -3846,7 +3838,7 @@
        },
        {
         "providerId": 10,
-        "value": "3.10"
+        "value": "3.25"
        }
       ],
       "placeName": {
@@ -3861,7 +3853,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/nsh-vs-ott/2026/10/10/2026020076",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "OTT",
@@ -3880,11 +3872,11 @@
        },
        {
         "providerId": 6,
-        "value": "1.55"
+        "value": "1.62"
        },
        {
         "providerId": 7,
-        "value": "-160"
+        "value": "-178"
        },
        {
         "providerId": 9,
@@ -3896,7 +3888,7 @@
        },
        {
         "providerId": 10,
-        "value": "2.05"
+        "value": "2.00"
        }
       ],
       "placeName": {
@@ -3962,11 +3954,11 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.54"
+        "value": "1.53"
        },
        {
         "providerId": 7,
-        "value": "-176"
+        "value": "-178"
        },
        {
         "providerId": 9,
@@ -3974,11 +3966,11 @@
        },
        {
         "providerId": 8,
-        "value": "-184"
+        "value": "-188"
        },
        {
         "providerId": 6,
-        "value": "2.32"
+        "value": "2.42"
        },
        {
         "providerId": 10,
@@ -3997,7 +3989,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/dal-vs-pit/2026/10/10/2026020077",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PIT",
@@ -4011,7 +4003,7 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "2.51"
+        "value": "2.53"
        },
        {
         "providerId": 7,
@@ -4023,11 +4015,11 @@
        },
        {
         "providerId": 8,
-        "value": "+149"
+        "value": "+152"
        },
        {
         "providerId": 6,
-        "value": "1.61"
+        "value": "1.55"
        },
        {
         "providerId": 10,
@@ -4093,19 +4085,19 @@
        },
        {
         "providerId": 6,
-        "value": "2.95"
+        "value": "2.92"
        },
        {
         "providerId": 7,
-        "value": "-250"
+        "value": "-260"
        },
        {
         "providerId": 9,
-        "value": "-245"
+        "value": "-258"
        },
        {
         "providerId": 8,
-        "value": "-254"
+        "value": "-260"
        },
        {
         "providerId": 10,
@@ -4125,7 +4117,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/car-vs-chi/2026/10/10/2026020078",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CHI",
@@ -4139,23 +4131,23 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "3.03"
+        "value": "3.04"
        },
        {
         "providerId": 6,
-        "value": "1.40"
+        "value": "1.41"
        },
        {
         "providerId": 7,
-        "value": "+202"
+        "value": "+210"
        },
        {
         "providerId": 9,
-        "value": "+200"
+        "value": "+210"
        },
        {
         "providerId": 8,
-        "value": "+203"
+        "value": "+207"
        },
        {
         "providerId": 10,
@@ -4224,7 +4216,7 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.99"
+        "value": "2.00"
        },
        {
         "providerId": 7,
@@ -4240,11 +4232,11 @@
        },
        {
         "providerId": 6,
-        "value": "1.78"
+        "value": "1.84"
        },
        {
         "providerId": 10,
-        "value": "2.55"
+        "value": "2.60"
        }
       ],
       "placeName": {
@@ -4259,7 +4251,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/cbj-vs-stl/2026/10/10/2026020079",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "STL",
@@ -4273,7 +4265,7 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.86"
+        "value": "1.84"
        },
        {
         "providerId": 7,
@@ -4289,7 +4281,7 @@
        },
        {
         "providerId": 6,
-        "value": "2.04"
+        "value": "1.95"
        },
        {
         "providerId": 10,
@@ -4369,11 +4361,11 @@
        },
        {
         "providerId": 6,
-        "value": "1.42"
+        "value": "1.46"
        },
        {
         "providerId": 7,
-        "value": "+176"
+        "value": "+180"
        },
        {
         "providerId": 9,
@@ -4385,7 +4377,7 @@
        },
        {
         "providerId": 10,
-        "value": "3.75"
+        "value": "3.80"
        }
       ],
       "placeName": {
@@ -4400,7 +4392,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/tor-vs-col/2026/10/10/2026020080",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "COL",
@@ -4418,11 +4410,11 @@
        },
        {
         "providerId": 6,
-        "value": "2.88"
+        "value": "2.72"
        },
        {
         "providerId": 7,
-        "value": "-215"
+        "value": "-220"
        },
        {
         "providerId": 9,
@@ -4499,27 +4491,27 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "1.57"
+        "value": "1.54"
        },
        {
         "providerId": 6,
-        "value": "2.42"
+        "value": "2.40"
        },
        {
         "providerId": 7,
-        "value": "-172"
+        "value": "-178"
        },
        {
         "providerId": 9,
-        "value": "-170"
+        "value": "-180"
        },
        {
         "providerId": 8,
-        "value": "-173"
+        "value": "-181"
        },
        {
         "providerId": 10,
-        "value": "2.00"
+        "value": "1.97"
        }
       ],
       "placeName": {
@@ -4548,7 +4540,7 @@
       "odds": [
        {
         "providerId": 3,
-        "value": "2.43"
+        "value": "2.50"
        },
        {
         "providerId": 6,
@@ -4556,19 +4548,19 @@
        },
        {
         "providerId": 7,
-        "value": "+142"
+        "value": "+146"
        },
        {
         "providerId": 9,
-        "value": "+142"
+        "value": "+150"
        },
        {
         "providerId": 8,
-        "value": "+140"
+        "value": "+147"
        },
        {
         "providerId": 10,
-        "value": "3.20"
+        "value": "3.30"
        }
       ],
       "placeName": {
@@ -4642,7 +4634,7 @@
        },
        {
         "providerId": 6,
-        "value": "1.75"
+        "value": "1.84"
        },
        {
         "providerId": 10,
@@ -4691,7 +4683,7 @@
        },
        {
         "providerId": 6,
-        "value": "2.08"
+        "value": "1.97"
        },
        {
         "providerId": 10,
@@ -4764,7 +4756,7 @@
        },
        {
         "providerId": 6,
-        "value": "2.22"
+        "value": "2.32"
        },
        {
         "providerId": 7,
@@ -4813,7 +4805,7 @@
        },
        {
         "providerId": 6,
-        "value": "1.65"
+        "value": "1.60"
        },
        {
         "providerId": 7,
