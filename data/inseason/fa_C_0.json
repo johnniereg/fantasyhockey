@@ -398,8 +398,8 @@
          "url": "https://sports.yahoo.com/nhl/players/30024"
         },
         {
-         "status": "NA",
-         "status_full": "Not Active"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Suspension"
@@ -452,6 +452,9 @@
          "eligible_positions": [
           {
            "position": "C"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -1595,10 +1598,10 @@
           "week": 2
          },
          {
-          "value": 4
+          "value": 3
          },
          {
-          "delta": "3"
+          "delta": "2"
          }
         ]
        }
@@ -2148,10 +2151,10 @@
           "week": 2
          },
          {
-          "value": 7
+          "value": 9
          },
          {
-          "delta": "6"
+          "delta": "8"
          }
         ]
        }
@@ -2370,10 +2373,10 @@
           "week": 2
          },
          {
-          "value": 10
+          "value": 9
          },
          {
-          "delta": "6"
+          "delta": "5"
          }
         ]
        }
@@ -2827,7 +2830,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "124.43900108337ms",
+  "time": "75.260162353516ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=0/percent_owned"
  }
