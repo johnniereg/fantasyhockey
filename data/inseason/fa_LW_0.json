@@ -575,9 +575,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791386023
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791638952
         }
        ],
        {
@@ -1572,9 +1574,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791175184
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791637476
         }
        ],
        {
@@ -1695,10 +1699,10 @@
           "week": 2
          },
          {
-          "value": 45
+          "value": 46
          },
          {
-          "delta": "-1"
+          "delta": "0"
          }
         ]
        }
@@ -2239,9 +2243,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791636835
+        }
        ],
        {
         "percent_owned": [
@@ -2358,10 +2368,10 @@
           "week": 2
          },
          {
-          "value": 6
+          "value": 7
          },
          {
-          "delta": "5"
+          "delta": "6"
          }
         ]
        }
@@ -2469,10 +2479,10 @@
           "week": 2
          },
          {
-          "value": 16
+          "value": 17
          },
          {
-          "delta": "-1"
+          "delta": "0"
          }
         ]
        }
@@ -2826,7 +2836,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "66.833972930908ms",
+  "time": "68.816184997559ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=LW;sort=AR;count=25;start=0/percent_owned"
  }
