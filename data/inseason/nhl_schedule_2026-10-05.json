@@ -2717,13 +2717,16 @@
        "default": "Seattle",
        "fr": "de Seattle"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20262027/SEA-radio.m3u8",
-      "score": 0
+      "score": 6
      },
+     "condensedGame": "/video/sea-at-det-condensed-game-6406571756112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/sea-vs-det/2026/10/09/2026020066",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "DET",
@@ -2741,18 +2744,19 @@
        "default": "Detroit",
        "fr": "de Detroit"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8",
-      "score": 1
+      "score": 3
      },
      "id": 2026020066,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-09T23:00:00Z",
+     "threeMinRecap": "/video/sea-at-det-recap-6406572341112",
+     "threeMinRecapFr": "/fr/video/sea-vs-det-09-10-2026-resume-6406572254112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2787,7 +2791,25 @@
       "default": "Little Caesars Arena"
      },
      "venueTimezone": "America/Detroit",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "F."
+      },
+      "lastName": {
+       "default": "Gaudreau"
+      },
+      "playerId": 8477919
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "P."
+      },
+      "lastName": {
+       "default": "Grubauer"
+      },
+      "playerId": 8475831
+     }
     },
     {
      "awayTeam": {
@@ -2806,13 +2828,16 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8",
       "score": 1
      },
+     "condensedGame": "/video/nyr-at-wsh-condensed-game-6406573223112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/nyr-vs-wsh/2026/10/09/2026020067",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WSH",
@@ -2830,18 +2855,19 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8",
-      "score": 0
+      "score": 3
      },
      "id": 2026020067,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-09T23:00:00Z",
+     "threeMinRecap": "/video/nyr-at-wsh-recap-6406572834112",
+     "threeMinRecapFr": "/fr/video/nyr-vs-wsh-09-10-2026-resume-6406571657112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2869,7 +2895,25 @@
       "default": "Capital One Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "B."
+      },
+      "lastName": {
+       "default": "Jenner"
+      },
+      "playerId": 8476432
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Thompson"
+      },
+      "playerId": 8480313
+     }
     },
     {
      "awayTeam": {
@@ -2888,13 +2932,17 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8",
-      "score": 0
+      "score": 2
      },
+     "condensedGame": "/video/pit-at-cbj-condensed-game-6406573433112",
+     "condensedGameFr": "/fr/video/match-condense-penguins-blue-jackets-09-10-2026-6406573672112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/pit-vs-cbj/2026/10/09/2026020068",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CBJ",
@@ -2912,18 +2960,19 @@
        "default": "Columbus",
        "fr": "de Columbus"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8",
-      "score": 1
+      "score": 3
      },
      "id": 2026020068,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-09T23:00:00Z",
+     "threeMinRecap": "/video/pit-at-cbj-recap-6406570682112",
+     "threeMinRecapFr": "/fr/video/pit-vs-cbj-09-10-2026-resume-6406574954112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2965,7 +3014,16 @@
       "default": "Nationwide Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Talbot"
+      },
+      "playerId": 8475660
+     }
     },
     {
      "awayTeam": {
@@ -2977,32 +3035,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg",
       "id": 24,
       "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.02"
-       },
-       {
-        "providerId": 6,
-        "value": "2.00"
-       },
-       {
-        "providerId": 9,
-        "value": "+105"
-       },
-       {
-        "providerId": 7,
-        "value": "+100"
-       },
-       {
-        "providerId": 8,
-        "value": "+102"
-       },
-       {
-        "providerId": 10,
-        "value": "2.65"
-       }
-      ],
       "placeName": {
        "default": "Anaheim"
       },
@@ -3010,12 +3042,16 @@
        "default": "Anaheim",
        "fr": "d'Anaheim"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/ana-at-wpg-condensed-game-6406574575112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ana-vs-wpg/2026/10/09/2026020069",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "PRE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WPG",
@@ -3026,32 +3062,6 @@
       "homeSplitSquad": false,
       "id": 52,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.83"
-       },
-       {
-        "providerId": 6,
-        "value": "1.81"
-       },
-       {
-        "providerId": 9,
-        "value": "-125"
-       },
-       {
-        "providerId": 7,
-        "value": "-120"
-       },
-       {
-        "providerId": 8,
-        "value": "-124"
-       },
-       {
-        "providerId": 10,
-        "value": "2.30"
-       }
-      ],
       "placeName": {
        "default": "Winnipeg"
       },
@@ -3059,19 +3069,19 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+      "score": 1
      },
      "id": 2026020069,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-10T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006505CB3AA935?brand=nhl&wt.mc_id=NHL_LEAGUE_WPG_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_WPG&utm_content=SCHED_PG_GM3",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006505CB3AA935?brand=nhl&wt.mc_id=NHL_LEAGUE_WPG_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_WPG&utm_content=SCHED_PG_GM3",
+     "threeMinRecap": "/video/ana-at-wpg-recap-6406576147112",
+     "threeMinRecapFr": "/fr/video/ana-vs-wpg-09-10-2026-resume-6406576149112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3106,7 +3116,27 @@
       "default": "Canada Life Centre"
      },
      "venueTimezone": "America/Winnipeg",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Washe"
+      },
+      "playerId": 8485512
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "cs": "Dost\u00e1l",
+       "default": "Dostal",
+       "sk": "Dost\u00e1l"
+      },
+      "playerId": 8480843
+     }
     }
    ],
    "numberOfGames": 4
