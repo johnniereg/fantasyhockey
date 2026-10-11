@@ -356,7 +356,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1146,9 +1146,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791352193
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791751062
               }
              ],
              {
@@ -1166,7 +1168,18 @@
               ]
              },
              {
-              "is_editable": 1
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-11"
+               },
+               {
+                "is_starting": 1
+               }
+              ]
+             },
+             {
+              "is_editable": 0
              }
             ]
            },
@@ -1282,7 +1295,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1396,7 +1409,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1624,7 +1637,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -1966,7 +1979,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -2080,7 +2093,7 @@
               ]
              },
              {
-              "is_editable": 1
+              "is_editable": 0
              }
             ]
            },
@@ -4264,57 +4277,67 @@
             "player": [
              [
               {
-               "player_key": "477.p.30583"
+               "player_key": "477.p.6766"
               },
               {
-               "player_id": "30583"
+               "player_id": "6766"
               },
               {
                "name": {
-                "ascii_first": "Roman",
-                "ascii_last": "Kantserov",
-                "first": "Roman",
-                "full": "Roman Kantserov",
-                "last": "Kantserov"
+                "ascii_first": "Travis",
+                "ascii_last": "Konecny",
+                "first": "Travis",
+                "full": "Travis Konecny",
+                "last": "Konecny"
                }
               },
               {
-               "url": "https://sports.yahoo.com/nhl/players/30583"
+               "url": "https://sports.yahoo.com/nhl/players/6766"
               },
               {
-               "editorial_player_key": "nhl.p.30583"
+               "status": "IR",
+               "status_full": "Injured Reserve"
               },
               {
-               "editorial_team_key": "nhl.t.4"
+               "injury_note": "Lower Body"
               },
               {
-               "editorial_team_full_name": "Chicago Blackhawks"
+               "on_disabled_list": "1"
               },
               {
-               "editorial_team_abbr": "CHI"
+               "editorial_player_key": "nhl.p.6766"
               },
               {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/chicago/"
+               "editorial_team_key": "nhl.t.15"
+              },
+              {
+               "editorial_team_full_name": "Philadelphia Flyers"
+              },
+              {
+               "editorial_team_abbr": "PHI"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/philadelphia/"
               },
               {
                "is_keeper": {
                 "cost": false,
-                "kept": false,
-                "status": false
+                "kept": true,
+                "status": true
                }
               },
               {
-               "uniform_number": "80"
+               "uniform_number": "11"
               },
               {
-               "display_position": "RW"
+               "display_position": "LW,RW"
               },
               {
                "headshot": {
                 "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/KYqoAuB2RBFo_V0bg8L16Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/30583.3.png"
+                "url": "https://s.yimg.com/iu/api/res/1.2/H1ok16frS1.CrDp6Q_AHMw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6766.1.png"
                },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/KYqoAuB2RBFo_V0bg8L16Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/30583.3.png"
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/H1ok16frS1.CrDp6Q_AHMw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6766.1.png"
               },
               {
                "is_undroppable": "0"
@@ -4323,12 +4346,21 @@
                "position_type": "P"
               },
               {
-               "primary_position": "RW"
+               "primary_position": "LW"
               },
               {
                "eligible_positions": [
                 {
+                 "position": "LW"
+                },
+                {
                  "position": "RW"
+                },
+                {
+                 "position": "IR"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -4336,9 +4368,6 @@
                "eligible_positions_to_add": [
                 {
                  "position": "C"
-                },
-                {
-                 "position": "LW"
                 },
                 {
                  "position": "D"
@@ -4354,7 +4383,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791690114
+               "player_notes_last_timestamp": 1791741712
               }
              ],
              {
@@ -4364,7 +4393,7 @@
                 "date": "2026-10-11"
                },
                {
-                "position": "BN"
+                "position": "IR"
                },
                {
                 "is_flex": 0
@@ -4679,9 +4708,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791545536
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791752480
               }
              ],
              {
@@ -4695,6 +4726,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-11"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -5122,47 +5164,37 @@
             "player": [
              [
               {
-               "player_key": "477.p.6766"
+               "player_key": "477.p.9269"
               },
               {
-               "player_id": "6766"
+               "player_id": "9269"
               },
               {
                "name": {
-                "ascii_first": "Travis",
-                "ascii_last": "Konecny",
-                "first": "Travis",
-                "full": "Travis Konecny",
-                "last": "Konecny"
+                "ascii_first": "Juraj",
+                "ascii_last": "Slafkovsk\u00fd",
+                "first": "Juraj",
+                "full": "Juraj Slafkovsk\u00fd",
+                "last": "Slafkovsk\u00fd"
                }
               },
               {
-               "url": "https://sports.yahoo.com/nhl/players/6766"
+               "url": "https://sports.yahoo.com/nhl/players/9269"
               },
               {
-               "status": "IR",
-               "status_full": "Injured Reserve"
+               "editorial_player_key": "nhl.p.9269"
               },
               {
-               "injury_note": "Lower Body"
+               "editorial_team_key": "nhl.t.10"
               },
               {
-               "on_disabled_list": "1"
+               "editorial_team_full_name": "Montreal Canadiens"
               },
               {
-               "editorial_player_key": "nhl.p.6766"
+               "editorial_team_abbr": "MTL"
               },
               {
-               "editorial_team_key": "nhl.t.15"
-              },
-              {
-               "editorial_team_full_name": "Philadelphia Flyers"
-              },
-              {
-               "editorial_team_abbr": "PHI"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/philadelphia/"
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/montreal/"
               },
               {
                "is_keeper": {
@@ -5172,7 +5204,7 @@
                }
               },
               {
-               "uniform_number": "11"
+               "uniform_number": "20"
               },
               {
                "display_position": "LW,RW"
@@ -5180,9 +5212,9 @@
               {
                "headshot": {
                 "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/H1ok16frS1.CrDp6Q_AHMw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6766.1.png"
+                "url": "https://s.yimg.com/iu/api/res/1.2/lu84fk2ug4qPec5OSxbw9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/9269.1.png"
                },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/H1ok16frS1.CrDp6Q_AHMw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6766.1.png"
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/lu84fk2ug4qPec5OSxbw9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/9269.1.png"
               },
               {
                "is_undroppable": "0"
@@ -5200,12 +5232,6 @@
                 },
                 {
                  "position": "RW"
-                },
-                {
-                 "position": "IR"
-                },
-                {
-                 "position": "IR+"
                 }
                ]
               },
@@ -5224,11 +5250,9 @@
               {
                "has_player_notes": 1
               },
+              [],
               {
-               "has_recent_player_notes": 1
-              },
-              {
-               "player_notes_last_timestamp": 1791741712
+               "player_notes_last_timestamp": 1791393928
               }
              ],
              {
@@ -5798,57 +5822,57 @@
             "player": [
              [
               {
-               "player_key": "477.p.9269"
+               "player_key": "477.p.30583"
               },
               {
-               "player_id": "9269"
+               "player_id": "30583"
               },
               {
                "name": {
-                "ascii_first": "Juraj",
-                "ascii_last": "Slafkovsk\u00fd",
-                "first": "Juraj",
-                "full": "Juraj Slafkovsk\u00fd",
-                "last": "Slafkovsk\u00fd"
+                "ascii_first": "Roman",
+                "ascii_last": "Kantserov",
+                "first": "Roman",
+                "full": "Roman Kantserov",
+                "last": "Kantserov"
                }
               },
               {
-               "url": "https://sports.yahoo.com/nhl/players/9269"
+               "url": "https://sports.yahoo.com/nhl/players/30583"
               },
               {
-               "editorial_player_key": "nhl.p.9269"
+               "editorial_player_key": "nhl.p.30583"
               },
               {
-               "editorial_team_key": "nhl.t.10"
+               "editorial_team_key": "nhl.t.4"
               },
               {
-               "editorial_team_full_name": "Montreal Canadiens"
+               "editorial_team_full_name": "Chicago Blackhawks"
               },
               {
-               "editorial_team_abbr": "MTL"
+               "editorial_team_abbr": "CHI"
               },
               {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/montreal/"
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/chicago/"
               },
               {
                "is_keeper": {
                 "cost": false,
-                "kept": true,
-                "status": true
+                "kept": false,
+                "status": false
                }
               },
               {
-               "uniform_number": "20"
+               "uniform_number": "80"
               },
               {
-               "display_position": "LW,RW"
+               "display_position": "RW"
               },
               {
                "headshot": {
                 "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/lu84fk2ug4qPec5OSxbw9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/9269.1.png"
+                "url": "https://s.yimg.com/iu/api/res/1.2/KYqoAuB2RBFo_V0bg8L16Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/30583.3.png"
                },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/lu84fk2ug4qPec5OSxbw9g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/9269.1.png"
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/KYqoAuB2RBFo_V0bg8L16Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/30583.3.png"
               },
               {
                "is_undroppable": "0"
@@ -5857,13 +5881,10 @@
                "position_type": "P"
               },
               {
-               "primary_position": "LW"
+               "primary_position": "RW"
               },
               {
                "eligible_positions": [
-                {
-                 "position": "LW"
-                },
                 {
                  "position": "RW"
                 }
@@ -5875,6 +5896,9 @@
                  "position": "C"
                 },
                 {
+                 "position": "LW"
+                },
+                {
                  "position": "D"
                 }
                ]
@@ -5884,9 +5908,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791393928
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791690114
               }
              ],
              {
@@ -6909,7 +6935,7 @@
                "status_full": "Injured Reserve"
               },
               {
-               "injury_note": "Lower Body"
+               "injury_note": "Knee"
               },
               {
                "on_disabled_list": "1"
@@ -6983,7 +7009,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791731616
+               "player_notes_last_timestamp": 1791752817
               }
              ],
              {
@@ -7697,10 +7723,6 @@
               },
               {
                "url": "https://sports.yahoo.com/nhl/players/7122"
-              },
-              {
-               "status": "NA",
-               "status_full": "Not Active"
               },
               {
                "editorial_player_key": "nhl.p.7122"
@@ -12231,8 +12253,8 @@
                "url": "https://sports.yahoo.com/nhl/players/7111"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Illness"
@@ -12313,7 +12335,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791745150
+               "player_notes_last_timestamp": 1791750726
               }
              ],
              {
@@ -13015,9 +13037,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791673134
               }
@@ -14990,13 +15010,9 @@
               },
               [],
               [],
-              {
-               "has_player_notes": 1
-              },
               [],
-              {
-               "player_notes_last_timestamp": 1790881236
-              }
+              [],
+              []
              ],
              {
               "selected_position": [
@@ -15114,6 +15130,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-11"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -15197,9 +15224,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791543416
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791752040
               }
              ],
              {
@@ -15213,6 +15242,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-11"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -20434,7 +20474,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "149.38497543335ms",
+  "time": "216.2401676178ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-11"
  }
