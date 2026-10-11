@@ -1,22 +1,22 @@
 {
  "current_week": 2,
- "date_et": "2026-10-10",
+ "date_et": "2026-10-11",
  "errors": {},
- "fetched_at_utc": "2026-10-10T22:56:52+00:00",
- "finished_at_utc": "2026-10-10T22:57:10+00:00",
+ "fetched_at_utc": "2026-10-11T09:40:41+00:00",
+ "finished_at_utc": "2026-10-11T09:40:53+00:00",
  "games": {
-  "live_now": 1,
+  "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-10-10",
-   "final": 3,
-   "games": 14
+   "date": "2026-10-11",
+   "final": 0,
+   "games": 3
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-10-09",
-   "final": 4,
-   "games": 4
+   "date": "2026-10-10",
+   "final": 14,
+   "games": 14
   }
  },
  "league_key": "477.l.12088",
@@ -38,8 +38,6 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-10-10",
-  "opp_roster_2026-10-10",
   "my_roster_2026-10-11",
   "opp_roster_2026-10-11",
   "scoreboard_current",
@@ -68,11 +66,10 @@
  ],
  "opp_team_key": "477.l.12088.t.5",
  "roster_dates": [
-  "2026-10-10",
   "2026-10-11"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
   "2": [

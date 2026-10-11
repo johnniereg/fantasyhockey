@@ -178,9 +178,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1790832942
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791704241
           }
          ],
          {
@@ -338,6 +340,13 @@
            "url": "https://sports.yahoo.com/nhl/players/31759"
           },
           {
+           "status": "DTD",
+           "status_full": "Day-to-Day"
+          },
+          {
+           "injury_note": "Upper Body"
+          },
+          {
            "editorial_player_key": "nhl.p.31759"
           },
           {
@@ -391,6 +400,9 @@
             },
             {
              "position": "RW"
+            },
+            {
+             "position": "IR+"
             }
            ]
           },
@@ -406,9 +418,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791173780
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791688444
           }
          ],
          {
@@ -631,9 +645,15 @@
           },
           [],
           [],
-          [],
-          [],
-          []
+          {
+           "has_player_notes": 1
+          },
+          {
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791683504
+          }
          ],
          {
           "selected_position": [
@@ -1198,9 +1218,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791546586
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791690051
           }
          ],
          {
@@ -2030,12 +2052,12 @@
      "minimum_games": {
       "coverage_type": "week",
       "coverage_value": 2,
-      "value": "3"
+      "value": "4"
      }
     }
    }
   ],
-  "time": "82.693099975586ms",
+  "time": "77.440023422241ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-11/players"
  }
