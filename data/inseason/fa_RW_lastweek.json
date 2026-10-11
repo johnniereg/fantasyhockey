@@ -2901,11 +2901,14 @@
          "url": "https://sports.yahoo.com/nhl/players/6549"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Undisclosed"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.6549"
@@ -2960,6 +2963,9 @@
            "position": "RW"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -2979,9 +2985,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791485684
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791742523
         }
        ],
        {
@@ -3600,7 +3608,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "177.22296714783ms",
+  "time": "155.69305419922ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/stats;type=lastweek"
  }

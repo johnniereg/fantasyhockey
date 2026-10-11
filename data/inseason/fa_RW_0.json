@@ -367,10 +367,10 @@
           "week": 2
          },
          {
-          "value": 33
+          "value": 34
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -1361,10 +1361,10 @@
           "week": 2
          },
          {
-          "value": 27
+          "value": 28
          },
          {
-          "delta": "3"
+          "delta": "4"
          }
         ]
        }
@@ -1472,10 +1472,10 @@
           "week": 2
          },
          {
-          "value": 76
+          "value": 75
          },
          {
-          "delta": "4"
+          "delta": "3"
          }
         ]
        }
@@ -2247,10 +2247,10 @@
           "week": 2
          },
          {
-          "value": 22
+          "value": 23
          },
          {
-          "delta": "13"
+          "delta": "14"
          }
         ]
        }
@@ -2278,11 +2278,14 @@
          "url": "https://sports.yahoo.com/nhl/players/6549"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Undisclosed"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.6549"
@@ -2337,6 +2340,9 @@
            "position": "RW"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -2356,9 +2362,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791485684
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791742523
         }
        ],
        {
@@ -2475,10 +2483,10 @@
           "week": 2
          },
          {
-          "value": 44
+          "value": 45
          },
          {
-          "delta": "5"
+          "delta": "6"
          }
         ]
        }
@@ -2697,10 +2705,10 @@
           "week": 2
          },
          {
-          "value": 5
+          "value": 4
          },
          {
-          "delta": "4"
+          "delta": "3"
          }
         ]
        }
@@ -2822,7 +2830,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "64.534902572632ms",
+  "time": "67.282915115356ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/percent_owned"
  }
