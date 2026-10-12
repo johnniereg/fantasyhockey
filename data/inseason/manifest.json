@@ -2,8 +2,30 @@
  "current_week": 3,
  "date_et": "2026-10-12",
  "errors": {},
- "fetched_at_utc": "2026-10-12T11:27:06+00:00",
- "finished_at_utc": "2026-10-12T11:27:20+00:00",
+ "extras": {
+  "daily_stats": {
+   "backfill_remaining": 9,
+   "written": [
+    "2026-10-11",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10"
+   ]
+  },
+  "goalie_starts": {
+   "games_added": 86,
+   "games_pending": 0,
+   "rows": 344
+  },
+  "scoreboard_archive": {
+   "archived": "scoreboard_week_02.json"
+  },
+  "waivers_0": "saved",
+  "waivers_1": "saved"
+ },
+ "extras_errors": {},
+ "fetched_at_utc": "2026-10-12T12:55:27+00:00",
+ "finished_at_utc": "2026-10-12T12:56:02+00:00",
  "games": {
   "live_now": 0,
   "today": {
@@ -74,7 +96,12 @@
   "fa_G_lastweek",
   "nhl_schedule_2026-10-12",
   "nhl_schedule_2026-10-19",
-  "nhl_standings"
+  "nhl_standings",
+  "waivers_0",
+  "waivers_1",
+  "daily_stats",
+  "goalie_starts",
+  "scoreboard_archive"
  ],
  "opp_team_key": "477.l.12088.t.7",
  "roster_dates": [
@@ -87,7 +114,7 @@
   "2026-10-18"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "workflow_dispatch:morning-backup",
+ "trigger": "workflow_dispatch:manual",
  "warnings": [],
  "week_dates": {
   "3": [

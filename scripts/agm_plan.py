@@ -28,6 +28,9 @@ OUT_STATUSES  = {"IR", "IR-LT", "IR-NR", "O", "NA", "SUSP", "IR+"}
 # 2026-27 keepers (vault: 30 Areas/Fantasy Hockey/2026-27-season). Yahoo's is_keeper flag is empty in-season.
 KEEPERS = ["Matt Boldy", "Cutter Gauthier", "Will Smith", "Ivan Demidov", "Miro Heiskanen",
            "Cole Hutson", "Brock Nelson", "Karel Vejmelka"]
+# Drop tiers (vault: agm-strategy). Keepers never drop; top-100 drafted are "unlikely": the
+# Drop column skips them, but a brief can still argue for one. Update when the roster changes.
+UNLIKELY = ["Moritz Seider", "Shea Theodore", "J.T. Miller", "Mika Zibanejad"]
 LIGHT_MAX_GAMES = 7            # a night with <= 7 games (<= 14 teams) is a light night
 ET = dt.timezone(dt.timedelta(hours=-4))
 
@@ -176,6 +179,8 @@ def main():
     ap.add_argument("--keepers", help="comma-separated names never treated as droppable")
     a = ap.parse_args()
     keepers = set(k.strip() for k in (a.keepers.split(",") if a.keepers else KEEPERS))
+    unlikely = set(UNLIKELY)
+    on_waivers = {p["key"] for page in range(2) for p in players_in(load(f"waivers_{page}"))}
 
     m = load("manifest") or {}
     settings = load("league_settings")
@@ -257,10 +262,15 @@ def main():
     base_total = sum(starts.values())
 
     # Free agents: marginal starts if added (no drop) and if added dropping the lowest-starts skater
-    droppable = [p for p in roster if p["slot"] not in ("IR", "IR+") and p["name"] not in keepers]
+    # Goalies only swap for goalies, and the non-keeper goalie is the designated upgrade slot,
+    # so the "unlikely" tier only shields skaters.
+    droppable = [p for p in roster if p["slot"] not in ("IR", "IR+") and p["name"] not in keepers
+                 and (p["name"] not in unlikely or "G" in p["elig"])]
     print(f"\n## Free agents — marginal starts over the window\n")
     print("_+Starts = lineup starts gained if added with an open roster spot. Net = best case after dropping "
-          "one non-keeper (named); goalies only swap for goalies. Starts are games filled, not value — "
+          "one droppable player (named): not a keeper, not in the top-100-drafted 'unlikely' tier "
+          f"({', '.join(sorted(unlikely))}). Goalies only swap for goalies. **(W)** = on waivers: "
+          "a FAAB claim that clears in ~2 days, not a free add. Starts are games filled, not value — "
           "weigh deployment and category fit on top._\n")
     for pos in ["C", "LW", "RW", "D", "G"]:
         fas, seen = [], set()
@@ -296,7 +306,8 @@ def main():
         print("|---|---|---|---|---|---|---|---|---|---|")
         for net, gain, g, lg, p, st, drop_name in rows[:a.fa]:
             lwtxt = " ".join(f"{names.get(k, k)}:{v}" for k, v in st.items() if v not in ("", "-", "0", None))[:60]
-            print(f"| {p['name']} | {p['pos']} | {p['team']} | {p['owned'] or '?'} | {g} | {lg} | "
+            nm = p['name'] + (" **(W)**" if p["key"] in on_waivers else "")
+            print(f"| {nm} | {p['pos']} | {p['team']} | {p['owned'] or '?'} | {g} | {lg} | "
                   f"{gain} | {net} | {drop_name} | {lwtxt or '—'} |")
         print()
 
