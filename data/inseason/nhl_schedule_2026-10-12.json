@@ -23,13 +23,17 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
-      "score": 1
+      "score": 3
      },
+     "condensedGame": "/video/fla-at-buf-condensed-game-6406711763112",
+     "condensedGameFr": "/fr/video/match-condense-panthers-sabres-12-10-2026-6406712388112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/fla-vs-buf/2026/10/12/2026020087",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -47,18 +51,19 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8",
-      "score": 2
+      "score": 5
      },
      "id": 2026020087,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-12T17:00:00Z",
+     "threeMinRecap": "/video/fla-at-buf-recap-6406712364112",
+     "threeMinRecapFr": "/fr/video/fla-vs-buf-12-10-2026-resume-6406713534112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -93,7 +98,25 @@
       "default": "KeyBank Center"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "N."
+      },
+      "lastName": {
+       "default": "Ostlund"
+      },
+      "playerId": 8483500
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "U."
+      },
+      "lastName": {
+       "default": "Luukkonen"
+      },
+      "playerId": 8480045
+     }
     },
     {
      "awayTeam": {
@@ -113,7 +136,7 @@
        },
        {
         "providerId": 3,
-        "value": "2.00"
+        "value": "2.02"
        },
        {
         "providerId": 7,
@@ -162,7 +185,7 @@
        },
        {
         "providerId": 3,
-        "value": "1.85"
+        "value": "1.82"
        },
        {
         "providerId": 7,
