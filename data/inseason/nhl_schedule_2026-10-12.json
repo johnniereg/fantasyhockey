@@ -23,12 +23,13 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8",
+      "score": 1
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/fla-vs-buf/2026/10/12/2026020087",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -46,7 +47,8 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8",
+      "score": 2
      },
      "id": 2026020087,
      "neutralSite": false,
@@ -57,8 +59,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-12T17:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/000064EFCB1E7FCB?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM5",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/000064EFCB1E7FCB?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM5&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM5",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -106,6 +106,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "1.80"
+       },
+       {
+        "providerId": 3,
+        "value": "2.00"
+       },
+       {
+        "providerId": 7,
+        "value": "+100"
+       },
+       {
+        "providerId": 8,
+        "value": "-101"
+       },
+       {
+        "providerId": 9,
+        "value": "+102"
+       },
+       {
+        "providerId": 10,
+        "value": "2.60"
+       }
+      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -129,6 +155,32 @@
       "homeSplitSquad": false,
       "id": 1,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "2.02"
+       },
+       {
+        "providerId": 3,
+        "value": "1.85"
+       },
+       {
+        "providerId": 7,
+        "value": "-120"
+       },
+       {
+        "providerId": 8,
+        "value": "-121"
+       },
+       {
+        "providerId": 9,
+        "value": "-122"
+       },
+       {
+        "providerId": 10,
+        "value": "2.40"
+       }
+      ],
       "placeName": {
        "default": "New Jersey"
       },
@@ -195,6 +247,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
       "id": 54,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "odds": [
+       {
+        "providerId": 8,
+        "value": "-110"
+       },
+       {
+        "providerId": 9,
+        "value": "-108"
+       },
+       {
+        "providerId": 7,
+        "value": "-110"
+       },
+       {
+        "providerId": 6,
+        "value": "1.92"
+       },
+       {
+        "providerId": 3,
+        "value": "1.90"
+       },
+       {
+        "providerId": 10,
+        "value": "2.45"
+       }
+      ],
       "placeName": {
        "default": "Vegas"
       },
@@ -218,6 +296,32 @@
       "homeSplitSquad": false,
       "id": 30,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "odds": [
+       {
+        "providerId": 8,
+        "value": "-112"
+       },
+       {
+        "providerId": 9,
+        "value": "-112"
+       },
+       {
+        "providerId": 7,
+        "value": "-110"
+       },
+       {
+        "providerId": 6,
+        "value": "1.88"
+       },
+       {
+        "providerId": 3,
+        "value": "1.94"
+       },
+       {
+        "providerId": 10,
+        "value": "2.50"
+       }
+      ],
       "placeName": {
        "default": "Minnesota"
       },
@@ -1297,6 +1401,13 @@
      "ticketsLink": "https://www.nhl.com/utah/tickets/",
      "ticketsLinkFr": "https://www.nhl.com/utah/tickets/",
      "tvBroadcasts": [
+      {
+       "countryCode": "US",
+       "id": 783,
+       "market": "H",
+       "network": "Mammoth+",
+       "sequenceNumber": 1
+      },
       {
        "countryCode": "CA",
        "id": 293,
@@ -2521,6 +2632,13 @@
      "ticketsLink": "https://www.ticketmaster.ca/event/11006513A5EAA44C?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM3",
      "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A5EAA44C?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM3&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM3",
      "tvBroadcasts": [
+      {
+       "countryCode": "US",
+       "id": 783,
+       "market": "A",
+       "network": "Mammoth+",
+       "sequenceNumber": 1
+      },
       {
        "countryCode": "CA",
        "id": 289,
@@ -3840,6 +3958,13 @@
      "ticketsLinkFr": "https://www.nhl.com/utah/tickets/",
      "tvBroadcasts": [
       {
+       "countryCode": "US",
+       "id": 783,
+       "market": "H",
+       "network": "Mammoth+",
+       "sequenceNumber": 1
+      },
+      {
        "countryCode": "CA",
        "id": 282,
        "market": "N",
@@ -4142,6 +4267,78 @@
  ],
  "nextStartDate": "2026-10-19",
  "numberOfGames": 50,
+ "oddsPartners": [
+  {
+   "accentColor": "#3AAA35",
+   "bgColor": "#14805E",
+   "country": "SE",
+   "imageUrl": "https://assets.nhle.com/betting_partner/unibet.svg",
+   "name": "Unibet",
+   "partnerId": 2,
+   "siteUrl": "https://www.unibet.se/betting/sports/filter/ice_hockey/nhl/all/matches",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#FFFFFF",
+   "bgColor": "#2497F2",
+   "country": "CZ",
+   "imageUrl": "https://assets.nhle.com/betting_partner/tipsport.svg",
+   "name": "Tipsport",
+   "partnerId": 3,
+   "siteUrl": "https://www.tipsport.cz/PartnerRedirectAction.do?pid=16961&sid=20360&bid=34954&tid=11268",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#FFFFFF",
+   "bgColor": "#0025F5",
+   "country": "FI",
+   "imageUrl": "https://assets.nhle.com/betting_partner/veikkaus.svg",
+   "name": "Veikkaus",
+   "partnerId": 6,
+   "siteUrl": "https://www.veikkaus.fi/fi/vedonlyonti/pitkaveto?t=3-2-1_NHL",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#FFFFFF",
+   "bgColor": "#0078ff",
+   "country": "CA",
+   "imageUrl": "https://assets.nhle.com/betting_partner/fanduel.svg",
+   "name": "FanDuel",
+   "partnerId": 7,
+   "siteUrl": "https://fanduel.com",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#E6E6E6",
+   "bgColor": "#000000",
+   "country": "DE",
+   "imageUrl": "https://assets.nhle.com/betting_partner/sportsradar.svg",
+   "name": "Sportradar",
+   "partnerId": 8,
+   "siteUrl": "https://sportradar.com",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#FFFFFF",
+   "bgColor": "#000000",
+   "country": "US",
+   "imageUrl": "https://assets.nhle.com/betting_partner/draftkings.svg",
+   "name": "DraftKings",
+   "partnerId": 9,
+   "siteUrl": "https://dksb.sng.link/As9kz/3i4d?_dl=https%3A%2F%2Fsportsbook.draftkings.com%2Fgateway%3Fs%3D333653091&pcid=427326&psn=1320&pcn=NHL&pscn=OddsWidget&pcrn=NoOffer&pscid=SP&wpcid=427326&wpsrc=1320&wpcn=NHL&wpscn=OddsWidget&wpcrn=NoOffer&wpscid=SP&_forward_params=1",
+   "textColor": "#FFFFFF"
+  },
+  {
+   "accentColor": "#ffffff",
+   "bgColor": "#f30d31",
+   "country": "SK",
+   "imageUrl": "https://assets.nhle.com/betting_partner/doxxbet.svg",
+   "name": "Doxxbet",
+   "partnerId": 10,
+   "siteUrl": "https://www.doxxbet.sk/sk/sportove-tipovanie-online/kurzy/ladovy-hokej/usa/nhl/?msID=21&mbID=27",
+   "textColor": "#202020"
+  }
+ ],
  "playoffEndDate": "2027-06-10",
  "preSeasonStartDate": "2026-09-19",
  "previousStartDate": "2026-10-05",
