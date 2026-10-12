@@ -1,33 +1,33 @@
 {
- "current_week": 2,
- "date_et": "2026-10-11",
+ "current_week": 3,
+ "date_et": "2026-10-12",
  "errors": {},
- "fetched_at_utc": "2026-10-11T23:10:28+00:00",
- "finished_at_utc": "2026-10-11T23:10:39+00:00",
+ "fetched_at_utc": "2026-10-12T09:41:33+00:00",
+ "finished_at_utc": "2026-10-12T09:41:47+00:00",
  "games": {
-  "live_now": 3,
+  "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-10-11",
+   "date": "2026-10-12",
    "final": 0,
    "games": 3
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-10-10",
-   "final": 14,
-   "games": 14
+   "date": "2026-10-11",
+   "final": 3,
+   "games": 3
   }
  },
  "league_key": "477.l.12088",
- "next_opp_team_key": "477.l.12088.t.7",
+ "next_opp_team_key": "477.l.12088.t.4",
  "nhl_blocks": [
-  "2026-10-05",
-  "2026-10-12"
+  "2026-10-12",
+  "2026-10-19"
  ],
  "nhl_range": [
-  "2026-10-05",
-  "2026-10-18"
+  "2026-10-12",
+  "2026-10-25"
  ],
  "ok": [
   "league_settings",
@@ -38,8 +38,20 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-10-11",
-  "opp_roster_2026-10-11",
+  "my_roster_2026-10-12",
+  "opp_roster_2026-10-12",
+  "my_roster_2026-10-13",
+  "opp_roster_2026-10-13",
+  "my_roster_2026-10-14",
+  "opp_roster_2026-10-14",
+  "my_roster_2026-10-15",
+  "opp_roster_2026-10-15",
+  "my_roster_2026-10-16",
+  "opp_roster_2026-10-16",
+  "my_roster_2026-10-17",
+  "opp_roster_2026-10-17",
+  "my_roster_2026-10-18",
+  "opp_roster_2026-10-18",
   "scoreboard_current",
   "scoreboard_previous",
   "all_rosters",
@@ -60,25 +72,31 @@
   "fa_RW_lastweek",
   "fa_D_lastweek",
   "fa_G_lastweek",
-  "nhl_schedule_2026-10-05",
   "nhl_schedule_2026-10-12",
+  "nhl_schedule_2026-10-19",
   "nhl_standings"
  ],
- "opp_team_key": "477.l.12088.t.5",
+ "opp_team_key": "477.l.12088.t.7",
  "roster_dates": [
-  "2026-10-11"
+  "2026-10-12",
+  "2026-10-13",
+  "2026-10-14",
+  "2026-10-15",
+  "2026-10-16",
+  "2026-10-17",
+  "2026-10-18"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
-  "2": [
-   "2026-10-05",
-   "2026-10-11"
-  ],
   "3": [
    "2026-10-12",
    "2026-10-18"
+  ],
+  "4": [
+   "2026-10-19",
+   "2026-10-25"
   ]
  }
 }
