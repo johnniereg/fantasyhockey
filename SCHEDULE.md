@@ -86,3 +86,16 @@ These "extras" never fail the fetch: a problem lands in `manifest.json` `warning
 | `agm_goalies.py` | Goalie market: our goalies, trigger 1 hits, trigger 2 hints, every goalie's last-5 |
 | `agm_ranks.py [--next]` | H2H vs all-play standings, our weekly category ranks, data lean vs the opponent |
 | `agm_ledger.py` | Our moves and what each add/drop has produced since |
+
+## Brief and alert tasks (2026-10-12)
+
+| Task | Fires (ET) | Runs | Model | ID |
+|---|---|---|---|---|
+| AGM Morning Brief | 07:52 daily | Johnnie's Mac (vault) | Opus 5.5 (disprove pass on Sonnet) | trig_0159L7gr4TwnNj57uAHAWpnC |
+| AGM watchdog | 08:17 daily | cloud | Sonnet 5.5 | trig_01W6raE4bX9wDjm77iEr6u7Z |
+| AGM fallback brief (cloud) | fired by the watchdog | cloud | Opus 5.5 | trig_01TpfjLvr3FU5cEA6KyMwns6 |
+| AGM Goalie Watch | Mon + Thu 08:45 | Johnnie's Mac (vault) | Opus 5.5 | trig_01QzJgFR8HMkbeqQDdkfTPL8 |
+| AGM Sunday Week-Ahead Brief | Sun 11:45 | Johnnie's Mac (vault) | Opus 5.5 | trig_01KQrD654etqvenQUoenxvaZ |
+| AGM 5pm lineup alert | 16:52 daily | cloud, push only on ACTION | Sonnet 5.5 | trig_01WQag5PzR37DLRZ2JgrBvnM |
+
+Tasks that write to the vault must be tied to Johnnie's Mac: a cloud-only task has no access to his computer, and a Mac-tied task also needs the BrainPal folder attached (both tested 2026-10-12). If the Mac is away, the morning brief is skipped; the watchdog notices and fires the cloud fallback brief, which pushes the brief instead of writing it. The previous cloud-only Sunday brief and goalie watch, and the old 5pm goalie check, are disabled and marked "retired".
