@@ -21,7 +21,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scripts.config import LEAGUE_IDS, CURRENT_SEASON, DATA_DIR
 from scripts.yahoo_auth import get_valid_token
 from scripts.fetch_data import yahoo_get
-from scripts.agm_plan import players_in, flat, walk
+from scripts.agm_plan import players_in, flat, walk, stat_names
+from scripts import fetch_extras
 from zoneinfo import ZoneInfo
 
 OUT_DIR   = os.path.join(DATA_DIR, "inseason")
@@ -210,10 +211,11 @@ def main():
                 os.remove(os.path.join(OUT_DIR, fn))
 
     # ── League-wide ───────────────────────────────────────────────────────
+    scoreboard_prev = None
     if cur_week:
         grab("scoreboard_current", lambda: yahoo_get(f"/league/{lk}/scoreboard;week={cur_week}", token))
         if cur_week > 1:
-            grab("scoreboard_previous", lambda: yahoo_get(f"/league/{lk}/scoreboard;week={cur_week-1}", token))
+            scoreboard_prev = grab("scoreboard_previous", lambda: yahoo_get(f"/league/{lk}/scoreboard;week={cur_week-1}", token))
     all_rosters = grab("all_rosters", lambda: yahoo_get(f"/league/{lk}/teams/roster;date={today}", token))
     if all_rosters:
         try:
@@ -268,6 +270,20 @@ def main():
     for fn in os.listdir(OUT_DIR):
         if fn.startswith("nhl_schedule_") and fn[len("nhl_schedule_"):-5] not in blocks:
             os.remove(os.path.join(OUT_DIR, fn))
+
+    # ── Extras: daily player stats, goalie starts, waivers, scoreboard archive ──
+    try:
+        season_start = dt.date.fromisoformat(wd[min(wd)][0]) if wd else dt.date(2026, 9, 29)
+    except Exception:
+        season_start = dt.date(2026, 9, 29)
+    fetch_extras.run_all({
+        "yahoo_get": yahoo_get, "nhl_get": nhl_get, "token": token, "lk": lk,
+        "players_in": players_in, "walk": walk, "flat": flat,
+        "stat_names": stat_names(settings) if settings else {},
+        "out_dir": OUT_DIR, "today": today, "season_start": season_start,
+        "all_rosters": all_rosters, "scoreboard_previous": scoreboard_prev,
+        "cur_week": cur_week, "manifest": manifest,
+    }, grab)
 
     manifest["finished_at_utc"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     save("manifest", manifest)

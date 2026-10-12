@@ -33,7 +33,8 @@ CORE = ("league_settings", "my_matchup", "scoreboard_current")
 # Earliest ET time-of-day a fetch must have started at, on the brief's own date.
 # morning: after every game from last night is final (latest finish ~01:30 ET).
 # goalie:  an afternoon fetch, so lineup/moves reflect today.
-# sunday:  after the Sunday 03:00 ET add reset, so adds-used and the next matchup are current.
+# sunday:  a fetch from today, so adds-used (the ending week's — adds reset Mon 03:00 ET) and the
+#          next matchup are current.
 MIN_FETCH_TIME = {"morning": dt.time(3, 0), "goalie": dt.time(14, 0), "sunday": dt.time(3, 0)}
 
 
