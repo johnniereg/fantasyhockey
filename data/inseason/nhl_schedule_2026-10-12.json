@@ -129,32 +129,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.80"
-       },
-       {
-        "providerId": 3,
-        "value": "2.02"
-       },
-       {
-        "providerId": 7,
-        "value": "+100"
-       },
-       {
-        "providerId": 8,
-        "value": "-101"
-       },
-       {
-        "providerId": 9,
-        "value": "+102"
-       },
-       {
-        "providerId": 10,
-        "value": "2.60"
-       }
-      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -162,12 +136,17 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/ott-at-njd-condensed-game-6406728963112",
+     "condensedGameFr": "/fr/video/match-condense-senators-devils-12-10-2026-6406727498112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ott-vs-njd/2026/10/12/2026020088",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NJD",
@@ -178,32 +157,6 @@
       "homeSplitSquad": false,
       "id": 1,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.02"
-       },
-       {
-        "providerId": 3,
-        "value": "1.82"
-       },
-       {
-        "providerId": 7,
-        "value": "-120"
-       },
-       {
-        "providerId": 8,
-        "value": "-121"
-       },
-       {
-        "providerId": 9,
-        "value": "-122"
-       },
-       {
-        "providerId": 10,
-        "value": "2.40"
-       }
-      ],
       "placeName": {
        "default": "New Jersey"
       },
@@ -211,19 +164,19 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "score": 1
      },
      "id": 2026020088,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-12T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/020064F0919A9C6C?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM4",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F0919A9C6C?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM4",
+     "threeMinRecap": "/video/ott-at-njd-recap-6406726215112",
+     "threeMinRecapFr": "/fr/video/ott-vs-njd-12-10-2026-resume-6406728168112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -258,7 +211,25 @@
       "default": "Prudential Center"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Halliday"
+      },
+      "playerId": 8483676
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Ullmark"
+      },
+      "playerId": 8476999
+     }
     },
     {
      "awayTeam": {
@@ -270,32 +241,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
       "id": 54,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-110"
-       },
-       {
-        "providerId": 9,
-        "value": "-108"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 6,
-        "value": "1.92"
-       },
-       {
-        "providerId": 3,
-        "value": "1.90"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Vegas"
       },
@@ -303,12 +248,16 @@
        "default": "Vegas",
        "fr": "de Vegas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/vgk-at-min-condensed-game-6406727507112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/vgk-vs-min/2026/10/12/2026020089",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "MIN",
@@ -319,32 +268,6 @@
       "homeSplitSquad": false,
       "id": 30,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-112"
-       },
-       {
-        "providerId": 9,
-        "value": "-112"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 6,
-        "value": "1.88"
-       },
-       {
-        "providerId": 3,
-        "value": "1.94"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Minnesota"
       },
@@ -352,19 +275,19 @@
        "default": "Minnesota",
        "fr": "du Minnesota"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+      "score": 4
      },
      "id": 2026020089,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-13T00:00:00Z",
-     "ticketsLink": "https://mnwild.co/ygrk06r2",
-     "ticketsLinkFr": "https://mnwild.co/ygrk06r2",
+     "threeMinRecap": "/video/vgk-at-min-recap-6406729470112",
+     "threeMinRecapFr": "/fr/video/vgk-vs-min-12-10-2026-resume-6406728495112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -392,7 +315,25 @@
       "default": "Grand Casino Arena"
      },
      "venueTimezone": "US/Central",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Yurov"
+      },
+      "playerId": 8483525
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Wallstedt"
+      },
+      "playerId": 8482661
+     }
     }
    ],
    "numberOfGames": 3
