@@ -238,10 +238,10 @@
           "week": 3
          },
          {
-          "value": 5
+          "value": 4
          },
          {
-          "delta": "4"
+          "delta": "3"
          }
         ]
        }
@@ -1123,9 +1123,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791904269
+        }
        ],
        {
         "percent_owned": [
@@ -2014,9 +2020,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791684276
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791904891
         }
        ],
        {
@@ -2127,10 +2135,10 @@
           "week": 3
          },
          {
-          "value": 28
+          "value": 27
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -2228,10 +2236,10 @@
           "week": 3
          },
          {
-          "value": 17
+          "value": 16
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -2257,10 +2265,6 @@
         },
         {
          "url": "https://sports.yahoo.com/nhl/players/32809"
-        },
-        {
-         "status": "NA",
-         "status_full": "Not Active"
         },
         {
          "editorial_player_key": "nhl.p.32809"
@@ -2318,9 +2322,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791896369
+        }
        ],
        {
         "percent_owned": [
@@ -2536,7 +2546,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "79.761028289795ms",
+  "time": "101.34696960449ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=25/percent_owned"
  }
