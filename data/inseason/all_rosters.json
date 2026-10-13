@@ -331,9 +331,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791912223
+              }
              ],
              {
               "selected_position": [
@@ -551,13 +557,9 @@
               },
               [],
               [],
-              {
-               "has_player_notes": 1
-              },
               [],
-              {
-               "player_notes_last_timestamp": 1791047215
-              }
+              [],
+              []
              ],
              {
               "selected_position": [
@@ -958,8 +960,8 @@
                "url": "https://sports.yahoo.com/nhl/players/31759"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Upper Body"
@@ -1040,7 +1042,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791832107
+               "player_notes_last_timestamp": 1791912392
               }
              ],
              {
@@ -1142,9 +1144,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791725392
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791915308
               }
              ],
              {
@@ -1158,6 +1162,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              },
@@ -2389,117 +2404,6 @@
             "player": [
              [
               {
-               "player_key": "477.p.8642"
-              },
-              {
-               "player_id": "8642"
-              },
-              {
-               "name": {
-                "ascii_first": "Quinton",
-                "ascii_last": "Byfield",
-                "first": "Quinton",
-                "full": "Quinton Byfield",
-                "last": "Byfield"
-               }
-              },
-              {
-               "url": "https://sports.yahoo.com/nhl/players/8642"
-              },
-              {
-               "editorial_player_key": "nhl.p.8642"
-              },
-              {
-               "editorial_team_key": "nhl.t.8"
-              },
-              {
-               "editorial_team_full_name": "Los Angeles Kings"
-              },
-              {
-               "editorial_team_abbr": "LA"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/los-angeles/"
-              },
-              {
-               "is_keeper": {
-                "cost": false,
-                "kept": false,
-                "status": false
-               }
-              },
-              {
-               "uniform_number": "55"
-              },
-              {
-               "display_position": "C"
-              },
-              {
-               "headshot": {
-                "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/nzGoBNKr3FUgjRqrMOltqQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/8642.1.png"
-               },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/nzGoBNKr3FUgjRqrMOltqQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/8642.1.png"
-              },
-              {
-               "is_undroppable": "0"
-              },
-              {
-               "position_type": "P"
-              },
-              {
-               "primary_position": "C"
-              },
-              {
-               "eligible_positions": [
-                {
-                 "position": "C"
-                }
-               ]
-              },
-              {
-               "eligible_positions_to_add": [
-                {
-                 "position": "LW"
-                },
-                {
-                 "position": "RW"
-                },
-                {
-                 "position": "D"
-                }
-               ]
-              },
-              [],
-              [],
-              {
-               "has_player_notes": 1
-              },
-              [],
-              {
-               "player_notes_last_timestamp": 1791094366
-              }
-             ],
-             {
-              "selected_position": [
-               {
-                "coverage_type": "date",
-                "date": "2026-10-13"
-               },
-               {
-                "position": "C"
-               },
-               {
-                "is_flex": 0
-               }
-              ]
-             }
-            ]
-           },
-           "10": {
-            "player": [
-             [
-              {
                "player_key": "477.p.6777"
               },
               {
@@ -2589,6 +2493,117 @@
               [],
               {
                "player_notes_last_timestamp": 1791778783
+              }
+             ],
+             {
+              "selected_position": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "position": "C"
+               },
+               {
+                "is_flex": 0
+               }
+              ]
+             }
+            ]
+           },
+           "10": {
+            "player": [
+             [
+              {
+               "player_key": "477.p.8642"
+              },
+              {
+               "player_id": "8642"
+              },
+              {
+               "name": {
+                "ascii_first": "Quinton",
+                "ascii_last": "Byfield",
+                "first": "Quinton",
+                "full": "Quinton Byfield",
+                "last": "Byfield"
+               }
+              },
+              {
+               "url": "https://sports.yahoo.com/nhl/players/8642"
+              },
+              {
+               "editorial_player_key": "nhl.p.8642"
+              },
+              {
+               "editorial_team_key": "nhl.t.8"
+              },
+              {
+               "editorial_team_full_name": "Los Angeles Kings"
+              },
+              {
+               "editorial_team_abbr": "LA"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/los-angeles/"
+              },
+              {
+               "is_keeper": {
+                "cost": false,
+                "kept": false,
+                "status": false
+               }
+              },
+              {
+               "uniform_number": "55"
+              },
+              {
+               "display_position": "C"
+              },
+              {
+               "headshot": {
+                "size": "small",
+                "url": "https://s.yimg.com/iu/api/res/1.2/nzGoBNKr3FUgjRqrMOltqQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/8642.1.png"
+               },
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/nzGoBNKr3FUgjRqrMOltqQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/8642.1.png"
+              },
+              {
+               "is_undroppable": "0"
+              },
+              {
+               "position_type": "P"
+              },
+              {
+               "primary_position": "C"
+              },
+              {
+               "eligible_positions": [
+                {
+                 "position": "C"
+                }
+               ]
+              },
+              {
+               "eligible_positions_to_add": [
+                {
+                 "position": "LW"
+                },
+                {
+                 "position": "RW"
+                },
+                {
+                 "position": "D"
+                }
+               ]
+              },
+              [],
+              [],
+              {
+               "has_player_notes": 1
+              },
+              [],
+              {
+               "player_notes_last_timestamp": 1791094366
               }
              ],
              {
@@ -3012,9 +3027,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791836215
               }
@@ -4016,9 +4029,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791835205
               }
@@ -5854,6 +5865,13 @@
                "url": "https://sports.yahoo.com/nhl/players/7519"
               },
               {
+               "status": "O",
+               "status_full": "Out"
+              },
+              {
+               "injury_note": "Personal"
+              },
+              {
                "editorial_player_key": "nhl.p.7519"
               },
               {
@@ -5901,6 +5919,9 @@
                "eligible_positions": [
                 {
                  "position": "D"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -5922,9 +5943,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791521388
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791911357
               }
              ],
              {
@@ -7016,9 +7039,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791681225
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791915746
               }
              ],
              {
@@ -7032,6 +7057,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -7696,9 +7732,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791912764
+              }
              ],
              {
               "selected_position": [
@@ -7960,8 +8002,8 @@
                "url": "https://sports.yahoo.com/nhl/players/5992"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Wrist"
@@ -8038,9 +8080,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791562840
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791909550
               }
              ],
              {
@@ -8791,9 +8835,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791774764
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791913389
               }
              ],
              {
@@ -8807,6 +8853,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -8892,9 +8949,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791830684
               }
@@ -10797,6 +10852,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -10936,6 +11002,13 @@
                "url": "https://sports.yahoo.com/nhl/players/4947"
               },
               {
+               "status": "O",
+               "status_full": "Out"
+              },
+              {
+               "injury_note": "Undisclosed"
+              },
+              {
                "editorial_player_key": "nhl.p.4947"
               },
               {
@@ -10983,6 +11056,9 @@
                "eligible_positions": [
                 {
                  "position": "G"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -10998,7 +11074,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1791835877
+               "player_notes_last_timestamp": 1791922173
               }
              ],
              {
@@ -12921,9 +12997,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791824249
               }
@@ -13261,9 +13335,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791689919
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791920089
               }
              ],
              {
@@ -13277,6 +13353,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -14952,8 +15039,8 @@
                "url": "https://sports.yahoo.com/nhl/players/5096"
               },
               {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
+               "status": "O",
+               "status_full": "Out"
               },
               {
                "injury_note": "Undisclosed"
@@ -15027,9 +15114,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791915207
+              }
              ],
              {
               "selected_position": [
@@ -15127,9 +15220,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791689175
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791918480
               }
              ],
              {
@@ -15143,6 +15238,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -15244,6 +15350,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -16126,9 +16243,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791518764
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791912499
               }
              ],
              {
@@ -17333,9 +17452,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791602567
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1791912839
               }
              ],
              {
@@ -17349,6 +17470,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-13"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -18230,9 +18362,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791835526
               }
@@ -18553,9 +18683,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791835519
               }
@@ -19930,9 +20058,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791835011
               }
@@ -20372,9 +20498,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1791835785
               }
@@ -20527,7 +20651,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "160.14814376831ms",
+  "time": "308.39014053345ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-13"
  }

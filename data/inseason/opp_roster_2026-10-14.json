@@ -868,9 +868,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791824249
           }
@@ -1217,6 +1215,17 @@
             "is_flex": 0
            }
           ]
+         },
+         {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-14"
+           },
+           {
+            "is_starting": 0
+           }
+          ]
          }
         ]
        },
@@ -1300,9 +1309,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791689919
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791920089
           }
          ],
          {
@@ -2230,7 +2241,7 @@
     }
    }
   ],
-  "time": "80.28507232666ms",
+  "time": "92.377901077271ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-14/players"
  }

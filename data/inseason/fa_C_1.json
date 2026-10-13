@@ -612,11 +612,14 @@
          "url": "https://sports.yahoo.com/nhl/players/7540"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Lower Body"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.7540"
@@ -668,6 +671,9 @@
            "position": "C"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -694,7 +700,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1791831760
+         "player_notes_last_timestamp": 1791911987
         }
        ],
        {
@@ -1140,10 +1146,10 @@
           "week": 3
          },
          {
-          "value": 3
+          "value": 2
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -2776,9 +2782,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1791835568
         }
@@ -2804,7 +2808,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "76.802968978882ms",
+  "time": "73.454856872559ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=25/percent_owned"
  }
