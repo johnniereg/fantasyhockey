@@ -171,9 +171,15 @@
           },
           [],
           [],
-          [],
-          [],
-          []
+          {
+           "has_player_notes": 1
+          },
+          {
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791985674
+          }
          ],
          {
           "selected_position": [
@@ -392,9 +398,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791703543
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792002495
           }
          ],
          {
@@ -2226,7 +2234,7 @@
     }
    }
   ],
-  "time": "77.483177185059ms",
+  "time": "77.691078186035ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-18/players"
  }

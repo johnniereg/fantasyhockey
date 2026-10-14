@@ -246,9 +246,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791696658
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792001264
         }
        ],
        {
@@ -476,10 +478,10 @@
           "week": 3
          },
          {
-          "value": 13
+          "value": 12
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -1027,9 +1029,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1791911987
         }
@@ -1262,10 +1262,10 @@
           "week": 3
          },
          {
-          "value": 6
+          "value": 9
          },
          {
-          "delta": "2"
+          "delta": "5"
          }
         ]
        }
@@ -1914,9 +1914,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791866867
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791990960
         }
        ],
        {
@@ -2357,9 +2359,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792001053
+        }
        ],
        {
         "percent_owned": [
@@ -2467,9 +2475,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791153094
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791985990
         }
        ],
        {
@@ -2815,7 +2825,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "75.395107269287ms",
+  "time": "367.93303489685ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=25/percent_owned"
  }

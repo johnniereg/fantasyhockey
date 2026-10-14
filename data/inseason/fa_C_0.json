@@ -147,10 +147,10 @@
           "week": 3
          },
          {
-          "value": 11
+          "value": 13
          },
          {
-          "delta": "4"
+          "delta": "6"
          }
         ]
        }
@@ -260,10 +260,10 @@
           "week": 3
          },
          {
-          "value": 24
+          "value": 27
          },
          {
-          "delta": "4"
+          "delta": "7"
          }
         ]
        }
@@ -581,9 +581,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1791912375
         }
@@ -595,10 +593,10 @@
           "week": 3
          },
          {
-          "value": 4
+          "value": 3
          },
          {
-          "delta": "2"
+          "delta": "1"
          }
         ]
        }
@@ -805,9 +803,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791552473
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1791991052
         }
        ],
        {
@@ -930,10 +930,10 @@
           "week": 3
          },
          {
-          "value": 17
+          "value": 22
          },
          {
-          "delta": "12"
+          "delta": "17"
          }
         ]
        }
@@ -1074,13 +1074,6 @@
          "url": "https://sports.yahoo.com/nhl/players/6791"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
-        },
-        {
-         "injury_note": "Undisclosed"
-        },
-        {
          "editorial_player_key": "nhl.p.6791"
         },
         {
@@ -1128,9 +1121,6 @@
          "eligible_positions": [
           {
            "position": "C"
-          },
-          {
-           "position": "IR+"
           }
          ]
         },
@@ -1156,7 +1146,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1791950423
+         "player_notes_last_timestamp": 1792002414
         }
        ],
        {
@@ -1372,9 +1362,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791524410
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792002792
         }
        ],
        {
@@ -2497,10 +2489,10 @@
           "week": 3
          },
          {
-          "value": 25
+          "value": 24
          },
          {
-          "delta": "8"
+          "delta": "7"
          }
         ]
        }
@@ -2820,9 +2812,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1791911902
         }
@@ -2845,7 +2835,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "79.684972763062ms",
+  "time": "127.05421447754ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=0/percent_owned"
  }
