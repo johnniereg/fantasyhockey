@@ -448,6 +448,13 @@
            "url": "https://sports.yahoo.com/nhl/players/4961"
           },
           {
+           "status": "O",
+           "status_full": "Out"
+          },
+          {
+           "injury_note": "Upper Body"
+          },
+          {
            "editorial_player_key": "nhl.p.4961"
           },
           {
@@ -495,6 +502,9 @@
            "eligible_positions": [
             {
              "position": "LW"
+            },
+            {
+             "position": "IR+"
             }
            ]
           },
@@ -516,9 +526,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791690051
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791942977
           }
          ],
          {
@@ -1110,7 +1122,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1791915308
+           "player_notes_last_timestamp": 1791955132
           }
          ],
          {
@@ -1440,9 +1452,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791866323
           }
@@ -1666,9 +1676,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791776758
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1791957904
           }
          ],
          {
@@ -2148,12 +2160,12 @@
      "minimum_games": {
       "coverage_type": "week",
       "coverage_value": 3,
-      "value": "0"
+      "value": "1"
      }
     }
    }
   ],
-  "time": "78.400135040283ms",
+  "time": "87.943077087402ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-14/players"
  }
