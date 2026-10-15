@@ -1460,8 +1460,8 @@
            "url": "https://sports.yahoo.com/nhl/players/7111"
           },
           {
-           "status": "DTD",
-           "status_full": "Day-to-Day"
+           "status": "O",
+           "status_full": "Out"
           },
           {
            "injury_note": "Illness"
@@ -1538,9 +1538,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791820961
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792014035
           }
          ],
          {
@@ -1760,9 +1762,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791955353
           }
@@ -2234,7 +2234,7 @@
     }
    }
   ],
-  "time": "83.784818649292ms",
+  "time": "71.55179977417ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-15/players"
  }

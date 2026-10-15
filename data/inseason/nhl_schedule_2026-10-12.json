@@ -2009,32 +2009,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
       "id": 8,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.82"
-       },
-       {
-        "providerId": 7,
-        "value": "+102"
-       },
-       {
-        "providerId": 8,
-        "value": "-101"
-       },
-       {
-        "providerId": 9,
-        "value": "+100"
-       },
-       {
-        "providerId": 3,
-        "value": "1.99"
-       },
-       {
-        "providerId": 10,
-        "value": "2.60"
-       }
-      ],
       "placeName": {
        "default": "Montr\u00e9al"
       },
@@ -2042,12 +2016,17 @@
        "default": "Montr\u00e9al",
        "fr": "de Montr\u00e9al"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/mtl-at-wsh-condensed-game-6406882916112",
+     "condensedGameFr": "/fr/video/match-condense-canadiens-capitals-14-10-2026-6406883521112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/mtl-vs-wsh/2026/10/14/2026020106",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WSH",
@@ -2058,32 +2037,6 @@
       "homeSplitSquad": false,
       "id": 15,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.98"
-       },
-       {
-        "providerId": 7,
-        "value": "-122"
-       },
-       {
-        "providerId": 8,
-        "value": "-122"
-       },
-       {
-        "providerId": 9,
-        "value": "-120"
-       },
-       {
-        "providerId": 3,
-        "value": "1.85"
-       },
-       {
-        "providerId": 10,
-        "value": "2.35"
-       }
-      ],
       "placeName": {
        "default": "Washington"
       },
@@ -2091,19 +2044,19 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8"
+      "score": 5
      },
      "id": 2026020106,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-14T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/150064F03462E28A?brand=nhl&wt.mc_id=NHL_LEAGUE_WSH_SCHED_PG_GM4&utm_source=league_schedulepage&utm_medium=web_organic&utm_campaign=2627sgb_ca1014mc",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/150064F03462E28A?brand=nhl&wt.mc_id=NHL_LEAGUE_WSH_SCHED_PG_GM4&utm_source=league_schedulepage&utm_medium=web_organic&utm_campaign=2627sgb_ca1014mc",
+     "threeMinRecap": "/video/mtl-at-wsh-recap-6406882206112",
+     "threeMinRecapFr": "/fr/video/mtl-vs-wsh-14-10-2026-resume-6406881921112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -2124,7 +2077,25 @@
       "default": "Capital One Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Tuch"
+      },
+      "playerId": 8477949
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Lindgren"
+      },
+      "playerId": 8479292
+     }
     },
     {
      "awayTeam": {
@@ -2136,32 +2107,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
       "id": 25,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.68"
-       },
-       {
-        "providerId": 8,
-        "value": "+117"
-       },
-       {
-        "providerId": 7,
-        "value": "+116"
-       },
-       {
-        "providerId": 9,
-        "value": "+120"
-       },
-       {
-        "providerId": 3,
-        "value": "2.15"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Dallas"
       },
@@ -2169,12 +2114,16 @@
        "default": "Dallas",
        "fr": "de Dallas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DAL/20262027/DAL-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/dal-at-col-condensed-game-6406884296112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/dal-vs-col/2026/10/14/2026020107",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "COL",
@@ -2185,32 +2134,6 @@
       "homeSplitSquad": false,
       "id": 21,
       "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.20"
-       },
-       {
-        "providerId": 8,
-        "value": "-143"
-       },
-       {
-        "providerId": 7,
-        "value": "-140"
-       },
-       {
-        "providerId": 9,
-        "value": "-142"
-       },
-       {
-        "providerId": 3,
-        "value": "1.73"
-       },
-       {
-        "providerId": 10,
-        "value": "2.20"
-       }
-      ],
       "placeName": {
        "default": "Colorado"
       },
@@ -2218,19 +2141,19 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+      "score": 2
      },
      "id": 2026020107,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-15T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1E0064EEB2B29EB8?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM4",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1E0064EEB2B29EB8?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM4&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM4",
+     "threeMinRecap": "/video/dal-at-col-recap-6406886166112",
+     "threeMinRecapFr": "/fr/video/dal-vs-col-14-10-2026-resume-6406887230112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -2258,7 +2181,16 @@
       "default": "Ball Arena"
      },
      "venueTimezone": "America/Denver",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "DeSmith"
+      },
+      "playerId": 8479193
+     }
     }
    ],
    "numberOfGames": 2
@@ -4297,8 +4229,8 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-18T01:00:00Z",
-     "ticketsLink": "https://www.nhl.com/kings/tickets/single-game-tickets",
-     "ticketsLinkFr": "https://www.nhl.com/kings/tickets/single-game-tickets",
+     "ticketsLink": "https://www.axs.com/events/1457738/la-kings-vs-boston-bruins-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261017&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261017&tags=LAKWEB",
+     "ticketsLinkFr": "https://www.axs.com/events/1457738/la-kings-vs-boston-bruins-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261017&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261017&tags=LAKWEB",
      "tvBroadcasts": [
       {
        "countryCode": "US",

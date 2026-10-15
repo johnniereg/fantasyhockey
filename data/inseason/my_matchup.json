@@ -182,9 +182,9 @@
             "team_remaining_games": {
              "coverage_type": "week",
              "total": {
-              "completed_games": 14,
+              "completed_games": 18,
               "live_games": 0,
-              "remaining_games": 30
+              "remaining_games": 26
              },
              "week": "3"
             },
@@ -194,25 +194,25 @@
               {
                "stat": {
                 "stat_id": "1",
-                "value": "2"
+                "value": "4"
                }
               },
               {
                "stat": {
                 "stat_id": "2",
-                "value": "6"
+                "value": "7"
                }
               },
               {
                "stat": {
                 "stat_id": "4",
-                "value": "8"
+                "value": "10"
                }
               },
               {
                "stat": {
                 "stat_id": "5",
-                "value": "2"
+                "value": "6"
                }
               },
               {
@@ -357,15 +357,15 @@
            {
             "team_points": {
              "coverage_type": "week",
-             "total": "5",
+             "total": "3",
              "week": "3"
             },
             "team_remaining_games": {
              "coverage_type": "week",
              "total": {
-              "completed_games": 17,
+              "completed_games": 19,
               "live_games": 0,
-              "remaining_games": 28
+              "remaining_games": 25
              },
              "week": "3"
             },
@@ -387,7 +387,7 @@
               {
                "stat": {
                 "stat_id": "4",
-                "value": "5"
+                "value": "4"
                }
               },
               {
@@ -465,14 +465,14 @@
        "stat_winners": [
         {
          "stat_winner": {
-          "stat_id": "1",
-          "winner_team_key": "477.l.12088.t.7"
+          "is_tied": 1,
+          "stat_id": "1"
          }
         },
         {
          "stat_winner": {
-          "stat_id": "2",
-          "winner_team_key": "477.l.12088.t.7"
+          "is_tied": 1,
+          "stat_id": "2"
          }
         },
         {
@@ -534,7 +534,7 @@
     }
    }
   ],
-  "time": "121.31810188293ms",
+  "time": "98.286151885986ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/matchups;weeks=3"
  }
