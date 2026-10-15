@@ -174,9 +174,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1792002495
           }
@@ -287,9 +285,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1791985674
           }
@@ -749,9 +745,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791643541
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792077871
           }
          ],
          {
@@ -876,9 +874,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791824249
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792083466
           }
          ],
          {
@@ -919,8 +919,8 @@
            "url": "https://sports.yahoo.com/nhl/players/8645"
           },
           {
-           "status": "DTD",
-           "status_full": "Day-to-Day"
+           "status": "O",
+           "status_full": "Out"
           },
           {
            "injury_note": "Lower Body"
@@ -997,9 +997,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791859787
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792077354
           }
          ],
          {
@@ -1098,9 +1100,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791867044
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792089776
           }
          ],
          {
@@ -1114,6 +1118,17 @@
            },
            {
             "is_flex": 0
+           }
+          ]
+         },
+         {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-15"
+           },
+           {
+            "is_starting": 1
            }
           ]
          }
@@ -1203,7 +1218,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1791985446
+           "player_notes_last_timestamp": 1792083973
           }
          ],
          {
@@ -1217,6 +1232,17 @@
            },
            {
             "is_flex": 0
+           }
+          ]
+         },
+         {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-15"
+           },
+           {
+            "is_starting": 1
            }
           ]
          }
@@ -1456,8 +1482,8 @@
            "url": "https://sports.yahoo.com/nhl/players/7111"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "DTD",
+           "status_full": "Day-to-Day"
           },
           {
            "injury_note": "Illness"
@@ -2230,7 +2256,7 @@
     }
    }
   ],
-  "time": "78.96089553833ms",
+  "time": "77.288866043091ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-15/players"
  }
