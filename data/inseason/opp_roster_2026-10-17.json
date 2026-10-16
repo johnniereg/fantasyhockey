@@ -550,8 +550,8 @@
            "url": "https://sports.yahoo.com/nhl/players/7111"
           },
           {
-           "status": "DTD",
-           "status_full": "Day-to-Day"
+           "status": "O",
+           "status_full": "Out"
           },
           {
            "injury_note": "Illness"
@@ -628,9 +628,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792014035
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792167035
           }
          ],
          {
@@ -755,9 +757,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1792077871
           }
@@ -884,9 +884,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1792083466
           }
@@ -929,8 +927,8 @@
            "url": "https://sports.yahoo.com/nhl/players/8645"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "DTD",
+           "status_full": "Day-to-Day"
           },
           {
            "injury_note": "Lower Body"
@@ -1007,9 +1005,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1792077354
           }
@@ -2240,7 +2236,7 @@
     }
    }
   ],
-  "time": "77.028036117554ms",
+  "time": "73.984146118164ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-17/players"
  }

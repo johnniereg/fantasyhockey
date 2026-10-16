@@ -419,9 +419,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1791981765
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792171103
         }
        ],
        {
@@ -2195,8 +2197,8 @@
          "url": "https://sports.yahoo.com/nhl/players/6055"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
          "injury_note": "Personal"
@@ -2273,9 +2275,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792084060
         }
@@ -3604,7 +3604,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "92.018127441406ms",
+  "time": "139.56522941589ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/stats;type=lastweek"
  }
