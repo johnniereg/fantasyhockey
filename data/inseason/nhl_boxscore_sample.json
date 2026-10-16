@@ -1,21 +1,21 @@
 {
  "awayTeam": {
-  "abbrev": "DAL",
+  "abbrev": "CGY",
   "commonName": {
-   "default": "Stars"
+   "default": "Flames"
   },
-  "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
-  "id": 25,
-  "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+  "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
+  "id": 20,
+  "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
   "placeName": {
-   "default": "Dallas"
+   "default": "Calgary"
   },
   "placeNameWithPreposition": {
-   "default": "Dallas",
-   "fr": "de Dallas"
+   "default": "Calgary",
+   "fr": "de Calgary"
   },
-  "score": 3,
-  "sog": 22
+  "score": 2,
+  "sog": 30
  },
  "clock": {
   "inIntermission": false,
@@ -24,84 +24,84 @@
   "timeRemaining": "00:00"
  },
  "easternUTCOffset": "-04:00",
- "gameDate": "2026-10-14",
+ "gameDate": "2026-10-15",
  "gameOutcome": {
-  "lastPeriodType": "SO"
+  "lastPeriodType": "REG"
  },
  "gameScheduleState": "OK",
  "gameState": "OFF",
  "gameType": 2,
  "homeTeam": {
-  "abbrev": "COL",
+  "abbrev": "VGK",
   "commonName": {
-   "default": "Avalanche"
+   "default": "Golden Knights"
   },
-  "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
-  "id": 21,
-  "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+  "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
+  "id": 54,
+  "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
   "placeName": {
-   "default": "Colorado"
+   "default": "Vegas"
   },
   "placeNameWithPreposition": {
-   "default": "Colorado",
-   "fr": "du Colorado"
+   "default": "Vegas",
+   "fr": "de Vegas"
   },
-  "score": 2,
-  "sog": 27
+  "score": 6,
+  "sog": 33
  },
- "id": 2026020107,
+ "id": 2026020118,
  "limitedScoring": false,
  "periodDescriptor": {
   "maxRegulationPeriods": 3,
-  "number": 5,
-  "periodType": "SO"
+  "number": 3,
+  "periodType": "REG"
  },
  "playerByGameStats": {
   "awayTeam": {
    "defense": [
     {
      "assists": 0,
-     "blockedShots": 0,
+     "blockedShots": 1,
      "faceoffWinningPctg": 0.0,
      "giveaways": 1,
-     "goals": 1,
-     "hits": 1,
-     "name": {
-      "default": "M. Heiskanen"
-     },
-     "pim": 2,
-     "playerId": 8480036,
-     "plusMinus": 2,
-     "points": 1,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 30,
-     "sog": 2,
-     "sweaterNumber": 4,
-     "takeaways": 0,
-     "toi": "30:03"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 2,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 0,
      "goals": 0,
      "hits": 2,
      "name": {
-      "default": "N. Lundkvist"
+      "default": "K. Bahl"
      },
-     "pim": 0,
-     "playerId": 8480878,
-     "plusMinus": -2,
+     "pim": 2,
+     "playerId": 8480860,
+     "plusMinus": -1,
      "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
      "shifts": 25,
      "sog": 0,
-     "sweaterNumber": 5,
-     "takeaways": 1,
-     "toi": "17:02"
+     "sweaterNumber": 7,
+     "takeaways": 0,
+     "toi": "21:58"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 3,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 3,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "Z. Parekh"
+     },
+     "pim": 2,
+     "playerId": 8484768,
+     "plusMinus": -1,
+     "points": 0,
+     "position": "D",
+     "powerPlayGoals": 0,
+     "shifts": 24,
+     "sog": 4,
+     "sweaterNumber": 19,
+     "takeaways": 0,
+     "toi": "17:25"
     },
     {
      "assists": 0,
@@ -109,388 +109,374 @@
      "faceoffWinningPctg": 0.0,
      "giveaways": 1,
      "goals": 0,
-     "hits": 1,
+     "hits": 0,
      "name": {
-      "default": "L. Bichsel"
+      "default": "Z. Whitecloud"
      },
      "pim": 0,
-     "playerId": 8483425,
+     "playerId": 8480727,
      "plusMinus": 0,
      "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 19,
-     "sog": 1,
-     "sweaterNumber": 6,
-     "takeaways": 1,
-     "toi": "13:17"
+     "shifts": 23,
+     "sog": 2,
+     "sweaterNumber": 28,
+     "takeaways": 0,
+     "toi": "21:24"
     },
     {
      "assists": 0,
-     "blockedShots": 2,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 3,
-     "goals": 0,
-     "hits": 0,
-     "name": {
-      "default": "E. Lindell"
-     },
-     "pim": 0,
-     "playerId": 8476902,
-     "plusMinus": 1,
-     "points": 0,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 25,
-     "sog": 0,
-     "sweaterNumber": 23,
-     "takeaways": 0,
-     "toi": "24:51"
-    },
-    {
-     "assists": 1,
-     "blockedShots": 5,
+     "blockedShots": 1,
      "faceoffWinningPctg": 0.0,
      "giveaways": 1,
      "goals": 0,
      "hits": 2,
      "name": {
-      "default": "T. Harley"
+      "default": "Y. Kuznetsov"
      },
      "pim": 0,
-     "playerId": 8481581,
+     "playerId": 8482165,
      "plusMinus": -1,
-     "points": 1,
+     "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 29,
-     "sog": 3,
-     "sweaterNumber": 55,
+     "shifts": 23,
+     "sog": 1,
+     "sweaterNumber": 37,
      "takeaways": 0,
-     "toi": "23:04"
+     "toi": "17:19"
     },
     {
      "assists": 0,
-     "blockedShots": 2,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 2,
+     "goals": 1,
+     "hits": 2,
+     "name": {
+      "default": "J. Middleton"
+     },
+     "pim": 10,
+     "playerId": 8478136,
+     "plusMinus": 0,
+     "points": 1,
+     "position": "D",
+     "powerPlayGoals": 0,
+     "shifts": 24,
+     "sog": 2,
+     "sweaterNumber": 55,
+     "takeaways": 1,
+     "toi": "19:14"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 1,
      "faceoffWinningPctg": 0.0,
      "giveaways": 1,
      "goals": 0,
      "hits": 0,
      "name": {
-      "default": "T. Myers"
+      "cs": "\u0160. Nemec",
+      "default": "S. Nemec",
+      "sk": "\u0160. Nemec"
      },
      "pim": 0,
-     "playerId": 8474574,
-     "plusMinus": 0,
+     "playerId": 8483495,
+     "plusMinus": -2,
      "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 20,
-     "sog": 0,
-     "sweaterNumber": 57,
-     "takeaways": 2,
-     "toi": "13:57"
+     "shifts": 23,
+     "sog": 3,
+     "sweaterNumber": 71,
+     "takeaways": 0,
+     "toi": "20:54"
     }
    ],
    "forwards": [
     {
      "assists": 0,
      "blockedShots": 0,
+     "faceoffWinningPctg": 0.666667,
+     "giveaways": 3,
+     "goals": 0,
+     "hits": 2,
+     "name": {
+      "default": "M. Backlund"
+     },
+     "pim": 2,
+     "playerId": 8474150,
+     "plusMinus": -1,
+     "points": 0,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 25,
+     "sog": 1,
+     "sweaterNumber": 11,
+     "takeaways": 0,
+     "toi": "18:41"
+    },
+    {
+     "assists": 1,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.6,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "M. Frost"
+     },
+     "pim": 0,
+     "playerId": 8480028,
+     "plusMinus": -2,
+     "points": 1,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 21,
+     "sog": 2,
+     "sweaterNumber": 16,
+     "takeaways": 3,
+     "toi": "15:45"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 0,
+     "name": {
+      "cs": "J. \u0160arangovi\u010d",
+      "default": "Y. Sharangovich",
+      "fi": "J. Sharanhovitsh",
+      "sk": "J. \u0160arangovi\u010d"
+     },
+     "pim": 0,
+     "playerId": 8481068,
+     "plusMinus": -2,
+     "points": 0,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 18,
+     "sog": 1,
+     "sweaterNumber": 17,
+     "takeaways": 0,
+     "toi": "12:03"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 0,
      "faceoffWinningPctg": 0.0,
      "giveaways": 0,
      "goals": 0,
      "hits": 0,
      "name": {
-      "default": "O. B\u00e4ck"
+      "default": "R. Strome"
      },
      "pim": 0,
-     "playerId": 8480840,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 5,
-     "sog": 0,
-     "sweaterNumber": 10,
-     "takeaways": 0,
-     "toi": "03:04"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 3,
-     "faceoffWinningPctg": 0.75,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 1,
-     "name": {
-      "default": "R. Faksa"
-     },
-     "pim": 0,
-     "playerId": 8476889,
-     "plusMinus": 0,
+     "playerId": 8476458,
+     "plusMinus": -1,
      "points": 0,
      "position": "C",
      "powerPlayGoals": 0,
      "shifts": 20,
-     "sog": 1,
-     "sweaterNumber": 12,
-     "takeaways": 1,
-     "toi": "12:41"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 1.0,
-     "giveaways": 2,
-     "goals": 0,
-     "hits": 1,
-     "name": {
-      "default": "J. Benn"
-     },
-     "pim": 2,
-     "playerId": 8473994,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "L",
-     "powerPlayGoals": 0,
-     "shifts": 18,
      "sog": 2,
-     "sweaterNumber": 14,
-     "takeaways": 0,
-     "toi": "12:58"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.333333,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 4,
-     "name": {
-      "default": "C. Blackwell"
-     },
-     "pim": 0,
-     "playerId": 8476278,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 15,
-     "sog": 1,
-     "sweaterNumber": 15,
-     "takeaways": 0,
-     "toi": "10:58"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.666667,
-     "giveaways": 1,
-     "goals": 0,
-     "hits": 2,
-     "name": {
-      "default": "S. Steel"
-     },
-     "pim": 0,
-     "playerId": 8479351,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 25,
-     "sog": 0,
-     "sweaterNumber": 18,
-     "takeaways": 0,
-     "toi": "18:39"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 3,
-     "name": {
-      "default": "J. Robertson"
-     },
-     "pim": 0,
-     "playerId": 8480027,
-     "plusMinus": 1,
-     "points": 0,
-     "position": "L",
-     "powerPlayGoals": 0,
-     "shifts": 27,
-     "sog": 3,
-     "sweaterNumber": 21,
-     "takeaways": 0,
-     "toi": "22:23"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 1.0,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 2,
-     "name": {
-      "default": "J. Kiviranta"
-     },
-     "pim": 0,
-     "playerId": 8481641,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "L",
-     "powerPlayGoals": 0,
-     "shifts": 22,
-     "sog": 0,
      "sweaterNumber": 22,
-     "takeaways": 0,
-     "toi": "13:36"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.357143,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 2,
-     "name": {
-      "default": "R. Hintz"
-     },
-     "pim": 0,
-     "playerId": 8478449,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 26,
-     "sog": 1,
-     "sweaterNumber": 24,
-     "takeaways": 0,
-     "toi": "18:05"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.4,
-     "giveaways": 0,
-     "goals": 1,
-     "hits": 2,
-     "name": {
-      "default": "A. Hyry"
-     },
-     "pim": 0,
-     "playerId": 8484938,
-     "plusMinus": 1,
-     "points": 1,
-     "position": "R",
-     "powerPlayGoals": 0,
-     "shifts": 21,
-     "sog": 2,
-     "sweaterNumber": 25,
-     "takeaways": 2,
-     "toi": "14:40"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.714286,
-     "giveaways": 1,
-     "goals": 0,
-     "hits": 1,
-     "name": {
-      "default": "J. Hryckowian"
-     },
-     "pim": 0,
-     "playerId": 8484829,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 25,
-     "sog": 2,
-     "sweaterNumber": 49,
-     "takeaways": 0,
-     "toi": "19:37"
+     "takeaways": 1,
+     "toi": "13:48"
     },
     {
      "assists": 0,
      "blockedShots": 0,
      "faceoffWinningPctg": 0.5,
-     "giveaways": 1,
+     "giveaways": 0,
+     "goals": 1,
+     "hits": 0,
+     "name": {
+      "default": "M. Coronato"
+     },
+     "pim": 0,
+     "playerId": 8482679,
+     "plusMinus": -1,
+     "points": 1,
+     "position": "R",
+     "powerPlayGoals": 1,
+     "shifts": 21,
+     "sog": 3,
+     "sweaterNumber": 27,
+     "takeaways": 0,
+     "toi": "16:01"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.333333,
+     "giveaways": 0,
      "goals": 0,
      "hits": 2,
      "name": {
-      "default": "T. Seguin"
+      "default": "J. Castagna"
      },
-     "pim": 0,
-     "playerId": 8475794,
-     "plusMinus": -2,
+     "pim": 4,
+     "playerId": 8484154,
+     "plusMinus": 0,
      "points": 0,
      "position": "C",
      "powerPlayGoals": 0,
+     "shifts": 18,
+     "sog": 0,
+     "sweaterNumber": 38,
+     "takeaways": 0,
+     "toi": "10:39"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 2,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 2,
+     "goals": 0,
+     "hits": 2,
+     "name": {
+      "default": "A. Klapka"
+     },
+     "pim": 0,
+     "playerId": 8483609,
+     "plusMinus": -1,
+     "points": 0,
+     "position": "R",
+     "powerPlayGoals": 0,
+     "shifts": 17,
+     "sog": 1,
+     "sweaterNumber": 43,
+     "takeaways": 0,
+     "toi": "11:22"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 0,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "A. Suniev"
+     },
+     "pim": 0,
+     "playerId": 8484234,
+     "plusMinus": -3,
+     "points": 0,
+     "position": "L",
+     "powerPlayGoals": 0,
      "shifts": 19,
      "sog": 3,
-     "sweaterNumber": 91,
+     "sweaterNumber": 61,
      "takeaways": 0,
-     "toi": "14:59"
+     "toi": "14:21"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "cs": "M. Cyplakov",
+      "default": "M. Tsyplakov",
+      "sk": "M. Cyplakov"
+     },
+     "pim": 0,
+     "playerId": 8484958,
+     "plusMinus": -1,
+     "points": 0,
+     "position": "R",
+     "powerPlayGoals": 0,
+     "shifts": 14,
+     "sog": 1,
+     "sweaterNumber": 72,
+     "takeaways": 0,
+     "toi": "09:48"
+    },
+    {
+     "assists": 1,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.363636,
+     "giveaways": 0,
+     "goals": 0,
+     "hits": 8,
+     "name": {
+      "cs": "M. Posp\u00ed\u0161il",
+      "default": "M. Pospisil",
+      "sk": "M. Posp\u00ed\u0161il"
+     },
+     "pim": 4,
+     "playerId": 8481028,
+     "plusMinus": 1,
+     "points": 1,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 21,
+     "sog": 1,
+     "sweaterNumber": 76,
+     "takeaways": 0,
+     "toi": "13:40"
+    },
+    {
+     "assists": 1,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 0,
+     "goals": 0,
+     "hits": 0,
+     "name": {
+      "default": "J. Farabee"
+     },
+     "pim": 0,
+     "playerId": 8480797,
+     "plusMinus": 0,
+     "points": 1,
+     "position": "L",
+     "powerPlayGoals": 0,
+     "shifts": 25,
+     "sog": 3,
+     "sweaterNumber": 86,
+     "takeaways": 0,
+     "toi": "20:24"
     },
     {
      "assists": 1,
      "blockedShots": 0,
      "faceoffWinningPctg": 0.0,
-     "giveaways": 3,
+     "giveaways": 0,
      "goals": 0,
-     "hits": 1,
+     "hits": 0,
      "name": {
-      "default": "M. Rantanen"
+      "default": "M. Gridin"
      },
-     "pim": 4,
-     "playerId": 8478420,
-     "plusMinus": -1,
+     "pim": 0,
+     "playerId": 8484860,
+     "plusMinus": 0,
      "points": 1,
      "position": "R",
      "powerPlayGoals": 0,
-     "shifts": 27,
-     "sog": 1,
-     "sweaterNumber": 96,
+     "shifts": 17,
+     "sog": 0,
+     "sweaterNumber": 92,
      "takeaways": 0,
-     "toi": "23:06"
+     "toi": "13:40"
     }
    ],
    "goalies": [
-    {
-     "decision": "W",
-     "evenStrengthGoalsAgainst": 2,
-     "evenStrengthShotsAgainst": "21/23",
-     "goalsAgainst": 2,
-     "name": {
-      "default": "C. DeSmith"
-     },
-     "pim": 0,
-     "playerId": 8479193,
-     "position": "G",
-     "powerPlayGoalsAgainst": 0,
-     "powerPlayShotsAgainst": "4/4",
-     "savePctg": 0.925926,
-     "saveShotsAgainst": "25/27",
-     "saves": 25,
-     "shorthandedGoalsAgainst": 0,
-     "shorthandedShotsAgainst": "0/0",
-     "shotsAgainst": 27,
-     "starter": true,
-     "sweaterNumber": 1,
-     "toi": "65:00"
-    },
     {
      "evenStrengthGoalsAgainst": 0,
      "evenStrengthShotsAgainst": "0/0",
      "goalsAgainst": 0,
      "name": {
-      "default": "J. Oettinger"
+      "default": "D. Cooley"
      },
      "pim": 0,
-     "playerId": 8479979,
+     "playerId": 8482445,
      "position": "G",
      "powerPlayGoalsAgainst": 0,
      "powerPlayShotsAgainst": "0/0",
@@ -500,8 +486,31 @@
      "shorthandedShotsAgainst": "0/0",
      "shotsAgainst": 0,
      "starter": false,
-     "sweaterNumber": 29,
+     "sweaterNumber": 1,
      "toi": "00:00"
+    },
+    {
+     "decision": "L",
+     "evenStrengthGoalsAgainst": 3,
+     "evenStrengthShotsAgainst": "17/20",
+     "goalsAgainst": 6,
+     "name": {
+      "default": "D. Wolf"
+     },
+     "pim": 0,
+     "playerId": 8481692,
+     "position": "G",
+     "powerPlayGoalsAgainst": 2,
+     "powerPlayShotsAgainst": "9/11",
+     "savePctg": 0.818182,
+     "saveShotsAgainst": "27/33",
+     "saves": 27,
+     "shorthandedGoalsAgainst": 1,
+     "shorthandedShotsAgainst": "1/2",
+     "shotsAgainst": 33,
+     "starter": true,
+     "sweaterNumber": 32,
+     "toi": "60:00"
     }
    ]
   },
@@ -511,379 +520,267 @@
      "assists": 0,
      "blockedShots": 0,
      "faceoffWinningPctg": 0.0,
-     "giveaways": 1,
-     "goals": 0,
-     "hits": 1,
-     "name": {
-      "default": "D. Toews"
-     },
-     "pim": 0,
-     "playerId": 8478038,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 27,
-     "sog": 0,
-     "sweaterNumber": 7,
-     "takeaways": 0,
-     "toi": "22:55"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 1,
-     "goals": 0,
-     "hits": 2,
-     "name": {
-      "default": "C. Makar"
-     },
-     "pim": 0,
-     "playerId": 8480069,
-     "plusMinus": 1,
-     "points": 0,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 28,
-     "sog": 2,
-     "sweaterNumber": 8,
-     "takeaways": 1,
-     "toi": "22:54"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 2,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 1,
+     "giveaways": 0,
      "goals": 0,
      "hits": 0,
      "name": {
-      "default": "B. Kulak"
+      "default": "B. McNabb"
      },
      "pim": 2,
-     "playerId": 8476967,
-     "plusMinus": -1,
+     "playerId": 8475188,
+     "plusMinus": 2,
      "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 21,
-     "sog": 0,
-     "sweaterNumber": 27,
-     "takeaways": 0,
-     "toi": "19:45"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 5,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 3,
-     "name": {
-      "default": "J. Manson"
-     },
-     "pim": 0,
-     "playerId": 8476312,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 17,
+     "shifts": 24,
      "sog": 1,
-     "sweaterNumber": 42,
+     "sweaterNumber": 3,
      "takeaways": 0,
-     "toi": "12:32"
+     "toi": "16:22"
     },
     {
      "assists": 0,
      "blockedShots": 0,
      "faceoffWinningPctg": 0.0,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 2,
-     "name": {
-      "default": "N. Juulsen"
-     },
-     "pim": 0,
-     "playerId": 8478454,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "D",
-     "powerPlayGoals": 0,
-     "shifts": 12,
-     "sog": 1,
-     "sweaterNumber": 47,
-     "takeaways": 0,
-     "toi": "08:20"
-    },
-    {
-     "assists": 1,
-     "blockedShots": 2,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 0,
+     "giveaways": 2,
      "goals": 0,
      "hits": 0,
      "name": {
-      "default": "S. Malinski"
+      "default": "R. Andersson"
      },
      "pim": 0,
-     "playerId": 8484258,
+     "playerId": 8478397,
+     "plusMinus": 1,
+     "points": 0,
+     "position": "D",
+     "powerPlayGoals": 0,
+     "shifts": 24,
+     "sog": 3,
+     "sweaterNumber": 4,
+     "takeaways": 0,
+     "toi": "20:06"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 2,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 2,
+     "name": {
+      "default": "J. Lauzon"
+     },
+     "pim": 2,
+     "playerId": 8478468,
+     "plusMinus": 1,
+     "points": 0,
+     "position": "D",
+     "powerPlayGoals": 0,
+     "shifts": 24,
+     "sog": 0,
+     "sweaterNumber": 5,
+     "takeaways": 1,
+     "toi": "20:45"
+    },
+    {
+     "assists": 1,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 0,
+     "name": {
+      "default": "N. Hanifin"
+     },
+     "pim": 0,
+     "playerId": 8478396,
      "plusMinus": 1,
      "points": 1,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 20,
-     "sog": 4,
-     "sweaterNumber": 70,
+     "shifts": 24,
+     "sog": 0,
+     "sweaterNumber": 15,
      "takeaways": 0,
-     "toi": "16:13"
+     "toi": "18:24"
     },
     {
      "assists": 0,
      "blockedShots": 1,
      "faceoffWinningPctg": 0.0,
-     "giveaways": 2,
+     "giveaways": 1,
      "goals": 0,
-     "hits": 1,
+     "hits": 0,
      "name": {
-      "default": "B. Burns"
+      "default": "S. Theodore"
      },
-     "pim": 2,
-     "playerId": 8470613,
-     "plusMinus": 0,
+     "pim": 0,
+     "playerId": 8477447,
+     "plusMinus": 2,
      "points": 0,
      "position": "D",
      "powerPlayGoals": 0,
-     "shifts": 18,
+     "shifts": 25,
      "sog": 1,
-     "sweaterNumber": 84,
+     "sweaterNumber": 27,
      "takeaways": 0,
-     "toi": "14:22"
+     "toi": "18:48"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 2,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "D. Coghlan"
+     },
+     "pim": 0,
+     "playerId": 8479639,
+     "plusMinus": 1,
+     "points": 0,
+     "position": "D",
+     "powerPlayGoals": 0,
+     "shifts": 20,
+     "sog": 3,
+     "sweaterNumber": 52,
+     "takeaways": 0,
+     "toi": "15:26"
     }
    ],
    "forwards": [
     {
+     "assists": 2,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.5,
+     "giveaways": 2,
+     "goals": 1,
+     "hits": 1,
+     "name": {
+      "default": "J. Eichel"
+     },
+     "pim": 0,
+     "playerId": 8478403,
+     "plusMinus": 2,
+     "points": 3,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 18,
+     "sog": 4,
+     "sweaterNumber": 9,
+     "takeaways": 0,
+     "toi": "15:16"
+    },
+    {
      "assists": 0,
      "blockedShots": 1,
      "faceoffWinningPctg": 0.5,
-     "giveaways": 1,
+     "giveaways": 0,
      "goals": 0,
-     "hits": 0,
+     "hits": 6,
      "name": {
-      "default": "F. Svechkov"
+      "default": "M. Gatcomb"
      },
      "pim": 0,
-     "playerId": 8482768,
+     "playerId": 8483553,
      "plusMinus": 0,
      "points": 0,
      "position": "C",
      "powerPlayGoals": 0,
-     "shifts": 21,
-     "sog": 3,
-     "sweaterNumber": 9,
-     "takeaways": 1,
-     "toi": "15:47"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.4375,
-     "giveaways": 1,
-     "goals": 1,
-     "hits": 0,
-     "name": {
-      "default": "B. Nelson"
-     },
-     "pim": 0,
-     "playerId": 8475754,
-     "plusMinus": 1,
-     "points": 1,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 26,
-     "sog": 2,
-     "sweaterNumber": 11,
+     "shifts": 18,
+     "sog": 1,
+     "sweaterNumber": 17,
      "takeaways": 0,
-     "toi": "23:02"
+     "toi": "14:51"
     },
     {
      "assists": 0,
      "blockedShots": 1,
      "faceoffWinningPctg": 0.0,
      "giveaways": 0,
+     "goals": 1,
+     "hits": 1,
+     "name": {
+      "default": "B. Howden"
+     },
+     "pim": 4,
+     "playerId": 8479353,
+     "plusMinus": 1,
+     "points": 1,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 21,
+     "sog": 1,
+     "sweaterNumber": 21,
+     "takeaways": 0,
+     "toi": "14:41"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 1,
      "goals": 0,
      "hits": 0,
      "name": {
-      "default": "T. Hughes"
+      "default": "T. Connelly"
      },
      "pim": 0,
-     "playerId": 8486171,
+     "playerId": 8484803,
      "plusMinus": -1,
      "points": 0,
-     "position": "R",
+     "position": "L",
      "powerPlayGoals": 0,
-     "shifts": 15,
+     "shifts": 18,
+     "sog": 1,
+     "sweaterNumber": 24,
+     "takeaways": 0,
+     "toi": "14:59"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 3,
+     "faceoffWinningPctg": 0.533333,
+     "giveaways": 0,
+     "goals": 0,
+     "hits": 0,
+     "name": {
+      "default": "N. Dowd"
+     },
+     "pim": 0,
+     "playerId": 8475343,
+     "plusMinus": 0,
+     "points": 0,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 18,
      "sog": 0,
-     "sweaterNumber": 13,
+     "sweaterNumber": 26,
      "takeaways": 0,
      "toi": "14:27"
     },
     {
      "assists": 0,
      "blockedShots": 0,
-     "faceoffWinningPctg": 0.0,
+     "faceoffWinningPctg": 1.0,
      "giveaways": 0,
-     "goals": 0,
-     "hits": 0,
-     "name": {
-      "default": "P. Kelly"
-     },
-     "pim": 0,
-     "playerId": 8480448,
-     "plusMinus": 0,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 14,
-     "sog": 0,
-     "sweaterNumber": 17,
-     "takeaways": 0,
-     "toi": "10:22"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.375,
-     "giveaways": 2,
-     "goals": 0,
-     "hits": 0,
-     "name": {
-      "default": "N. MacKinnon"
-     },
-     "pim": 0,
-     "playerId": 8477492,
-     "plusMinus": -1,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 23,
-     "sog": 4,
-     "sweaterNumber": 29,
-     "takeaways": 0,
-     "toi": "25:22"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 2,
      "goals": 0,
      "hits": 2,
      "name": {
-      "default": "G. Brindley"
+      "default": "R. Lavoie"
      },
-     "pim": 0,
-     "playerId": 8484149,
+     "pim": 10,
+     "playerId": 8481534,
      "plusMinus": 0,
      "points": 0,
      "position": "C",
      "powerPlayGoals": 0,
-     "shifts": 11,
+     "shifts": 13,
      "sog": 1,
-     "sweaterNumber": 54,
+     "sweaterNumber": 36,
      "takeaways": 0,
-     "toi": "06:46"
-    },
-    {
-     "assists": 1,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 2,
-     "goals": 0,
-     "hits": 3,
-     "name": {
-      "default": "A. Lehkonen"
-     },
-     "pim": 0,
-     "playerId": 8477476,
-     "plusMinus": 1,
-     "points": 1,
-     "position": "L",
-     "powerPlayGoals": 0,
-     "shifts": 26,
-     "sog": 1,
-     "sweaterNumber": 62,
-     "takeaways": 0,
-     "toi": "21:57"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 2,
-     "goals": 0,
-     "hits": 1,
-     "name": {
-      "default": "J. Schwartz"
-     },
-     "pim": 0,
-     "playerId": 8475768,
-     "plusMinus": -1,
-     "points": 0,
-     "position": "L",
-     "powerPlayGoals": 0,
-     "shifts": 18,
-     "sog": 3,
-     "sweaterNumber": 71,
-     "takeaways": 0,
-     "toi": "13:47"
-    },
-    {
-     "assists": 0,
-     "blockedShots": 1,
-     "faceoffWinningPctg": 0.0,
-     "giveaways": 3,
-     "goals": 0,
-     "hits": 0,
-     "name": {
-      "cs": "M. Ne\u010das",
-      "default": "M. Necas",
-      "sk": "M. Ne\u010das"
-     },
-     "pim": 0,
-     "playerId": 8480039,
-     "plusMinus": -1,
-     "points": 0,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 19,
-     "sog": 0,
-     "sweaterNumber": 88,
-     "takeaways": 0,
-     "toi": "22:24"
-    },
-    {
-     "assists": 2,
-     "blockedShots": 0,
-     "faceoffWinningPctg": 0.666667,
-     "giveaways": 0,
-     "goals": 0,
-     "hits": 0,
-     "name": {
-      "default": "N. Kadri"
-     },
-     "pim": 0,
-     "playerId": 8475172,
-     "plusMinus": 1,
-     "points": 2,
-     "position": "C",
-     "powerPlayGoals": 0,
-     "shifts": 24,
-     "sog": 2,
-     "sweaterNumber": 91,
-     "takeaways": 0,
-     "toi": "24:16"
+     "toi": "10:38"
     },
     {
      "assists": 0,
@@ -891,21 +788,134 @@
      "faceoffWinningPctg": 0.0,
      "giveaways": 0,
      "goals": 1,
-     "hits": 3,
+     "hits": 1,
      "name": {
-      "default": "G. Landeskog"
+      "default": "B. Bowman"
      },
      "pim": 0,
-     "playerId": 8476455,
+     "playerId": 8483890,
      "plusMinus": 0,
      "points": 1,
+     "position": "R",
+     "powerPlayGoals": 1,
+     "shifts": 19,
+     "sog": 5,
+     "sweaterNumber": 42,
+     "takeaways": 1,
+     "toi": "18:15"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 2,
+     "faceoffWinningPctg": 0.615385,
+     "giveaways": 1,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "T. Hertl"
+     },
+     "pim": 0,
+     "playerId": 8476881,
+     "plusMinus": -1,
+     "points": 0,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 19,
+     "sog": 3,
+     "sweaterNumber": 48,
+     "takeaways": 0,
+     "toi": "16:51"
+    },
+    {
+     "assists": 3,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 0,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "cs": "I. Barba\u0161ev",
+      "default": "I. Barbashev",
+      "fi": "I. Barbashov",
+      "sk": "I. Barba\u0161ev"
+     },
+     "pim": 0,
+     "playerId": 8477964,
+     "plusMinus": 2,
+     "points": 3,
      "position": "L",
      "powerPlayGoals": 0,
      "shifts": 18,
-     "sog": 2,
-     "sweaterNumber": 92,
+     "sog": 4,
+     "sweaterNumber": 49,
      "takeaways": 0,
-     "toi": "15:49"
+     "toi": "15:26"
+    },
+    {
+     "assists": 0,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 0,
+     "goals": 3,
+     "hits": 0,
+     "name": {
+      "default": "M. Stone"
+     },
+     "pim": 0,
+     "playerId": 8475913,
+     "plusMinus": 2,
+     "points": 3,
+     "position": "R",
+     "powerPlayGoals": 1,
+     "shifts": 18,
+     "sog": 3,
+     "sweaterNumber": 61,
+     "takeaways": 1,
+     "toi": "14:01"
+    },
+    {
+     "assists": 1,
+     "blockedShots": 1,
+     "faceoffWinningPctg": 0.461538,
+     "giveaways": 2,
+     "goals": 0,
+     "hits": 0,
+     "name": {
+      "default": "W. Karlsson"
+     },
+     "pim": 0,
+     "playerId": 8476448,
+     "plusMinus": 1,
+     "points": 1,
+     "position": "C",
+     "powerPlayGoals": 0,
+     "shifts": 21,
+     "sog": 1,
+     "sweaterNumber": 71,
+     "takeaways": 0,
+     "toi": "17:08"
+    },
+    {
+     "assists": 2,
+     "blockedShots": 0,
+     "faceoffWinningPctg": 0.0,
+     "giveaways": 3,
+     "goals": 0,
+     "hits": 1,
+     "name": {
+      "default": "M. Marner"
+     },
+     "pim": 0,
+     "playerId": 8478483,
+     "plusMinus": 0,
+     "points": 2,
+     "position": "R",
+     "powerPlayGoals": 0,
+     "shifts": 19,
+     "sog": 1,
+     "sweaterNumber": 93,
+     "takeaways": 2,
+     "toi": "18:43"
     }
    ],
    "goalies": [
@@ -914,10 +924,10 @@
      "evenStrengthShotsAgainst": "0/0",
      "goalsAgainst": 0,
      "name": {
-      "default": "M. Blackwood"
+      "default": "A. Hill"
      },
      "pim": 0,
-     "playerId": 8478406,
+     "playerId": 8478499,
      "position": "G",
      "powerPlayGoalsAgainst": 0,
      "powerPlayShotsAgainst": "0/0",
@@ -927,66 +937,66 @@
      "shorthandedShotsAgainst": "0/0",
      "shotsAgainst": 0,
      "starter": false,
-     "sweaterNumber": 39,
+     "sweaterNumber": 33,
      "toi": "00:00"
     },
     {
-     "decision": "O",
-     "evenStrengthGoalsAgainst": 1,
-     "evenStrengthShotsAgainst": "17/18",
+     "decision": "W",
+     "evenStrengthGoalsAgainst": 0,
+     "evenStrengthShotsAgainst": "27/27",
      "goalsAgainst": 2,
      "name": {
-      "default": "S. Wedgewood"
+      "default": "C. Hart"
      },
      "pim": 0,
-     "playerId": 8475809,
+     "playerId": 8479394,
      "position": "G",
-     "powerPlayGoalsAgainst": 0,
-     "powerPlayShotsAgainst": "2/2",
-     "savePctg": 0.909091,
-     "saveShotsAgainst": "20/22",
-     "saves": 20,
+     "powerPlayGoalsAgainst": 1,
+     "powerPlayShotsAgainst": "0/1",
+     "savePctg": 0.933333,
+     "saveShotsAgainst": "28/30",
+     "saves": 28,
      "shorthandedGoalsAgainst": 1,
      "shorthandedShotsAgainst": "1/2",
-     "shotsAgainst": 22,
+     "shotsAgainst": 30,
      "starter": true,
-     "sweaterNumber": 41,
-     "toi": "65:00"
+     "sweaterNumber": 79,
+     "toi": "59:34"
     }
    ]
   }
  },
  "regPeriods": 3,
  "season": 20262027,
- "startTimeUTC": "2026-10-15T00:30:00Z",
+ "startTimeUTC": "2026-10-16T02:00:00Z",
  "tvBroadcasts": [
   {
-   "countryCode": "US",
-   "id": 385,
+   "countryCode": "CA",
+   "id": 284,
    "market": "N",
-   "network": "TNT",
-   "sequenceNumber": 11
+   "network": "SN1",
+   "sequenceNumber": 113
+  },
+  {
+   "countryCode": "CA",
+   "id": 281,
+   "market": "N",
+   "network": "TVAS",
+   "sequenceNumber": 120
   },
   {
    "countryCode": "US",
-   "id": 501,
-   "market": "N",
-   "network": "truTV",
-   "sequenceNumber": 14
-  },
-  {
-   "countryCode": "US",
-   "id": 578,
-   "market": "N",
-   "network": "HBO MAX",
-   "sequenceNumber": 19
+   "id": 521,
+   "market": "H",
+   "network": "SCRIPPS",
+   "sequenceNumber": 657
   }
  ],
  "venue": {
-  "default": "Ball Arena"
+  "default": "T-Mobile Arena"
  },
  "venueLocation": {
-  "default": "Denver"
+  "default": "Paradise"
  },
- "venueUTCOffset": "-06:00"
+ "venueUTCOffset": "-07:00"
 }
