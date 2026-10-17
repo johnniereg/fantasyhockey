@@ -443,11 +443,14 @@
            "url": "https://sports.yahoo.com/nhl/players/7111"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "IR",
+           "status_full": "Injured Reserve"
           },
           {
            "injury_note": "Illness"
+          },
+          {
+           "on_disabled_list": "1"
           },
           {
            "editorial_player_key": "nhl.p.7111"
@@ -502,6 +505,9 @@
              "position": "LW"
             },
             {
+             "position": "IR"
+            },
+            {
              "position": "IR+"
             }
            ]
@@ -525,7 +531,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1792167035
+           "player_notes_last_timestamp": 1792248021
           }
          ],
          {
@@ -931,8 +937,8 @@
            "url": "https://sports.yahoo.com/nhl/players/8645"
           },
           {
-           "status": "DTD",
-           "status_full": "Day-to-Day"
+           "status": "O",
+           "status_full": "Out"
           },
           {
            "injury_note": "Lower Body"
@@ -1009,9 +1015,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792077354
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792252554
           }
          ],
          {
@@ -1211,9 +1219,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792124360
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792258403
           }
          ],
          {
@@ -1312,9 +1322,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1791982255
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792254908
           }
          ],
          {
@@ -2232,7 +2244,7 @@
     }
    }
   ],
-  "time": "71.076154708862ms",
+  "time": "75.013160705566ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.7/roster;date=2026-10-18/players"
  }
