@@ -2043,9 +2043,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792346580
+              }
              ],
              {
               "selected_position": [
@@ -2931,9 +2937,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792251989
               }
@@ -3034,9 +3038,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792259282
               }
@@ -5182,109 +5184,6 @@
             "player": [
              [
               {
-               "player_key": "477.p.9118"
-              },
-              {
-               "player_id": "9118"
-              },
-              {
-               "name": {
-                "ascii_first": "Jet",
-                "ascii_last": "Greaves",
-                "first": "Jet",
-                "full": "Jet Greaves",
-                "last": "Greaves"
-               }
-              },
-              {
-               "url": "https://sports.yahoo.com/nhl/players/9118"
-              },
-              {
-               "editorial_player_key": "nhl.p.9118"
-              },
-              {
-               "editorial_team_key": "nhl.t.29"
-              },
-              {
-               "editorial_team_full_name": "Columbus Blue Jackets"
-              },
-              {
-               "editorial_team_abbr": "CBJ"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/columbus/"
-              },
-              {
-               "is_keeper": {
-                "cost": false,
-                "kept": false,
-                "status": false
-               }
-              },
-              {
-               "uniform_number": "73"
-              },
-              {
-               "display_position": "G"
-              },
-              {
-               "headshot": {
-                "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/zvoK.P6kuVkoEXzFySyyuA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/9118.1.png"
-               },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/zvoK.P6kuVkoEXzFySyyuA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/9118.1.png"
-              },
-              {
-               "is_undroppable": "0"
-              },
-              {
-               "position_type": "G"
-              },
-              {
-               "primary_position": "G"
-              },
-              {
-               "eligible_positions": [
-                {
-                 "position": "G"
-                }
-               ]
-              },
-              {
-               "eligible_positions_to_add": []
-              },
-              [],
-              [],
-              {
-               "has_player_notes": 1
-              },
-              {
-               "has_recent_player_notes": 1
-              },
-              {
-               "player_notes_last_timestamp": 1792332254
-              }
-             ],
-             {
-              "selected_position": [
-               {
-                "coverage_type": "date",
-                "date": "2026-10-18"
-               },
-               {
-                "position": "G"
-               },
-               {
-                "is_flex": 0
-               }
-              ]
-             }
-            ]
-           },
-           "17": {
-            "player": [
-             [
-              {
                "player_key": "477.p.30201"
               },
               {
@@ -5366,6 +5265,109 @@
               },
               {
                "player_notes_last_timestamp": 1792331665
+              }
+             ],
+             {
+              "selected_position": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-18"
+               },
+               {
+                "position": "G"
+               },
+               {
+                "is_flex": 0
+               }
+              ]
+             }
+            ]
+           },
+           "17": {
+            "player": [
+             [
+              {
+               "player_key": "477.p.9118"
+              },
+              {
+               "player_id": "9118"
+              },
+              {
+               "name": {
+                "ascii_first": "Jet",
+                "ascii_last": "Greaves",
+                "first": "Jet",
+                "full": "Jet Greaves",
+                "last": "Greaves"
+               }
+              },
+              {
+               "url": "https://sports.yahoo.com/nhl/players/9118"
+              },
+              {
+               "editorial_player_key": "nhl.p.9118"
+              },
+              {
+               "editorial_team_key": "nhl.t.29"
+              },
+              {
+               "editorial_team_full_name": "Columbus Blue Jackets"
+              },
+              {
+               "editorial_team_abbr": "CBJ"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/columbus/"
+              },
+              {
+               "is_keeper": {
+                "cost": false,
+                "kept": false,
+                "status": false
+               }
+              },
+              {
+               "uniform_number": "73"
+              },
+              {
+               "display_position": "G"
+              },
+              {
+               "headshot": {
+                "size": "small",
+                "url": "https://s.yimg.com/iu/api/res/1.2/zvoK.P6kuVkoEXzFySyyuA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/9118.1.png"
+               },
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/zvoK.P6kuVkoEXzFySyyuA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/9118.1.png"
+              },
+              {
+               "is_undroppable": "0"
+              },
+              {
+               "position_type": "G"
+              },
+              {
+               "primary_position": "G"
+              },
+              {
+               "eligible_positions": [
+                {
+                 "position": "G"
+                }
+               ]
+              },
+              {
+               "eligible_positions_to_add": []
+              },
+              [],
+              [],
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792332254
               }
              ],
              {
@@ -5474,9 +5476,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791991106
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792347206
               }
              ],
              {
@@ -7660,9 +7664,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792258926
               }
@@ -12342,7 +12344,7 @@
          "faab_balance": "100"
         },
         {
-         "number_of_moves": 9
+         "number_of_moves": 10
         },
         {
          "number_of_trades": 0
@@ -12351,7 +12353,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 3,
-          "value": "3"
+          "value": "4"
          }
         },
         [],
@@ -13301,9 +13303,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792252554
               }
@@ -14829,9 +14829,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1791989763
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792345665
               }
              ],
              {
@@ -20834,7 +20836,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "148.91219139099ms",
+  "time": "176.62787437439ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-18"
  }
