@@ -69,7 +69,7 @@
       {
        "manager": {
         "email": "jlaw19@hotmail.com",
-        "felo_score": "812",
+        "felo_score": "803",
         "felo_tier": "platinum",
         "guid": "--hidden--",
         "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
@@ -550,11 +550,14 @@
            "url": "https://sports.yahoo.com/nhl/players/5992"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "IR",
+           "status_full": "Injured Reserve"
           },
           {
            "injury_note": "Wrist"
+          },
+          {
+           "on_disabled_list": "1"
           },
           {
            "editorial_player_key": "nhl.p.5992"
@@ -606,6 +609,9 @@
              "position": "D"
             },
             {
+             "position": "IR"
+            },
+            {
              "position": "IR+"
             }
            ]
@@ -628,9 +634,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792084059
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1792424395
           }
          ],
          {
@@ -834,7 +842,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1792332011
+           "player_notes_last_timestamp": 1792422048
           }
          ],
          {
@@ -1034,9 +1042,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1792330624
           }
@@ -1485,13 +1491,9 @@
           },
           [],
           [],
-          {
-           "has_player_notes": 1
-          },
           [],
-          {
-           "player_notes_last_timestamp": 1791545720
-          }
+          [],
+          []
          ],
          {
           "selected_position": [
@@ -2050,13 +2052,9 @@
           },
           [],
           [],
-          {
-           "has_player_notes": 1
-          },
           [],
-          {
-           "player_notes_last_timestamp": 1791551355
-          }
+          [],
+          []
          ],
          {
           "selected_position": [
@@ -2089,7 +2087,7 @@
     }
    }
   ],
-  "time": "109.14587974548ms",
+  "time": "73.354005813599ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.4/roster;date=2026-10-25/players"
  }

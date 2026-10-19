@@ -145,10 +145,10 @@
           "week": 4
          },
          {
-          "value": 42
+          "value": 45
          },
          {
-          "delta": "5"
+          "delta": "8"
          }
         ]
        }
@@ -585,10 +585,10 @@
           "week": 4
          },
          {
-          "value": 25
+          "value": 24
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -906,9 +906,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792331849
         }
@@ -1027,10 +1025,10 @@
           "week": 4
          },
          {
-          "value": 9
+          "value": 10
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -1478,10 +1476,10 @@
           "week": 4
          },
          {
-          "value": 24
+          "value": 26
          },
          {
-          "delta": "2"
+          "delta": "4"
          }
         ]
        }
@@ -1577,9 +1575,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792331090
         }
@@ -1924,10 +1920,10 @@
           "week": 4
          },
          {
-          "value": 28
+          "value": 29
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2152,10 +2148,10 @@
           "week": 4
          },
          {
-          "value": 44
+          "value": 43
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -2263,10 +2259,10 @@
           "week": 4
          },
          {
-          "value": 6
+          "value": 7
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2623,11 +2619,14 @@
          "url": "https://sports.yahoo.com/nhl/players/4961"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Upper Body"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.4961"
@@ -2679,6 +2678,9 @@
            "position": "LW"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -2701,9 +2703,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792166174
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792423225
         }
        ],
        {
@@ -2713,10 +2717,10 @@
           "week": 4
          },
          {
-          "value": 16
+          "value": 15
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -2838,7 +2842,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "80.67512512207ms",
+  "time": "82.350015640259ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=LW;sort=AR;count=25;start=0/percent_owned"
  }
