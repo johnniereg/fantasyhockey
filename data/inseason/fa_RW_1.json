@@ -813,10 +813,10 @@
           "week": 4
          },
          {
-          "value": 35
+          "value": 36
          },
          {
-          "delta": "-3"
+          "delta": "-2"
          }
         ]
        }
@@ -924,10 +924,10 @@
           "week": 4
          },
          {
-          "value": 22
+          "value": 24
          },
          {
-          "delta": "1"
+          "delta": "3"
          }
         ]
        }
@@ -1491,10 +1491,10 @@
           "week": 4
          },
          {
-          "value": 14
+          "value": 13
          },
          {
-          "delta": "6"
+          "delta": "5"
          }
         ]
        }
@@ -1629,8 +1629,8 @@
          "url": "https://sports.yahoo.com/nhl/players/6838"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
          "injury_note": "Lower Body"
@@ -1926,9 +1926,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792519163
         }
@@ -2260,9 +2258,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792603392
+        }
        ],
        {
         "percent_owned": [
@@ -2370,9 +2374,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792307999
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792604776
         }
        ],
        {
@@ -2835,7 +2841,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "84.254026412964ms",
+  "time": "106.57501220703ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=25/percent_owned"
  }
