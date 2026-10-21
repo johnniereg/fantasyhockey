@@ -1,16 +1,18 @@
 {
  "current_week": 4,
- "date_et": "2026-10-20",
+ "date_et": "2026-10-21",
  "errors": {},
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": []
+   "written": [
+    "2026-10-20"
+   ]
   },
   "goalie_starts": {
-   "games_added": 0,
+   "games_added": 11,
    "games_pending": 0,
-   "rows": 560
+   "rows": 604
   },
   "scoreboard_archive": {
    "archived": "scoreboard_week_03.json"
@@ -19,21 +21,21 @@
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-10-20T20:16:24+00:00",
- "finished_at_utc": "2026-10-20T20:16:38+00:00",
+ "fetched_at_utc": "2026-10-21T09:41:37+00:00",
+ "finished_at_utc": "2026-10-21T09:41:50+00:00",
  "games": {
   "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-10-20",
+   "date": "2026-10-21",
    "final": 0,
-   "games": 11
+   "games": 2
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-10-19",
-   "final": 4,
-   "games": 4
+   "date": "2026-10-20",
+   "final": 11,
+   "games": 11
   }
  },
  "league_key": "477.l.12088",
@@ -55,8 +57,6 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-10-20",
-  "opp_roster_2026-10-20",
   "my_roster_2026-10-21",
   "opp_roster_2026-10-21",
   "my_roster_2026-10-22",
@@ -98,7 +98,6 @@
  ],
  "opp_team_key": "477.l.12088.t.4",
  "roster_dates": [
-  "2026-10-20",
   "2026-10-21",
   "2026-10-22",
   "2026-10-23",
@@ -106,7 +105,7 @@
   "2026-10-25"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "workflow_dispatch:goalie",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
   "4": [
