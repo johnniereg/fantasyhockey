@@ -1599,32 +1599,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
       "id": 4,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.50"
-       },
-       {
-        "providerId": 3,
-        "value": "2.64"
-       },
-       {
-        "providerId": 7,
-        "value": "+164"
-       },
-       {
-        "providerId": 8,
-        "value": "+161"
-       },
-       {
-        "providerId": 9,
-        "value": "+160"
-       },
-       {
-        "providerId": 10,
-        "value": "3.55"
-       }
-      ],
       "placeName": {
        "default": "Philadelphia",
        "fr": "Philadelphie"
@@ -1633,12 +1607,16 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/phi-at-buf-condensed-game-6407211793112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/phi-vs-buf/2026/10/21/2026020152",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -1649,32 +1627,6 @@
       "homeSplitSquad": false,
       "id": 7,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.62"
-       },
-       {
-        "providerId": 3,
-        "value": "1.49"
-       },
-       {
-        "providerId": 7,
-        "value": "-200"
-       },
-       {
-        "providerId": 8,
-        "value": "-199"
-       },
-       {
-        "providerId": 9,
-        "value": "-192"
-       },
-       {
-        "providerId": 10,
-        "value": "1.87"
-       }
-      ],
       "placeName": {
        "default": "Buffalo"
       },
@@ -1682,19 +1634,19 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "score": 1
      },
      "id": 2026020152,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-21T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/000064EFCB237FEF?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM6",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/000064EFCB237FEF?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM6",
+     "threeMinRecap": "/video/phi-at-buf-recap-6407212465112",
+     "threeMinRecapFr": "/fr/video/phi-vs-buf-21-10-2026-resume-6407211868112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1722,7 +1674,27 @@
       "default": "KeyBank Center"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Zegras"
+      },
+      "playerId": 8481533
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "cs": "Vlada\u0159",
+       "default": "Vladar",
+       "sk": "Vlada\u0159"
+      },
+      "playerId": 8478435
+     }
     },
     {
      "awayTeam": {
@@ -1734,32 +1706,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg",
       "id": 13,
       "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-109"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 6,
-        "value": "1.95"
-       },
-       {
-        "providerId": 3,
-        "value": "1.94"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Florida",
        "fr": "Floride"
@@ -1768,12 +1714,17 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/fla-at-ott-condensed-game-6407212777112",
+     "condensedGameFr": "/fr/video/match-condense-panthers-senators-21-10-2026-6407214495112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/fla-vs-ott/2026/10/21/2026020153",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "OTT",
@@ -1785,32 +1736,6 @@
       "homeSplitSquad": false,
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-113"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 6,
-        "value": "1.85"
-       },
-       {
-        "providerId": 3,
-        "value": "1.90"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -1818,19 +1743,19 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "score": 5
      },
      "id": 2026020153,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-21T23:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/31006507E4291EF7?brand=ottawasenators&artistid=805997&landing=s&wt.mc_id=NHL_TEAM_OTT_SGT_PG_GM5&",
-     "ticketsLinkFr": "https://www.nhl.com/fr/senators/tickets/",
+     "threeMinRecap": "/video/fla-at-ott-recap-6407213186112",
+     "threeMinRecapFr": "/fr/video/fla-vs-ott-21-10-2026-resume-6407215486112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1852,7 +1777,25 @@
       "fr": "Centre Canadian Tire"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Giroux"
+      },
+      "playerId": 8473512
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Ullmark"
+      },
+      "playerId": 8476999
+     }
     }
    ],
    "numberOfGames": 2

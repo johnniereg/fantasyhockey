@@ -176,15 +176,15 @@
            {
             "team_points": {
              "coverage_type": "week",
-             "total": "1",
+             "total": "3",
              "week": "4"
             },
             "team_remaining_games": {
              "coverage_type": "week",
              "total": {
-              "completed_games": 18,
+              "completed_games": 19,
               "live_games": 0,
-              "remaining_games": 32
+              "remaining_games": 31
              },
              "week": "4"
             },
@@ -200,7 +200,7 @@
               {
                "stat": {
                 "stat_id": "2",
-                "value": "7"
+                "value": "8"
                }
               },
               {
@@ -212,13 +212,13 @@
               {
                "stat": {
                 "stat_id": "5",
-                "value": "6"
+                "value": "8"
                }
               },
               {
                "stat": {
                 "stat_id": "8",
-                "value": "4"
+                "value": "5"
                }
               },
               {
@@ -483,14 +483,14 @@
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "5"
+          "stat_id": "5",
+          "winner_team_key": "477.l.12088.t.1"
          }
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "8"
+          "stat_id": "8",
+          "winner_team_key": "477.l.12088.t.1"
          }
         },
         {
@@ -534,7 +534,7 @@
     }
    }
   ],
-  "time": "120.80001831055ms",
+  "time": "129.48298454285ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/matchups;weeks=4"
  }
