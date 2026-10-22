@@ -220,9 +220,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792604919
               }
@@ -1468,9 +1466,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792607021
               }
@@ -2113,7 +2109,7 @@
          "faab_balance": "100"
         },
         {
-         "number_of_moves": 8
+         "number_of_moves": 9
         },
         {
          "number_of_trades": 0
@@ -2122,7 +2118,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 4,
-          "value": "1"
+          "value": "2"
          }
         },
         [],
@@ -2626,6 +2622,13 @@
                "url": "https://sports.yahoo.com/nhl/players/7528"
               },
               {
+               "status": "O",
+               "status_full": "Out"
+              },
+              {
+               "injury_note": "Upper Body"
+              },
+              {
                "editorial_player_key": "nhl.p.7528"
               },
               {
@@ -2673,6 +2676,9 @@
                "eligible_positions": [
                 {
                  "position": "C"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -2694,9 +2700,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792575569
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792682995
               }
              ],
              {
@@ -2840,119 +2848,6 @@
             "player": [
              [
               {
-               "player_key": "477.p.5853"
-              },
-              {
-               "player_id": "5853"
-              },
-              {
-               "name": {
-                "ascii_first": "Linus",
-                "ascii_last": "Ullmark",
-                "first": "Linus",
-                "full": "Linus Ullmark",
-                "last": "Ullmark"
-               }
-              },
-              {
-               "url": "https://sports.yahoo.com/nhl/players/5853"
-              },
-              {
-               "status": "DTD",
-               "status_full": "Day-to-Day"
-              },
-              {
-               "injury_note": "Lower Body"
-              },
-              {
-               "editorial_player_key": "nhl.p.5853"
-              },
-              {
-               "editorial_team_key": "nhl.t.14"
-              },
-              {
-               "editorial_team_full_name": "Ottawa Senators"
-              },
-              {
-               "editorial_team_abbr": "OTT"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
-              },
-              {
-               "is_keeper": {
-                "cost": false,
-                "kept": true,
-                "status": true
-               }
-              },
-              {
-               "uniform_number": "35"
-              },
-              {
-               "display_position": "G"
-              },
-              {
-               "headshot": {
-                "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/9lgVfBcNPpX.LJlpRgvhMA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5853.1.png"
-               },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/9lgVfBcNPpX.LJlpRgvhMA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5853.1.png"
-              },
-              {
-               "is_undroppable": "0"
-              },
-              {
-               "position_type": "G"
-              },
-              {
-               "primary_position": "G"
-              },
-              {
-               "eligible_positions": [
-                {
-                 "position": "G"
-                },
-                {
-                 "position": "IR+"
-                }
-               ]
-              },
-              {
-               "eligible_positions_to_add": []
-              },
-              [],
-              [],
-              {
-               "has_player_notes": 1
-              },
-              {
-               "has_recent_player_notes": 1
-              },
-              {
-               "player_notes_last_timestamp": 1792638457
-              }
-             ],
-             {
-              "selected_position": [
-               {
-                "coverage_type": "date",
-                "date": "2026-10-22"
-               },
-               {
-                "position": "G"
-               },
-               {
-                "is_flex": 0
-               }
-              ]
-             }
-            ]
-           },
-           "15": {
-            "player": [
-             [
-              {
                "player_key": "477.p.8895"
               },
               {
@@ -3029,9 +2924,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792588956
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792691883
               }
              ],
              {
@@ -3047,10 +2944,21 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
+               }
+              ]
              }
             ]
            },
-           "16": {
+           "15": {
             "player": [
              [
               {
@@ -3148,6 +3056,136 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             }
+            ]
+           },
+           "16": {
+            "player": [
+             [
+              {
+               "player_key": "477.p.5853"
+              },
+              {
+               "player_id": "5853"
+              },
+              {
+               "name": {
+                "ascii_first": "Linus",
+                "ascii_last": "Ullmark",
+                "first": "Linus",
+                "full": "Linus Ullmark",
+                "last": "Ullmark"
+               }
+              },
+              {
+               "url": "https://sports.yahoo.com/nhl/players/5853"
+              },
+              {
+               "status": "IR",
+               "status_full": "Injured Reserve"
+              },
+              {
+               "injury_note": "Lower Body"
+              },
+              {
+               "on_disabled_list": "1"
+              },
+              {
+               "editorial_player_key": "nhl.p.5853"
+              },
+              {
+               "editorial_team_key": "nhl.t.14"
+              },
+              {
+               "editorial_team_full_name": "Ottawa Senators"
+              },
+              {
+               "editorial_team_abbr": "OTT"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
+              },
+              {
+               "is_keeper": {
+                "cost": false,
+                "kept": true,
+                "status": true
+               }
+              },
+              {
+               "uniform_number": "35"
+              },
+              {
+               "display_position": "G"
+              },
+              {
+               "headshot": {
+                "size": "small",
+                "url": "https://s.yimg.com/iu/api/res/1.2/9lgVfBcNPpX.LJlpRgvhMA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5853.1.png"
+               },
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/9lgVfBcNPpX.LJlpRgvhMA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5853.1.png"
+              },
+              {
+               "is_undroppable": "0"
+              },
+              {
+               "position_type": "G"
+              },
+              {
+               "primary_position": "G"
+              },
+              {
+               "eligible_positions": [
+                {
+                 "position": "G"
+                },
+                {
+                 "position": "IR"
+                },
+                {
+                 "position": "IR+"
+                }
+               ]
+              },
+              {
+               "eligible_positions_to_add": []
+              },
+              [],
+              [],
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792682718
+              }
+             ],
+             {
+              "selected_position": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "position": "IR"
+               },
+               {
+                "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -4831,6 +4869,13 @@
                "url": "https://sports.yahoo.com/nhl/players/8653"
               },
               {
+               "status": "DTD",
+               "status_full": "Day-to-Day"
+              },
+              {
+               "injury_note": "Shoulder"
+              },
+              {
                "editorial_player_key": "nhl.p.8653"
               },
               {
@@ -4881,6 +4926,9 @@
                 },
                 {
                  "position": "RW"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -4903,7 +4951,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1792619857
+               "player_notes_last_timestamp": 1792691902
               }
              ],
              {
@@ -5018,6 +5066,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -6855,9 +6914,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792491110
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792683987
               }
              ],
              {
@@ -6871,6 +6932,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -6956,9 +7028,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792474987
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792685104
               }
              ],
              {
@@ -6972,6 +7046,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -7176,6 +7261,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -7287,6 +7383,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -9126,9 +9233,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792593919
               }
@@ -9239,9 +9344,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792603525
               }
@@ -10868,9 +10971,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792475289
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792680240
               }
              ],
              {
@@ -10884,6 +10989,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -10987,6 +11103,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -11100,6 +11227,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -11217,6 +11355,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -12866,9 +13015,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792594500
               }
@@ -13114,6 +13261,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -13197,9 +13355,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792587894
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792686713
               }
              ],
              {
@@ -13213,6 +13373,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -14943,9 +15114,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792381620
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792691688
               }
              ],
              {
@@ -14959,6 +15132,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -15062,6 +15246,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -15161,6 +15356,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -15278,6 +15484,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -17036,9 +17253,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792594719
               }
@@ -17139,9 +17354,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792588859
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792687832
               }
              ],
              {
@@ -17155,6 +17372,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -17256,6 +17484,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -18303,7 +18542,7 @@
          "faab_balance": "100"
         },
         {
-         "number_of_moves": 13
+         "number_of_moves": 14
         },
         {
          "number_of_trades": 0
@@ -18312,7 +18551,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 4,
-          "value": "2"
+          "value": "3"
          }
         },
         [],
@@ -18922,16 +19161,6 @@
                "url": "https://sports.yahoo.com/nhl/players/5362"
               },
               {
-               "status": "IR",
-               "status_full": "Injured Reserve"
-              },
-              {
-               "injury_note": "Lower Body"
-              },
-              {
-               "on_disabled_list": "1"
-              },
-              {
                "editorial_player_key": "nhl.p.5362"
               },
               {
@@ -18982,12 +19211,6 @@
                 },
                 {
                  "position": "LW"
-                },
-                {
-                 "position": "IR"
-                },
-                {
-                 "position": "IR+"
                 }
                ]
               },
@@ -19006,9 +19229,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792182283
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792687882
               }
              ],
              {
@@ -19107,9 +19332,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792586453
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792684092
               }
              ],
              {
@@ -19123,6 +19350,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -19208,9 +19446,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792586064
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792686869
               }
              ],
              {
@@ -19224,6 +19464,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -19325,6 +19576,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -19438,6 +19700,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-22"
+               },
+               {
+                "is_starting": 0
                }
               ]
              }
@@ -20346,7 +20619,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "159.88397598267ms",
+  "time": "158.93602371216ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-22"
  }
