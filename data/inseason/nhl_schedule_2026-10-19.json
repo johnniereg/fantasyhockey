@@ -3094,32 +3094,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
       "id": 8,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.35"
-       },
-       {
-        "providerId": 8,
-        "value": "-168"
-       },
-       {
-        "providerId": 9,
-        "value": "-170"
-       },
-       {
-        "providerId": 7,
-        "value": "-156"
-       },
-       {
-        "providerId": 3,
-        "value": "1.61"
-       },
-       {
-        "providerId": 10,
-        "value": "2.03"
-       }
-      ],
       "placeName": {
        "default": "Montr\u00e9al"
       },
@@ -3127,12 +3101,17 @@
        "default": "Montr\u00e9al",
        "fr": "de Montr\u00e9al"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/mtl-at-chi-condensed-game-6407322670112",
+     "condensedGameFr": "/fr/video/match-condense-canadiens-blackhawks-23-10-2026-6407321971112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/mtl-vs-chi/2026/10/23/2026020166",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CHI",
@@ -3143,32 +3122,6 @@
       "homeSplitSquad": false,
       "id": 16,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.59"
-       },
-       {
-        "providerId": 8,
-        "value": "+136"
-       },
-       {
-        "providerId": 9,
-        "value": "+142"
-       },
-       {
-        "providerId": 7,
-        "value": "+130"
-       },
-       {
-        "providerId": 3,
-        "value": "2.36"
-       },
-       {
-        "providerId": 10,
-        "value": "3.10"
-       }
-      ],
       "placeName": {
        "default": "Chicago"
       },
@@ -3176,19 +3129,19 @@
        "default": "Chicago",
        "fr": "de Chicago"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+      "score": 1
      },
      "id": 2026020166,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-24T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/040064F0904477E7?brand=nhl&wt.mc_id=NHL_LEAGUE_CHI_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CHI&utm_content=SCHED_PG_GM6",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/040064F0904477E7?brand=nhl&wt.mc_id=NHL_LEAGUE_CHI_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CHI&utm_content=SCHED_PG_GM6",
+     "threeMinRecap": "/video/mtl-at-chi-recap-6407320484112",
+     "threeMinRecapFr": "/fr/video/mtl-vs-chi-23-10-2026-resume-6407320803112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3223,7 +3176,25 @@
       "default": "United Center"
      },
      "venueTimezone": "America/Chicago",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Evans"
+      },
+      "playerId": 8478133
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Fowler"
+      },
+      "playerId": 8484170
+     }
     },
     {
      "awayTeam": {
@@ -3235,32 +3206,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
       "id": 14,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "+104"
-       },
-       {
-        "providerId": 7,
-        "value": "+102"
-       },
-       {
-        "providerId": 9,
-        "value": "+105"
-       },
-       {
-        "providerId": 6,
-        "value": "1.78"
-       },
-       {
-        "providerId": 3,
-        "value": "2.04"
-       },
-       {
-        "providerId": 10,
-        "value": "2.65"
-       }
-      ],
       "placeName": {
        "default": "Tampa Bay"
       },
@@ -3268,12 +3213,17 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/tbl-at-col-condensed-game-6407325168112",
+     "condensedGameFr": "/fr/video/match-condense-lightning-avalanche-23-10-2026-6407325389112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/tbl-vs-col/2026/10/23/2026020167",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "COL",
@@ -3284,32 +3234,6 @@
       "homeSplitSquad": false,
       "id": 21,
       "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-127"
-       },
-       {
-        "providerId": 7,
-        "value": "-122"
-       },
-       {
-        "providerId": 9,
-        "value": "-125"
-       },
-       {
-        "providerId": 6,
-        "value": "2.04"
-       },
-       {
-        "providerId": 3,
-        "value": "1.81"
-       },
-       {
-        "providerId": 10,
-        "value": "2.30"
-       }
-      ],
       "placeName": {
        "default": "Colorado"
       },
@@ -3317,19 +3241,19 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+      "score": 6
      },
      "id": 2026020167,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-24T01:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1E0064EEB2BA9EDB?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM6",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1E0064EEB2BA9EDB?brand=nhl&wt.mc_id=NHL_LEAGUE_COL_SCHED_PG_GM6&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_COL&utm_content=SCHED_PG_GM6",
+     "threeMinRecap": "/video/tbl-at-col-recap-6407323125112",
+     "threeMinRecapFr": "/fr/video/tbl-vs-col-23-10-2026-resume-6407324275112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3364,7 +3288,25 @@
       "default": "Ball Arena"
      },
      "venueTimezone": "America/Denver",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Lehkonen"
+      },
+      "playerId": 8477476
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Blackwood"
+      },
+      "playerId": 8478406
+     }
     }
    ],
    "numberOfGames": 2
