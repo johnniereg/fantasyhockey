@@ -3333,12 +3333,16 @@
        "default": "Anaheim",
        "fr": "d'Anaheim"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/ana-at-phi-condensed-game-6407348973112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ana-vs-phi/2026/10/24/2026020168",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "FINAL",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PHI",
@@ -3357,19 +3361,19 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "score": 4
      },
      "id": 2026020168,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-24T17:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/300064EEEEA8E16B?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/300064EEEEA8E16B?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/ana-at-phi-recap-6407349778112",
+     "threeMinRecapFr": "/fr/video/ana-vs-phi-24-10-2026-resume-6407349172112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3411,7 +3415,27 @@
       "default": "Xfinity Mobile Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "B."
+      },
+      "lastName": {
+       "default": "Sennecke"
+      },
+      "playerId": 8484762
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "cs": "Dost\u00e1l",
+       "default": "Dostal",
+       "sk": "Dost\u00e1l"
+      },
+      "playerId": 8480843
+     }
     },
     {
      "awayTeam": {
@@ -3430,12 +3454,13 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/lak-vs-njd/2026/10/24/2026020169",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NJD",
@@ -3453,7 +3478,8 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8",
+      "score": 0
      },
      "id": 2026020169,
      "neutralSite": false,
@@ -3464,8 +3490,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-24T19:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/020064F091AF9CA3?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM8",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F091AF9CA3?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM8",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3512,6 +3536,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
       "id": 28,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.54"
+       },
+       {
+        "providerId": 6,
+        "value": "2.44"
+       },
+       {
+        "providerId": 9,
+        "value": "+160"
+       },
+       {
+        "providerId": 7,
+        "value": "+152"
+       },
+       {
+        "providerId": 8,
+        "value": "+156"
+       },
+       {
+        "providerId": 10,
+        "value": "3.40"
+       }
+      ],
       "placeName": {
        "default": "San Jose"
       },
@@ -3535,6 +3585,32 @@
       "homeSplitSquad": false,
       "id": 6,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.53"
+       },
+       {
+        "providerId": 6,
+        "value": "1.55"
+       },
+       {
+        "providerId": 9,
+        "value": "-192"
+       },
+       {
+        "providerId": 7,
+        "value": "-184"
+       },
+       {
+        "providerId": 8,
+        "value": "-193"
+       },
+       {
+        "providerId": 10,
+        "value": "1.90"
+       }
+      ],
       "placeName": {
        "default": "Boston"
       },
@@ -3587,6 +3663,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
       "id": 3,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.06"
+       },
+       {
+        "providerId": 6,
+        "value": "1.87"
+       },
+       {
+        "providerId": 9,
+        "value": "+105"
+       },
+       {
+        "providerId": 7,
+        "value": "+106"
+       },
+       {
+        "providerId": 8,
+        "value": "+105"
+       },
+       {
+        "providerId": 10,
+        "value": "2.70"
+       }
+      ],
       "placeName": {
        "default": "New York"
       },
@@ -3611,6 +3713,32 @@
       "homeSplitSquad": false,
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.79"
+       },
+       {
+        "providerId": 6,
+        "value": "1.92"
+       },
+       {
+        "providerId": 9,
+        "value": "-125"
+       },
+       {
+        "providerId": 7,
+        "value": "-128"
+       },
+       {
+        "providerId": 8,
+        "value": "-128"
+       },
+       {
+        "providerId": 10,
+        "value": "2.30"
+       }
+      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -3678,6 +3806,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg",
       "id": 18,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.04"
+       },
+       {
+        "providerId": 6,
+        "value": "1.64"
+       },
+       {
+        "providerId": 9,
+        "value": "+105"
+       },
+       {
+        "providerId": 7,
+        "value": "+102"
+       },
+       {
+        "providerId": 8,
+        "value": "+102"
+       },
+       {
+        "providerId": 10,
+        "value": "2.65"
+       }
+      ],
       "placeName": {
        "default": "Nashville"
       },
@@ -3701,6 +3855,32 @@
       "homeSplitSquad": false,
       "id": 5,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.81"
+       },
+       {
+        "providerId": 6,
+        "value": "2.25"
+       },
+       {
+        "providerId": 9,
+        "value": "-125"
+       },
+       {
+        "providerId": 7,
+        "value": "-122"
+       },
+       {
+        "providerId": 8,
+        "value": "-125"
+       },
+       {
+        "providerId": 10,
+        "value": "2.30"
+       }
+      ],
       "placeName": {
        "default": "Pittsburgh"
       },
@@ -3753,6 +3933,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
       "id": 7,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.00"
+       },
+       {
+        "providerId": 9,
+        "value": "+100"
+       },
+       {
+        "providerId": 7,
+        "value": "+100"
+       },
+       {
+        "providerId": 8,
+        "value": "+100"
+       },
+       {
+        "providerId": 6,
+        "value": "1.82"
+       },
+       {
+        "providerId": 10,
+        "value": "2.60"
+       }
+      ],
       "placeName": {
        "default": "Buffalo"
       },
@@ -3776,6 +3982,32 @@
       "homeSplitSquad": false,
       "id": 15,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.84"
+       },
+       {
+        "providerId": 9,
+        "value": "-120"
+       },
+       {
+        "providerId": 7,
+        "value": "-120"
+       },
+       {
+        "providerId": 8,
+        "value": "-123"
+       },
+       {
+        "providerId": 6,
+        "value": "1.98"
+       },
+       {
+        "providerId": 10,
+        "value": "2.35"
+       }
+      ],
       "placeName": {
        "default": "Washington"
       },
@@ -3828,6 +4060,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
       "id": 54,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.76"
+       },
+       {
+        "providerId": 6,
+        "value": "1.68"
+       },
+       {
+        "providerId": 9,
+        "value": "-135"
+       },
+       {
+        "providerId": 7,
+        "value": "-134"
+       },
+       {
+        "providerId": 8,
+        "value": "-139"
+       },
+       {
+        "providerId": 10,
+        "value": "2.25"
+       }
+      ],
       "placeName": {
        "default": "Vegas"
       },
@@ -3851,6 +4109,32 @@
       "homeSplitSquad": false,
       "id": 29,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.11"
+       },
+       {
+        "providerId": 6,
+        "value": "2.18"
+       },
+       {
+        "providerId": 9,
+        "value": "+114"
+       },
+       {
+        "providerId": 7,
+        "value": "+112"
+       },
+       {
+        "providerId": 8,
+        "value": "+115"
+       },
+       {
+        "providerId": 10,
+        "value": "2.75"
+       }
+      ],
       "placeName": {
        "default": "Columbus"
       },
@@ -3910,6 +4194,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
       "id": 12,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.65"
+       },
+       {
+        "providerId": 6,
+        "value": "1.62"
+       },
+       {
+        "providerId": 9,
+        "value": "-155"
+       },
+       {
+        "providerId": 7,
+        "value": "-152"
+       },
+       {
+        "providerId": 8,
+        "value": "-157"
+       },
+       {
+        "providerId": 10,
+        "value": "2.10"
+       }
+      ],
       "placeName": {
        "default": "Carolina",
        "fr": "Caroline"
@@ -3934,6 +4244,32 @@
       "homeSplitSquad": false,
       "id": 19,
       "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.28"
+       },
+       {
+        "providerId": 6,
+        "value": "2.28"
+       },
+       {
+        "providerId": 9,
+        "value": "+130"
+       },
+       {
+        "providerId": 7,
+        "value": "+126"
+       },
+       {
+        "providerId": 8,
+        "value": "+128"
+       },
+       {
+        "providerId": 10,
+        "value": "3.05"
+       }
+      ],
       "placeName": {
        "default": "St. Louis"
       },
@@ -4000,6 +4336,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
       "id": 10,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.45"
+       },
+       {
+        "providerId": 6,
+        "value": "2.28"
+       },
+       {
+        "providerId": 9,
+        "value": "+140"
+       },
+       {
+        "providerId": 7,
+        "value": "+150"
+       },
+       {
+        "providerId": 8,
+        "value": "+147"
+       },
+       {
+        "providerId": 10,
+        "value": "3.30"
+       }
+      ],
       "placeName": {
        "default": "Toronto"
       },
@@ -4023,6 +4385,32 @@
       "homeSplitSquad": false,
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.56"
+       },
+       {
+        "providerId": 6,
+        "value": "1.62"
+       },
+       {
+        "providerId": 9,
+        "value": "-166"
+       },
+       {
+        "providerId": 7,
+        "value": "-182"
+       },
+       {
+        "providerId": 8,
+        "value": "-181"
+       },
+       {
+        "providerId": 10,
+        "value": "1.90"
+       }
+      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -4068,6 +4456,28 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg",
       "id": 14,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.21"
+       },
+       {
+        "providerId": 9,
+        "value": "+120"
+       },
+       {
+        "providerId": 7,
+        "value": "+120"
+       },
+       {
+        "providerId": 8,
+        "value": "+120"
+       },
+       {
+        "providerId": 6,
+        "value": "1.72"
+       }
+      ],
       "placeName": {
        "default": "Tampa Bay"
       },
@@ -4091,6 +4501,28 @@
       "homeSplitSquad": false,
       "id": 68,
       "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.69"
+       },
+       {
+        "providerId": 9,
+        "value": "-142"
+       },
+       {
+        "providerId": 7,
+        "value": "-144"
+       },
+       {
+        "providerId": 8,
+        "value": "-146"
+       },
+       {
+        "providerId": 6,
+        "value": "2.12"
+       }
+      ],
       "placeName": {
        "default": "Utah"
       },
@@ -4150,6 +4582,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
       "id": 17,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.78"
+       },
+       {
+        "providerId": 9,
+        "value": "-130"
+       },
+       {
+        "providerId": 7,
+        "value": "-128"
+       },
+       {
+        "providerId": 8,
+        "value": "-131"
+       },
+       {
+        "providerId": 6,
+        "value": "1.71"
+       },
+       {
+        "providerId": 10,
+        "value": "2.30"
+       }
+      ],
       "placeName": {
        "default": "Detroit"
       },
@@ -4173,6 +4631,32 @@
       "homeSplitSquad": false,
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.07"
+       },
+       {
+        "providerId": 9,
+        "value": "+110"
+       },
+       {
+        "providerId": 7,
+        "value": "+106"
+       },
+       {
+        "providerId": 8,
+        "value": "+108"
+       },
+       {
+        "providerId": 6,
+        "value": "2.13"
+       },
+       {
+        "providerId": 10,
+        "value": "2.70"
+       }
+      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -4232,6 +4716,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg",
       "id": 30,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.57"
+       },
+       {
+        "providerId": 6,
+        "value": "1.59"
+       },
+       {
+        "providerId": 9,
+        "value": "-175"
+       },
+       {
+        "providerId": 7,
+        "value": "-176"
+       },
+       {
+        "providerId": 8,
+        "value": "-176"
+       },
+       {
+        "providerId": 10,
+        "value": "2.00"
+       }
+      ],
       "placeName": {
        "default": "Minnesota"
       },
@@ -4255,6 +4765,32 @@
       "homeSplitSquad": false,
       "id": 55,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.44"
+       },
+       {
+        "providerId": 6,
+        "value": "2.35"
+       },
+       {
+        "providerId": 9,
+        "value": "+145"
+       },
+       {
+        "providerId": 7,
+        "value": "+146"
+       },
+       {
+        "providerId": 8,
+        "value": "+144"
+       },
+       {
+        "providerId": 10,
+        "value": "3.25"
+       }
+      ],
       "placeName": {
        "default": "Seattle"
       },

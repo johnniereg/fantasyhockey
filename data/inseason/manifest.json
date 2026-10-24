@@ -19,14 +19,14 @@
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-10-24T12:46:08+00:00",
- "finished_at_utc": "2026-10-24T12:46:26+00:00",
+ "fetched_at_utc": "2026-10-24T20:15:54+00:00",
+ "finished_at_utc": "2026-10-24T20:16:09+00:00",
  "games": {
-  "live_now": 0,
+  "live_now": 1,
   "today": {
    "all_final": false,
    "date": "2026-10-24",
-   "final": 0,
+   "final": 1,
    "games": 12
   },
   "yesterday": {
@@ -94,7 +94,7 @@
   "2026-10-25"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:goalie",
  "warnings": [],
  "week_dates": {
   "4": [

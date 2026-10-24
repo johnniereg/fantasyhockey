@@ -141,10 +141,10 @@
           "week": 4
          },
          {
-          "value": 17
+          "value": 16
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -363,10 +363,10 @@
           "week": 4
          },
          {
-          "value": 58
+          "value": 59
          },
          {
-          "delta": "5"
+          "delta": "6"
          }
         ]
        }
@@ -622,8 +622,8 @@
          "url": "https://sports.yahoo.com/nhl/players/6896"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Upper Body"
@@ -700,9 +700,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792719916
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792864434
         }
        ],
        {
@@ -1038,10 +1040,10 @@
           "week": 4
          },
          {
-          "value": 62
+          "value": 63
          },
          {
-          "delta": "2"
+          "delta": "3"
          }
         ]
        }
@@ -1363,10 +1365,10 @@
           "week": 4
          },
          {
-          "value": 3
+          "value": 2
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -1470,10 +1472,10 @@
           "week": 4
          },
          {
-          "value": 43
+          "value": 44
          },
          {
-          "delta": "8"
+          "delta": "9"
          }
         ]
        }
@@ -1691,10 +1693,10 @@
           "week": 4
          },
          {
-          "value": 6
+          "value": 11
          },
          {
-          "delta": "5"
+          "delta": "10"
          }
         ]
        }
@@ -1909,10 +1911,10 @@
           "week": 4
          },
          {
-          "value": 49
+          "value": 50
          },
          {
-          "delta": "-6"
+          "delta": "-5"
          }
         ]
        }
@@ -2020,7 +2022,10 @@
           "week": 4
          },
          {
-          "delta": "0"
+          "value": 1
+         },
+         {
+          "delta": "1"
          }
         ]
        }
@@ -2113,13 +2118,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1791961984
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -2128,10 +2129,10 @@
           "week": 4
          },
          {
-          "value": 10
+          "value": 11
          },
          {
-          "delta": "-2"
+          "delta": "-1"
          }
         ]
        }
@@ -2350,10 +2351,10 @@
           "week": 4
          },
          {
-          "value": 24
+          "value": 25
          },
          {
-          "delta": "3"
+          "delta": "4"
          }
         ]
        }
@@ -2572,10 +2573,10 @@
           "week": 4
          },
          {
-          "value": 5
+          "value": 7
          },
          {
-          "delta": "4"
+          "delta": "6"
          }
         ]
        }
@@ -2808,10 +2809,10 @@
           "week": 4
          },
          {
-          "value": 50
+          "value": 51
          },
          {
-          "delta": "5"
+          "delta": "6"
          }
         ]
        }
@@ -2822,7 +2823,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "74.010133743286ms",
+  "time": "76.947927474976ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }
