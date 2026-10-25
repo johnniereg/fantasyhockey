@@ -254,10 +254,10 @@
           "week": 4
          },
          {
-          "value": 51
+          "value": 52
          },
          {
-          "delta": "6"
+          "delta": "7"
          }
         ]
        }
@@ -464,9 +464,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792731944
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792952565
         }
        ],
        {
@@ -587,10 +589,10 @@
           "week": 4
          },
          {
-          "value": 14
+          "value": 15
          },
          {
-          "delta": "13"
+          "delta": "14"
          }
         ]
        }
@@ -1281,9 +1283,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792864434
         }
@@ -1402,10 +1402,10 @@
           "week": 4
          },
          {
-          "value": 22
+          "value": 21
          },
          {
-          "delta": "3"
+          "delta": "2"
          }
         ]
        }
@@ -1498,9 +1498,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792951693
+        }
        ],
        {
         "percent_owned": [
@@ -1620,10 +1626,7 @@
           "week": 4
          },
          {
-          "value": 1
-         },
-         {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -1727,10 +1730,10 @@
           "week": 4
          },
          {
-          "value": 50
+          "value": 49
          },
          {
-          "delta": "-5"
+          "delta": "-6"
          }
         ]
        }
@@ -1838,10 +1841,10 @@
           "week": 4
          },
          {
-          "value": 18
+          "value": 19
          },
          {
-          "delta": "7"
+          "delta": "8"
          }
         ]
        }
@@ -2053,10 +2056,10 @@
           "week": 4
          },
          {
-          "value": 2
+          "value": 3
          },
          {
-          "delta": "-2"
+          "delta": "-1"
          }
         ]
        }
@@ -2381,10 +2384,10 @@
           "week": 4
          },
          {
-          "value": 44
+          "value": 43
          },
          {
-          "delta": "9"
+          "delta": "8"
          }
         ]
        }
@@ -2714,10 +2717,10 @@
           "week": 4
          },
          {
-          "value": 3
+          "value": 4
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2838,7 +2841,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "89.785814285278ms",
+  "time": "98.026037216187ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }

@@ -224,9 +224,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792869243
         }
@@ -238,10 +236,10 @@
           "week": 4
          },
          {
-          "value": 15
+          "value": 21
          },
          {
-          "delta": "14"
+          "delta": "20"
          }
         ]
        }
@@ -1650,23 +1648,19 @@
          "url": "https://sports.yahoo.com/nhl/players/4369"
         },
         {
-         "status": "NA",
-         "status_full": "Not Active"
-        },
-        {
          "editorial_player_key": "nhl.p.4369"
         },
         {
-         "editorial_team_key": "nhl.t.14"
+         "editorial_team_key": "nhl.t.13"
         },
         {
-         "editorial_team_full_name": "Ottawa Senators"
+         "editorial_team_full_name": "New York Rangers"
         },
         {
-         "editorial_team_abbr": "OTT"
+         "editorial_team_abbr": "NYR"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ny-rangers/"
         },
         {
          "is_keeper": {
@@ -1676,7 +1670,7 @@
          }
         },
         {
-         "uniform_number": ""
+         "uniform_number": "47"
         },
         {
          "display_position": "G"
@@ -1709,9 +1703,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1792942880
+        }
        ],
        {
         "percent_owned": [
@@ -1720,7 +1720,10 @@
           "week": 4
          },
          {
-          "delta": "0"
+          "value": 1
+         },
+         {
+          "delta": "1"
          }
         ]
        }
@@ -1918,10 +1921,10 @@
           "week": 4
          },
          {
-          "value": 40
+          "value": 39
          },
          {
-          "delta": "-2"
+          "delta": "-3"
          }
         ]
        }
@@ -2019,10 +2022,10 @@
           "week": 4
          },
          {
-          "value": 2
+          "value": 3
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2318,10 +2321,10 @@
           "week": 4
          },
          {
-          "value": 6
+          "value": 5
          },
          {
-          "delta": "4"
+          "delta": "3"
          }
         ]
        }
@@ -2520,10 +2523,10 @@
           "week": 4
          },
          {
-          "value": 23
+          "value": 22
          },
          {
-          "delta": "-4"
+          "delta": "-5"
          }
         ]
        }
@@ -2534,7 +2537,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "68.444013595581ms",
+  "time": "79.339981079102ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=25/percent_owned"
  }

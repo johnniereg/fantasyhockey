@@ -676,9 +676,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792331383
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792950170
               }
              ],
              {
@@ -1232,9 +1234,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792172055
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792952117
               }
              ],
              {
@@ -2817,9 +2821,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792870108
               }
@@ -2924,7 +2926,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1792858040
+               "player_notes_last_timestamp": 1792950067
               }
              ],
              {
@@ -3584,9 +3586,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792949261
+              }
              ],
              {
               "selected_position": [
@@ -6898,9 +6906,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792862866
               }
@@ -8751,9 +8757,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792725774
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792951379
               }
              ],
              {
@@ -9232,6 +9240,120 @@
             "player": [
              [
               {
+               "player_key": "477.p.5057"
+              },
+              {
+               "player_id": "5057"
+              },
+              {
+               "name": {
+                "ascii_first": "Scott",
+                "ascii_last": "Wedgewood",
+                "first": "Scott",
+                "full": "Scott Wedgewood",
+                "last": "Wedgewood"
+               }
+              },
+              {
+               "url": "https://sports.yahoo.com/nhl/players/5057"
+              },
+              {
+               "editorial_player_key": "nhl.p.5057"
+              },
+              {
+               "editorial_team_key": "nhl.t.17"
+              },
+              {
+               "editorial_team_full_name": "Colorado Avalanche"
+              },
+              {
+               "editorial_team_abbr": "COL"
+              },
+              {
+               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/colorado/"
+              },
+              {
+               "is_keeper": {
+                "cost": false,
+                "kept": true,
+                "status": true
+               }
+              },
+              {
+               "uniform_number": "41"
+              },
+              {
+               "display_position": "G"
+              },
+              {
+               "headshot": {
+                "size": "small",
+                "url": "https://s.yimg.com/iu/api/res/1.2/UfOafTcFQsMrhJ91n9ri2A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5057.1.png"
+               },
+               "image_url": "https://s.yimg.com/iu/api/res/1.2/UfOafTcFQsMrhJ91n9ri2A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5057.1.png"
+              },
+              {
+               "is_undroppable": "0"
+              },
+              {
+               "position_type": "G"
+              },
+              {
+               "primary_position": "G"
+              },
+              {
+               "eligible_positions": [
+                {
+                 "position": "G"
+                }
+               ]
+              },
+              {
+               "eligible_positions_to_add": []
+              },
+              [],
+              [],
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792948844
+              }
+             ],
+             {
+              "selected_position": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-25"
+               },
+               {
+                "position": "G"
+               },
+               {
+                "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-25"
+               },
+               {
+                "is_starting": 1
+               }
+              ]
+             }
+            ]
+           },
+           "16": {
+            "player": [
+             [
+              {
                "player_key": "477.p.6784"
               },
               {
@@ -9320,111 +9442,21 @@
                 "date": "2026-10-25"
                },
                {
-                "position": "G"
+                "position": "BN"
                },
                {
                 "is_flex": 0
                }
               ]
-             }
-            ]
-           },
-           "16": {
-            "player": [
-             [
-              {
-               "player_key": "477.p.5057"
-              },
-              {
-               "player_id": "5057"
-              },
-              {
-               "name": {
-                "ascii_first": "Scott",
-                "ascii_last": "Wedgewood",
-                "first": "Scott",
-                "full": "Scott Wedgewood",
-                "last": "Wedgewood"
-               }
-              },
-              {
-               "url": "https://sports.yahoo.com/nhl/players/5057"
-              },
-              {
-               "editorial_player_key": "nhl.p.5057"
-              },
-              {
-               "editorial_team_key": "nhl.t.17"
-              },
-              {
-               "editorial_team_full_name": "Colorado Avalanche"
-              },
-              {
-               "editorial_team_abbr": "COL"
-              },
-              {
-               "editorial_team_url": "https://sports.yahoo.com/nhl/teams/colorado/"
-              },
-              {
-               "is_keeper": {
-                "cost": false,
-                "kept": true,
-                "status": true
-               }
-              },
-              {
-               "uniform_number": "41"
-              },
-              {
-               "display_position": "G"
-              },
-              {
-               "headshot": {
-                "size": "small",
-                "url": "https://s.yimg.com/iu/api/res/1.2/UfOafTcFQsMrhJ91n9ri2A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5057.1.png"
-               },
-               "image_url": "https://s.yimg.com/iu/api/res/1.2/UfOafTcFQsMrhJ91n9ri2A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5057.1.png"
-              },
-              {
-               "is_undroppable": "0"
-              },
-              {
-               "position_type": "G"
-              },
-              {
-               "primary_position": "G"
-              },
-              {
-               "eligible_positions": [
-                {
-                 "position": "G"
-                }
-               ]
-              },
-              {
-               "eligible_positions_to_add": []
-              },
-              [],
-              [],
-              {
-               "has_player_notes": 1
-              },
-              [],
-              {
-               "player_notes_last_timestamp": 1792551810
-              }
-             ],
+             },
              {
-              "selected_position": [
+              "starting_status": [
                {
                 "coverage_type": "date",
                 "date": "2026-10-25"
                },
                {
-                "position": "G"
-               },
-               {
-                "is_flex": 0
+                "is_starting": 0
                }
               ]
              }
@@ -11191,7 +11223,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1792877718
+               "player_notes_last_timestamp": 1792948090
               }
              ],
              {
@@ -11391,9 +11423,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792872301
               }
@@ -11754,9 +11784,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792741468
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792950799
               }
              ],
              {
@@ -13185,9 +13217,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792729637
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792951924
               }
              ],
              {
@@ -13420,13 +13454,9 @@
               },
               [],
               [],
-              {
-               "has_player_notes": 1
-              },
               [],
-              {
-               "player_notes_last_timestamp": 1792083466
-              }
+              [],
+              []
              ],
              {
               "selected_position": [
@@ -13544,9 +13574,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792856090
               }
@@ -13748,9 +13776,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792819217
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792953697
               }
              ],
              {
@@ -13764,6 +13794,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-10-25"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -15494,9 +15535,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792869243
               }
@@ -16061,9 +16100,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792116861
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792950975
               }
              ],
              {
@@ -16396,9 +16437,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792737458
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792951087
               }
              ],
              {
@@ -17934,9 +17977,7 @@
               {
                "has_player_notes": 1
               },
-              {
-               "has_recent_player_notes": 1
-              },
+              [],
               {
                "player_notes_last_timestamp": 1792863437
               }
@@ -18705,9 +18746,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1792594719
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792950474
               }
              ],
              {
@@ -18890,7 +18933,7 @@
          "faab_balance": "100"
         },
         {
-         "number_of_moves": 14
+         "number_of_moves": 15
         },
         {
          "number_of_trades": 0
@@ -18899,7 +18942,7 @@
          "roster_adds": {
           "coverage_type": "week",
           "coverage_value": 4,
-          "value": "3"
+          "value": "4"
          }
         },
         [],
@@ -20672,9 +20715,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1792949460
+              }
              ],
              {
               "selected_position": [
@@ -20931,7 +20980,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "166.53299331665ms",
+  "time": "180.05394935608ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-10-25"
  }
