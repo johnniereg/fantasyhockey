@@ -1,52 +1,52 @@
 {
- "current_week": 4,
- "date_et": "2026-10-25",
- "errors": {
-  "fa_C_1": "HTTP 500 for https://fantasysports.yahooapis.com/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=25/percent_owned?format=json: "
- },
+ "current_week": 5,
+ "date_et": "2026-10-26",
+ "errors": {},
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": []
+   "written": [
+    "2026-10-25"
+   ]
   },
   "goalie_starts": {
-   "games_added": 0,
+   "games_added": 5,
    "games_pending": 0,
-   "rows": 716
+   "rows": 736
   },
   "scoreboard_archive": {
-   "archived": "scoreboard_week_03.json"
+   "archived": "scoreboard_week_04.json"
   },
   "waivers_0": "saved",
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-10-25T20:16:31+00:00",
- "finished_at_utc": "2026-10-25T20:16:48+00:00",
+ "fetched_at_utc": "2026-10-26T09:41:30+00:00",
+ "finished_at_utc": "2026-10-26T09:42:01+00:00",
  "games": {
-  "live_now": 1,
+  "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-10-25",
+   "date": "2026-10-26",
    "final": 0,
-   "games": 5
+   "games": 3
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-10-24",
-   "final": 12,
-   "games": 12
+   "date": "2026-10-25",
+   "final": 5,
+   "games": 5
   }
  },
  "league_key": "477.l.12088",
- "next_opp_team_key": "477.l.12088.t.2",
+ "next_opp_team_key": "477.l.12088.t.3",
  "nhl_blocks": [
-  "2026-10-19",
-  "2026-10-26"
+  "2026-10-26",
+  "2026-11-02"
  ],
  "nhl_range": [
-  "2026-10-19",
-  "2026-11-01"
+  "2026-10-26",
+  "2026-11-08"
  ],
  "ok": [
   "league_settings",
@@ -57,14 +57,27 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-10-25",
-  "opp_roster_2026-10-25",
+  "my_roster_2026-10-26",
+  "opp_roster_2026-10-26",
+  "my_roster_2026-10-27",
+  "opp_roster_2026-10-27",
+  "my_roster_2026-10-28",
+  "opp_roster_2026-10-28",
+  "my_roster_2026-10-29",
+  "opp_roster_2026-10-29",
+  "my_roster_2026-10-30",
+  "opp_roster_2026-10-30",
+  "my_roster_2026-10-31",
+  "opp_roster_2026-10-31",
+  "my_roster_2026-11-01",
+  "opp_roster_2026-11-01",
   "scoreboard_current",
   "scoreboard_previous",
   "all_rosters",
   "roster_moves_log",
   "transactions",
   "fa_C_0",
+  "fa_C_1",
   "fa_LW_0",
   "fa_LW_1",
   "fa_RW_0",
@@ -78,8 +91,8 @@
   "fa_RW_lastweek",
   "fa_D_lastweek",
   "fa_G_lastweek",
-  "nhl_schedule_2026-10-19",
   "nhl_schedule_2026-10-26",
+  "nhl_schedule_2026-11-02",
   "nhl_standings",
   "waivers_0",
   "waivers_1",
@@ -87,21 +100,27 @@
   "goalie_starts",
   "scoreboard_archive"
  ],
- "opp_team_key": "477.l.12088.t.4",
+ "opp_team_key": "477.l.12088.t.2",
  "roster_dates": [
-  "2026-10-25"
+  "2026-10-26",
+  "2026-10-27",
+  "2026-10-28",
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "workflow_dispatch:goalie",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
-  "4": [
-   "2026-10-19",
-   "2026-10-25"
-  ],
   "5": [
    "2026-10-26",
    "2026-11-01"
+  ],
+  "6": [
+   "2026-11-02",
+   "2026-11-08"
   ]
  }
 }
