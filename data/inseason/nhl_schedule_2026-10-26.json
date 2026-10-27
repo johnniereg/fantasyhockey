@@ -15,32 +15,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
       "id": 26,
       "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.11"
-       },
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 8,
-        "value": "+111"
-       },
-       {
-        "providerId": 7,
-        "value": "+110"
-       },
-       {
-        "providerId": 6,
-        "value": "2.13"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Los Angeles"
       },
@@ -48,12 +22,13 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
+      "score": 5
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/lak-vs-nyr/2026/10/26/2026020185",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NYR",
@@ -64,32 +39,6 @@
       "homeSplitSquad": false,
       "id": 3,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.75"
-       },
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 8,
-        "value": "-134"
-       },
-       {
-        "providerId": 7,
-        "value": "-132"
-       },
-       {
-        "providerId": 6,
-        "value": "1.72"
-       },
-       {
-        "providerId": 10,
-        "value": "2.25"
-       }
-      ],
       "placeName": {
        "default": "New York"
       },
@@ -97,19 +46,18 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8",
+      "score": 1
      },
      "id": 2026020185,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 2,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-26T23:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/3B0064F1B1D9444A?brand=nhl&wt.mc_id=NHL_LEAGUE_NYR_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYR&utm_content=SCHED_PG_GM7&CAMEFROM=CFC_RANGERS_WEB_NHL_SCHED_260803",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/3B0064F1B1D9444A?brand=nhl&wt.mc_id=NHL_LEAGUE_NYR_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYR&utm_content=SCHED_PG_GM7&CAMEFROM=CFC_RANGERS_WEB_NHL_SCHED_260803",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -158,16 +106,16 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
       "odds": [
        {
-        "providerId": 7,
-        "value": "-140"
-       },
-       {
         "providerId": 6,
-        "value": "2.25"
+        "value": "2.13"
        },
        {
         "providerId": 3,
-        "value": "1.74"
+        "value": "1.73"
+       },
+       {
+        "providerId": 7,
+        "value": "-142"
        },
        {
         "providerId": 9,
@@ -179,7 +127,7 @@
        },
        {
         "providerId": 10,
-        "value": "2.17"
+        "value": "2.10"
        }
       ],
       "placeName": {
@@ -194,7 +142,7 @@
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/tor-vs-cgy/2026/10/26/2026020186",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "PRE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CGY",
@@ -207,16 +155,16 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
       "odds": [
        {
-        "providerId": 7,
-        "value": "+116"
-       },
-       {
         "providerId": 6,
-        "value": "1.64"
+        "value": "1.72"
        },
        {
         "providerId": 3,
-        "value": "2.12"
+        "value": "2.15"
+       },
+       {
+        "providerId": 7,
+        "value": "+118"
        },
        {
         "providerId": 9,
@@ -228,7 +176,7 @@
        },
        {
         "providerId": 10,
-        "value": "2.85"
+        "value": "2.75"
        }
       ],
       "placeName": {
@@ -278,10 +226,6 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "1.58"
-       },
-       {
         "providerId": 8,
         "value": "+148"
        },
@@ -294,12 +238,16 @@
         "value": "+146"
        },
        {
+        "providerId": 6,
+        "value": "1.55"
+       },
+       {
         "providerId": 3,
-        "value": "2.40"
+        "value": "2.46"
        },
        {
         "providerId": 10,
-        "value": "3.20"
+        "value": "3.35"
        }
       ],
       "placeName": {
@@ -327,10 +275,6 @@
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
       "odds": [
        {
-        "providerId": 6,
-        "value": "2.37"
-       },
-       {
         "providerId": 8,
         "value": "-182"
        },
@@ -340,15 +284,19 @@
        },
        {
         "providerId": 7,
-        "value": "-176"
+        "value": "-178"
+       },
+       {
+        "providerId": 6,
+        "value": "2.44"
        },
        {
         "providerId": 3,
-        "value": "1.59"
+        "value": "1.56"
        },
        {
         "providerId": 10,
-        "value": "1.97"
+        "value": "1.90"
        }
       ],
       "placeName": {
