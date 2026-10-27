@@ -5,9 +5,7 @@
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": [
-    "2026-10-26"
-   ]
+   "written": []
   },
   "fa_snapshot": {
    "date": "2026-10-27",
@@ -15,7 +13,7 @@
    "rows_read": 390
   },
   "goalie_starts": {
-   "games_added": 3,
+   "games_added": 0,
    "games_pending": 0,
    "rows": 748
   },
@@ -23,15 +21,15 @@
    "archived": "scoreboard_week_04.json"
   },
   "skater_games": {
-   "games_added": 67,
+   "games_added": 0,
    "games_pending": 0
   },
   "waivers_0": "saved",
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-10-27T09:41:26+00:00",
- "finished_at_utc": "2026-10-27T09:42:02+00:00",
+ "fetched_at_utc": "2026-10-27T11:27:01+00:00",
+ "finished_at_utc": "2026-10-27T11:27:16+00:00",
  "games": {
   "live_now": 0,
   "today": {
@@ -119,7 +117,7 @@
   "2026-11-01"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "workflow_dispatch:morning",
+ "trigger": "workflow_dispatch:morning-backup",
  "warnings": [],
  "week_dates": {
   "5": [
