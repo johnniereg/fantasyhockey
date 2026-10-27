@@ -40,7 +40,7 @@
      "faab_balance": "81"
     },
     {
-     "number_of_moves": 16
+     "number_of_moves": 17
     },
     {
      "number_of_trades": 0
@@ -49,7 +49,7 @@
      "roster_adds": {
       "coverage_type": "week",
       "coverage_value": 5,
-      "value": "1"
+      "value": "2"
      }
     },
     [],
@@ -858,9 +858,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792905307
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793121413
           }
          ],
          {
@@ -874,6 +876,17 @@
            },
            {
             "is_flex": 0
+           }
+          ]
+         },
+         {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-10-27"
+           },
+           {
+            "is_starting": 1
            }
           ]
          },
@@ -1180,9 +1193,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792907527
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793120789
           }
          ],
          {
@@ -2013,7 +2028,7 @@
     }
    }
   ],
-  "time": "94.337940216064ms",
+  "time": "80.480098724365ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-10-27/players"
  }
