@@ -22,13 +22,17 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
-      "score": 5
+      "score": 6
      },
+     "condensedGame": "/video/lak-at-nyr-condensed-game-6407448448112",
+     "condensedGameFr": "/fr/video/match-condense-kings-rangers-26-10-2026-6407447574112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/lak-vs-nyr/2026/10/26/2026020185",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "LIVE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NYR",
@@ -46,18 +50,19 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8",
-      "score": 1
+      "score": 3
      },
      "id": 2026020185,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 2,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-26T23:00:00Z",
+     "threeMinRecap": "/video/lak-at-nyr-recap-6407450310112",
+     "threeMinRecapFr": "/fr/video/lak-vs-nyr-26-10-2026-resume-6407448656112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -92,7 +97,25 @@
       "default": "Madison Square Garden"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Panarin"
+      },
+      "playerId": 8478550
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Kuemper"
+      },
+      "playerId": 8475311
+     }
     },
     {
      "awayTeam": {
@@ -104,32 +127,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
       "id": 10,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.13"
-       },
-       {
-        "providerId": 3,
-        "value": "1.73"
-       },
-       {
-        "providerId": 7,
-        "value": "-142"
-       },
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 8,
-        "value": "-139"
-       },
-       {
-        "providerId": 10,
-        "value": "2.10"
-       }
-      ],
       "placeName": {
        "default": "Toronto"
       },
@@ -137,12 +134,16 @@
        "default": "Toronto",
        "fr": "de Toronto"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/tor-at-cgy-condensed-game-6407452157112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/tor-vs-cgy/2026/10/26/2026020186",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "PRE",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CGY",
@@ -153,32 +154,6 @@
       "homeSplitSquad": false,
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.72"
-       },
-       {
-        "providerId": 3,
-        "value": "2.15"
-       },
-       {
-        "providerId": 7,
-        "value": "+118"
-       },
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 8,
-        "value": "+114"
-       },
-       {
-        "providerId": 10,
-        "value": "2.75"
-       }
-      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -186,19 +161,19 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
+      "score": 5
      },
      "id": 2026020186,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-27T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/10064FCC9DC77FB?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/10064FCC9DC77FB?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/tor-at-cgy-recap-6407452646112",
+     "threeMinRecapFr": "/fr/video/tor-vs-cgy-26-10-2026-resume-6407450879112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -212,7 +187,25 @@
       "default": "Scotiabank Saddledome"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Gridin"
+      },
+      "playerId": 8484860
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Cooley"
+      },
+      "playerId": 8482445
+     }
     },
     {
      "awayTeam": {
@@ -224,32 +217,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg",
       "id": 17,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "+148"
-       },
-       {
-        "providerId": 9,
-        "value": "+150"
-       },
-       {
-        "providerId": 7,
-        "value": "+146"
-       },
-       {
-        "providerId": 6,
-        "value": "1.55"
-       },
-       {
-        "providerId": 3,
-        "value": "2.46"
-       },
-       {
-        "providerId": 10,
-        "value": "3.35"
-       }
-      ],
       "placeName": {
        "default": "Detroit"
       },
@@ -257,12 +224,17 @@
        "default": "Detroit",
        "fr": "de Detroit"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/det-at-edm-condensed-game-6407454092112",
+     "condensedGameFr": "/fr/video/match-condense-red-wings-oilers-26-10-2026-6407454665112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/det-vs-edm/2026/10/26/2026020187",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "EDM",
@@ -273,32 +245,6 @@
       "homeSplitSquad": false,
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-182"
-       },
-       {
-        "providerId": 9,
-        "value": "-180"
-       },
-       {
-        "providerId": 7,
-        "value": "-178"
-       },
-       {
-        "providerId": 6,
-        "value": "2.44"
-       },
-       {
-        "providerId": 3,
-        "value": "1.56"
-       },
-       {
-        "providerId": 10,
-        "value": "1.90"
-       }
-      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -306,19 +252,19 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 3
      },
      "id": 2026020187,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-27T01:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006513A602A493?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A602A493?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/det-at-edm-recap-6407453985112",
+     "threeMinRecapFr": "/fr/video/det-vs-edm-26-10-2026-resume-6407454472112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -346,7 +292,16 @@
       "default": "Rogers Place"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Postava"
+      },
+      "playerId": 8485545
+     }
     }
    ],
    "numberOfGames": 3

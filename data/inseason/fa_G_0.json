@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-10-26",
+    "current_date": "2026-10-27",
     "current_week": 5,
     "draft_status": "postdraft",
-    "edit_key": "2026-10-27",
+    "edit_key": "2026-10-28",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -21,9 +21,9 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1793001614",
+    "league_update_timestamp": "1793087673",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
-    "matchup_week": 4,
+    "matchup_week": 5,
     "max_teams": "10",
     "name": "Tim McCabe Memorial Cup",
     "num_teams": 10,
@@ -166,8 +166,8 @@
          "url": "https://sports.yahoo.com/nhl/players/7601"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Undisclosed"
@@ -234,9 +234,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792892297
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793064000
         }
        ],
        {
@@ -347,10 +349,10 @@
           "week": 5
          },
          {
-          "value": 31
+          "value": 30
          },
          {
-          "delta": "-4"
+          "delta": "-5"
          }
         ]
        }
@@ -852,10 +854,10 @@
           "week": 5
          },
          {
-          "value": 5
+          "value": 6
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -1042,9 +1044,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1792993370
         }
@@ -1359,10 +1359,10 @@
           "week": 5
          },
          {
-          "value": 40
+          "value": 41
          },
          {
-          "delta": "2"
+          "delta": "3"
          }
         ]
        }
@@ -1561,10 +1561,10 @@
           "week": 5
          },
          {
-          "value": 21
+          "value": 20
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -1874,6 +1874,109 @@
       "player": [
        [
         {
+         "player_key": "477.p.8794"
+        },
+        {
+         "player_id": "8794"
+        },
+        {
+         "name": {
+          "ascii_first": "Devin",
+          "ascii_last": "Cooley",
+          "first": "Devin",
+          "full": "Devin Cooley",
+          "last": "Cooley"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/8794"
+        },
+        {
+         "editorial_player_key": "nhl.p.8794"
+        },
+        {
+         "editorial_team_key": "nhl.t.3"
+        },
+        {
+         "editorial_team_full_name": "Calgary Flames"
+        },
+        {
+         "editorial_team_abbr": "CGY"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/calgary/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "1"
+        },
+        {
+         "display_position": "G"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/OFw0x1wn3A0jD2v2mmgtbQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8794.1.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/OFw0x1wn3A0jD2v2mmgtbQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8794.1.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "G"
+        },
+        {
+         "primary_position": "G"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "G"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": []
+        },
+        [],
+        [],
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793028298
+        }
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 32
+         },
+         {
+          "delta": "21"
+         }
+        ]
+       }
+      ]
+     },
+     "4": {
+      "player": [
+       [
+        {
          "player_key": "477.p.7429"
         },
         {
@@ -1967,7 +2070,7 @@
        }
       ]
      },
-     "4": {
+     "5": {
       "player": [
        [
         {
@@ -2059,113 +2162,10 @@
           "week": 5
          },
          {
-          "value": 24
+          "value": 25
          },
          {
-          "delta": "3"
-         }
-        ]
-       }
-      ]
-     },
-     "5": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.8794"
-        },
-        {
-         "player_id": "8794"
-        },
-        {
-         "name": {
-          "ascii_first": "Devin",
-          "ascii_last": "Cooley",
-          "first": "Devin",
-          "full": "Devin Cooley",
-          "last": "Cooley"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/8794"
-        },
-        {
-         "editorial_player_key": "nhl.p.8794"
-        },
-        {
-         "editorial_team_key": "nhl.t.3"
-        },
-        {
-         "editorial_team_full_name": "Calgary Flames"
-        },
-        {
-         "editorial_team_abbr": "CGY"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/calgary/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "1"
-        },
-        {
-         "display_position": "G"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/OFw0x1wn3A0jD2v2mmgtbQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8794.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/OFw0x1wn3A0jD2v2mmgtbQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8794.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "G"
-        },
-        {
-         "primary_position": "G"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "G"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": []
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        {
-         "has_recent_player_notes": 1
-        },
-        {
-         "player_notes_last_timestamp": 1793028298
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "value": 29
-         },
-         {
-          "delta": "18"
+          "delta": "4"
          }
         ]
        }
@@ -2464,10 +2464,10 @@
           "week": 5
          },
          {
-          "value": 1
+          "value": 2
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2579,7 +2579,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "80.646991729736ms",
+  "time": "85.736036300659ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/percent_owned"
  }
