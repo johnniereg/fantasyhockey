@@ -72,6 +72,8 @@ Pipeline data only. AGM output (briefs, analysis) lives in the BrainPal vault, n
 | `daily/<date>.json` | Every team's roster for the date: slot, status and that day's fantasy stats (Yahoo `type=date`). Yesterday each run; backfills 3 past days per run | `agm_ledger.py`, recaps |
 | `goalie_starts.json` | One row per goalie per final NHL game: starter, TOI, SA/SV/GA, decision (NHL box scores) | `agm_goalies.py` |
 | `waivers_<page>.json` | Players on waivers (Yahoo `status=W`) | `agm_plan.py` (W flag), `agm_goalies.py` |
+| `skater_games/<YYYY-MM>.json` | One compact row per skater per final NHL game: TOI, shifts, SOG, G, A, PPG, PIM, +/- (NHL box scores; reuses goalie_starts' boxes, backfills 120 games per run) | `agm_usage.py`, `agm_counterfactual.py` |
+| `fa_snapshots/<date>.json` | Every FA and waiver player seen in any fetch that day: Yahoo eligibility, status, ownership, waiver flag | `agm_usage.py --fa`, `agm_counterfactual.py` |
 | `archive/scoreboard_week_NN.json` | Each completed week's league scoreboard | `agm_ranks.py` |
 
 These "extras" never fail the fetch: a problem lands in `manifest.json` `warnings` and `extras_errors`, and the core data stays green.
@@ -86,6 +88,8 @@ These "extras" never fail the fetch: a problem lands in `manifest.json` `warning
 | `agm_goalies.py` | Goalie market: our goalies, trigger 1 hits, trigger 2 hints, every goalie's last-5 |
 | `agm_ranks.py [--next]` | H2H vs all-play standings, our weekly category ranks, data lean vs the opponent |
 | `agm_ledger.py` | Our moves and what each add/drop has produced since |
+| `agm_usage.py [--last N] [--players "A,B"] [--fa N]` | Ice time and shots, recent vs season, per player: minutes up/down, low shot volume, hot/cold shooting % |
+| `agm_counterfactual.py [--days N] [--team all]` | Each add vs the best player available that day, over the next N days of NHL games |
 
 ## Brief and alert tasks (2026-10-12)
 
