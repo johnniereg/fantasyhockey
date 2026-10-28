@@ -173,9 +173,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792932029
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793199161
           }
          ],
          {
@@ -619,9 +621,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792897020
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793193288
           }
          ],
          {
@@ -662,8 +666,8 @@
            "url": "https://sports.yahoo.com/nhl/players/8282"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "DTD",
+           "status_full": "Day-to-Day"
           },
           {
            "injury_note": "Upper Body"
@@ -2073,9 +2077,15 @@
           },
           [],
           [],
-          [],
-          [],
-          []
+          {
+           "has_player_notes": 1
+          },
+          {
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793197765
+          }
          ],
          {
           "selected_position": [
@@ -2215,7 +2225,7 @@
     }
    }
   ],
-  "time": "80.366134643555ms",
+  "time": "81.16888999939ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.2/roster;date=2026-10-29/players"
  }

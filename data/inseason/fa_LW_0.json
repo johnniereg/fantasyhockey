@@ -130,9 +130,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793197592
+        }
        ],
        {
         "percent_owned": [
@@ -141,10 +147,10 @@
           "week": 5
          },
          {
-          "value": 50
+          "value": 51
          },
          {
-          "delta": "-2"
+          "delta": "-1"
          }
         ]
        }
@@ -252,10 +258,10 @@
           "week": 5
          },
          {
-          "value": 24
+          "value": 23
          },
          {
-          "delta": "5"
+          "delta": "4"
          }
         ]
        }
@@ -570,9 +576,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792331849
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793191558
         }
        ],
        {
@@ -689,10 +697,10 @@
           "week": 5
          },
          {
-          "value": 10
+          "value": 9
          },
          {
-          "delta": "-2"
+          "delta": "-3"
          }
         ]
        }
@@ -1230,9 +1238,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793107746
         }
@@ -1894,9 +1900,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793037079
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793198314
         }
        ],
        {
@@ -2112,9 +2120,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792933873
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793192813
         }
        ],
        {
@@ -2800,7 +2810,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "74.64599609375ms",
+  "time": "84.760904312134ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=LW;sort=AR;count=25;start=0/percent_owned"
  }
