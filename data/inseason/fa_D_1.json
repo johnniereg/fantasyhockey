@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-10-27",
+    "current_date": "2026-10-28",
     "current_week": 5,
     "draft_status": "postdraft",
-    "edit_key": "2026-10-28",
+    "edit_key": "2026-10-29",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -21,7 +21,7 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1793087673",
+    "league_update_timestamp": "1793174112",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
     "matchup_week": 5,
     "max_teams": "10",
@@ -47,37 +47,44 @@
       "player": [
        [
         {
-         "player_key": "477.p.5756"
+         "player_key": "477.p.5232"
         },
         {
-         "player_id": "5756"
+         "player_id": "5232"
         },
         {
          "name": {
-          "ascii_first": "Adam",
-          "ascii_last": "Pelech",
-          "first": "Adam",
-          "full": "Adam Pelech",
-          "last": "Pelech"
+          "ascii_first": "Jared",
+          "ascii_last": "Spurgeon",
+          "first": "Jared",
+          "full": "Jared Spurgeon",
+          "last": "Spurgeon"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/5756"
+         "url": "https://sports.yahoo.com/nhl/players/5232"
         },
         {
-         "editorial_player_key": "nhl.p.5756"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
-         "editorial_team_key": "nhl.t.12"
+         "injury_note": "Undisclosed"
         },
         {
-         "editorial_team_full_name": "New York Islanders"
+         "editorial_player_key": "nhl.p.5232"
         },
         {
-         "editorial_team_abbr": "NYI"
+         "editorial_team_key": "nhl.t.30"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ny-islanders/"
+         "editorial_team_full_name": "Minnesota Wild"
+        },
+        {
+         "editorial_team_abbr": "MIN"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/minnesota/"
         },
         {
          "is_keeper": {
@@ -87,7 +94,7 @@
          }
         },
         {
-         "uniform_number": "3"
+         "uniform_number": "46"
         },
         {
          "display_position": "D"
@@ -95,9 +102,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/6HFPUb3bW9sW4H11fYJnmQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/E66E4OYUpb19_xJEMWgEMQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5232.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/6HFPUb3bW9sW4H11fYJnmQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/E66E4OYUpb19_xJEMWgEMQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5232.1.png"
         },
         {
          "is_undroppable": "0"
@@ -112,6 +119,9 @@
          "eligible_positions": [
           {
            "position": "D"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -130,9 +140,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793162063
+        }
        ],
        {
         "percent_owned": [
@@ -141,10 +157,10 @@
           "week": 5
          },
          {
-          "value": 1
+          "value": 27
          },
          {
-          "delta": "0"
+          "delta": "-3"
          }
         ]
        }
@@ -154,37 +170,44 @@
       "player": [
        [
         {
-         "player_key": "477.p.4475"
+         "player_key": "477.p.6896"
         },
         {
-         "player_id": "4475"
+         "player_id": "6896"
         },
         {
          "name": {
-          "ascii_first": "Luke",
-          "ascii_last": "Schenn",
-          "first": "Luke",
-          "full": "Luke Schenn",
-          "last": "Schenn"
+          "ascii_first": "John",
+          "ascii_last": "Marino",
+          "first": "John",
+          "full": "John Marino",
+          "last": "Marino"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/4475"
+         "url": "https://sports.yahoo.com/nhl/players/6896"
         },
         {
-         "editorial_player_key": "nhl.p.4475"
+         "status": "O",
+         "status_full": "Out"
         },
         {
-         "editorial_team_key": "nhl.t.22"
+         "injury_note": "Upper Body"
         },
         {
-         "editorial_team_full_name": "Vancouver Canucks"
+         "editorial_player_key": "nhl.p.6896"
         },
         {
-         "editorial_team_abbr": "VAN"
+         "editorial_team_key": "nhl.t.60"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/vancouver/"
+         "editorial_team_full_name": "Utah Mammoth"
+        },
+        {
+         "editorial_team_abbr": "UTA"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/utah/"
         },
         {
          "is_keeper": {
@@ -194,7 +217,7 @@
          }
         },
         {
-         "uniform_number": "2"
+         "uniform_number": "6"
         },
         {
          "display_position": "D"
@@ -202,9 +225,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/btmIP.x0sTGc1J5ZO9KtTA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/4475.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/NZGTMUsh_LmO6_cH64o_tQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/6896.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/btmIP.x0sTGc1J5ZO9KtTA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/4475.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/NZGTMUsh_LmO6_cH64o_tQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/6896.png"
         },
         {
          "is_undroppable": "0"
@@ -219,6 +242,9 @@
          "eligible_positions": [
           {
            "position": "D"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -237,9 +263,13 @@
         },
         [],
         [],
+        {
+         "has_player_notes": 1
+        },
         [],
-        [],
-        []
+        {
+         "player_notes_last_timestamp": 1792864434
+        }
        ],
        {
         "percent_owned": [
@@ -248,10 +278,10 @@
           "week": 5
          },
          {
-          "value": 2
+          "value": 3
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -261,37 +291,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.8909"
+         "player_key": "477.p.30124"
         },
         {
-         "player_id": "8909"
+         "player_id": "30124"
         },
         {
          "name": {
-          "ascii_first": "Olen",
-          "ascii_last": "Zellweger",
-          "first": "Olen",
-          "full": "Olen Zellweger",
-          "last": "Zellweger"
+          "ascii_first": "Tyler",
+          "ascii_last": "Kleven",
+          "first": "Tyler",
+          "full": "Tyler Kleven",
+          "last": "Kleven"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/8909"
+         "url": "https://sports.yahoo.com/nhl/players/30124"
         },
         {
-         "editorial_player_key": "nhl.p.8909"
+         "editorial_player_key": "nhl.p.30124"
         },
         {
-         "editorial_team_key": "nhl.t.2"
+         "editorial_team_key": "nhl.t.14"
         },
         {
-         "editorial_team_full_name": "Buffalo Sabres"
+         "editorial_team_full_name": "Ottawa Senators"
         },
         {
-         "editorial_team_abbr": "BUF"
+         "editorial_team_abbr": "OTT"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/buffalo/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
         },
         {
          "is_keeper": {
@@ -301,7 +331,7 @@
          }
         },
         {
-         "uniform_number": "8"
+         "uniform_number": "43"
         },
         {
          "display_position": "D"
@@ -309,9 +339,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/VUv9wGmHOQDjjrJpur_uoA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8909.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/PymdySCPVBD1faCLLFRYVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30124.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/VUv9wGmHOQDjjrJpur_uoA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/8909.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/PymdySCPVBD1faCLLFRYVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30124.1.png"
         },
         {
          "is_undroppable": "0"
@@ -355,10 +385,10 @@
           "week": 5
          },
          {
-          "value": 6
+          "value": 13
          },
          {
-          "delta": "0"
+          "delta": "5"
          }
         ]
        }
@@ -368,37 +398,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.5254"
+         "player_key": "477.p.5783"
         },
         {
-         "player_id": "5254"
+         "player_id": "5783"
         },
         {
          "name": {
-          "ascii_first": "Dmitry",
-          "ascii_last": "Orlov",
-          "first": "Dmitry",
-          "full": "Dmitry Orlov",
-          "last": "Orlov"
+          "ascii_first": "Erik",
+          "ascii_last": "Gustafsson",
+          "first": "Erik",
+          "full": "Erik Gustafsson",
+          "last": "Gustafsson"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/5254"
+         "url": "https://sports.yahoo.com/nhl/players/5783"
         },
         {
-         "editorial_player_key": "nhl.p.5254"
+         "editorial_player_key": "nhl.p.5783"
         },
         {
-         "editorial_team_key": "nhl.t.18"
+         "editorial_team_key": "nhl.t.8"
         },
         {
-         "editorial_team_full_name": "San Jose Sharks"
+         "editorial_team_full_name": "Los Angeles Kings"
         },
         {
-         "editorial_team_abbr": "SJ"
+         "editorial_team_abbr": "LA"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/san-jose/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/los-angeles/"
         },
         {
          "is_keeper": {
@@ -408,7 +438,7 @@
          }
         },
         {
-         "uniform_number": "9"
+         "uniform_number": "64"
         },
         {
          "display_position": "D"
@@ -416,9 +446,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/y1Ng6fRnPnBKyAVT1p.yBA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5254.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/SnA60qIVSJ4U8hVKkGsMEw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5783.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/y1Ng6fRnPnBKyAVT1p.yBA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5254.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/SnA60qIVSJ4U8hVKkGsMEw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5783.1.png"
         },
         {
          "is_undroppable": "0"
@@ -456,7 +486,7 @@
         },
         [],
         {
-         "player_notes_last_timestamp": 1792952396
+         "player_notes_last_timestamp": 1792584339
         }
        ],
        {
@@ -464,9 +494,6 @@
          {
           "coverage_type": "week",
           "week": 5
-         },
-         {
-          "value": 19
          },
          {
           "delta": "0"
@@ -586,37 +613,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.6869"
+         "player_key": "477.p.5544"
         },
         {
-         "player_id": "6869"
+         "player_id": "5544"
         },
         {
          "name": {
-          "ascii_first": "Niko",
-          "ascii_last": "Mikkola",
-          "first": "Niko",
-          "full": "Niko Mikkola",
-          "last": "Mikkola"
+          "ascii_first": "Dylan",
+          "ascii_last": "DeMelo",
+          "first": "Dylan",
+          "full": "Dylan DeMelo",
+          "last": "DeMelo"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/6869"
+         "url": "https://sports.yahoo.com/nhl/players/5544"
         },
         {
-         "editorial_player_key": "nhl.p.6869"
+         "editorial_player_key": "nhl.p.5544"
         },
         {
-         "editorial_team_key": "nhl.t.26"
+         "editorial_team_key": "nhl.t.28"
         },
         {
-         "editorial_team_full_name": "Florida Panthers"
+         "editorial_team_full_name": "Winnipeg Jets"
         },
         {
-         "editorial_team_abbr": "FLA"
+         "editorial_team_abbr": "WPG"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/florida/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/winnipeg/"
         },
         {
          "is_keeper": {
@@ -626,7 +653,7 @@
          }
         },
         {
-         "uniform_number": "77"
+         "uniform_number": "2"
         },
         {
          "display_position": "D"
@@ -634,120 +661,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/p.WlnjJsFjqozxQTyygOHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/6869.2.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/xDFSHUK32y3j7pI4umd_lg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5544.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/p.WlnjJsFjqozxQTyygOHg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/6869.2.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        [],
-        {
-         "player_notes_last_timestamp": 1792288127
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "value": 1
-         },
-         {
-          "delta": "0"
-         }
-        ]
-       }
-      ]
-     },
-     "14": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.6779"
-        },
-        {
-         "player_id": "6779"
-        },
-        {
-         "name": {
-          "ascii_first": "Brandon",
-          "ascii_last": "Carlo",
-          "first": "Brandon",
-          "full": "Brandon Carlo",
-          "last": "Carlo"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/6779"
-        },
-        {
-         "editorial_player_key": "nhl.p.6779"
-        },
-        {
-         "editorial_team_key": "nhl.t.19"
-        },
-        {
-         "editorial_team_full_name": "St. Louis Blues"
-        },
-        {
-         "editorial_team_abbr": "STL"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/st-louis/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "25"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/lI_Pl6ZJyxCP.FoUimURUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/6779.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/lI_Pl6ZJyxCP.FoUimURUA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/6779.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/xDFSHUK32y3j7pI4umd_lg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5544.1.png"
         },
         {
          "is_undroppable": "0"
@@ -789,6 +705,120 @@
          {
           "coverage_type": "week",
           "week": 5
+         },
+         {
+          "value": 1
+         },
+         {
+          "delta": "0"
+         }
+        ]
+       }
+      ]
+     },
+     "14": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.6984"
+        },
+        {
+         "player_id": "6984"
+        },
+        {
+         "name": {
+          "ascii_first": "Jalen",
+          "ascii_last": "Chatfield",
+          "first": "Jalen",
+          "full": "Jalen Chatfield",
+          "last": "Chatfield"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/6984"
+        },
+        {
+         "editorial_player_key": "nhl.p.6984"
+        },
+        {
+         "editorial_team_key": "nhl.t.7"
+        },
+        {
+         "editorial_team_full_name": "Carolina Hurricanes"
+        },
+        {
+         "editorial_team_abbr": "CAR"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/carolina/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "5"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/itC.WW7sKC0SevaYwYb1rg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/6984.3.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/itC.WW7sKC0SevaYwYb1rg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/6984.3.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        {
+         "has_player_notes": 1
+        },
+        [],
+        {
+         "player_notes_last_timestamp": 1792381820
+        }
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 1
          },
          {
           "delta": "0"
@@ -909,37 +939,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.30551"
+         "player_key": "477.p.7926"
         },
         {
-         "player_id": "30551"
+         "player_id": "7926"
         },
         {
          "name": {
-          "ascii_first": "Dmitri",
-          "ascii_last": "Simashev",
-          "first": "Dmitri",
-          "full": "Dmitri Simashev",
-          "last": "Simashev"
+          "ascii_first": "Nils",
+          "ascii_last": "Lundkvist",
+          "first": "Nils",
+          "full": "Nils Lundkvist",
+          "last": "Lundkvist"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/30551"
+         "url": "https://sports.yahoo.com/nhl/players/7926"
         },
         {
-         "editorial_player_key": "nhl.p.30551"
+         "editorial_player_key": "nhl.p.7926"
         },
         {
-         "editorial_team_key": "nhl.t.60"
+         "editorial_team_key": "nhl.t.9"
         },
         {
-         "editorial_team_full_name": "Utah Mammoth"
+         "editorial_team_full_name": "Dallas Stars"
         },
         {
-         "editorial_team_abbr": "UTA"
+         "editorial_team_abbr": "DAL"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/utah/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/dallas/"
         },
         {
          "is_keeper": {
@@ -949,7 +979,7 @@
          }
         },
         {
-         "uniform_number": "26"
+         "uniform_number": "5"
         },
         {
          "display_position": "D"
@@ -957,9 +987,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/0UBhIlJuChk5oMEvld1QyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/30551.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/zwhDG.t7P6tuujzGjpX2rQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/7926.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/0UBhIlJuChk5oMEvld1QyA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/30551.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/zwhDG.t7P6tuujzGjpX2rQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/7926.1.png"
         },
         {
          "is_undroppable": "0"
@@ -997,7 +1027,7 @@
         },
         [],
         {
-         "player_notes_last_timestamp": 1792905451
+         "player_notes_last_timestamp": 1792346156
         }
        ],
        {
@@ -1014,6 +1044,113 @@
       ]
      },
      "17": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.8803"
+        },
+        {
+         "player_id": "8803"
+        },
+        {
+         "name": {
+          "ascii_first": "Tyrel",
+          "ascii_last": "Bauer",
+          "first": "Tyrel",
+          "full": "Tyrel Bauer",
+          "last": "Bauer"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/8803"
+        },
+        {
+         "editorial_player_key": "nhl.p.8803"
+        },
+        {
+         "editorial_team_key": "nhl.t.28"
+        },
+        {
+         "editorial_team_full_name": "Winnipeg Jets"
+        },
+        {
+         "editorial_team_abbr": "WPG"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/winnipeg/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "77"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/7F1Z13tDGb6hmxsjU_brJA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/8803.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/7F1Z13tDGb6hmxsjU_brJA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/8803.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 1
+         },
+         {
+          "delta": "0"
+         }
+        ]
+       }
+      ]
+     },
+     "18": {
       "player": [
        [
         {
@@ -1120,41 +1257,41 @@
        }
       ]
      },
-     "18": {
+     "19": {
       "player": [
        [
         {
-         "player_key": "477.p.5381"
+         "player_key": "477.p.32768"
         },
         {
-         "player_id": "5381"
+         "player_id": "32768"
         },
         {
          "name": {
-          "ascii_first": "Connor",
-          "ascii_last": "Murphy",
-          "first": "Connor",
-          "full": "Connor Murphy",
-          "last": "Murphy"
+          "ascii_first": "Carter",
+          "ascii_last": "Yakemchuk",
+          "first": "Carter",
+          "full": "Carter Yakemchuk",
+          "last": "Yakemchuk"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/5381"
+         "url": "https://sports.yahoo.com/nhl/players/32768"
         },
         {
-         "editorial_player_key": "nhl.p.5381"
+         "editorial_player_key": "nhl.p.32768"
         },
         {
-         "editorial_team_key": "nhl.t.6"
+         "editorial_team_key": "nhl.t.14"
         },
         {
-         "editorial_team_full_name": "Edmonton Oilers"
+         "editorial_team_full_name": "Ottawa Senators"
         },
         {
-         "editorial_team_abbr": "EDM"
+         "editorial_team_abbr": "OTT"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/edmonton/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
         },
         {
          "is_keeper": {
@@ -1164,7 +1301,7 @@
          }
         },
         {
-         "uniform_number": "5"
+         "uniform_number": "26"
         },
         {
          "display_position": "D"
@@ -1172,9 +1309,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/yFFTLAbQGyeu_MQRTXDfEA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5381.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/K_rz8_U9HlYCbgMpxDiY_g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/32768.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/yFFTLAbQGyeu_MQRTXDfEA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5381.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/K_rz8_U9HlYCbgMpxDiY_g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/32768.1.png"
         },
         {
          "is_undroppable": "0"
@@ -1218,16 +1355,334 @@
           "week": 5
          },
          {
-          "value": 3
+          "value": 5
          },
          {
-          "delta": "2"
+          "delta": "0"
          }
         ]
        }
       ]
      },
-     "19": {
+     "2": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.33352"
+        },
+        {
+         "player_id": "33352"
+        },
+        {
+         "name": {
+          "ascii_first": "Anton",
+          "ascii_last": "Johansson",
+          "first": "Anton",
+          "full": "Anton Johansson",
+          "last": "Johansson"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/33352"
+        },
+        {
+         "editorial_player_key": "nhl.p.33352"
+        },
+        {
+         "editorial_team_key": "nhl.t.5"
+        },
+        {
+         "editorial_team_full_name": "Detroit Red Wings"
+        },
+        {
+         "editorial_team_abbr": "DET"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/detroit/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "42"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/oEcGKJ3VUtSmROX939j9Kg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/33352.1.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/oEcGKJ3VUtSmROX939j9Kg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/33352.1.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "delta": "0"
+         }
+        ]
+       }
+      ]
+     },
+     "20": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.6747"
+        },
+        {
+         "player_id": "6747"
+        },
+        {
+         "name": {
+          "ascii_first": "Noah",
+          "ascii_last": "Hanifin",
+          "first": "Noah",
+          "full": "Noah Hanifin",
+          "last": "Hanifin"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/6747"
+        },
+        {
+         "editorial_player_key": "nhl.p.6747"
+        },
+        {
+         "editorial_team_key": "nhl.t.58"
+        },
+        {
+         "editorial_team_full_name": "Vegas Golden Knights"
+        },
+        {
+         "editorial_team_abbr": "VGK"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/vegas/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "15"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/rv68ntOTJndscESBMNBApw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6747.1.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/rv68ntOTJndscESBMNBApw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6747.1.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 19
+         },
+         {
+          "delta": "-1"
+         }
+        ]
+       }
+      ]
+     },
+     "21": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.8614"
+        },
+        {
+         "player_id": "8614"
+        },
+        {
+         "name": {
+          "ascii_first": "Artem",
+          "ascii_last": "Zub",
+          "first": "Artem",
+          "full": "Artem Zub",
+          "last": "Zub"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/8614"
+        },
+        {
+         "editorial_player_key": "nhl.p.8614"
+        },
+        {
+         "editorial_team_key": "nhl.t.14"
+        },
+        {
+         "editorial_team_full_name": "Ottawa Senators"
+        },
+        {
+         "editorial_team_abbr": "OTT"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "2"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/IIgocapLZEWv33zKizRA.w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10162024/8614.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/IIgocapLZEWv33zKizRA.w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10162024/8614.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 6
+         },
+         {
+          "delta": "-1"
+         }
+        ]
+       }
+      ]
+     },
+     "22": {
       "player": [
        [
         {
@@ -1340,474 +1795,41 @@
        }
       ]
      },
-     "2": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.8656"
-        },
-        {
-         "player_id": "8656"
-        },
-        {
-         "name": {
-          "ascii_first": "Kaiden",
-          "ascii_last": "Guhle",
-          "first": "Kaiden",
-          "full": "Kaiden Guhle",
-          "last": "Guhle"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/8656"
-        },
-        {
-         "editorial_player_key": "nhl.p.8656"
-        },
-        {
-         "editorial_team_key": "nhl.t.10"
-        },
-        {
-         "editorial_team_full_name": "Montreal Canadiens"
-        },
-        {
-         "editorial_team_abbr": "MTL"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/montreal/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "21"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/VONwiWY90ghRFzJaYNs2.Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/8656.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/VONwiWY90ghRFzJaYNs2.Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10152025/8656.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        [],
-        {
-         "player_notes_last_timestamp": 1792983984
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "value": 8
-         },
-         {
-          "delta": "5"
-         }
-        ]
-       }
-      ]
-     },
-     "20": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.5525"
-        },
-        {
-         "player_id": "5525"
-        },
-        {
-         "name": {
-          "ascii_first": "Josh",
-          "ascii_last": "Manson",
-          "first": "Josh",
-          "full": "Josh Manson",
-          "last": "Manson"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/5525"
-        },
-        {
-         "editorial_player_key": "nhl.p.5525"
-        },
-        {
-         "editorial_team_key": "nhl.t.17"
-        },
-        {
-         "editorial_team_full_name": "Colorado Avalanche"
-        },
-        {
-         "editorial_team_abbr": "COL"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/colorado/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "42"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/kw2VBOAsxtPM_OEWikoxBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5525.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/kw2VBOAsxtPM_OEWikoxBw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5525.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        [],
-        [],
-        []
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "value": 23
-         },
-         {
-          "delta": "-4"
-         }
-        ]
-       }
-      ]
-     },
-     "21": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.30525"
-        },
-        {
-         "player_id": "30525"
-        },
-        {
-         "name": {
-          "ascii_first": "Nikolas",
-          "ascii_last": "Matinpalo",
-          "first": "Nikolas",
-          "full": "Nikolas Matinpalo",
-          "last": "Matinpalo"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/30525"
-        },
-        {
-         "editorial_player_key": "nhl.p.30525"
-        },
-        {
-         "editorial_team_key": "nhl.t.14"
-        },
-        {
-         "editorial_team_full_name": "Ottawa Senators"
-        },
-        {
-         "editorial_team_abbr": "OTT"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "33"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/4nNy5ZiwOv1W.FXjn29QHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30525.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/4nNy5ZiwOv1W.FXjn29QHA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30525.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        [],
-        {
-         "player_notes_last_timestamp": 1792644147
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "delta": "0"
-         }
-        ]
-       }
-      ]
-     },
-     "22": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.30662"
-        },
-        {
-         "player_id": "30662"
-        },
-        {
-         "name": {
-          "ascii_first": "Luca",
-          "ascii_last": "Cagnoni",
-          "first": "Luca",
-          "full": "Luca Cagnoni",
-          "last": "Cagnoni"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/30662"
-        },
-        {
-         "editorial_player_key": "nhl.p.30662"
-        },
-        {
-         "editorial_team_key": "nhl.t.18"
-        },
-        {
-         "editorial_team_full_name": "San Jose Sharks"
-        },
-        {
-         "editorial_team_abbr": "SJ"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/san-jose/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "42"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/nXJ5gPKJr96xo8l.4jBCkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30662.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/nXJ5gPKJr96xo8l.4jBCkA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30662.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        [],
-        [],
-        []
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "value": 6
-         },
-         {
-          "delta": "-1"
-         }
-        ]
-       }
-      ]
-     },
      "23": {
       "player": [
        [
         {
-         "player_key": "477.p.6984"
+         "player_key": "477.p.5381"
         },
         {
-         "player_id": "6984"
+         "player_id": "5381"
         },
         {
          "name": {
-          "ascii_first": "Jalen",
-          "ascii_last": "Chatfield",
-          "first": "Jalen",
-          "full": "Jalen Chatfield",
-          "last": "Chatfield"
+          "ascii_first": "Connor",
+          "ascii_last": "Murphy",
+          "first": "Connor",
+          "full": "Connor Murphy",
+          "last": "Murphy"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/6984"
+         "url": "https://sports.yahoo.com/nhl/players/5381"
         },
         {
-         "editorial_player_key": "nhl.p.6984"
+         "editorial_player_key": "nhl.p.5381"
         },
         {
-         "editorial_team_key": "nhl.t.7"
+         "editorial_team_key": "nhl.t.6"
         },
         {
-         "editorial_team_full_name": "Carolina Hurricanes"
+         "editorial_team_full_name": "Edmonton Oilers"
         },
         {
-         "editorial_team_abbr": "CAR"
+         "editorial_team_abbr": "EDM"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/carolina/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/edmonton/"
         },
         {
          "is_keeper": {
@@ -1825,9 +1847,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/itC.WW7sKC0SevaYwYb1rg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/6984.3.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/yFFTLAbQGyeu_MQRTXDfEA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5381.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/itC.WW7sKC0SevaYwYb1rg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/6984.3.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/yFFTLAbQGyeu_MQRTXDfEA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5381.1.png"
         },
         {
          "is_undroppable": "0"
@@ -1860,13 +1882,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1792381820
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -1875,10 +1893,10 @@
           "week": 5
          },
          {
-          "value": 1
+          "value": 3
          },
          {
-          "delta": "0"
+          "delta": "2"
          }
         ]
        }
@@ -1888,37 +1906,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.8665"
+         "player_key": "477.p.5251"
         },
         {
-         "player_id": "8665"
+         "player_id": "5251"
         },
         {
          "name": {
-          "ascii_first": "Justin",
-          "ascii_last": "Barron",
-          "first": "Justin",
-          "full": "Justin Barron",
-          "last": "Barron"
+          "ascii_first": "Brenden",
+          "ascii_last": "Dillon",
+          "first": "Brenden",
+          "full": "Brenden Dillon",
+          "last": "Dillon"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/8665"
+         "url": "https://sports.yahoo.com/nhl/players/5251"
         },
         {
-         "editorial_player_key": "nhl.p.8665"
+         "editorial_player_key": "nhl.p.5251"
         },
         {
-         "editorial_team_key": "nhl.t.19"
+         "editorial_team_key": "nhl.t.11"
         },
         {
-         "editorial_team_full_name": "St. Louis Blues"
+         "editorial_team_full_name": "New Jersey Devils"
         },
         {
-         "editorial_team_abbr": "STL"
+         "editorial_team_abbr": "NJ"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/st-louis/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/new-jersey/"
         },
         {
          "is_keeper": {
@@ -1928,7 +1946,7 @@
          }
         },
         {
-         "uniform_number": "72"
+         "uniform_number": "5"
         },
         {
          "display_position": "D"
@@ -1936,9 +1954,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/Z2aOCdV1ZFi94r.4NQxwJA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/8665.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/28ur_Ygw8cyATnQE3KRMzQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5251.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/Z2aOCdV1ZFi94r.4NQxwJA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/8665.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/28ur_Ygw8cyATnQE3KRMzQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10072026/5251.1.png"
         },
         {
          "is_undroppable": "0"
@@ -1976,7 +1994,7 @@
         },
         [],
         {
-         "player_notes_last_timestamp": 1792767152
+         "player_notes_last_timestamp": 1792888335
         }
        ],
        {
@@ -1986,7 +2004,7 @@
           "week": 5
          },
          {
-          "value": 1
+          "value": 2
          },
          {
           "delta": "0"
@@ -1996,6 +2014,220 @@
       ]
      },
      "3": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.6901"
+        },
+        {
+         "player_id": "6901"
+        },
+        {
+         "name": {
+          "ascii_first": "Vladislav",
+          "ascii_last": "Gavrikov",
+          "first": "Vladislav",
+          "full": "Vladislav Gavrikov",
+          "last": "Gavrikov"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/6901"
+        },
+        {
+         "editorial_player_key": "nhl.p.6901"
+        },
+        {
+         "editorial_team_key": "nhl.t.13"
+        },
+        {
+         "editorial_team_full_name": "New York Rangers"
+        },
+        {
+         "editorial_team_abbr": "NYR"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ny-rangers/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "44"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/AqbKmrQSz1nFuXKFP8Gr_w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6901.1.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/AqbKmrQSz1nFuXKFP8Gr_w--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/6901.1.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 47
+         },
+         {
+          "delta": "-3"
+         }
+        ]
+       }
+      ]
+     },
+     "4": {
+      "player": [
+       [
+        {
+         "player_key": "477.p.4475"
+        },
+        {
+         "player_id": "4475"
+        },
+        {
+         "name": {
+          "ascii_first": "Luke",
+          "ascii_last": "Schenn",
+          "first": "Luke",
+          "full": "Luke Schenn",
+          "last": "Schenn"
+         }
+        },
+        {
+         "url": "https://sports.yahoo.com/nhl/players/4475"
+        },
+        {
+         "editorial_player_key": "nhl.p.4475"
+        },
+        {
+         "editorial_team_key": "nhl.t.22"
+        },
+        {
+         "editorial_team_full_name": "Vancouver Canucks"
+        },
+        {
+         "editorial_team_abbr": "VAN"
+        },
+        {
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/vancouver/"
+        },
+        {
+         "is_keeper": {
+          "cost": false,
+          "kept": false,
+          "status": false
+         }
+        },
+        {
+         "uniform_number": "2"
+        },
+        {
+         "display_position": "D"
+        },
+        {
+         "headshot": {
+          "size": "small",
+          "url": "https://s.yimg.com/iu/api/res/1.2/btmIP.x0sTGc1J5ZO9KtTA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/4475.png"
+         },
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/btmIP.x0sTGc1J5ZO9KtTA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10312025/4475.png"
+        },
+        {
+         "is_undroppable": "0"
+        },
+        {
+         "position_type": "P"
+        },
+        {
+         "primary_position": "D"
+        },
+        {
+         "eligible_positions": [
+          {
+           "position": "D"
+          }
+         ]
+        },
+        {
+         "eligible_positions_to_add": [
+          {
+           "position": "C"
+          },
+          {
+           "position": "LW"
+          },
+          {
+           "position": "RW"
+          }
+         ]
+        },
+        [],
+        [],
+        [],
+        [],
+        []
+       ],
+       {
+        "percent_owned": [
+         {
+          "coverage_type": "week",
+          "week": 5
+         },
+         {
+          "value": 2
+         },
+         {
+          "delta": "0"
+         }
+        ]
+       }
+      ]
+     },
+     "5": {
       "player": [
        [
         {
@@ -2102,7 +2334,7 @@
        }
       ]
      },
-     "4": {
+     "6": {
       "player": [
        [
         {
@@ -2189,13 +2421,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1792276973
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -2213,7 +2441,7 @@
        }
       ]
      },
-     "5": {
+     "7": {
       "player": [
        [
         {
@@ -2320,41 +2548,41 @@
        }
       ]
      },
-     "6": {
+     "8": {
       "player": [
        [
         {
-         "player_key": "477.p.30124"
+         "player_key": "477.p.9399"
         },
         {
-         "player_id": "30124"
+         "player_id": "9399"
         },
         {
          "name": {
-          "ascii_first": "Tyler",
-          "ascii_last": "Kleven",
-          "first": "Tyler",
-          "full": "Tyler Kleven",
-          "last": "Kleven"
+          "ascii_first": "Frederic",
+          "ascii_last": "Brunet",
+          "first": "Frederic",
+          "full": "Frederic Brunet",
+          "last": "Brunet"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/30124"
+         "url": "https://sports.yahoo.com/nhl/players/9399"
         },
         {
-         "editorial_player_key": "nhl.p.30124"
+         "editorial_player_key": "nhl.p.9399"
         },
         {
-         "editorial_team_key": "nhl.t.14"
+         "editorial_team_key": "nhl.t.1"
         },
         {
-         "editorial_team_full_name": "Ottawa Senators"
+         "editorial_team_full_name": "Boston Bruins"
         },
         {
-         "editorial_team_abbr": "OTT"
+         "editorial_team_abbr": "BOS"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/boston/"
         },
         {
          "is_keeper": {
@@ -2364,7 +2592,7 @@
          }
         },
         {
-         "uniform_number": "43"
+         "uniform_number": "42"
         },
         {
          "display_position": "D"
@@ -2372,9 +2600,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/PymdySCPVBD1faCLLFRYVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30124.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/bFW6DZ7ElGYks762CpR6hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/9399.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/PymdySCPVBD1faCLLFRYVA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/30124.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/bFW6DZ7ElGYks762CpR6hA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10022026/9399.1.png"
         },
         {
          "is_undroppable": "0"
@@ -2418,223 +2646,7 @@
           "week": 5
          },
          {
-          "value": 12
-         },
-         {
-          "delta": "4"
-         }
-        ]
-       }
-      ]
-     },
-     "7": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.5783"
-        },
-        {
-         "player_id": "5783"
-        },
-        {
-         "name": {
-          "ascii_first": "Erik",
-          "ascii_last": "Gustafsson",
-          "first": "Erik",
-          "full": "Erik Gustafsson",
-          "last": "Gustafsson"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/5783"
-        },
-        {
-         "editorial_player_key": "nhl.p.5783"
-        },
-        {
-         "editorial_team_key": "nhl.t.8"
-        },
-        {
-         "editorial_team_full_name": "Los Angeles Kings"
-        },
-        {
-         "editorial_team_abbr": "LA"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/los-angeles/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "64"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/SnA60qIVSJ4U8hVKkGsMEw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5783.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/SnA60qIVSJ4U8hVKkGsMEw--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/5783.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        [],
-        {
-         "player_notes_last_timestamp": 1792584339
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
-         },
-         {
-          "delta": "0"
-         }
-        ]
-       }
-      ]
-     },
-     "8": {
-      "player": [
-       [
-        {
-         "player_key": "477.p.7926"
-        },
-        {
-         "player_id": "7926"
-        },
-        {
-         "name": {
-          "ascii_first": "Nils",
-          "ascii_last": "Lundkvist",
-          "first": "Nils",
-          "full": "Nils Lundkvist",
-          "last": "Lundkvist"
-         }
-        },
-        {
-         "url": "https://sports.yahoo.com/nhl/players/7926"
-        },
-        {
-         "editorial_player_key": "nhl.p.7926"
-        },
-        {
-         "editorial_team_key": "nhl.t.9"
-        },
-        {
-         "editorial_team_full_name": "Dallas Stars"
-        },
-        {
-         "editorial_team_abbr": "DAL"
-        },
-        {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/dallas/"
-        },
-        {
-         "is_keeper": {
-          "cost": false,
-          "kept": false,
-          "status": false
-         }
-        },
-        {
-         "uniform_number": "5"
-        },
-        {
-         "display_position": "D"
-        },
-        {
-         "headshot": {
-          "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/zwhDG.t7P6tuujzGjpX2rQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/7926.1.png"
-         },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/zwhDG.t7P6tuujzGjpX2rQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10062026/7926.1.png"
-        },
-        {
-         "is_undroppable": "0"
-        },
-        {
-         "position_type": "P"
-        },
-        {
-         "primary_position": "D"
-        },
-        {
-         "eligible_positions": [
-          {
-           "position": "D"
-          }
-         ]
-        },
-        {
-         "eligible_positions_to_add": [
-          {
-           "position": "C"
-          },
-          {
-           "position": "LW"
-          },
-          {
-           "position": "RW"
-          }
-         ]
-        },
-        [],
-        [],
-        {
-         "has_player_notes": 1
-        },
-        [],
-        {
-         "player_notes_last_timestamp": 1792346156
-        }
-       ],
-       {
-        "percent_owned": [
-         {
-          "coverage_type": "week",
-          "week": 5
+          "value": 1
          },
          {
           "delta": "0"
@@ -2647,37 +2659,37 @@
       "player": [
        [
         {
-         "player_key": "477.p.32768"
+         "player_key": "477.p.5756"
         },
         {
-         "player_id": "32768"
+         "player_id": "5756"
         },
         {
          "name": {
-          "ascii_first": "Carter",
-          "ascii_last": "Yakemchuk",
-          "first": "Carter",
-          "full": "Carter Yakemchuk",
-          "last": "Yakemchuk"
+          "ascii_first": "Adam",
+          "ascii_last": "Pelech",
+          "first": "Adam",
+          "full": "Adam Pelech",
+          "last": "Pelech"
          }
         },
         {
-         "url": "https://sports.yahoo.com/nhl/players/32768"
+         "url": "https://sports.yahoo.com/nhl/players/5756"
         },
         {
-         "editorial_player_key": "nhl.p.32768"
+         "editorial_player_key": "nhl.p.5756"
         },
         {
-         "editorial_team_key": "nhl.t.14"
+         "editorial_team_key": "nhl.t.12"
         },
         {
-         "editorial_team_full_name": "Ottawa Senators"
+         "editorial_team_full_name": "New York Islanders"
         },
         {
-         "editorial_team_abbr": "OTT"
+         "editorial_team_abbr": "NYI"
         },
         {
-         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ottawa/"
+         "editorial_team_url": "https://sports.yahoo.com/nhl/teams/ny-islanders/"
         },
         {
          "is_keeper": {
@@ -2687,7 +2699,7 @@
          }
         },
         {
-         "uniform_number": "26"
+         "uniform_number": "3"
         },
         {
          "display_position": "D"
@@ -2695,9 +2707,9 @@
         {
          "headshot": {
           "size": "small",
-          "url": "https://s.yimg.com/iu/api/res/1.2/K_rz8_U9HlYCbgMpxDiY_g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/32768.1.png"
+          "url": "https://s.yimg.com/iu/api/res/1.2/6HFPUb3bW9sW4H11fYJnmQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.1.png"
          },
-         "image_url": "https://s.yimg.com/iu/api/res/1.2/K_rz8_U9HlYCbgMpxDiY_g--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/32768.1.png"
+         "image_url": "https://s.yimg.com/iu/api/res/1.2/6HFPUb3bW9sW4H11fYJnmQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10082026/5756.1.png"
         },
         {
          "is_undroppable": "0"
@@ -2741,7 +2753,7 @@
           "week": 5
          },
          {
-          "value": 5
+          "value": 1
          },
          {
           "delta": "0"
@@ -2755,7 +2767,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "72.152853012085ms",
+  "time": "97.586870193481ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=25/percent_owned"
  }
