@@ -1171,13 +1171,6 @@
          "url": "https://sports.yahoo.com/nhl/players/4682"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
-        },
-        {
-         "injury_note": "Lower Body"
-        },
-        {
          "editorial_player_key": "nhl.p.4682"
         },
         {
@@ -1225,9 +1218,6 @@
          "eligible_positions": [
           {
            "position": "D"
-          },
-          {
-           "position": "IR+"
           }
          ]
         },
@@ -1249,9 +1239,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792888428
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793285870
         }
        ],
        {
@@ -1493,10 +1485,10 @@
           "week": 5
          },
          {
-          "value": 59
+          "value": 60
          },
          {
-          "delta": "8"
+          "delta": "9"
          }
         ]
        }
@@ -2504,10 +2496,10 @@
           "week": 5
          },
          {
-          "value": 6
+          "value": 7
          },
          {
-          "delta": "-1"
+          "delta": "0"
          }
         ]
        }
@@ -2710,9 +2702,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793198023
         }
@@ -2835,10 +2825,10 @@
           "week": 5
          },
          {
-          "value": 9
+          "value": 8
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -2849,7 +2839,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "78.711986541748ms",
+  "time": "78.234910964966ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }
