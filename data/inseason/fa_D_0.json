@@ -577,10 +577,10 @@
           "week": 5
          },
          {
-          "value": 6
+          "value": 7
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -1033,10 +1033,10 @@
           "week": 5
          },
          {
-          "value": 11
+          "value": 12
          },
          {
-          "delta": "8"
+          "delta": "9"
          }
         ]
        }
@@ -1284,13 +1284,6 @@
          "url": "https://sports.yahoo.com/nhl/players/4472"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
-        },
-        {
-         "injury_note": "Undisclosed"
-        },
-        {
          "editorial_player_key": "nhl.p.4472"
         },
         {
@@ -1338,9 +1331,6 @@
          "eligible_positions": [
           {
            "position": "D"
-          },
-          {
-           "position": "IR+"
           }
          ]
         },
@@ -1362,9 +1352,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793145564
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793299230
         }
        ],
        {
@@ -1623,13 +1615,6 @@
          "url": "https://sports.yahoo.com/nhl/players/6760"
         },
         {
-         "status": "O",
-         "status_full": "Out"
-        },
-        {
-         "injury_note": "Upper Body"
-        },
-        {
          "editorial_player_key": "nhl.p.6760"
         },
         {
@@ -1677,9 +1662,6 @@
          "eligible_positions": [
           {
            "position": "D"
-          },
-          {
-           "position": "IR+"
           }
          ]
         },
@@ -1701,9 +1683,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793071713
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793298227
         }
        ],
        {
@@ -1964,8 +1948,8 @@
          "url": "https://sports.yahoo.com/nhl/players/5232"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Undisclosed"
@@ -2042,9 +2026,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793162063
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793289384
         }
        ],
        {
@@ -2054,10 +2040,10 @@
           "week": 5
          },
          {
-          "value": 22
+          "value": 20
          },
          {
-          "delta": "-8"
+          "delta": "-10"
          }
         ]
        }
@@ -2165,10 +2151,10 @@
           "week": 5
          },
          {
-          "value": 14
+          "value": 15
          },
          {
-          "delta": "3"
+          "delta": "4"
          }
         ]
        }
@@ -2603,10 +2589,10 @@
           "week": 5
          },
          {
-          "value": 42
+          "value": 41
          },
          {
-          "delta": "-2"
+          "delta": "-3"
          }
         ]
        }
@@ -2839,7 +2825,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "78.234910964966ms",
+  "time": "130.32412528992ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }

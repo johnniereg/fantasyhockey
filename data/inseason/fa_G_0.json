@@ -166,13 +166,6 @@
          "url": "https://sports.yahoo.com/nhl/players/7601"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
-        },
-        {
-         "injury_note": "Undisclosed"
-        },
-        {
          "editorial_player_key": "nhl.p.7601"
         },
         {
@@ -220,9 +213,6 @@
          "eligible_positions": [
           {
            "position": "G"
-          },
-          {
-           "position": "IR+"
           }
          ]
         },
@@ -234,9 +224,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793064000
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793287649
         }
        ],
        {
@@ -349,10 +341,10 @@
           "week": 5
          },
          {
-          "value": 30
+          "value": 29
          },
          {
-          "delta": "-5"
+          "delta": "-6"
          }
         ]
        }
@@ -741,9 +733,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793171993
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793298198
         }
        ],
        {
@@ -753,10 +747,10 @@
           "week": 5
          },
          {
-          "value": 2
+          "value": 3
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -1056,10 +1050,10 @@
           "week": 5
          },
          {
-          "value": 9
+          "value": 8
          },
          {
-          "delta": "2"
+          "delta": "1"
          }
         ]
        }
@@ -1449,9 +1443,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793167223
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793298350
         }
        ],
        {
@@ -1550,9 +1546,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793105554
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793298944
         }
        ],
        {
@@ -1562,10 +1560,10 @@
           "week": 5
          },
          {
-          "value": 45
+          "value": 46
          },
          {
-          "delta": "8"
+          "delta": "9"
          }
         ]
        }
@@ -1665,10 +1663,10 @@
           "week": 5
          },
          {
-          "value": 20
+          "value": 19
          },
          {
-          "delta": "-4"
+          "delta": "-5"
          }
         ]
        }
@@ -2307,6 +2305,10 @@
          "url": "https://sports.yahoo.com/nhl/players/33712"
         },
         {
+         "status": "NA",
+         "status_full": "Not Active"
+        },
+        {
          "editorial_player_key": "nhl.p.33712"
         },
         {
@@ -2365,9 +2367,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793096678
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793287516
         }
        ],
        {
@@ -2567,9 +2571,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792561019
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793290802
         }
        ],
        {
@@ -2593,7 +2599,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "68.010091781616ms",
+  "time": "80.627918243408ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/percent_owned"
  }
