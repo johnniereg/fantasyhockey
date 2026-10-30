@@ -105,11 +105,14 @@
            "url": "https://sports.yahoo.com/nhl/players/6381"
           },
           {
-           "status": "O",
-           "status_full": "Out"
+           "status": "IR-NR",
+           "status_full": "Injured Reserve"
           },
           {
-           "injury_note": "Not Injury Related"
+           "injury_note": "Suspension"
+          },
+          {
+           "on_disabled_list": "1"
           },
           {
            "editorial_player_key": "nhl.p.6381"
@@ -161,6 +164,9 @@
              "position": "C"
             },
             {
+             "position": "IR"
+            },
+            {
              "position": "IR+"
             }
            ]
@@ -187,7 +193,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1793293544
+           "player_notes_last_timestamp": 1793310479
           }
          ],
          {
@@ -407,7 +413,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1793278920
+           "player_notes_last_timestamp": 1793338066
           }
          ],
          {
@@ -1073,9 +1079,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1793165977
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793307317
           }
          ],
          {
@@ -1414,9 +1422,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1793255358
           }
@@ -1527,9 +1533,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1792765455
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793344099
           }
          ],
          {
@@ -1860,9 +1868,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1793169640
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793344260
           }
          ],
          {
@@ -1933,9 +1943,9 @@
           {
            "headshot": {
             "size": "small",
-            "url": "https://s.yimg.com/iu/api/res/1.2/3IL6AKTElgJCwqp4nk4YhQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/7117.png"
+            "url": "https://s.yimg.com/iu/api/res/1.2/D9UUIqD.BzcPs4NVpafDqA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10292026/7117.1.png"
            },
-           "image_url": "https://s.yimg.com/iu/api/res/1.2/3IL6AKTElgJCwqp4nk4YhQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/11252025/7117.png"
+           "image_url": "https://s.yimg.com/iu/api/res/1.2/D9UUIqD.BzcPs4NVpafDqA--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/10292026/7117.1.png"
           },
           {
            "is_undroppable": "0"
@@ -2220,12 +2230,12 @@
      "minimum_games": {
       "coverage_type": "week",
       "coverage_value": 5,
-      "value": "1"
+      "value": "2"
      }
     }
    }
   ],
-  "time": "92.938899993896ms",
+  "time": "76.344013214111ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.2/roster;date=2026-10-31/players"
  }
