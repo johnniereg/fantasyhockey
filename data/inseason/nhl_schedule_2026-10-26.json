@@ -3394,12 +3394,16 @@
        "default": "Chicago",
        "fr": "de Chicago"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/chi-at-bos-condensed-game-6407722125112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/chi-vs-bos/2026/10/31/2026020217",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BOS",
@@ -3417,19 +3421,18 @@
        "default": "Boston",
        "fr": "de Boston"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+      "score": 5
      },
      "id": 2026020217,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T17:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/010064EDC5047A13?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/010064EDC5047A13?brand=nhl&wt.mc_id=NHL_LEAGUE_BOS_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BOS&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/chi-at-bos-recap-6407721921112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3457,7 +3460,31 @@
       "default": "TD Garden"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "E."
+      },
+      "lastName": {
+       "default": "Lindholm"
+      },
+      "playerId": 8477496
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "cs": "Dipietro",
+       "de": "Dipietro",
+       "default": "DiPietro",
+       "es": "Dipietro",
+       "fi": "Dipietro",
+       "sk": "Dipietro",
+       "sv": "Dipietro"
+      },
+      "playerId": 8480022
+     }
     },
     {
      "awayTeam": {
@@ -3476,12 +3503,16 @@
        "default": "St. Louis",
        "fr": "de St. Louis"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/stl-at-det-condensed-game-6407721994112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/stl-vs-det/2026/10/31/2026020218",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "DET",
@@ -3499,19 +3530,19 @@
        "default": "Detroit",
        "fr": "de Detroit"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+      "score": 4
      },
      "id": 2026020218,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T17:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7CD7FCE?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCHED_PG_GM9",
+     "threeMinRecap": "/video/stl-at-det-recap-6407721316112",
+     "threeMinRecapFr": "/fr/video/stl-vs-det-31-10-2026-resume-6407721596112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3539,7 +3570,25 @@
       "default": "Little Caesars Arena"
      },
      "venueTimezone": "America/Detroit",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Kaskimaki"
+      },
+      "playerId": 8483463
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Hofer"
+      },
+      "playerId": 8480981
+     }
     },
     {
      "awayTeam": {
@@ -3558,12 +3607,13 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8",
+      "score": 4
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/tbl-vs-nsh/2026/10/31/2026020219",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NSH",
@@ -3581,19 +3631,18 @@
        "default": "Nashville",
        "fr": "de Nashville"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8",
+      "score": 4
      },
      "id": 2026020219,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T18:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=nhl&wt.mc_id=NHL_LEAGUE_NSH_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_NSH&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1B006507F00BE477?brand=nhl&wt.mc_id=NHL_LEAGUE_NSH_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_NSH&utm_content=SCHED_PG_GM9",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3633,12 +3682,13 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8",
+      "score": 3
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/edm-vs-nyi/2026/10/31/2026020220",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NYI",
@@ -3656,19 +3706,18 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8",
+      "score": 0
      },
      "id": 2026020220,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T18:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/300064E2D26961C3?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_SCHED_PG_GM7&utm_source=nhl_website&utm_medium=leagueschedule&utm_campaign=NHL_LEAGUE_NYI&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/300064E2D26961C3?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_SCHED_PG_GM7&utm_source=nhl_website&utm_medium=leagueschedule&utm_campaign=NHL_LEAGUE_NYI&utm_content=SCHED_PG_GM7",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3708,12 +3757,13 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/buf-vs-lak/2026/10/31/2026020221",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "LAK",
@@ -3731,7 +3781,8 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8",
+      "score": 0
      },
      "id": 2026020221,
      "neutralSite": false,
@@ -3742,8 +3793,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T20:00:00Z",
-     "ticketsLink": "https://www.axs.com/events/1457740/la-kings-vs-buffalo-sabres-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261031&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261031&tags=LAKWEB",
-     "ticketsLinkFr": "https://www.axs.com/events/1457740/la-kings-vs-buffalo-sabres-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261031&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261031&tags=LAKWEB",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3791,12 +3840,13 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/ott-vs-sjs/2026/10/31/2026020222",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -3814,7 +3864,8 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8",
+      "score": 0
      },
      "id": 2026020222,
      "neutralSite": false,
@@ -3825,8 +3876,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T20:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1C0064E79AD19B77?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1C0064E79AD19B77?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM7",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3868,6 +3917,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
       "id": 5,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "2.22"
+       },
+       {
+        "providerId": 8,
+        "value": "+105"
+       },
+       {
+        "providerId": 9,
+        "value": "+105"
+       },
+       {
+        "providerId": 3,
+        "value": "2.05"
+       },
+       {
+        "providerId": 7,
+        "value": "+102"
+       },
+       {
+        "providerId": 10,
+        "value": "2.65"
+       }
+      ],
       "placeName": {
        "default": "Pittsburgh"
       },
@@ -3891,6 +3966,32 @@
       "homeSplitSquad": false,
       "id": 8,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "1.67"
+       },
+       {
+        "providerId": 8,
+        "value": "-127"
+       },
+       {
+        "providerId": 9,
+        "value": "-125"
+       },
+       {
+        "providerId": 3,
+        "value": "1.80"
+       },
+       {
+        "providerId": 7,
+        "value": "-122"
+       },
+       {
+        "providerId": 10,
+        "value": "2.30"
+       }
+      ],
       "placeName": {
        "default": "Montr\u00e9al"
       },
@@ -3957,6 +4058,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg",
       "id": 10,
       "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+      "odds": [
+       {
+        "providerId": 7,
+        "value": "-192"
+       },
+       {
+        "providerId": 9,
+        "value": "-192"
+       },
+       {
+        "providerId": 8,
+        "value": "-197"
+       },
+       {
+        "providerId": 3,
+        "value": "1.52"
+       },
+       {
+        "providerId": 6,
+        "value": "2.42"
+       },
+       {
+        "providerId": 10,
+        "value": "1.90"
+       }
+      ],
       "placeName": {
        "default": "Toronto"
       },
@@ -3980,6 +4107,32 @@
       "homeSplitSquad": false,
       "id": 23,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+      "odds": [
+       {
+        "providerId": 7,
+        "value": "+158"
+       },
+       {
+        "providerId": 9,
+        "value": "+160"
+       },
+       {
+        "providerId": 8,
+        "value": "+157"
+       },
+       {
+        "providerId": 3,
+        "value": "2.56"
+       },
+       {
+        "providerId": 6,
+        "value": "1.57"
+       },
+       {
+        "providerId": 10,
+        "value": "3.45"
+       }
+      ],
       "placeName": {
        "default": "Vancouver"
       },
@@ -4025,6 +4178,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg",
       "id": 29,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "2.53"
+       },
+       {
+        "providerId": 6,
+        "value": "1.57"
+       },
+       {
+        "providerId": 7,
+        "value": "+155"
+       },
+       {
+        "providerId": 9,
+        "value": "+160"
+       },
+       {
+        "providerId": 8,
+        "value": "+157"
+       },
+       {
+        "providerId": 10,
+        "value": "3.50"
+       }
+      ],
       "placeName": {
        "default": "Columbus"
       },
@@ -4048,6 +4227,32 @@
       "homeSplitSquad": false,
       "id": 25,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.53"
+       },
+       {
+        "providerId": 6,
+        "value": "2.42"
+       },
+       {
+        "providerId": 7,
+        "value": "-188"
+       },
+       {
+        "providerId": 9,
+        "value": "-192"
+       },
+       {
+        "providerId": 8,
+        "value": "-195"
+       },
+       {
+        "providerId": 10,
+        "value": "1.93"
+       }
+      ],
       "placeName": {
        "default": "Dallas"
       },
@@ -4107,6 +4312,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "4.29"
+       },
+       {
+        "providerId": 7,
+        "value": "+340"
+       },
+       {
+        "providerId": 9,
+        "value": "+300"
+       },
+       {
+        "providerId": 8,
+        "value": "+328"
+       },
+       {
+        "providerId": 6,
+        "value": "3.90"
+       },
+       {
+        "providerId": 10,
+        "value": "6.00"
+       }
+      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -4130,6 +4361,32 @@
       "homeSplitSquad": false,
       "id": 21,
       "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+      "odds": [
+       {
+        "providerId": 3,
+        "value": "1.23"
+       },
+       {
+        "providerId": 7,
+        "value": "-450"
+       },
+       {
+        "providerId": 9,
+        "value": "-380"
+       },
+       {
+        "providerId": 8,
+        "value": "-439"
+       },
+       {
+        "providerId": 6,
+        "value": "1.25"
+       },
+       {
+        "providerId": 10,
+        "value": "1.40"
+       }
+      ],
       "placeName": {
        "default": "Colorado"
       },

@@ -135,10 +135,10 @@
           "week": 5
          },
          {
-          "value": 43
+          "value": 42
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -349,10 +349,10 @@
           "week": 5
          },
          {
-          "value": 26
+          "value": 25
          },
          {
-          "delta": "3"
+          "delta": "2"
          }
         ]
        }
@@ -937,6 +937,17 @@
         []
        ],
        {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-01"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
+       {
         "percent_owned": [
          {
           "coverage_type": "week",
@@ -1326,9 +1337,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792985100
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793468221
         }
        ],
        {
@@ -1941,10 +1954,10 @@
           "week": 5
          },
          {
-          "value": 26
+          "value": 25
          },
          {
-          "delta": "-11"
+          "delta": "-12"
          }
         ]
        }
@@ -2128,9 +2141,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793463709
+        }
        ],
        {
         "percent_owned": [
@@ -2139,10 +2158,10 @@
           "week": 5
          },
          {
-          "value": 14
+          "value": 15
          },
          {
-          "delta": "-4"
+          "delta": "-3"
          }
         ]
        }
@@ -2228,9 +2247,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793376327
         }
@@ -2242,10 +2259,10 @@
           "week": 5
          },
          {
-          "value": 38
+          "value": 39
          },
          {
-          "delta": "-3"
+          "delta": "-2"
          }
         ]
        }
@@ -2328,9 +2345,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793464555
+        }
        ],
        {
         "percent_owned": [
@@ -2541,10 +2564,10 @@
           "week": 5
          },
          {
-          "value": 65
+          "value": 64
          },
          {
-          "delta": "-10"
+          "delta": "-11"
          }
         ]
        }
@@ -2555,7 +2578,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "73.182821273804ms",
+  "time": "77.104091644287ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=25/percent_owned"
  }
