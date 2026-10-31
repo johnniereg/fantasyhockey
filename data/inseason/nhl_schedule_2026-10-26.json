@@ -3058,32 +3058,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg",
       "id": 1,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.95"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 8,
-        "value": "-110"
-       },
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 6,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "New Jersey"
       },
@@ -3091,12 +3065,16 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/njd-at-vgk-condensed-game-6407687787112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/njd-vs-vgk/2026/10/30/2026020214",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VGK",
@@ -3107,32 +3085,6 @@
       "homeSplitSquad": false,
       "id": 54,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.89"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 8,
-        "value": "-113"
-       },
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 6,
-        "value": "1.87"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Vegas"
       },
@@ -3140,19 +3092,19 @@
        "default": "Vegas",
        "fr": "de Vegas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+      "score": 2
      },
      "id": 2026020214,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-30T22:00:00Z",
-     "ticketsLink": "https://www.nhl.com/goldenknights/tickets/",
-     "ticketsLinkFr": "https://www.nhl.com/goldenknights/tickets/",
+     "threeMinRecap": "/video/njd-at-vgk-recap-6407686616112",
+     "threeMinRecapFr": "/fr/video/njd-vs-vgk-30-10-2026-resume-6407688777112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3180,7 +3132,25 @@
       "default": "T-Mobile Arena"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Hughes"
+      },
+      "playerId": 8481559
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Hellebuyck"
+      },
+      "playerId": 8476945
+     }
     },
     {
      "awayTeam": {
@@ -3192,32 +3162,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg",
       "id": 52,
       "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "+186"
-       },
-       {
-        "providerId": 9,
-        "value": "+185"
-       },
-       {
-        "providerId": 3,
-        "value": "2.83"
-       },
-       {
-        "providerId": 7,
-        "value": "+190"
-       },
-       {
-        "providerId": 6,
-        "value": "2.57"
-       },
-       {
-        "providerId": 10,
-        "value": "3.95"
-       }
-      ],
       "placeName": {
        "default": "Winnipeg"
       },
@@ -3225,12 +3169,17 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/wpg-at-fla-condensed-game-6407688441112",
+     "condensedGameFr": "/fr/video/match-condense-jets-panthers-30-10-2026-6407689718112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/wpg-vs-fla/2026/10/30/2026020215",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "FLA",
@@ -3241,32 +3190,6 @@
       "homeSplitSquad": false,
       "id": 13,
       "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-234"
-       },
-       {
-        "providerId": 9,
-        "value": "-225"
-       },
-       {
-        "providerId": 3,
-        "value": "1.43"
-       },
-       {
-        "providerId": 7,
-        "value": "-235"
-       },
-       {
-        "providerId": 6,
-        "value": "1.51"
-       },
-       {
-        "providerId": 10,
-        "value": "1.75"
-       }
-      ],
       "placeName": {
        "default": "Florida",
        "fr": "Floride"
@@ -3275,19 +3198,19 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "score": 5
      },
      "id": 2026020215,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-30T23:00:00Z",
-     "ticketsLink": "https://seatgeek.com/florida-panthers-tickets/10-30-2026-sunrise-florida-amerant-bank-arena/nhl/18362763?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
-     "ticketsLinkFr": "https://seatgeek.com/florida-panthers-tickets/10-30-2026-sunrise-florida-amerant-bank-arena/nhl/18362763?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
+     "threeMinRecap": "/video/wpg-at-fla-recap-6407690884112",
+     "threeMinRecapFr": "/fr/video/wpg-vs-fla-30-10-2026-resume-6407688543112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3315,7 +3238,25 @@
       "default": "Amerant Bank Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-04:00"
+     "venueUTCOffset": "-04:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Jones"
+      },
+      "playerId": 8477495
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "default": "Schmid"
+      },
+      "playerId": 8481033
+     }
     },
     {
      "awayTeam": {
@@ -3327,32 +3268,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
       "id": 55,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.90"
-       },
-       {
-        "providerId": 8,
-        "value": "-118"
-       },
-       {
-        "providerId": 7,
-        "value": "-118"
-       },
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 3,
-        "value": "1.89"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Seattle"
       },
@@ -3360,12 +3275,16 @@
        "default": "Seattle",
        "fr": "de Seattle"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20262027/SEA-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/sea-at-cgy-condensed-game-6407690565112",
      "easternUTCOffset": "-04:00",
      "gameCenterLink": "/gamecenter/sea-vs-cgy/2026/10/30/2026020216",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CGY",
@@ -3376,32 +3295,6 @@
       "homeSplitSquad": false,
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.90"
-       },
-       {
-        "providerId": 8,
-        "value": "-104"
-       },
-       {
-        "providerId": 7,
-        "value": "-102"
-       },
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 3,
-        "value": "1.94"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -3409,19 +3302,19 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
+      "score": 6
      },
      "id": 2026020216,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-10-31T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/110064FB961D3ED6?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM8",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/110064FB961D3ED6?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM8",
+     "threeMinRecap": "/video/sea-at-cgy-recap-6407691451112",
+     "threeMinRecapFr": "/fr/video/sea-vs-cgy-30-10-2026-resume-6407691244112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -3456,7 +3349,25 @@
       "default": "Scotiabank Saddledome"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Gridin"
+      },
+      "playerId": 8484860
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Wolf"
+      },
+      "playerId": 8481692
+     }
     }
    ],
    "numberOfGames": 3

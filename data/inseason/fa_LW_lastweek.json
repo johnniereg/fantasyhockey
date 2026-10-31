@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-10-30",
+    "current_date": "2026-10-31",
     "current_week": 5,
     "draft_status": "postdraft",
-    "edit_key": "2026-10-31",
+    "edit_key": "2026-11-01",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -21,7 +21,7 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1793347477",
+    "league_update_timestamp": "1793433864",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
     "matchup_week": 5,
     "max_teams": "10",
@@ -153,13 +153,13 @@
           {
            "stat": {
             "stat_id": "2",
-            "value": "1"
+            "value": "2"
            }
           },
           {
            "stat": {
             "stat_id": "4",
-            "value": "1"
+            "value": "0"
            }
           },
           {
@@ -171,7 +171,7 @@
           {
            "stat": {
             "stat_id": "8",
-            "value": "2"
+            "value": "3"
            }
           },
           {
@@ -977,9 +977,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793331373
         }
@@ -1147,7 +1145,7 @@
           {
            "stat": {
             "stat_id": "4",
-            "value": "-1"
+            "value": "-2"
            }
           },
           {
@@ -2546,13 +2544,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1792563356
-        }
+        [],
+        []
        ],
        {
         "player_stats": {
@@ -2977,9 +2971,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792567009
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793409832
         }
        ],
        {
@@ -2991,7 +2987,7 @@
           {
            "stat": {
             "stat_id": "1",
-            "value": "0"
+            "value": "1"
            }
           },
           {
@@ -3003,7 +2999,7 @@
           {
            "stat": {
             "stat_id": "4",
-            "value": "1"
+            "value": "0"
            }
           },
           {
@@ -3569,7 +3565,7 @@
           {
            "stat": {
             "stat_id": "5",
-            "value": "2"
+            "value": "0"
            }
           },
           {
@@ -3594,7 +3590,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "130.82695007324ms",
+  "time": "111.64307594299ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=LW;sort=AR;count=25;start=0/stats;type=lastweek"
  }
