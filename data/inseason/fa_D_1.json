@@ -192,11 +192,14 @@
          "url": "https://sports.yahoo.com/nhl/players/6896"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Upper Body"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.6896"
@@ -248,6 +251,9 @@
            "position": "D"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -270,9 +276,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1792864434
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793565015
         }
        ],
        {
@@ -2433,10 +2441,10 @@
           "week": 5
          },
          {
-          "value": 32
+          "value": 31
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -2540,10 +2548,10 @@
           "week": 5
          },
          {
-          "value": 44
+          "value": 43
          },
          {
-          "delta": "7"
+          "delta": "6"
          }
         ]
        }
@@ -2647,10 +2655,10 @@
           "week": 5
          },
          {
-          "value": 19
+          "value": 18
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -2774,7 +2782,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "92.629909515381ms",
+  "time": "100.44407844543ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=25/percent_owned"
  }

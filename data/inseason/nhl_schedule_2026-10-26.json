@@ -4422,12 +4422,17 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+      "score": 0
      },
+     "condensedGame": "/video/wpg-at-car-condensed-game-6407760078112",
+     "condensedGameFr": "/fr/video/match-condense-jets-hurricanes-01-11-2026-6407758423112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/wpg-vs-car/2026/11/01/2026020227",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CAR",
@@ -4446,19 +4451,19 @@
        "default": "Carolina",
        "fr": "de la Caroline"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CAR/20262027/CAR-radio.m3u8"
+      "score": 7
      },
      "id": 2026020227,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-01T18:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=nhl&wt.mc_id=NHL_LEAGUE_CAR_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CAR&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/2D0064F4BD65D1B8?brand=nhl&wt.mc_id=NHL_LEAGUE_CAR_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_CAR&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/wpg-at-car-recap-6407758806112",
+     "threeMinRecapFr": "/fr/video/wpg-vs-car-01-11-2026-resume-6407759880112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -4500,7 +4505,26 @@
       "default": "Lenovo Center"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Walker"
+      },
+      "playerId": 8480336
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "P."
+      },
+      "lastName": {
+       "default": "Kochetkov",
+       "fi": "Kotshetkov"
+      },
+      "playerId": 8481611
+     }
     },
     {
      "awayTeam": {
@@ -4519,12 +4543,13 @@
        "default": "Minnesota",
        "fr": "du Minnesota"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8",
+      "score": 2
      },
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/min-vs-wsh/2026/11/01/2026020228",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WSH",
@@ -4542,7 +4567,8 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8",
+      "score": 0
      },
      "id": 2026020228,
      "neutralSite": false,
@@ -4553,8 +4579,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-01T20:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/150064F03474E2AE?brand=nhl&wt.mc_id=NHL_LEAGUE_WSH_SCHED_PG_GM9&utm_source=league_schedulepage&utm_medium=web_organic&utm_campaign=2627sgb_ca1101mw",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/150064F03474E2AE?brand=nhl&wt.mc_id=NHL_LEAGUE_WSH_SCHED_PG_GM9&utm_source=league_schedulepage&utm_medium=web_organic&utm_campaign=2627sgb_ca1101mw",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -4615,12 +4639,13 @@
        "default": "Utah",
        "fr": "de l'Utah"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8",
+      "score": 0
      },
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/uta-vs-phi/2026/11/01/2026020229",
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "LIVE",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "PHI",
@@ -4639,7 +4664,8 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8",
+      "score": 0
      },
      "id": 2026020229,
      "neutralSite": false,
@@ -4650,8 +4676,6 @@
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-01T21:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/300064EEEEB1E179?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/300064EEEEB1E179?brand=nhl&wt.mc_id=NHL_LEAGUE_PHI_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_PHI&utm_content=SCHED_PG_GM9",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -4698,6 +4722,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg",
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+      "odds": [
+       {
+        "providerId": 7,
+        "value": "+108"
+       },
+       {
+        "providerId": 3,
+        "value": "2.08"
+       },
+       {
+        "providerId": 9,
+        "value": "+110"
+       },
+       {
+        "providerId": 8,
+        "value": "+107"
+       },
+       {
+        "providerId": 6,
+        "value": "2.04"
+       },
+       {
+        "providerId": 10,
+        "value": "2.70"
+       }
+      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -4721,6 +4771,32 @@
       "homeSplitSquad": false,
       "id": 3,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+      "odds": [
+       {
+        "providerId": 7,
+        "value": "-130"
+       },
+       {
+        "providerId": 3,
+        "value": "1.77"
+       },
+       {
+        "providerId": 9,
+        "value": "-130"
+       },
+       {
+        "providerId": 8,
+        "value": "-130"
+       },
+       {
+        "providerId": 6,
+        "value": "1.78"
+       },
+       {
+        "providerId": 10,
+        "value": "2.25"
+       }
+      ],
       "placeName": {
        "default": "New York"
       },
@@ -4788,6 +4864,32 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "1.92"
+       },
+       {
+        "providerId": 8,
+        "value": "-120"
+       },
+       {
+        "providerId": 9,
+        "value": "-118"
+       },
+       {
+        "providerId": 7,
+        "value": "-120"
+       },
+       {
+        "providerId": 3,
+        "value": "1.84"
+       },
+       {
+        "providerId": 10,
+        "value": "2.35"
+       }
+      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -4811,6 +4913,32 @@
       "homeSplitSquad": false,
       "id": 24,
       "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+      "odds": [
+       {
+        "providerId": 6,
+        "value": "1.88"
+       },
+       {
+        "providerId": 8,
+        "value": "-102"
+       },
+       {
+        "providerId": 9,
+        "value": "-102"
+       },
+       {
+        "providerId": 7,
+        "value": "+100"
+       },
+       {
+        "providerId": 3,
+        "value": "2.00"
+       },
+       {
+        "providerId": 10,
+        "value": "2.60"
+       }
+      ],
       "placeName": {
        "default": "Anaheim"
       },
