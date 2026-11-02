@@ -50,6 +50,19 @@ jobs:
           AGM_TRIGGER:         ${{ github.event_name }}:${{ inputs.reason || 'schedule' }}
         run: python3 scripts/fetch_inseason.py
 
+      - name: Fetch season stats for projections (AGM)
+        continue-on-error: true
+        run: python3 scripts/fetch_history.py
+
+      - name: AGM move engine (recommendations + log) and Monday rule retest
+        continue-on-error: true
+        run: |
+          python3 scripts/agm_moves.py --json --log > data/agm/moves_latest.md
+          if [ "$(TZ=America/Toronto date +%u)" = "1" ] && [ "${{ inputs.reason }}" = "morning" ]; then
+            python3 scripts/agm_backtest.py all --write > data/agm/backtest_latest.md
+            python3 scripts/agm_moves.py grade > data/agm/grades_latest.md
+          fi
+
       - name: Fetch history and rebuild dashboard
         env:
           YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
@@ -63,7 +76,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html data/league_cache.json data/inseason
+          git add index.html data/league_cache.json data/inseason data/history data/agm
           git diff --staged --quiet \
             || git commit -m "chore: update dashboard data (${{ inputs.reason || 'schedule' }}) [skip ci]"
           # Retry: a code push landing mid-run shouldn't lose the fetch
