@@ -50,6 +50,10 @@ jobs:
           AGM_TRIGGER:         ${{ github.event_name }}:${{ inputs.reason || 'schedule' }}
         run: python3 scripts/fetch_inseason.py
 
+      - name: Fetch season stats for projections (AGM)
+        continue-on-error: true
+        run: python3 scripts/fetch_history.py
+
       - name: Fetch history and rebuild dashboard
         env:
           YAHOO_CLIENT_ID:     ${{ secrets.YAHOO_CLIENT_ID }}
@@ -63,7 +67,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html data/league_cache.json data/inseason
+          git add index.html data/league_cache.json data/inseason data/history
           git diff --staged --quiet \
             || git commit -m "chore: update dashboard data (${{ inputs.reason || 'schedule' }}) [skip ci]"
           # Retry: a code push landing mid-run shouldn't lose the fetch
