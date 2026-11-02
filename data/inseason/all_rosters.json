@@ -11282,6 +11282,17 @@
                 "is_flex": 0
                }
               ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-11-02"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
              }
             ]
            },
@@ -11509,16 +11520,6 @@
                "url": "https://sports.yahoo.com/nhl/players/4947"
               },
               {
-               "status": "IR",
-               "status_full": "Injured Reserve"
-              },
-              {
-               "injury_note": "Upper Body"
-              },
-              {
-               "on_disabled_list": "1"
-              },
-              {
                "editorial_player_key": "nhl.p.4947"
               },
               {
@@ -11566,12 +11567,6 @@
                "eligible_positions": [
                 {
                  "position": "G"
-                },
-                {
-                 "position": "IR"
-                },
-                {
-                 "position": "IR+"
                 }
                ]
               },
@@ -11580,9 +11575,15 @@
               },
               [],
               [],
-              [],
-              [],
-              []
+              {
+               "has_player_notes": 1
+              },
+              {
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1793635334
+              }
              ],
              {
               "selected_position": [
@@ -11595,6 +11596,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-11-02"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -15398,9 +15410,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1793372618
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1793636576
               }
              ],
              {
@@ -15414,6 +15428,17 @@
                },
                {
                 "is_flex": 0
+               }
+              ]
+             },
+             {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-11-02"
+               },
+               {
+                "is_starting": 1
                }
               ]
              }
@@ -20722,7 +20747,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "173.51293563843ms",
+  "time": "181.97798728943ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-11-02"
  }
