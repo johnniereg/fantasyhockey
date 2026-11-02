@@ -6,7 +6,9 @@ AGM moves — what to add and drop, ranked by what it does to this week's matchu
     python3 scripts/agm_moves.py --log           # also append recommendations to data/agm/moves_log.json
     python3 scripts/agm_moves.py grade           # grade logged recommendations 7+ days old
 
-1. Projections: agm_project (tested: ~27% lower error than season-to-date stats).
+1. Projections: agm_project (tested, in-sample: 14-27% lower error than season-to-date stats, ~5% lower
+   than prior seasons alone). Picking adds by projection is NOT yet shown to beat a sensible default
+   (random 16+ min player / most ice time) per roster spot; schedule and availability matter as much.
 2. Category weights from the matchup: project both teams' week totals (scoreboard so far + each
    remaining night's best lineup), turn each category's margin into a win probability, and weight
    the category by how much one more unit moves that probability. Safe and lost categories get
@@ -60,10 +62,13 @@ def name_index(proj):
     return idx
 
 
-def find(idx, name, team=None):
+def find(idx, name, team=None, elig=None):
     c = idx.get(norm(name), [])
     if len(c) > 1 and team:
         c = [p for p in c if p["team"] == team] or c
+    if len(c) > 1 and elig:  # same name, same team (two Elias Petterssons on VAN): match position
+        want_d = elig == ["D"] or elig == "D"
+        c = [p for p in c if (p["grp"] == "D") == want_d] or c
     return c[0] if c else None
 
 
@@ -121,7 +126,7 @@ def attach(roster, idx):
     for p in roster:
         if "G" in p["elig"]:
             continue
-        pr = find(idx, p["name"], p["team"])
+        pr = find(idx, p["name"], p["team"], p["elig"])
         out.append({**p, "proj": pr})
     return out
 
@@ -176,15 +181,15 @@ def fa_pool(idx):
             continue
         try:
             for p in players_in(json.load(open(f))):
-                if "G" in p["elig"]:
-                    continue
+                if "G" in p["elig"] or (p.get("status") or "") in OUT_STATUSES:
+                    continue  # injured players can't help this week; the backtest's top no-show was one
                 p = {**p, "waiver": "waivers_" in os.path.basename(f), "slot": "BN", "status": p.get("status", "")}
                 pool.setdefault(p["key"], p)
         except Exception:
             pass
     out = []
     for p in pool.values():
-        pr = find(idx, p["name"], p["team"])
+        pr = find(idx, p["name"], p["team"], p["elig"])
         if pr:
             out.append({**p, "proj": pr})
     return out, m.get("fetched_at_utc")
@@ -197,7 +202,10 @@ def recommend(adds_left, verbose=True):
     now = dt.datetime.now(ET)
     today = now.date()
     dates_all = week_dates(today)
-    dates_add = dates_all[1:]  # an add made today plays from tomorrow
+    if now.hour >= 19:  # tonight's games are underway: the scoreboard will hold them, don't project them too
+        dates_all = dates_all[1:]
+    dates_add = [d for d in week_dates(today)[1:]]  # an add made today plays from tomorrow
+    dates_wv = dates_add[2:]  # a waiver claim clears in ~2 days
     proj = P.project()
     idx = name_index(proj)
     sw = season_weights(proj)
@@ -216,7 +224,8 @@ def recommend(adds_left, verbose=True):
     ranked = sorted([p for p in my_r if p["proj"]], key=lambda p: -val_flat(p["proj"]))
     top8 = {p["name"] for p in ranked[:8]}
     pool, fetched = fa_pool(idx)
-    pool = sorted(pool, key=lambda p: -val(p["proj"]))[:60]
+    pool = sorted(pool, key=lambda p: -(val(p["proj"]) * sum(1 for x in dates_add if p["team"] in games.get(x, set()))
+                                         + val_flat(p["proj"]) * GAMES_PER_WEEK))[:60]
     base = lineup_value(my_r, dates_add, games, slots, val)
     recs, roster = [], list(my_r)
     used = set()
@@ -230,7 +239,12 @@ def recommend(adds_left, verbose=True):
                 if d.get("slot") in ("IR", "IR+") or not d["proj"]:
                     continue
                 new = [x for x in roster if x["key"] != d["key"]] + [a]
-                dw = lineup_value(new, dates_add, games, slots, val) - cur_base
+                if a["waiver"]:  # claim clears later: he plays only the last nights, the drop plays until then
+                    early = [x for x in dates_add if x not in dates_wv]
+                    dw = (lineup_value(roster, early, games, slots, val) + lineup_value(new, dates_wv, games, slots, val)
+                          - cur_base)
+                else:
+                    dw = lineup_value(new, dates_add, games, slots, val) - cur_base
                 dros = (val_flat(a["proj"]) - val_flat(d["proj"])) * GAMES_PER_WEEK  # per future week
                 keeper = d["name"] in KEEPERS
                 if keeper and d["name"] in top8:
@@ -274,6 +288,16 @@ def adds_left():
         return 4
 
 
+def last_key(full, team, recent):
+    """Box scores carry surnames ('Bussi', 'Merilainen'); match on the longest trailing name part present."""
+    parts = full.split()
+    for i in range(1, len(parts)):
+        k = norm(" ".join(parts[i:]))
+        if (team, k) in recent:
+            return k
+    return norm(parts[-1])
+
+
 def goalies():
     """Goalie view. Tested: individual SV% doesn't carry over (r -0.12); team shots/goals against do.
     So rank by expected starts and the team in front of him, not by his save percentage."""
@@ -306,17 +330,17 @@ def goalies():
     recent = defaultdict(int)
     for t, rs in by_team.items():
         for r in rs[-6:]:
-            recent[(t, r["last"].lower())] += 1
+            recent[(t, norm(r["last"]))] += 1
     team_gs = defaultdict(int)
     for g in gp.values():
         if g["name"] not in out_g:
-            team_gs[g["team"]] += recent[(g["team"], g["name"].split()[-1].lower())]
+            team_gs[g["team"]] += recent[(g["team"], last_key(g["name"], g["team"], recent))]
     rows = []
     for g in gp.values():
         if g["name"] not in mine and g["name"] not in fa:
             continue
         t = teams.get(g["team"], {})
-        mine_recent = recent[(g["team"], g["name"].split()[-1].lower())]
+        mine_recent = recent[(g["team"], last_key(g["name"], g["team"], recent))]
         share = 0 if g["name"] in out_g else (mine_recent / team_gs[g["team"]] if team_gs[g["team"]] else 0)
         tg = sum(1 for d in dates if g["team"] in games.get(d, set()))
         rows.append({**g, "share": round(share, 2), "team_games": tg, "exp_starts": round(share * tg, 1),
@@ -328,28 +352,38 @@ def goalies():
 
 
 def grade():
+    """Each logged recommendation 7+ days old: what the add and the drop did over the next 7 days,
+    in all four box-score categories, matched by NHL player id (not by name)."""
     p = os.path.join(OUTDIR, "moves_log.json")
     log = json.load(open(p)) if os.path.exists(p) else []
     rows = P._box_rows()
     by = defaultdict(list)
     for r in rows:
-        by[(norm(r["name"].split(". ")[-1]), r["team"])].append(r)
+        by[r["player_id"]].append(r)
     last = max(r["date"] for r in rows)
-    print("| Logged | Add | Drop | Add next 7d (G-A-PIM-+/-) | Drop next 7d | Verdict |\n|---|---|---|---|---|---|")
+    idx = name_index(P.project())
+    sw = season_weights(P.project())
+    print("| Logged | Add | Drop | Add next 7d GP G-A-PIM-+/- | Drop next 7d | Value add vs drop | Verdict |")
+    print("|---|---|---|---|---|---|---|")
     for e in log:
         d0 = e["generated_at_et"][:10]
         d1 = (dt.date.fromisoformat(d0) + dt.timedelta(days=7)).isoformat()
         if d1 > last:
             continue
         for rc in e["recommendations"]:
-            def line(name, team):
-                rs = [r for r in by.get((norm(name.split()[-1]), team), []) if d0 < r["date"] <= d1]
-                return (len(rs), sum(r["g"] for r in rs), sum(r["a"] for r in rs),
-                        sum(r["pim"] for r in rs), sum(r["pm"] for r in rs))
-            a, d = line(rc["add"], rc["add_team"]), line(rc["drop"], rc["drop_team"])
-            pa, pd = a[1] + a[2], d[1] + d[2]
-            print(f"| {d0} | {rc['add']} | {rc['drop']} | {a[0]} GP {a[1]}-{a[2]}-{a[3]}-{a[4]:+d} | "
-                  f"{d[0]} GP {d[1]}-{d[2]}-{d[3]}-{d[4]:+d} | {'add better' if pa > pd else 'drop better' if pd > pa else 'even'} |")
+            def line(name, team, pos):
+                pr = find(idx, name, team, pos.split(",") if pos else None)
+                rs = [r for r in by.get(pr["pid"], []) if d0 < r["date"] <= d1] if pr else []
+                t = {"n": len(rs), "G": sum(r["g"] for r in rs), "A": sum(r["a"] for r in rs),
+                     "PIM": sum(r["pim"] for r in rs), "PM": sum(r["pm"] for r in rs)}
+                t["v"] = sum(sw[c] * t[c] for c in ("G", "A", "PIM", "PM"))
+                return t
+            a = line(rc["add"], rc["add_team"], rc.get("add_pos"))
+            d = line(rc["drop"], rc["drop_team"], None)
+            fmt = lambda t: f"{t['n']} {t['G']}-{t['A']}-{t['PIM']}-{t['PM']:+d}"  # noqa: E731
+            dv = a["v"] - d["v"]
+            print(f"| {d0} | {rc['add']} | {rc['drop']} | {fmt(a)} | {fmt(d)} | {dv:+.1f} | "
+                  f"{'add better' if dv > 1 else 'drop better' if dv < -1 else 'even'} |")
 
 
 def main():

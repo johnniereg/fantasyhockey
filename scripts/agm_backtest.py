@@ -57,13 +57,13 @@ def outcome(rs, d0):
             "PIM": sum(r["pim"] or 0 for r in w) / n, "PM": sum(r["pm"] or 0 for r in w) / n}
 
 
-def score(preds, by, days):
+def score(preds, by, days, min_gp=3):
     """Games-weighted mean squared error per category, and for points (G+A)."""
     err, wsum = defaultdict(float), 0
     for d0 in days:
         pr = preds[d0]
         for pid, p in pr.items():
-            if p["gp"] < 3:
+            if p["gp"] < min_gp:
                 continue
             o = outcome(by.get(pid, []), d0)
             if not o:
@@ -89,20 +89,25 @@ def run_models():
         "blend + role beta=1": dict(beta=1.0),
         "blend + role beta=0.4": dict(beta=0.4),
     }
-    res = {}
+    res, res10 = {}, {}
     for name, kw in variants.items():
         preds = {d0: P.project(as_of=d0, **kw) for d0 in days}
         res[name], n = score(preds, by, days)
+        res10[name], n10 = score(preds, by, days, min_gp=10)
     base = res["season-to-date only"]
     print(f"# Projection backtest — {len(days)} decision days {days[0]}..{days[-1]}, next {WIN} days\n")
     print(f"_Error = games-weighted mean squared error per game (lower is better), {n:.0f} player-games. "
           "'vs STD' = error relative to season-to-date (100% = same)._\n")
-    print("| Model | " + " | ".join(TEST + ["PTS"]) + " | PTS vs STD |")
-    print("|---|" + "---|" * (len(TEST) + 2))
+    print("_Parameters (K, beta, age) were chosen on these same days: no holdout yet. The fair comparison for what "
+          "this season adds is vs 'last 3 seasons only'; vs season-to-date is flattered early in the season._\n")
+    b10, pr, pr10 = res10["season-to-date only"], res["last 3 seasons only"], res10["last 3 seasons only"]
+    print("| Model | " + " | ".join(TEST + ["PTS"]) + " | PTS vs STD (gp 3+) | vs STD (gp 10+) | vs prior only (gp 3+ / 10+) |")
+    print("|---|" + "---|" * (len(TEST) + 4))
     for name, r in res.items():
         print(f"| {name} | " + " | ".join(f"{r[c]:.3f}" for c in TEST + ["PTS"])
-              + f" | {100 * r['PTS'] / base['PTS']:.0f}% |")
-    return res
+              + f" | {100 * r['PTS'] / base['PTS']:.0f}% | {100 * res10[name]['PTS'] / b10['PTS']:.0f}% | "
+              f"{100 * r['PTS'] / pr['PTS']:.0f}% / {100 * res10[name]['PTS'] / pr10['PTS']:.0f}% |")
+    return {"gp3": res, "gp10": res10}
 
 
 def value(p, cats=("G", "A", "PIM", "PM")):
@@ -126,7 +131,17 @@ def run_rules(seed=7):
             return set()
         d = max(ds)
         if d not in rost_cache:
-            rost_cache[d] = {match(n, t, by_full, by_name) for n, t in rosters[d]} - {None}
+            ids = set()
+            for n, t in rosters[d]:
+                pid = match(n, t, by_full, by_name)
+                if pid:
+                    ids.add(pid)
+                else:  # ambiguous name (two E. Petterssons on VAN): exclude every candidate
+                    parts = n.split()
+                    key = (parts[0][0] + ". " + " ".join(parts[1:])).lower(), t
+                    ids |= {r["player_id"] for r in P._CACHE["box"]
+                            if (r["name"].lower(), r["team"]) == key}
+            rost_cache[d] = ids
         return rost_cache[d]
 
     picks = defaultdict(list)
@@ -136,8 +151,16 @@ def run_rules(seed=7):
         rost = rostered(prev)
         proj = P.project(as_of=d0)
         std = P.project(as_of=d0, current_only=True)
+        # no look-ahead: a pick who doesn't play in the window still counts (0 games, 0 points)
         pool = [p for pid, p in proj.items() if pid not in rost and p["grp"] == "F" and p["gp"] >= 5
-                and outcome(by.get(pid, []), d0)]
+                and by[pid] and by[pid][-1]["date"] >= (dt.date.fromisoformat(d0) - dt.timedelta(days=10)).isoformat()
+                and any(r["date"] < d0 for r in by[pid])]
+        # availability, known before d0: he played his team's most recent game
+        team_last = {}
+        for r in P._CACHE["box"]:
+            if r["date"] < d0 and r["date"] > team_last.get(r["team"], ""):
+                team_last[r["team"]] = r["date"]
+        pool = [p for p in pool if max(r["date"] for r in by[p["pid"]] if r["date"] < d0) == team_last.get(p["team"])]
         role = [p for p in pool if p["toi"] >= 16]
 
         def top(key, src, k=3):
@@ -145,6 +168,7 @@ def run_rules(seed=7):
         rules = {
             "projection value (G,A,PIM,+/-)": top(value, pool),
             "projection points": top(lambda p: p["G"] + p["A"], pool),
+            "projection points, TOI 16+": top(lambda p: p["G"] + p["A"], role),
             "season-to-date points, TOI 16+": top(lambda p: std[p["pid"]]["G"] + std[p["pid"]]["A"], role),
             "hot last 5 points, TOI 16+": top(lambda p: sum((r["g"] or 0) + (r["a"] or 0) for r in
                                                        [x for x in by[p["pid"]] if x["date"] < d0][-5:]), role),
@@ -153,20 +177,28 @@ def run_rules(seed=7):
         }
         for name, sel in rules.items():
             for p in sel:
-                o = outcome(by[p["pid"]], d0)
+                o = outcome(by[p["pid"]], d0) or {"n": 0, "G": 0, "A": 0, "PIM": 0, "PM": 0}
                 picks[name].append((o, p["name"]))
     print(f"\n# Rule backtest — top 3 available forwards each day, {days[0]}..{days[-1]} ({len(days)} days)\n")
-    print("| Rule | Picks | Unique | Points/GP | G | A | PIM | +/- | Value/GP |")
-    print("|---|---|---|---|---|---|---|---|---|")
+    print("_Picks that didn't play in the window count as 0 games. Points/pick = points over the 7 days per pick "
+          "(what a roster spot actually returned). Picks overlap heavily day to day: unique players is the real n._\n")
+    print("| Rule | Picks | Unique players | Points/pick (7d) | Points/GP | G | A | PIM | +/- | No-game picks |")
+    print("|---|---|---|---|---|---|---|---|---|---|")
     out = {}
     for name, L in picks.items():
-        n = sum(o["n"] for o, _ in L)
+        n = sum(o["n"] for o, _ in L) or 1
         m = {c: sum(o[c] * o["n"] for o, _ in L) / n for c in TEST}
-        v = value(m)
-        out[name] = {"points_pg": m["G"] + m["A"], "value_pg": v, **m, "picks": len(L),
-                     "unique": len({x for _, x in L})}
-        print(f"| {name} | {len(L)} | {out[name]['unique']} | {m['G'] + m['A']:.2f} | {m['G']:.2f} | {m['A']:.2f} | "
-              f"{m['PIM']:.2f} | {m['PM']:+.2f} | {v:.2f} |")
+        ppick = sum((o["G"] + o["A"]) * o["n"] for o, _ in L) / len(L)
+        zero = sum(1 for o, _ in L if o["n"] == 0)
+        out[name] = {"points_per_pick": ppick, "points_pg": m["G"] + m["A"], **m, "picks": len(L),
+                     "unique": len({x for _, x in L}), "no_game": zero}
+        if zero and name.startswith("projection points"):
+            out[name]["no_game_names"] = sorted({x for o, x in L if o["n"] == 0})
+        print(f"| {name} | {len(L)} | {out[name]['unique']} | {ppick:.2f} | {m['G'] + m['A']:.2f} | {m['G']:.2f} | "
+              f"{m['A']:.2f} | {m['PIM']:.2f} | {m['PM']:+.2f} | {zero} |")
+    for k, v in out.items():
+        if v.get("no_game_names"):
+            print(f"\n_{k} no-game picks: {', '.join(v['no_game_names'])} (injured or scratched after the decision day)_")
     return out
 
 

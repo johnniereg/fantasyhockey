@@ -35,7 +35,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HIST = os.path.join(ROOT, "data", "history")
 CATS = ["G", "A", "PPP", "PIM", "PM", "GWG", "SOG"]
 SCORING = {"G", "A", "PPP", "GWG", "SOG"}
-# Games of current-season data worth as much as the prior. Tuned in agm_backtest.py.
+# Games of current-season data worth as much as the prior. Chosen in agm_backtest.py on the same
+# days it reports (no holdout yet); K x0.5..x2 and BETA 0.4..1 all land within ~1%.
 K = {"G": 40, "A": 40, "PPP": 40, "PIM": 25, "PM": 80, "GWG": 80, "SOG": 15}
 BETA = 0.7          # role (ice time) elasticity for scoring categories
 USE_AGE = False     # backtest decides
