@@ -547,6 +547,13 @@
            "url": "https://sports.yahoo.com/nhl/players/30549"
           },
           {
+           "status": "DTD",
+           "status_full": "Day-to-Day"
+          },
+          {
+           "injury_note": "Undisclosed"
+          },
+          {
            "editorial_player_key": "nhl.p.30549"
           },
           {
@@ -594,6 +601,9 @@
            "eligible_positions": [
             {
              "position": "LW"
+            },
+            {
+             "position": "IR+"
             }
            ]
           },
@@ -619,7 +629,7 @@
            "has_recent_player_notes": 1
           },
           {
-           "player_notes_last_timestamp": 1793558514
+           "player_notes_last_timestamp": 1793640529
           }
          ],
          {
@@ -1043,9 +1053,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1793364153
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793643650
           }
          ],
          {
@@ -1856,7 +1868,7 @@
     }
    }
   ],
-  "time": "70.915937423706ms",
+  "time": "87.780952453613ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.3/roster;date=2026-11-08/players"
  }

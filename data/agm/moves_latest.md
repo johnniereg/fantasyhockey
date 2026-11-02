@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-02T11:51-05:00 ET (data 2026-11-02T16:51:24+00:00 UTC)
+# AGM moves — 2026-11-02T13:31-05:00 ET (data 2026-11-02T18:31:13+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -44,10 +44,10 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | Jake Allen | NJD |  | 0.6 | 8 | 4 | 2.4 | 0.566 | 2.99 | 26.3 | 0.887 |
 | Adin Hill | VGK |  | 0.67 | 7 | 3 | 2.0 | 0.529 | 2.94 | 24.9 | 0.891 |
 | Jonas Johansson | OTT |  | 0.67 | 4 | 2 | 1.3 | 0.548 | 3.08 | 25.6 | 0.848 |
+| Akira Schmid | FLA |  | 0.67 | 7 | 3 | 2.0 | 0.522 | 3.11 | 25.7 | 0.889 |
 | John Gibson | DET |  | 0.8 | 10 | 3 | 2.4 | 0.471 | 3.03 | 26.4 | 0.860 |
 | Jet Greaves | CBJ |  | 0.5 | 7 | 3 | 1.5 | 0.461 | 3.13 | 28.2 | 0.883 |
 | Cam Talbot | CBJ |  | 0.5 | 5 | 3 | 1.5 | 0.461 | 3.13 | 28.2 | 0.894 |
 | Dan Vladar | PHI |  | 0.5 | 8 | 3 | 1.5 | 0.402 | 3.09 | 27.4 | 0.885 |
 | Joseph Woll | PHI |  | 0.5 | 8 | 3 | 1.5 | 0.402 | 3.09 | 27.4 | 0.899 |
 | Anton Forsberg | LAK |  | 0.5 | 5 | 2 | 1.0 | 0.380 | 3.12 | 27.6 | 0.902 |
-| Darcy Kuemper | LAK |  | 0.5 | 8 | 2 | 1.0 | 0.380 | 3.12 | 27.6 | 0.878 |

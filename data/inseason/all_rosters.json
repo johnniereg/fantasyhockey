@@ -1268,6 +1268,17 @@
               ]
              },
              {
+              "starting_status": [
+               {
+                "coverage_type": "date",
+                "date": "2026-11-02"
+               },
+               {
+                "is_starting": 0
+               }
+              ]
+             },
+             {
               "is_editable": 1
              }
             ]
@@ -5042,6 +5053,13 @@
                "url": "https://sports.yahoo.com/nhl/players/30549"
               },
               {
+               "status": "DTD",
+               "status_full": "Day-to-Day"
+              },
+              {
+               "injury_note": "Undisclosed"
+              },
+              {
                "editorial_player_key": "nhl.p.30549"
               },
               {
@@ -5089,6 +5107,9 @@
                "eligible_positions": [
                 {
                  "position": "LW"
+                },
+                {
+                 "position": "IR+"
                 }
                ]
               },
@@ -5114,7 +5135,7 @@
                "has_recent_player_notes": 1
               },
               {
-               "player_notes_last_timestamp": 1793558514
+               "player_notes_last_timestamp": 1793640529
               }
              ],
              {
@@ -5538,9 +5559,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1793364153
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1793643650
               }
              ],
              {
@@ -11376,9 +11399,11 @@
               {
                "has_player_notes": 1
               },
-              [],
               {
-               "player_notes_last_timestamp": 1793255227
+               "has_recent_player_notes": 1
+              },
+              {
+               "player_notes_last_timestamp": 1793641111
               }
              ],
              {
@@ -20747,7 +20772,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "181.97798728943ms",
+  "time": "168.05195808411ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/teams/roster;date=2026-11-02"
  }
