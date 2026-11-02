@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-02T13:31-05:00 ET (data 2026-11-02T18:31:13+00:00 UTC)
+# AGM moves — 2026-11-02T16:16-05:00 ET (data 2026-11-02T21:16:07+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,18 +6,18 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 13.2 | 11.2 | 65% | 7.46 | 9.02 |
-| A | 21.0 | 20.8 | 51% | 6.17 | 6.82 |
-| PPP | 11.4 | 9.8 | 63% | 8.18 | 11.04 |
-| PIM | 19.6 | 26.4 | 31% | 2.59 | 2.89 |
-| +/- | 1.4 | 1.7 | 49% | 4.18 | 3.99 |
-| GWG | 2.0 | 1.7 | 56% | 20.46 | 23.14 |
+| G | 13.2 | 10.6 | 70% | 7.12 | 9.02 |
+| A | 21.0 | 19.1 | 62% | 6.03 | 6.82 |
+| PPP | 11.4 | 9.5 | 66% | 8.0 | 11.04 |
+| PIM | 19.6 | 24.2 | 36% | 2.84 | 2.89 |
+| +/- | 1.4 | 0.9 | 52% | 4.25 | 3.99 |
+| GWG | 2.0 | 1.6 | 58% | 20.53 | 23.14 |
 
 ## Recommended moves (4 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Mika Zibanejad** (NYR) — week +11.1 (4 vs 3 games left), later weeks +1.4/wk
+- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Mika Zibanejad** (NYR) — week +11.5 (4 vs 3 games left), later weeks +1.4/wk
   - add proj/g: {'G': 0.29, 'A': 0.48, 'PPP': 0.23, 'PIM': 0.69, 'PM': -0.07, 'GWG': 0.04}
   - drop proj/g: {'G': 0.31, 'A': 0.56, 'PPP': 0.3, 'PIM': 0.2, 'PM': -0.2, 'GWG': 0.05}
 
@@ -48,6 +48,6 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | John Gibson | DET |  | 0.8 | 10 | 3 | 2.4 | 0.471 | 3.03 | 26.4 | 0.860 |
 | Jet Greaves | CBJ |  | 0.5 | 7 | 3 | 1.5 | 0.461 | 3.13 | 28.2 | 0.883 |
 | Cam Talbot | CBJ |  | 0.5 | 5 | 3 | 1.5 | 0.461 | 3.13 | 28.2 | 0.894 |
-| Dan Vladar | PHI |  | 0.5 | 8 | 3 | 1.5 | 0.402 | 3.09 | 27.4 | 0.885 |
 | Joseph Woll | PHI |  | 0.5 | 8 | 3 | 1.5 | 0.402 | 3.09 | 27.4 | 0.899 |
 | Anton Forsberg | LAK |  | 0.5 | 5 | 2 | 1.0 | 0.380 | 3.12 | 27.6 | 0.902 |
+| Darcy Kuemper | LAK |  | 0.5 | 8 | 2 | 1.0 | 0.380 | 3.12 | 27.6 | 0.878 |
