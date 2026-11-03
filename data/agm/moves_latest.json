@@ -1,6 +1,6 @@
 {
- "generated_at_et": "2026-11-03T07:26-05:00",
- "data_fetched_utc": "2026-11-03T12:26:10+00:00",
+ "generated_at_et": "2026-11-03T11:20-05:00",
+ "data_fetched_utc": "2026-11-03T16:20:22+00:00",
  "dates": [
   "2026-11-03",
   "2026-11-04",
@@ -10,11 +10,11 @@
   "2026-11-08"
  ],
  "weights": {
-  "G": 8.71,
-  "A": 5.99,
-  "PPP": 9.29,
-  "PIM": 3.04,
-  "PM": 4.64,
+  "G": 8.65,
+  "A": 6.19,
+  "PPP": 9.31,
+  "PIM": 3.08,
+  "PM": 4.61,
   "GWG": 21.6
  },
  "season_weights": {
@@ -28,23 +28,23 @@
  "matchup": {
   "G": {
    "us": 12.0,
-   "them": 11.9,
-   "p_win": 0.51
+   "them": 12.2,
+   "p_win": 0.48
   },
   "A": {
    "us": 20.9,
-   "them": 18.0,
-   "p_win": 0.69
+   "them": 18.5,
+   "p_win": 0.66
   },
   "PPP": {
    "us": 10.3,
-   "them": 9.5,
-   "p_win": 0.57
+   "them": 9.7,
+   "p_win": 0.56
   },
   "PIM": {
    "us": 24.1,
-   "them": 19.7,
-   "p_win": 0.64
+   "them": 20.5,
+   "p_win": 0.61
   },
   "PM": {
    "us": 2.3,
@@ -54,11 +54,11 @@
   "GWG": {
    "us": 1.8,
    "them": 1.4,
-   "p_win": 0.6
+   "p_win": 0.59
   }
  },
- "base_week_value": 310.15,
- "adds_left": 4,
+ "base_week_value": 312.87,
+ "adds_left": 2,
  "recommendations": [
   {
    "add": "Pavel Zacha",
@@ -91,46 +91,16 @@
    "drop_games": 2
   },
   {
-   "add": "Carter Verhaeghe",
-   "add_team": "FLA",
-   "add_pos": "LW",
-   "waiver": false,
-   "own_pct": 59,
-   "drop": "Mika Zibanejad",
-   "drop_team": "NYR",
-   "drop_keeper": false,
-   "week_gain": 12.3,
-   "ros_gain_per_week": 2.1,
-   "add_proj": {
-    "G": 0.39,
-    "A": 0.4,
-    "PPP": 0.23,
-    "PIM": 0.5,
-    "PM": -0.05,
-    "GWG": 0.06
-   },
-   "drop_proj": {
-    "G": 0.31,
-    "A": 0.56,
-    "PPP": 0.3,
-    "PIM": 0.2,
-    "PM": -0.2,
-    "GWG": 0.05
-   },
-   "add_games": 3,
-   "drop_games": 2
-  },
-  {
    "add": "Evgeni Malkin",
    "add_team": "PIT",
    "add_pos": "C,LW,RW",
    "waiver": false,
    "own_pct": 62,
-   "drop": "Moritz Seider",
-   "drop_team": "DET",
+   "drop": "Mika Zibanejad",
+   "drop_team": "NYR",
    "drop_keeper": false,
-   "week_gain": 4.1,
-   "ros_gain_per_week": 4.0,
+   "week_gain": 11.9,
+   "ros_gain_per_week": 1.4,
    "add_proj": {
     "G": 0.29,
     "A": 0.48,
@@ -140,12 +110,12 @@
     "GWG": 0.04
    },
    "drop_proj": {
-    "G": 0.08,
-    "A": 0.59,
+    "G": 0.31,
+    "A": 0.56,
     "PPP": 0.3,
-    "PIM": 0.48,
-    "PM": 0.04,
-    "GWG": 0.01
+    "PIM": 0.2,
+    "PM": -0.2,
+    "GWG": 0.05
    },
    "add_games": 3,
    "drop_games": 2
@@ -183,7 +153,7 @@
   {
    "name": "Moritz Seider",
    "team": "DET",
-   "value_pg": 9.94,
+   "value_pg": 9.95,
    "keeper": false,
    "keeper_top8": false
   },
@@ -433,20 +403,6 @@
    "team_win_pct": 0.479,
    "team_ga_pg": 3.37,
    "team_sa_pg": 30.0
-  },
-  {
-   "name": "Dustin Wolf",
-   "team": "CGY",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.86175,
-   "gs": 7,
-   "share": 0.67,
-   "team_games": 3,
-   "exp_starts": 2.0,
-   "team_win_pct": 0.437,
-   "team_ga_pg": 3.3,
-   "team_sa_pg": 29.9
   },
   {
    "name": "Stuart Skinner",

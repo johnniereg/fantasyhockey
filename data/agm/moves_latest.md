@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-03T07:26-05:00 ET (data 2026-11-03T12:26:10+00:00 UTC)
+# AGM moves — 2026-11-03T11:20-05:00 ET (data 2026-11-03T16:20:22+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,26 +6,23 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 12.0 | 11.9 | 51% | 8.71 | 9.0 |
-| A | 20.9 | 18.0 | 69% | 5.99 | 6.82 |
-| PPP | 10.3 | 9.5 | 57% | 9.29 | 11.03 |
-| PIM | 24.1 | 19.7 | 64% | 3.04 | 2.89 |
-| +/- | 2.3 | 2.3 | 50% | 4.64 | 3.99 |
-| GWG | 1.8 | 1.4 | 60% | 21.6 | 23.1 |
+| G | 12.0 | 12.2 | 48% | 8.65 | 9.0 |
+| A | 20.9 | 18.5 | 66% | 6.19 | 6.82 |
+| PPP | 10.3 | 9.7 | 56% | 9.31 | 11.03 |
+| PIM | 24.1 | 20.5 | 61% | 3.08 | 2.89 |
+| +/- | 2.3 | 2.3 | 50% | 4.61 | 3.99 |
+| GWG | 1.8 | 1.4 | 59% | 21.6 | 23.1 |
 
-## Recommended moves (4 adds left this week)
+## Recommended moves (2 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
 - **Add Pavel Zacha** (BOS C,LW) · **drop Shea Theodore** (VGK) — week +5.0 (2 vs 2 games left), later weeks +10.2/wk
   - add proj/g: {'G': 0.3, 'A': 0.5, 'PPP': 0.29, 'PIM': 0.34, 'PM': 0.06, 'GWG': 0.05}
   - drop proj/g: {'G': 0.13, 'A': 0.47, 'PPP': 0.16, 'PIM': 0.25, 'PM': 0.32, 'GWG': 0.02}
-- **Add Carter Verhaeghe** (FLA LW) · **drop Mika Zibanejad** (NYR) — week +12.3 (3 vs 2 games left), later weeks +2.1/wk
-  - add proj/g: {'G': 0.39, 'A': 0.4, 'PPP': 0.23, 'PIM': 0.5, 'PM': -0.05, 'GWG': 0.06}
-  - drop proj/g: {'G': 0.31, 'A': 0.56, 'PPP': 0.3, 'PIM': 0.2, 'PM': -0.2, 'GWG': 0.05}
-- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Moritz Seider** (DET) — week +4.1 (3 vs 2 games left), later weeks +4.0/wk
+- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Mika Zibanejad** (NYR) — week +11.9 (3 vs 2 games left), later weeks +1.4/wk
   - add proj/g: {'G': 0.29, 'A': 0.48, 'PPP': 0.23, 'PIM': 0.69, 'PM': -0.07, 'GWG': 0.04}
-  - drop proj/g: {'G': 0.08, 'A': 0.59, 'PPP': 0.3, 'PIM': 0.48, 'PM': 0.04, 'GWG': 0.01}
+  - drop proj/g: {'G': 0.31, 'A': 0.56, 'PPP': 0.3, 'PIM': 0.2, 'PM': -0.2, 'GWG': 0.05}
 
 ## Drop order (lowest projected value first, all skaters)
 
@@ -33,7 +30,7 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Joel Farabee (CGY) 8.94
 - Will Smith (SJS) 9.63 · keeper
 - Brock Nelson (COL) 9.86 · keeper
-- Moritz Seider (DET) 9.94
+- Moritz Seider (DET) 9.95
 - Mika Zibanejad (NYR) 10.71
 - Miro Heiskanen (DAL) 11.14 · keeper (top-8, protected)
 - Jack Quinn (BUF) 11.54
