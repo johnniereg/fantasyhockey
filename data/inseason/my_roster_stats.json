@@ -412,9 +412,7 @@
           {
            "has_player_notes": 1
           },
-          {
-           "has_recent_player_notes": 1
-          },
+          [],
           {
            "player_notes_last_timestamp": 1793645488
           }
@@ -1840,6 +1838,17 @@
           ]
          },
          {
+          "starting_status": [
+           {
+            "coverage_type": "date",
+            "date": "2026-11-03"
+           },
+           {
+            "is_starting": 0
+           }
+          ]
+         },
+         {
           "is_editable": 1
          },
          {
@@ -1976,9 +1985,11 @@
           {
            "has_player_notes": 1
           },
-          [],
           {
-           "player_notes_last_timestamp": 1793365750
+           "has_recent_player_notes": 1
+          },
+          {
+           "player_notes_last_timestamp": 1793722963
           }
          ],
          {
@@ -4116,7 +4127,7 @@
     }
    }
   ],
-  "time": "98.827838897705ms",
+  "time": "86.02499961853ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/roster;date=2026-11-03/players/stats;type=season"
  }

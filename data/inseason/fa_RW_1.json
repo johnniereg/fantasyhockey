@@ -65,8 +65,8 @@
          "url": "https://sports.yahoo.com/nhl/players/3638"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Lower Body"
@@ -143,9 +143,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793635051
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793724955
         }
        ],
        {
@@ -805,9 +807,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793645625
         }
@@ -1252,10 +1252,10 @@
           "week": 6
          },
          {
-          "value": 33
+          "value": 32
          },
          {
-          "delta": "-2"
+          "delta": "-3"
          }
         ]
        }
@@ -1470,10 +1470,10 @@
           "week": 6
          },
          {
-          "value": 35
+          "value": 34
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -2005,9 +2005,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793730156
+        }
        ],
        {
         "percent_owned": [
@@ -2238,10 +2244,10 @@
           "week": 6
          },
          {
-          "value": 16
+          "value": 15
          },
          {
-          "delta": "7"
+          "delta": "6"
          }
         ]
        }
@@ -2799,7 +2805,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "96.400022506714ms",
+  "time": "116.23907089233ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=25/percent_owned"
  }

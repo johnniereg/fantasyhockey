@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-03T11:20-05:00 ET (data 2026-11-03T16:20:22+00:00 UTC)
+# AGM moves — 2026-11-03T16:16-05:00 ET (data 2026-11-03T21:16:09+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -20,9 +20,6 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - **Add Pavel Zacha** (BOS C,LW) · **drop Shea Theodore** (VGK) — week +5.0 (2 vs 2 games left), later weeks +10.2/wk
   - add proj/g: {'G': 0.3, 'A': 0.5, 'PPP': 0.29, 'PIM': 0.34, 'PM': 0.06, 'GWG': 0.05}
   - drop proj/g: {'G': 0.13, 'A': 0.47, 'PPP': 0.16, 'PIM': 0.25, 'PM': 0.32, 'GWG': 0.02}
-- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Mika Zibanejad** (NYR) — week +11.9 (3 vs 2 games left), later weeks +1.4/wk
-  - add proj/g: {'G': 0.29, 'A': 0.48, 'PPP': 0.23, 'PIM': 0.69, 'PM': -0.07, 'GWG': 0.04}
-  - drop proj/g: {'G': 0.31, 'A': 0.56, 'PPP': 0.3, 'PIM': 0.2, 'PM': -0.2, 'GWG': 0.05}
 
 ## Drop order (lowest projected value first, all skaters)
 
