@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-03T05:42-05:00 ET (data 2026-11-03T10:41:33+00:00 UTC)
+# AGM moves — 2026-11-03T07:26-05:00 ET (data 2026-11-03T12:26:10+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,12 +6,12 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 12.0 | 12.2 | 48% | 8.65 | 9.0 |
-| A | 20.9 | 18.5 | 66% | 6.19 | 6.82 |
-| PPP | 10.3 | 9.7 | 56% | 9.31 | 11.04 |
-| PIM | 24.1 | 20.5 | 61% | 3.08 | 2.89 |
-| +/- | 2.3 | 2.3 | 50% | 4.61 | 3.99 |
-| GWG | 1.8 | 1.4 | 59% | 21.6 | 23.1 |
+| G | 12.0 | 11.9 | 51% | 8.71 | 9.0 |
+| A | 20.9 | 18.0 | 69% | 5.99 | 6.82 |
+| PPP | 10.3 | 9.5 | 57% | 9.29 | 11.03 |
+| PIM | 24.1 | 19.7 | 64% | 3.04 | 2.89 |
+| +/- | 2.3 | 2.3 | 50% | 4.64 | 3.99 |
+| GWG | 1.8 | 1.4 | 60% | 21.6 | 23.1 |
 
 ## Recommended moves (4 adds left this week)
 
@@ -33,7 +33,7 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Joel Farabee (CGY) 8.94
 - Will Smith (SJS) 9.63 · keeper
 - Brock Nelson (COL) 9.86 · keeper
-- Moritz Seider (DET) 9.95
+- Moritz Seider (DET) 9.94
 - Mika Zibanejad (NYR) 10.71
 - Miro Heiskanen (DAL) 11.14 · keeper (top-8, protected)
 - Jack Quinn (BUF) 11.54
