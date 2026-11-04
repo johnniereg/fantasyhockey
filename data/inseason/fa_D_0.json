@@ -719,8 +719,8 @@
          "url": "https://sports.yahoo.com/nhl/players/7950"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
          "injury_note": "Undisclosed"
@@ -1255,10 +1255,10 @@
           "week": 6
          },
          {
-          "value": 79
+          "value": 78
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -1782,9 +1782,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793344582
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1793808715
         }
        ],
        {
@@ -2222,9 +2224,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1793721933
         }
@@ -2343,10 +2343,10 @@
           "week": 6
          },
          {
-          "value": 64
+          "value": 65
          },
          {
-          "delta": "0"
+          "delta": "1"
          }
         ]
        }
@@ -2781,10 +2781,10 @@
           "week": 6
          },
          {
-          "value": 42
+          "value": 41
          },
          {
-          "delta": "2"
+          "delta": "1"
          }
         ]
        }
@@ -2795,7 +2795,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "87.587118148804ms",
+  "time": "84.282159805298ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=0/percent_owned"
  }

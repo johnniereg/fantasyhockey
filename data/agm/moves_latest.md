@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-04T07:26-05:00 ET (data 2026-11-04T12:25:44+00:00 UTC)
+# AGM moves — 2026-11-04T11:25-05:00 ET (data 2026-11-04T16:25:06+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
