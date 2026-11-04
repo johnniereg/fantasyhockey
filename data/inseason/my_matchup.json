@@ -176,15 +176,15 @@
            {
             "team_points": {
              "coverage_type": "week",
-             "total": "1",
+             "total": "4",
              "week": "6"
             },
             "team_remaining_games": {
              "coverage_type": "week",
              "total": {
-              "completed_games": 5,
+              "completed_games": 17,
               "live_games": 0,
-              "remaining_games": 49
+              "remaining_games": 37
              },
              "week": "6"
             },
@@ -194,79 +194,79 @@
               {
                "stat": {
                 "stat_id": "1",
-                "value": "0"
+                "value": "5"
                }
               },
               {
                "stat": {
                 "stat_id": "2",
-                "value": "2"
-               }
-              },
-              {
-               "stat": {
-                "stat_id": "4",
-                "value": "1"
-               }
-              },
-              {
-               "stat": {
-                "stat_id": "5",
                 "value": "6"
                }
               },
               {
                "stat": {
+                "stat_id": "4",
+                "value": "3"
+               }
+              },
+              {
+               "stat": {
+                "stat_id": "5",
+                "value": "16"
+               }
+              },
+              {
+               "stat": {
                 "stat_id": "8",
-                "value": "0"
+                "value": "3"
                }
               },
               {
                "stat": {
                 "stat_id": "12",
-                "value": "0"
+                "value": "2"
                }
               },
               {
                "stat": {
                 "stat_id": "19",
-                "value": ""
+                "value": "0"
                }
               },
               {
                "stat": {
                 "stat_id": "22",
-                "value": ""
+                "value": "3"
                }
               },
               {
                "stat": {
                 "stat_id": "23",
-                "value": ""
+                "value": "3.02"
                }
               },
               {
                "stat": {
                 "stat_id": "25",
-                "value": ""
+                "value": "20"
                }
               },
               {
                "stat": {
                 "stat_id": "24",
-                "value": ""
+                "value": "23"
                }
               },
               {
                "stat": {
                 "stat_id": "26",
-                "value": ""
+                "value": ".870"
                }
               },
               {
                "stat": {
                 "stat_id": "27",
-                "value": ""
+                "value": "0"
                }
               }
              ],
@@ -356,15 +356,15 @@
            {
             "team_points": {
              "coverage_type": "week",
-             "total": "2",
+             "total": "3",
              "week": "6"
             },
             "team_remaining_games": {
              "coverage_type": "week",
              "total": {
-              "completed_games": 5,
+              "completed_games": 17,
               "live_games": 0,
-              "remaining_games": 38
+              "remaining_games": 26
              },
              "week": "6"
             },
@@ -374,19 +374,19 @@
               {
                "stat": {
                 "stat_id": "1",
-                "value": "3"
+                "value": "5"
                }
               },
               {
                "stat": {
                 "stat_id": "2",
-                "value": "2"
+                "value": "10"
                }
               },
               {
                "stat": {
                 "stat_id": "4",
-                "value": "1"
+                "value": "-12"
                }
               },
               {
@@ -398,7 +398,7 @@
               {
                "stat": {
                 "stat_id": "8",
-                "value": "2"
+                "value": "7"
                }
               },
               {
@@ -410,43 +410,43 @@
               {
                "stat": {
                 "stat_id": "19",
-                "value": ""
+                "value": "0"
                }
               },
               {
                "stat": {
                 "stat_id": "22",
-                "value": ""
+                "value": "8"
                }
               },
               {
                "stat": {
                 "stat_id": "23",
-                "value": ""
+                "value": "3.93"
                }
               },
               {
                "stat": {
                 "stat_id": "25",
-                "value": ""
+                "value": "60"
                }
               },
               {
                "stat": {
                 "stat_id": "24",
-                "value": ""
+                "value": "68"
                }
               },
               {
                "stat": {
                 "stat_id": "26",
-                "value": ""
+                "value": ".882"
                }
               },
               {
                "stat": {
                 "stat_id": "27",
-                "value": ""
+                "value": "0"
                }
               }
              ],
@@ -464,20 +464,20 @@
        "stat_winners": [
         {
          "stat_winner": {
-          "stat_id": "1",
+          "is_tied": 1,
+          "stat_id": "1"
+         }
+        },
+        {
+         "stat_winner": {
+          "stat_id": "2",
           "winner_team_key": "477.l.12088.t.3"
          }
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "2"
-         }
-        },
-        {
-         "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "4"
+          "stat_id": "4",
+          "winner_team_key": "477.l.12088.t.1"
          }
         },
         {
@@ -494,8 +494,8 @@
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "12"
+          "stat_id": "12",
+          "winner_team_key": "477.l.12088.t.1"
          }
         },
         {
@@ -506,14 +506,14 @@
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "23"
+          "stat_id": "23",
+          "winner_team_key": "477.l.12088.t.1"
          }
         },
         {
          "stat_winner": {
-          "is_tied": 1,
-          "stat_id": "26"
+          "stat_id": "26",
+          "winner_team_key": "477.l.12088.t.3"
          }
         },
         {
@@ -533,7 +533,7 @@
     }
    }
   ],
-  "time": "121.20509147644ms",
+  "time": "113.85107040405ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/team/477.l.12088.t.1/matchups;weeks=6"
  }
