@@ -1,6 +1,6 @@
 {
- "generated_at_et": "2026-11-04T11:25-05:00",
- "data_fetched_utc": "2026-11-04T16:25:06+00:00",
+ "generated_at_et": "2026-11-04T16:16-05:00",
+ "data_fetched_utc": "2026-11-04T21:16:15+00:00",
  "dates": [
   "2026-11-04",
   "2026-11-05",
@@ -9,12 +9,12 @@
   "2026-11-08"
  ],
  "weights": {
-  "G": 7.52,
-  "A": 6.76,
-  "PPP": 9.27,
-  "PIM": 1.21,
-  "PM": 0.71,
-  "GWG": 7.54
+  "G": 6.43,
+  "A": 7.36,
+  "PPP": 9.71,
+  "PIM": 1.1,
+  "PM": 0.59,
+  "GWG": 6.21
  },
  "season_weights": {
   "G": 8.98,
@@ -26,38 +26,38 @@
  },
  "matchup": {
   "G": {
-   "us": 14.7,
-   "them": 11.7,
-   "p_win": 0.77
+   "us": 14.4,
+   "them": 10.6,
+   "p_win": 0.83
   },
   "A": {
-   "us": 19.1,
-   "them": 22.0,
-   "p_win": 0.28
+   "us": 18.0,
+   "them": 20.4,
+   "p_win": 0.3
   },
   "PPP": {
-   "us": 10.5,
-   "them": 12.6,
+   "us": 10.0,
+   "them": 12.0,
    "p_win": 0.28
   },
   "PIM": {
-   "us": 30.0,
-   "them": 14.1,
-   "p_win": 0.93
+   "us": 29.1,
+   "them": 12.9,
+   "p_win": 0.94
   },
   "PM": {
-   "us": 3.1,
-   "them": -11.7,
+   "us": 2.9,
+   "them": -12.1,
    "p_win": 0.98
   },
   "GWG": {
-   "us": 3.5,
-   "them": 1.0,
-   "p_win": 0.94
+   "us": 3.4,
+   "them": 0.9,
+   "p_win": 0.96
   }
  },
- "base_week_value": 228.3,
- "adds_left": 2,
+ "base_week_value": 209.88,
+ "adds_left": 1,
  "recommendations": [
   {
    "add": "Pavel Zacha",
@@ -68,7 +68,7 @@
    "drop": "Brock Nelson",
    "drop_team": "COL",
    "drop_keeper": true,
-   "week_gain": 11.3,
+   "week_gain": 11.5,
    "ros_gain_per_week": 6.9,
    "add_proj": {
     "G": 0.3,
@@ -87,36 +87,6 @@
     "GWG": 0.05
    },
    "add_games": 2,
-   "drop_games": 2
-  },
-  {
-   "add": "Nico Hischier",
-   "add_team": "NJD",
-   "add_pos": "C",
-   "waiver": false,
-   "own_pct": 83,
-   "drop": "Joel Farabee",
-   "drop_team": "CGY",
-   "drop_keeper": false,
-   "week_gain": 3.0,
-   "ros_gain_per_week": 8.0,
-   "add_proj": {
-    "G": 0.37,
-    "A": 0.36,
-    "PPP": 0.3,
-    "PIM": 0.29,
-    "PM": 0.03,
-    "GWG": 0.06
-   },
-   "drop_proj": {
-    "G": 0.27,
-    "A": 0.38,
-    "PPP": 0.2,
-    "PIM": 0.44,
-    "PM": -0.15,
-    "GWG": 0.04
-   },
-   "add_games": 3,
    "drop_games": 2
   }
  ],
@@ -139,13 +109,6 @@
    "name": "Will Smith",
    "team": "SJS",
    "value_pg": 9.58,
-   "keeper": true,
-   "keeper_top8": false
-  },
-  {
-   "name": "Miro Heiskanen",
-   "team": "DAL",
-   "value_pg": 9.92,
    "keeper": true,
    "keeper_top8": false
   },
@@ -173,7 +136,7 @@
   {
    "name": "Cole Hutson",
    "team": "WSH",
-   "value_pg": 11.65,
+   "value_pg": 11.64,
    "keeper": true,
    "keeper_top8": true
   },

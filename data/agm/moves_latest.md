@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-04T11:25-05:00 ET (data 2026-11-04T16:25:06+00:00 UTC)
+# AGM moves — 2026-11-04T16:16-05:00 ET (data 2026-11-04T21:16:15+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,34 +6,31 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 14.7 | 11.7 | 77% | 7.52 | 8.98 |
-| A | 19.1 | 22.0 | 28% | 6.76 | 6.79 |
-| PPP | 10.5 | 12.6 | 28% | 9.27 | 10.93 |
-| PIM | 30.0 | 14.1 | 93% | 1.21 | 2.89 |
-| +/- | 3.1 | -11.7 | 98% | 0.71 | 3.99 |
-| GWG | 3.5 | 1.0 | 94% | 7.54 | 23.03 |
+| G | 14.4 | 10.6 | 83% | 6.43 | 8.98 |
+| A | 18.0 | 20.4 | 30% | 7.36 | 6.79 |
+| PPP | 10.0 | 12.0 | 28% | 9.71 | 10.93 |
+| PIM | 29.1 | 12.9 | 94% | 1.1 | 2.89 |
+| +/- | 2.9 | -12.1 | 98% | 0.59 | 3.99 |
+| GWG | 3.4 | 0.9 | 96% | 6.21 | 23.03 |
 
-## Recommended moves (2 adds left this week)
+## Recommended moves (1 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Pavel Zacha** (BOS C,LW) · **drop Brock Nelson** (COL, keeper) — week +11.3 (2 vs 2 games left), later weeks +6.9/wk
+- **Add Pavel Zacha** (BOS C,LW) · **drop Brock Nelson** (COL, keeper) — week +11.5 (2 vs 2 games left), later weeks +6.9/wk
   - add proj/g: {'G': 0.3, 'A': 0.5, 'PPP': 0.29, 'PIM': 0.34, 'PM': 0.06, 'GWG': 0.05}
   - drop proj/g: {'G': 0.3, 'A': 0.33, 'PPP': 0.16, 'PIM': 0.41, 'PM': 0.14, 'GWG': 0.05}
-- **Add Nico Hischier** (NJD C) · **drop Joel Farabee** (CGY) — week +3.0 (3 vs 2 games left), later weeks +8.0/wk
-  - add proj/g: {'G': 0.37, 'A': 0.36, 'PPP': 0.3, 'PIM': 0.29, 'PM': 0.03, 'GWG': 0.06}
-  - drop proj/g: {'G': 0.27, 'A': 0.38, 'PPP': 0.2, 'PIM': 0.44, 'PM': -0.15, 'GWG': 0.04}
 
 ## Drop order (lowest projected value first, all skaters)
 
 - Joel Farabee (CGY) 8.9
 - Brock Nelson (COL) 9.47 · keeper
 - Will Smith (SJS) 9.58 · keeper
-- Miro Heiskanen (DAL) 9.92 · keeper
 - Moritz Seider (DET) 10.04
 - Carter Verhaeghe (FLA) 11.26
 - Jack Quinn (BUF) 11.48
-- Cole Hutson (WSH) 11.65 · keeper (top-8, protected)
+- Cole Hutson (WSH) 11.64 · keeper (top-8, protected)
+- J.T. Miller (NYR) 12.27
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
