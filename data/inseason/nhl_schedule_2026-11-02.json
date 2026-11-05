@@ -1579,32 +1579,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
       "id": 9,
       "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.80"
-       },
-       {
-        "providerId": 9,
-        "value": "+105"
-       },
-       {
-        "providerId": 7,
-        "value": "+105"
-       },
-       {
-        "providerId": 8,
-        "value": "+106"
-       },
-       {
-        "providerId": 3,
-        "value": "2.06"
-       },
-       {
-        "providerId": 10,
-        "value": "2.65"
-       }
-      ],
       "placeName": {
        "default": "Ottawa"
       },
@@ -1612,12 +1586,17 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/ott-at-buf-condensed-game-6407935869112",
+     "condensedGameFr": "/fr/video/match-condense-senators-sabres-04-11-2026-6407936737112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/ott-vs-buf/2026/11/04/2026020247",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -1628,32 +1607,6 @@
       "homeSplitSquad": false,
       "id": 7,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.02"
-       },
-       {
-        "providerId": 9,
-        "value": "-125"
-       },
-       {
-        "providerId": 7,
-        "value": "-126"
-       },
-       {
-        "providerId": 8,
-        "value": "-128"
-       },
-       {
-        "providerId": 3,
-        "value": "1.79"
-       },
-       {
-        "providerId": 10,
-        "value": "2.30"
-       }
-      ],
       "placeName": {
        "default": "Buffalo"
       },
@@ -1661,19 +1614,19 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "score": 1
      },
      "id": 2026020247,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-05T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/000064EFCB28802A?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/000064EFCB28802A?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/ott-at-buf-recap-6407936357112",
+     "threeMinRecapFr": "/fr/video/ott-vs-buf-04-11-2026-resume-6407935462112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1694,7 +1647,25 @@
       "default": "KeyBank Center"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Amadio"
+      },
+      "playerId": 8478020
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Ersson"
+      },
+      "playerId": 8481035
+     }
     },
     {
      "awayTeam": {
@@ -1706,32 +1677,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg",
       "id": 16,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.95"
-       },
-       {
-        "providerId": 9,
-        "value": "+210"
-       },
-       {
-        "providerId": 7,
-        "value": "+205"
-       },
-       {
-        "providerId": 8,
-        "value": "+211"
-       },
-       {
-        "providerId": 3,
-        "value": "3.03"
-       },
-       {
-        "providerId": 10,
-        "value": "4.20"
-       }
-      ],
       "placeName": {
        "default": "Chicago"
       },
@@ -1739,12 +1684,16 @@
        "default": "Chicago",
        "fr": "de Chicago"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CHI/20262027/CHI-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/chi-at-fla-condensed-game-6407934079112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/chi-vs-fla/2026/11/04/2026020248",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "FLA",
@@ -1755,32 +1704,6 @@
       "homeSplitSquad": false,
       "id": 13,
       "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.40"
-       },
-       {
-        "providerId": 9,
-        "value": "-258"
-       },
-       {
-        "providerId": 7,
-        "value": "-255"
-       },
-       {
-        "providerId": 8,
-        "value": "-267"
-       },
-       {
-        "providerId": 3,
-        "value": "1.39"
-       },
-       {
-        "providerId": 10,
-        "value": "1.70"
-       }
-      ],
       "placeName": {
        "default": "Florida",
        "fr": "Floride"
@@ -1789,19 +1712,19 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "score": 5
      },
      "id": 2026020248,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-05T00:30:00Z",
-     "ticketsLink": "https://seatgeek.com/florida-panthers-tickets/11-4-2026-sunrise-florida-amerant-bank-arena/nhl/18362764?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
-     "ticketsLinkFr": "https://seatgeek.com/florida-panthers-tickets/11-4-2026-sunrise-florida-amerant-bank-arena/nhl/18362764?aid=15999&pid=web&rid=80426&utm_medium=partnership&utm_source=panthers_ticketing&utm_campaign=web",
+     "threeMinRecap": "/video/chi-at-fla-recap-6407937129112",
+     "threeMinRecapFr": "/fr/video/chi-vs-fla-04-11-2026-resume-6407936733112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1829,7 +1752,29 @@
       "default": "Amerant Bank Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Vilmanis"
+      },
+      "playerId": 8483771
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "cs": "Markstr\u00f6m",
+       "default": "Markstrom",
+       "fi": "Markstr\u00f6m",
+       "sk": "Markstr\u00f6m",
+       "sv": "Markstr\u00f6m"
+      },
+      "playerId": 8474593
+     }
     },
     {
      "awayTeam": {
@@ -1841,32 +1786,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg",
       "id": 28,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.39"
-       },
-       {
-        "providerId": 6,
-        "value": "1.62"
-       },
-       {
-        "providerId": 9,
-        "value": "+140"
-       },
-       {
-        "providerId": 7,
-        "value": "+136"
-       },
-       {
-        "providerId": 8,
-        "value": "+138"
-       },
-       {
-        "providerId": 10,
-        "value": "3.15"
-       }
-      ],
       "placeName": {
        "default": "San Jose"
       },
@@ -1874,12 +1793,16 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/sjs-at-lak-condensed-game-6407941029112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/sjs-vs-lak/2026/11/04/2026020249",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "LAK",
@@ -1890,32 +1813,6 @@
       "homeSplitSquad": false,
       "id": 26,
       "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.59"
-       },
-       {
-        "providerId": 6,
-        "value": "2.30"
-       },
-       {
-        "providerId": 9,
-        "value": "-166"
-       },
-       {
-        "providerId": 7,
-        "value": "-164"
-       },
-       {
-        "providerId": 8,
-        "value": "-168"
-       },
-       {
-        "providerId": 10,
-        "value": "2.00"
-       }
-      ],
       "placeName": {
        "default": "Los Angeles"
       },
@@ -1923,19 +1820,19 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "score": 7
      },
      "id": 2026020249,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-05T03:00:00Z",
-     "ticketsLink": "https://www.axs.com/events/1457741/la-kings-vs-san-jose-sharks-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261104&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261104&tags=LAKWEB",
-     "ticketsLinkFr": "https://www.axs.com/events/1457741/la-kings-vs-san-jose-sharks-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261104&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261104&tags=LAKWEB",
+     "threeMinRecap": "/video/sjs-at-lak-recap-6407941444112",
+     "threeMinRecapFr": "/fr/video/sjs-vs-lak-04-11-2026-resume-6407941324112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1963,7 +1860,25 @@
       "default": "Crypto.com Arena"
      },
      "venueTimezone": "America/Los_Angeles",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "Q."
+      },
+      "lastName": {
+       "default": "Byfield"
+      },
+      "playerId": 8482124
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Kuemper"
+      },
+      "playerId": 8475311
+     }
     },
     {
      "awayTeam": {
@@ -1975,32 +1890,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg",
       "id": 20,
       "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "+113"
-       },
-       {
-        "providerId": 7,
-        "value": "+112"
-       },
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 6,
-        "value": "2.07"
-       },
-       {
-        "providerId": 3,
-        "value": "2.11"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Calgary"
       },
@@ -2008,12 +1897,16 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/cgy-at-sea-condensed-game-6407940924112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/cgy-vs-sea/2026/11/04/2026020250",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SEA",
@@ -2024,32 +1917,6 @@
       "homeSplitSquad": false,
       "id": 55,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-137"
-       },
-       {
-        "providerId": 7,
-        "value": "-134"
-       },
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 6,
-        "value": "1.76"
-       },
-       {
-        "providerId": 3,
-        "value": "1.76"
-       },
-       {
-        "providerId": 10,
-        "value": "2.25"
-       }
-      ],
       "placeName": {
        "default": "Seattle"
       },
@@ -2057,19 +1924,19 @@
        "default": "Seattle",
        "fr": "de Seattle"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SEA/20262027/SEA-radio.m3u8"
+      "score": 2
      },
      "id": 2026020250,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-05T03:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/0F0064C4A055A26F?brand=nhl&wt.mc_id=NHL_LEAGUE_SEA_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SEA&utm_content=SCHED_PG_GM7",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/0F0064C4A055A26F?brand=nhl&wt.mc_id=NHL_LEAGUE_SEA_SCHED_PG_GM7&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SEA&utm_content=SCHED_PG_GM7",
+     "threeMinRecap": "/video/cgy-at-sea-recap-6407942016112",
+     "threeMinRecapFr": "/fr/video/cgy-vs-sea-04-11-2026-resume-6407941707112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -2097,7 +1964,25 @@
       "default": "Climate Pledge Arena"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Beniers"
+      },
+      "playerId": 8482665
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Daccord"
+      },
+      "playerId": 8478916
+     }
     }
    ],
    "numberOfGames": 4
