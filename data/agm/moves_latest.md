@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-05T05:42-05:00 ET (data 2026-11-05T10:41:31+00:00 UTC)
+# AGM moves — 2026-11-05T07:26-05:00 ET (data 2026-11-05T12:25:43+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -27,7 +27,7 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Thomas Harley (DAL) 8.48
 - Will Smith (SJS) 9.42 · keeper
 - Brock Nelson (COL) 9.47 · keeper
-- Moritz Seider (DET) 10.05
+- Moritz Seider (DET) 10.04
 - Jack Quinn (BUF) 11.21
 - Carter Verhaeghe (FLA) 11.64
 - Cole Hutson (WSH) 11.65 · keeper (top-8, protected)
