@@ -1,18 +1,18 @@
 {
- "generated_at_et": "2026-11-06T05:41-05:00",
- "data_fetched_utc": "2026-11-06T10:41:30+00:00",
+ "generated_at_et": "2026-11-06T11:00-05:00",
+ "data_fetched_utc": "2026-11-06T15:59:46+00:00",
  "dates": [
   "2026-11-06",
   "2026-11-07",
   "2026-11-08"
  ],
  "weights": {
-  "G": 6.0,
-  "A": 8.56,
-  "PPP": 12.75,
-  "PIM": 2.23,
-  "PM": 0.05,
-  "GWG": 4.8
+  "G": 6.89,
+  "A": 6.86,
+  "PPP": 12.15,
+  "PIM": 2.71,
+  "PM": 0.08,
+  "GWG": 5.5
  },
  "season_weights": {
   "G": 8.98,
@@ -25,27 +25,27 @@
  "matchup": {
   "G": {
    "us": 13.6,
-   "them": 9.7,
-   "p_win": 0.89
+   "them": 10.1,
+   "p_win": 0.86
   },
   "A": {
    "us": 18.6,
-   "them": 20.9,
-   "p_win": 0.28
+   "them": 22.0,
+   "p_win": 0.2
   },
   "PPP": {
    "us": 11.0,
-   "them": 12.2,
-   "p_win": 0.34
+   "them": 12.4,
+   "p_win": 0.31
   },
   "PIM": {
    "us": 25.2,
-   "them": 14.8,
-   "p_win": 0.89
+   "them": 16.3,
+   "p_win": 0.84
   },
   "PM": {
    "us": 3.4,
-   "them": -14.8,
+   "them": -14.2,
    "p_win": 1.0
   },
   "GWG": {
@@ -54,7 +54,7 @@
    "p_win": 0.97
   }
  },
- "base_week_value": 137.35,
+ "base_week_value": 132.66,
  "adds_left": 1,
  "recommendations": [
   {
@@ -66,7 +66,7 @@
    "drop": "Brock Nelson",
    "drop_team": "COL",
    "drop_keeper": true,
-   "week_gain": 10.8,
+   "week_gain": 10.4,
    "ros_gain_per_week": 8.5,
    "add_proj": {
     "G": 0.33,
@@ -211,20 +211,6 @@
    "team_sa_pg": 25.6
   },
   {
-   "name": "Matt Tomkins",
-   "team": "EDM",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.87755,
-   "gs": 2,
-   "share": 1.0,
-   "team_games": 1,
-   "exp_starts": 1.0,
-   "team_win_pct": 0.568,
-   "team_ga_pg": 3.13,
-   "team_sa_pg": 26.6
-  },
-  {
    "name": "Colten Ellis",
    "team": "BUF",
    "ours": false,
@@ -281,15 +267,15 @@
    "team_sa_pg": 25.8
   },
   {
-   "name": "Daniil Tarasov",
+   "name": "John Gibson",
    "team": "DET",
    "ours": false,
-   "status": "",
-   "sv_season": 0.92993,
-   "gs": 5,
-   "share": 0.67,
+   "status": "DTD",
+   "sv_season": 0.85957,
+   "gs": 11,
+   "share": 0.5,
    "team_games": 1,
-   "exp_starts": 0.7,
+   "exp_starts": 0.5,
    "team_win_pct": 0.459,
    "team_ga_pg": 3.03,
    "team_sa_pg": 26.6
@@ -561,6 +547,20 @@
    "team_sa_pg": 28.0
   },
   {
+   "name": "Matt Tomkins",
+   "team": "EDM",
+   "ours": false,
+   "status": "",
+   "sv_season": 0.87755,
+   "gs": 2,
+   "share": 0.33,
+   "team_games": 1,
+   "exp_starts": 0.3,
+   "team_win_pct": 0.568,
+   "team_ga_pg": 3.13,
+   "team_sa_pg": 26.6
+  },
+  {
    "name": "Charlie Lindgren",
    "team": "WSH",
    "ours": false,
@@ -623,23 +623,23 @@
    "status": "",
    "sv_season": 0.88571,
    "gs": 1,
-   "share": 0.33,
+   "share": 0.17,
    "team_games": 1,
-   "exp_starts": 0.3,
+   "exp_starts": 0.2,
    "team_win_pct": 0.459,
    "team_ga_pg": 3.03,
    "team_sa_pg": 26.6
   },
   {
-   "name": "John Gibson",
+   "name": "Daniil Tarasov",
    "team": "DET",
    "ours": false,
-   "status": "O",
-   "sv_season": 0.85957,
-   "gs": 11,
-   "share": 0,
+   "status": "",
+   "sv_season": 0.92993,
+   "gs": 5,
+   "share": 0.33,
    "team_games": 1,
-   "exp_starts": 0,
+   "exp_starts": 0.3,
    "team_win_pct": 0.459,
    "team_ga_pg": 3.03,
    "team_sa_pg": 26.6
