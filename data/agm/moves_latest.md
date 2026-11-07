@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-07T05:41-05:00 ET (data 2026-11-07T10:41:31+00:00 UTC)
+# AGM moves — 2026-11-07T09:57-05:00 ET (data 2026-11-07T14:56:46+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,26 +6,26 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 14.2 | 10.6 | 90% | 6.1 | 8.99 |
-| A | 19.9 | 22.8 | 21% | 8.14 | 6.8 |
-| PPP | 11.3 | 12.9 | 26% | 13.14 | 10.95 |
-| PIM | 24.4 | 17.3 | 82% | 3.35 | 2.89 |
-| +/- | 11.4 | -11.5 | 100% | 0.0 | 3.99 |
-| GWG | 3.6 | 0.5 | 100% | 0.64 | 23.06 |
+| G | 14.2 | 9.9 | 95% | 4.12 | 8.99 |
+| A | 19.9 | 21.8 | 29% | 10.07 | 6.8 |
+| PPP | 11.3 | 12.5 | 31% | 14.62 | 10.95 |
+| PIM | 24.4 | 16.3 | 85% | 2.98 | 2.89 |
+| +/- | 11.4 | -11.6 | 100% | 0.0 | 3.99 |
+| GWG | 3.6 | 0.4 | 100% | 0.35 | 23.06 |
 
 ## Recommended moves (1 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Pavel Zacha** (BOS C,LW) · **drop Thomas Harley** (DAL) — week +11.0 (1 vs 0 games left), later weeks +11.7/wk
+- **Add Pavel Zacha** (BOS C,LW) · **drop Thomas Harley** (DAL) — week +11.5 (1 vs 0 games left), later weeks +11.7/wk
   - add proj/g: {'G': 0.33, 'A': 0.49, 'PPP': 0.28, 'PIM': 0.38, 'PM': 0.08, 'GWG': 0.05}
   - drop proj/g: {'G': 0.13, 'A': 0.47, 'PPP': 0.14, 'PIM': 0.42, 'PM': 0.23, 'GWG': 0.02}
 
 ## Drop order (lowest projected value first, all skaters)
 
 - Thomas Harley (DAL) 8.51
-- Joel Farabee (CGY) 9.11
-- Brock Nelson (COL) 9.44 · keeper
+- Joel Farabee (CGY) 9.1
+- Brock Nelson (COL) 9.43 · keeper
 - Moritz Seider (DET) 9.73
 - Will Smith (SJS) 9.73 · keeper
 - Jack Quinn (BUF) 11.53
