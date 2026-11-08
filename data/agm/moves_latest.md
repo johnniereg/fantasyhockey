@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-07T09:57-05:00 ET (data 2026-11-07T14:56:46+00:00 UTC)
+# AGM moves — 2026-11-08T05:42-05:00 ET (data 2026-11-08T10:42:42+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,31 +6,29 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 14.2 | 9.9 | 95% | 4.12 | 8.99 |
-| A | 19.9 | 21.8 | 29% | 10.07 | 6.8 |
-| PPP | 11.3 | 12.5 | 31% | 14.62 | 10.95 |
-| PIM | 24.4 | 16.3 | 85% | 2.98 | 2.89 |
-| +/- | 11.4 | -11.6 | 100% | 0.0 | 3.99 |
-| GWG | 3.6 | 0.4 | 100% | 0.35 | 23.06 |
+| G | 14.0 | 12.2 | 84% | 13.5 | 8.98 |
+| A | 20.1 | 24.5 | 2% | 2.39 | 6.8 |
+| PPP | 14.4 | 16.1 | 14% | 13.75 | 10.93 |
+| PIM | 37.1 | 30.3 | 93% | 2.97 | 2.89 |
+| +/- | 9.9 | -10.1 | 100% | 0.0 | 3.99 |
+| GWG | 4.3 | 0.2 | 100% | 0.0 | 23.05 |
 
-## Recommended moves (1 adds left this week)
+## Recommended moves (0 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Pavel Zacha** (BOS C,LW) · **drop Thomas Harley** (DAL) — week +11.5 (1 vs 0 games left), later weeks +11.7/wk
-  - add proj/g: {'G': 0.33, 'A': 0.49, 'PPP': 0.28, 'PIM': 0.38, 'PM': 0.08, 'GWG': 0.05}
-  - drop proj/g: {'G': 0.13, 'A': 0.47, 'PPP': 0.14, 'PIM': 0.42, 'PM': 0.23, 'GWG': 0.02}
+None clear the bar.
 
 ## Drop order (lowest projected value first, all skaters)
 
-- Thomas Harley (DAL) 8.51
 - Joel Farabee (CGY) 9.1
-- Brock Nelson (COL) 9.43 · keeper
-- Moritz Seider (DET) 9.73
-- Will Smith (SJS) 9.73 · keeper
-- Jack Quinn (BUF) 11.53
-- Carter Verhaeghe (FLA) 11.66
-- Cole Hutson (WSH) 11.66 · keeper (top-8, protected)
+- Thomas Harley (DAL) 9.29
+- Moritz Seider (DET) 9.9
+- Will Smith (SJS) 10.53 · keeper
+- Cole Hutson (WSH) 11.43 · keeper
+- Jack Quinn (BUF) 11.52
+- Carter Verhaeghe (FLA) 11.9
+- Pavel Zacha (BOS) 11.94
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
@@ -38,16 +36,16 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 
 | Goalie | Team | Ours | Share of last 6 (healthy) | Starts this season | Team games left | Exp starts | Team W% | Team GA/GP | Team SA/GP | Season SV% |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Karel Vejmelka | UTA | ✔ | 0.5 | 11 | 0 | 0.0 | 0.554 | 3.18 | 25.8 | 0.872 |
-| Dustin Wolf | CGY | ✔ | 0.8 | 9 | 1 | 0.8 | 0.413 | 3.31 | 29.9 | 0.869 |
-| Devin Cooley | CGY | ✔ | 0.2 | 7 | 1 | 0.2 | 0.413 | 3.31 | 29.9 | 0.914 |
-| Semyon Varlamov | NYI |  | 0.5 | 5 | 0 | 0.0 | 0.500 | 2.87 | 27.4 | 0.892 |
-| Jonas Johansson | OTT |  | 0.67 | 4 | 0 | 0.0 | 0.560 | 3.02 | 25.6 | 0.848 |
-| Colten Ellis | BUF |  | 0.5 | 6 | 1 | 0.5 | 0.561 | 3.07 | 28.2 | 0.891 |
-| Sebastian Cossa | UTA |  | 0.5 | 6 | 0 | 0.0 | 0.554 | 3.18 | 25.8 | 0.871 |
-| John Gibson (DTD) | DET |  | 0.5 | 11 | 0 | 0.0 | 0.459 | 3.03 | 26.6 | 0.860 |
-| Akira Schmid | FLA |  | 0.6 | 7 | 1 | 0.6 | 0.521 | 3.16 | 25.6 | 0.889 |
-| Jet Greaves | CBJ |  | 0.5 | 8 | 0 | 0.0 | 0.479 | 3.09 | 28.6 | 0.880 |
-| Cam Talbot | CBJ |  | 0.5 | 7 | 0 | 0.0 | 0.479 | 3.09 | 28.6 | 0.911 |
-| Justus Annunen | NSH |  | 0.5 | 4 | 0 | 0.0 | 0.452 | 3.11 | 29.4 | 0.874 |
-| Anton Forsberg | LAK |  | 0.5 | 5 | 0 | 0.0 | 0.398 | 3.09 | 27.7 | 0.902 |
+| Karel Vejmelka | UTA | ✔ | 0.5 | 12 | 0 | 0.0 | 0.539 | 3.2 | 25.7 | 0.870 |
+| Dustin Wolf | CGY | ✔ | 0.8 | 9 | 0 | 0.0 | 0.413 | 3.31 | 29.9 | 0.869 |
+| Devin Cooley | CGY | ✔ | 0.2 | 7 | 0 | 0.0 | 0.413 | 3.31 | 29.9 | 0.914 |
+| Jonas Johansson | OTT |  | 0.5 | 4 | 0 | 0.0 | 0.572 | 2.99 | 25.8 | 0.848 |
+| Samuel Ersson | OTT |  | 0.5 | 6 | 0 | 0.0 | 0.572 | 2.99 | 25.8 | 0.889 |
+| Colten Ellis | BUF |  | 0.5 | 6 | 0 | 0.0 | 0.561 | 3.07 | 28.2 | 0.891 |
+| Sebastian Cossa | UTA |  | 0.5 | 6 | 0 | 0.0 | 0.539 | 3.2 | 25.7 | 0.871 |
+| Jet Greaves | CBJ |  | 0.5 | 8 | 0 | 0.0 | 0.479 | 3.09 | 28.5 | 0.880 |
+| Cam Talbot | CBJ |  | 0.5 | 7 | 0 | 0.0 | 0.479 | 3.09 | 28.5 | 0.911 |
+| Daniil Tarasov | DET |  | 1.0 | 6 | 0 | 0.0 | 0.447 | 3.05 | 26.6 | 0.919 |
+| Akira Schmid | FLA |  | 0.67 | 8 | 0 | 0.0 | 0.507 | 3.18 | 25.8 | 0.886 |
+| Joseph Woll | PHI |  | 0.5 | 9 | 0 | 0.0 | 0.381 | 3.11 | 27.3 | 0.899 |
+| Joey Daccord | SEA |  | 0.5 | 8 | 0 | 0.0 | 0.480 | 3.32 | 29.8 | 0.881 |
