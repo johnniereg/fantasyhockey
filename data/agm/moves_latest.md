@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-08T05:42-05:00 ET (data 2026-11-08T10:42:42+00:00 UTC)
+# AGM moves — 2026-11-08T10:22-05:00 ET (data 2026-11-08T15:21:48+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,10 +6,10 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 14.0 | 12.2 | 84% | 13.5 | 8.98 |
-| A | 20.1 | 24.5 | 2% | 2.39 | 6.8 |
-| PPP | 14.4 | 16.1 | 14% | 13.75 | 10.93 |
-| PIM | 37.1 | 30.3 | 93% | 2.97 | 2.89 |
+| G | 14.0 | 12.5 | 79% | 15.42 | 8.98 |
+| A | 20.1 | 25.0 | 2% | 1.76 | 6.8 |
+| PPP | 14.4 | 16.3 | 12% | 12.4 | 10.93 |
+| PIM | 37.1 | 31.0 | 89% | 3.84 | 2.89 |
 | +/- | 9.9 | -10.1 | 100% | 0.0 | 3.99 |
 | GWG | 4.3 | 0.2 | 100% | 0.0 | 23.05 |
 
@@ -45,7 +45,7 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | Sebastian Cossa | UTA |  | 0.5 | 6 | 0 | 0.0 | 0.539 | 3.2 | 25.7 | 0.871 |
 | Jet Greaves | CBJ |  | 0.5 | 8 | 0 | 0.0 | 0.479 | 3.09 | 28.5 | 0.880 |
 | Cam Talbot | CBJ |  | 0.5 | 7 | 0 | 0.0 | 0.479 | 3.09 | 28.5 | 0.911 |
-| Daniil Tarasov | DET |  | 1.0 | 6 | 0 | 0.0 | 0.447 | 3.05 | 26.6 | 0.919 |
+| Daniil Tarasov | DET |  | 0.5 | 6 | 0 | 0.0 | 0.447 | 3.05 | 26.6 | 0.919 |
+| John Gibson (DTD) | DET |  | 0.5 | 11 | 0 | 0.0 | 0.447 | 3.05 | 26.6 | 0.860 |
 | Akira Schmid | FLA |  | 0.67 | 8 | 0 | 0.0 | 0.507 | 3.18 | 25.8 | 0.886 |
 | Joseph Woll | PHI |  | 0.5 | 9 | 0 | 0.0 | 0.381 | 3.11 | 27.3 | 0.899 |
-| Joey Daccord | SEA |  | 0.5 | 8 | 0 | 0.0 | 0.480 | 3.32 | 29.8 | 0.881 |

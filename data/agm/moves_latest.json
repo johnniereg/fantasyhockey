@@ -1,14 +1,14 @@
 {
- "generated_at_et": "2026-11-08T05:42-05:00",
- "data_fetched_utc": "2026-11-08T10:42:42+00:00",
+ "generated_at_et": "2026-11-08T10:22-05:00",
+ "data_fetched_utc": "2026-11-08T15:21:48+00:00",
  "dates": [
   "2026-11-08"
  ],
  "weights": {
-  "G": 13.5,
-  "A": 2.39,
-  "PPP": 13.75,
-  "PIM": 2.97,
+  "G": 15.42,
+  "A": 1.76,
+  "PPP": 12.4,
+  "PIM": 3.84,
   "PM": 0.0,
   "GWG": 0.0
  },
@@ -23,23 +23,23 @@
  "matchup": {
   "G": {
    "us": 14.0,
-   "them": 12.2,
-   "p_win": 0.84
+   "them": 12.5,
+   "p_win": 0.79
   },
   "A": {
    "us": 20.1,
-   "them": 24.5,
+   "them": 25.0,
    "p_win": 0.02
   },
   "PPP": {
    "us": 14.4,
-   "them": 16.1,
-   "p_win": 0.14
+   "them": 16.3,
+   "p_win": 0.12
   },
   "PIM": {
    "us": 37.1,
-   "them": 30.3,
-   "p_win": 0.93
+   "them": 31.0,
+   "p_win": 0.89
   },
   "PM": {
    "us": 9.9,
@@ -254,7 +254,21 @@
    "status": "",
    "sv_season": 0.91891,
    "gs": 6,
-   "share": 1.0,
+   "share": 0.5,
+   "team_games": 0,
+   "exp_starts": 0.0,
+   "team_win_pct": 0.447,
+   "team_ga_pg": 3.05,
+   "team_sa_pg": 26.6
+  },
+  {
+   "name": "John Gibson",
+   "team": "DET",
+   "ours": false,
+   "status": "DTD",
+   "sv_season": 0.85957,
+   "gs": 11,
+   "share": 0.5,
    "team_games": 0,
    "exp_starts": 0.0,
    "team_win_pct": 0.447,
@@ -593,20 +607,6 @@
    "share": 0.0,
    "team_games": 0,
    "exp_starts": 0.0,
-   "team_win_pct": 0.447,
-   "team_ga_pg": 3.05,
-   "team_sa_pg": 26.6
-  },
-  {
-   "name": "John Gibson",
-   "team": "DET",
-   "ours": false,
-   "status": "O",
-   "sv_season": 0.85957,
-   "gs": 11,
-   "share": 0,
-   "team_games": 0,
-   "exp_starts": 0,
    "team_win_pct": 0.447,
    "team_ga_pg": 3.05,
    "team_sa_pg": 26.6
