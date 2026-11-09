@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-11-08",
-    "current_week": 6,
+    "current_date": "2026-11-09",
+    "current_week": 7,
     "draft_status": "postdraft",
-    "edit_key": "2026-11-09",
+    "edit_key": "2026-11-10",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -21,7 +21,7 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1794128572",
+    "league_update_timestamp": "1794215264",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
     "matchup_week": 6,
     "max_teams": "10",
@@ -46,16 +46,113 @@
      "0": {
       "transaction": [
        {
-        "faab_bid": "5",
         "status": "successful",
-        "timestamp": "1794129248",
-        "transaction_id": "207",
-        "transaction_key": "477.l.12088.tr.207",
+        "timestamp": "1794202500",
+        "transaction_id": "211",
+        "transaction_key": "477.l.12088.tr.211",
+        "type": "add"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.31592"
+            },
+            {
+             "player_id": "31592"
+            },
+            {
+             "name": {
+              "ascii_first": "Jonathan",
+              "ascii_last": "Lekkerim\u00e4ki",
+              "first": "Jonathan",
+              "full": "Jonathan Lekkerim\u00e4ki",
+              "last": "Lekkerim\u00e4ki"
+             }
+            },
+            {
+             "editorial_team_abbr": "VAN"
+            },
+            {
+             "display_position": "RW"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.10",
+              "destination_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "count": 1
+        }
+       }
+      ]
+     },
+     "1": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1794197118",
+        "transaction_id": "210",
+        "transaction_key": "477.l.12088.tr.210",
         "type": "add/drop"
        },
        {
         "players": {
          "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.7066"
+            },
+            {
+             "player_id": "7066"
+            },
+            {
+             "name": {
+              "ascii_first": "Mason",
+              "ascii_last": "Marchment",
+              "first": "Mason",
+              "full": "Mason Marchment",
+              "last": "Marchment"
+             }
+            },
+            {
+             "editorial_team_abbr": "SJ"
+            },
+            {
+             "display_position": "LW"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.5",
+              "destination_team_name": "Last Dance Energy",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
           "player": [
            [
             {
@@ -84,47 +181,6 @@
             }
            ],
            {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.5",
-              "destination_team_name": "Last Dance Energy",
-              "destination_type": "team",
-              "source_type": "waivers",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.5057"
-            },
-            {
-             "player_id": "5057"
-            },
-            {
-             "name": {
-              "ascii_first": "Scott",
-              "ascii_last": "Wedgewood",
-              "first": "Scott",
-              "full": "Scott Wedgewood",
-              "last": "Wedgewood"
-             }
-            },
-            {
-             "editorial_team_abbr": "COL"
-            },
-            {
-             "display_position": "G"
-            },
-            {
-             "position_type": "G"
-            }
-           ],
-           {
             "transaction_data": {
              "destination_type": "waivers",
              "source_team_key": "477.l.12088.t.5",
@@ -140,14 +196,14 @@
        }
       ]
      },
-     "1": {
+     "10": {
       "transaction": [
        {
         "status": "successful",
-        "timestamp": "1794121564",
-        "transaction_id": "206",
-        "transaction_key": "477.l.12088.tr.206",
-        "type": "add/drop"
+        "timestamp": "1794068848",
+        "transaction_id": "201",
+        "transaction_key": "477.l.12088.tr.201",
+        "type": "drop"
        },
        {
         "players": {
@@ -155,44 +211,113 @@
           "player": [
            [
             {
-             "player_key": "477.p.5367"
+             "player_key": "477.p.5689"
             },
             {
-             "player_id": "5367"
+             "player_id": "5689"
             },
             {
              "name": {
-              "ascii_first": "Mika",
-              "ascii_last": "Zibanejad",
-              "first": "Mika",
-              "full": "Mika Zibanejad",
-              "last": "Zibanejad"
+              "ascii_first": "Jacob",
+              "ascii_last": "Trouba",
+              "first": "Jacob",
+              "full": "Jacob Trouba",
+              "last": "Trouba"
              }
             },
             {
-             "editorial_team_abbr": "NYR"
+             "editorial_team_abbr": "SJ"
             },
             {
-             "display_position": "C,RW"
+             "display_position": "D"
             },
             {
              "position_type": "P"
             }
            ],
            {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.7",
-              "destination_team_name": "monsieurjbaby \ud83c\udfc6",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.4",
+             "source_team_name": "Hugh Jasule \ud83c\udfc6",
+             "source_type": "team",
+             "type": "drop"
+            }
            }
           ]
          },
-         "1": {
+         "count": 1
+        }
+       }
+      ]
+     },
+     "11": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1794017818",
+        "transaction_id": "200",
+        "transaction_key": "477.l.12088.tr.200",
+        "type": "drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.4969"
+            },
+            {
+             "player_id": "4969"
+            },
+            {
+             "name": {
+              "ascii_first": "Mikael",
+              "ascii_last": "Granlund",
+              "first": "Mikael",
+              "full": "Mikael Granlund",
+              "last": "Granlund"
+             }
+            },
+            {
+             "editorial_team_abbr": "ANA"
+            },
+            {
+             "display_position": "C,LW"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.10",
+             "source_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 1
+        }
+       }
+      ]
+     },
+     "12": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1793980629",
+        "transaction_id": "199",
+        "transaction_key": "477.l.12088.tr.199",
+        "type": "add/drop"
+       },
+       {
+        "players": {
+         "0": {
           "player": [
            [
             {
@@ -221,6 +346,47 @@
             }
            ],
            {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.7",
+              "destination_team_name": "monsieurjbaby \ud83c\udfc6",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.30546"
+            },
+            {
+             "player_id": "30546"
+            },
+            {
+             "name": {
+              "ascii_first": "Adam",
+              "ascii_last": "Fantilli",
+              "first": "Adam",
+              "full": "Adam Fantilli",
+              "last": "Fantilli"
+             }
+            },
+            {
+             "editorial_team_abbr": "CBJ"
+            },
+            {
+             "display_position": "C"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
             "transaction_data": {
              "destination_type": "waivers",
              "source_team_key": "477.l.12088.t.7",
@@ -236,7 +402,103 @@
        }
       ]
      },
-     "10": {
+     "13": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1793968997",
+        "transaction_id": "198",
+        "transaction_key": "477.l.12088.tr.198",
+        "type": "add/drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.8286"
+            },
+            {
+             "player_id": "8286"
+            },
+            {
+             "name": {
+              "ascii_first": "Philip",
+              "ascii_last": "Broberg",
+              "first": "Philip",
+              "full": "Philip Broberg",
+              "last": "Broberg"
+             }
+            },
+            {
+             "editorial_team_abbr": "STL"
+            },
+            {
+             "display_position": "D"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.8",
+              "destination_team_name": "Quinn\u2019s sick Book Club",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.8881"
+            },
+            {
+             "player_id": "8881"
+            },
+            {
+             "name": {
+              "ascii_first": "Kent",
+              "ascii_last": "Johnson",
+              "first": "Kent",
+              "full": "Kent Johnson",
+              "last": "Johnson"
+             }
+            },
+            {
+             "editorial_team_abbr": "CBJ"
+            },
+            {
+             "display_position": "LW,RW"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.8",
+             "source_team_name": "Quinn\u2019s sick Book Club",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 2
+        }
+       }
+      ]
+     },
+     "14": {
       "transaction": [
        {
         "status": "successful",
@@ -332,7 +594,7 @@
        }
       ]
      },
-     "11": {
+     "15": {
       "transaction": [
        {
         "status": "successful",
@@ -387,7 +649,7 @@
        }
       ]
      },
-     "12": {
+     "16": {
       "transaction": [
        {
         "status": "successful",
@@ -483,7 +745,7 @@
        }
       ]
      },
-     "13": {
+     "17": {
       "transaction": [
        {
         "status": "successful",
@@ -538,7 +800,7 @@
        }
       ]
      },
-     "14": {
+     "18": {
       "transaction": [
        {
         "status": "successful",
@@ -634,7 +896,7 @@
        }
       ]
      },
-     "15": {
+     "19": {
       "transaction": [
        {
         "status": "successful",
@@ -691,7 +953,62 @@
        }
       ]
      },
-     "16": {
+     "2": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1794196729",
+        "transaction_id": "209",
+        "transaction_key": "477.l.12088.tr.209",
+        "type": "drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.6643"
+            },
+            {
+             "player_id": "6643"
+            },
+            {
+             "name": {
+              "ascii_first": "Darren",
+              "ascii_last": "Raddysh",
+              "first": "Darren",
+              "full": "Darren Raddysh",
+              "last": "Raddysh"
+             }
+            },
+            {
+             "editorial_team_abbr": "TOR"
+            },
+            {
+             "display_position": "D"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.8",
+             "source_team_name": "Quinn\u2019s sick Book Club",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 1
+        }
+       }
+      ]
+     },
+     "20": {
       "transaction": [
        {
         "status": "successful",
@@ -787,7 +1104,7 @@
        }
       ]
      },
-     "17": {
+     "21": {
       "transaction": [
        {
         "status": "successful",
@@ -883,7 +1200,7 @@
        }
       ]
      },
-     "18": {
+     "22": {
       "transaction": [
        {
         "status": "successful",
@@ -979,7 +1296,7 @@
        }
       ]
      },
-     "19": {
+     "23": {
       "transaction": [
        {
         "status": "successful",
@@ -1075,103 +1392,7 @@
        }
       ]
      },
-     "2": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1794109013",
-        "transaction_id": "205",
-        "transaction_key": "477.l.12088.tr.205",
-        "type": "add/drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.7582"
-            },
-            {
-             "player_id": "7582"
-            },
-            {
-             "name": {
-              "ascii_first": "Morgan",
-              "ascii_last": "Geekie",
-              "first": "Morgan",
-              "full": "Morgan Geekie",
-              "last": "Geekie"
-             }
-            },
-            {
-             "editorial_team_abbr": "BOS"
-            },
-            {
-             "display_position": "C,LW,RW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.5",
-              "destination_team_name": "Last Dance Energy",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.30184"
-            },
-            {
-             "player_id": "30184"
-            },
-            {
-             "name": {
-              "ascii_first": "Easton",
-              "ascii_last": "Cowan",
-              "first": "Easton",
-              "full": "Easton Cowan",
-              "last": "Cowan"
-             }
-            },
-            {
-             "editorial_team_abbr": "TOR"
-            },
-            {
-             "display_position": "LW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.5",
-             "source_team_name": "Last Dance Energy",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 2
-        }
-       }
-      ]
-     },
-     "20": {
+     "24": {
       "transaction": [
        {
         "faab_bid": "14",
@@ -1268,7 +1489,7 @@
        }
       ]
      },
-     "21": {
+     "25": {
       "transaction": [
        {
         "status": "successful",
@@ -1364,7 +1585,7 @@
        }
       ]
      },
-     "22": {
+     "26": {
       "transaction": [
        {
         "status": "successful",
@@ -1419,7 +1640,7 @@
        }
       ]
      },
-     "23": {
+     "27": {
       "transaction": [
        {
         "status": "successful",
@@ -1515,7 +1736,7 @@
        }
       ]
      },
-     "24": {
+     "28": {
       "transaction": [
        {
         "status": "successful",
@@ -1570,7 +1791,7 @@
        }
       ]
      },
-     "25": {
+     "29": {
       "transaction": [
        {
         "status": "successful",
@@ -1627,7 +1848,103 @@
        }
       ]
      },
-     "26": {
+     "3": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1794196556",
+        "transaction_id": "208",
+        "transaction_key": "477.l.12088.tr.208",
+        "type": "add/drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.5096"
+            },
+            {
+             "player_id": "5096"
+            },
+            {
+             "name": {
+              "ascii_first": "Zach",
+              "ascii_last": "Hyman",
+              "first": "Zach",
+              "full": "Zach Hyman",
+              "last": "Hyman"
+             }
+            },
+            {
+             "editorial_team_abbr": "EDM"
+            },
+            {
+             "display_position": "LW,RW"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.4",
+              "destination_team_name": "Hugh Jasule \ud83c\udfc6",
+              "destination_type": "team",
+              "source_type": "freeagents",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.6795"
+            },
+            {
+             "player_id": "6795"
+            },
+            {
+             "name": {
+              "ascii_first": "Rasmus",
+              "ascii_last": "Andersson",
+              "first": "Rasmus",
+              "full": "Rasmus Andersson",
+              "last": "Andersson"
+             }
+            },
+            {
+             "editorial_team_abbr": "VGK"
+            },
+            {
+             "display_position": "D"
+            },
+            {
+             "position_type": "P"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.4",
+             "source_team_name": "Hugh Jasule \ud83c\udfc6",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 2
+        }
+       }
+      ]
+     },
+     "30": {
       "transaction": [
        {
         "status": "successful",
@@ -1682,7 +1999,7 @@
        }
       ]
      },
-     "27": {
+     "31": {
       "transaction": [
        {
         "status": "successful",
@@ -1778,7 +2095,7 @@
        }
       ]
      },
-     "28": {
+     "32": {
       "transaction": [
        {
         "status": "successful",
@@ -1874,7 +2191,7 @@
        }
       ]
      },
-     "29": {
+     "33": {
       "transaction": [
        {
         "status": "successful",
@@ -1970,64 +2287,7 @@
        }
       ]
      },
-     "3": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1794105740",
-        "transaction_id": "204",
-        "transaction_key": "477.l.12088.tr.204",
-        "type": "add"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.3638"
-            },
-            {
-             "player_id": "3638"
-            },
-            {
-             "name": {
-              "ascii_first": "Evgeni",
-              "ascii_last": "Malkin",
-              "first": "Evgeni",
-              "full": "Evgeni Malkin",
-              "last": "Malkin"
-             }
-            },
-            {
-             "editorial_team_abbr": "PIT"
-            },
-            {
-             "display_position": "C,LW,RW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.4",
-              "destination_team_name": "Hugh Jasule \ud83c\udfc6",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "count": 1
-        }
-       }
-      ]
-     },
-     "30": {
+     "34": {
       "transaction": [
        {
         "status": "successful",
@@ -2123,7 +2383,7 @@
        }
       ]
      },
-     "31": {
+     "35": {
       "transaction": [
        {
         "status": "successful",
@@ -2219,7 +2479,7 @@
        }
       ]
      },
-     "32": {
+     "36": {
       "transaction": [
        {
         "status": "successful",
@@ -2274,7 +2534,7 @@
        }
       ]
      },
-     "33": {
+     "37": {
       "transaction": [
        {
         "status": "successful",
@@ -2331,7 +2591,7 @@
        }
       ]
      },
-     "34": {
+     "38": {
       "transaction": [
        {
         "status": "successful",
@@ -2427,7 +2687,7 @@
        }
       ]
      },
-     "35": {
+     "39": {
       "transaction": [
        {
         "status": "successful",
@@ -2523,13 +2783,14 @@
        }
       ]
      },
-     "36": {
+     "4": {
       "transaction": [
        {
+        "faab_bid": "5",
         "status": "successful",
-        "timestamp": "1793488097",
-        "transaction_id": "171",
-        "transaction_key": "477.l.12088.tr.171",
+        "timestamp": "1794129248",
+        "transaction_id": "207",
+        "transaction_key": "477.l.12088.tr.207",
         "type": "add/drop"
        },
        {
@@ -2538,25 +2799,121 @@
           "player": [
            [
             {
-             "player_key": "477.p.33425"
+             "player_key": "477.p.8433"
             },
             {
-             "player_id": "33425"
+             "player_id": "8433"
             },
             {
              "name": {
-              "ascii_first": "Porter",
-              "ascii_last": "Martone",
-              "first": "Porter",
-              "full": "Porter Martone",
-              "last": "Martone"
+              "ascii_first": "Arturs",
+              "ascii_last": "Silovs",
+              "first": "Arturs",
+              "full": "Arturs Silovs",
+              "last": "Silovs"
              }
             },
             {
-             "editorial_team_abbr": "PHI"
+             "editorial_team_abbr": "PIT"
             },
             {
-             "display_position": "RW"
+             "display_position": "G"
+            },
+            {
+             "position_type": "G"
+            }
+           ],
+           {
+            "transaction_data": [
+             {
+              "destination_team_key": "477.l.12088.t.5",
+              "destination_team_name": "Last Dance Energy",
+              "destination_type": "team",
+              "source_type": "waivers",
+              "type": "add"
+             }
+            ]
+           }
+          ]
+         },
+         "1": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.5057"
+            },
+            {
+             "player_id": "5057"
+            },
+            {
+             "name": {
+              "ascii_first": "Scott",
+              "ascii_last": "Wedgewood",
+              "first": "Scott",
+              "full": "Scott Wedgewood",
+              "last": "Wedgewood"
+             }
+            },
+            {
+             "editorial_team_abbr": "COL"
+            },
+            {
+             "display_position": "G"
+            },
+            {
+             "position_type": "G"
+            }
+           ],
+           {
+            "transaction_data": {
+             "destination_type": "waivers",
+             "source_team_key": "477.l.12088.t.5",
+             "source_team_name": "Last Dance Energy",
+             "source_type": "team",
+             "type": "drop"
+            }
+           }
+          ]
+         },
+         "count": 2
+        }
+       }
+      ]
+     },
+     "5": {
+      "transaction": [
+       {
+        "status": "successful",
+        "timestamp": "1794121564",
+        "transaction_id": "206",
+        "transaction_key": "477.l.12088.tr.206",
+        "type": "add/drop"
+       },
+       {
+        "players": {
+         "0": {
+          "player": [
+           [
+            {
+             "player_key": "477.p.5367"
+            },
+            {
+             "player_id": "5367"
+            },
+            {
+             "name": {
+              "ascii_first": "Mika",
+              "ascii_last": "Zibanejad",
+              "first": "Mika",
+              "full": "Mika Zibanejad",
+              "last": "Zibanejad"
+             }
+            },
+            {
+             "editorial_team_abbr": "NYR"
+            },
+            {
+             "display_position": "C,RW"
             },
             {
              "position_type": "P"
@@ -2565,8 +2922,8 @@
            {
             "transaction_data": [
              {
-              "destination_team_key": "477.l.12088.t.4",
-              "destination_team_name": "Hugh Jasule \ud83c\udfc6",
+              "destination_team_key": "477.l.12088.t.7",
+              "destination_team_name": "monsieurjbaby \ud83c\udfc6",
               "destination_type": "team",
               "source_type": "freeagents",
               "type": "add"
@@ -2579,22 +2936,22 @@
           "player": [
            [
             {
-             "player_key": "477.p.8654"
+             "player_key": "477.p.6827"
             },
             {
-             "player_id": "8654"
+             "player_id": "6827"
             },
             {
              "name": {
-              "ascii_first": "Dylan",
-              "ascii_last": "Holloway",
-              "first": "Dylan",
-              "full": "Dylan Holloway",
-              "last": "Holloway"
+              "ascii_first": "Tommy",
+              "ascii_last": "Novak",
+              "first": "Tommy",
+              "full": "Tommy Novak",
+              "last": "Novak"
              }
             },
             {
-             "editorial_team_abbr": "STL"
+             "editorial_team_abbr": "PIT"
             },
             {
              "display_position": "C,LW"
@@ -2606,8 +2963,8 @@
            {
             "transaction_data": {
              "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.4",
-             "source_team_name": "Hugh Jasule \ud83c\udfc6",
+             "source_team_key": "477.l.12088.t.7",
+             "source_team_name": "monsieurjbaby \ud83c\udfc6",
              "source_type": "team",
              "type": "drop"
             }
@@ -2619,13 +2976,13 @@
        }
       ]
      },
-     "37": {
+     "6": {
       "transaction": [
        {
         "status": "successful",
-        "timestamp": "1793430180",
-        "transaction_id": "170",
-        "transaction_key": "477.l.12088.tr.170",
+        "timestamp": "1794109013",
+        "transaction_id": "205",
+        "transaction_key": "477.l.12088.tr.205",
         "type": "add/drop"
        },
        {
@@ -2634,25 +2991,25 @@
           "player": [
            [
             {
-             "player_key": "477.p.6745"
+             "player_key": "477.p.7582"
             },
             {
-             "player_id": "6745"
+             "player_id": "7582"
             },
             {
              "name": {
-              "ascii_first": "Dylan",
-              "ascii_last": "Strome",
-              "first": "Dylan",
-              "full": "Dylan Strome",
-              "last": "Strome"
+              "ascii_first": "Morgan",
+              "ascii_last": "Geekie",
+              "first": "Morgan",
+              "full": "Morgan Geekie",
+              "last": "Geekie"
              }
             },
             {
-             "editorial_team_abbr": "WSH"
+             "editorial_team_abbr": "BOS"
             },
             {
-             "display_position": "C"
+             "display_position": "C,LW,RW"
             },
             {
              "position_type": "P"
@@ -2661,8 +3018,8 @@
            {
             "transaction_data": [
              {
-              "destination_team_key": "477.l.12088.t.2",
-              "destination_team_name": "Big Papa Johns \ud83c\udfc6",
+              "destination_team_key": "477.l.12088.t.5",
+              "destination_team_name": "Last Dance Energy",
               "destination_type": "team",
               "source_type": "freeagents",
               "type": "add"
@@ -2675,121 +3032,25 @@
           "player": [
            [
             {
-             "player_key": "477.p.7542"
+             "player_key": "477.p.30184"
             },
             {
-             "player_id": "7542"
-            },
-            {
-             "name": {
-              "ascii_first": "Morgan",
-              "ascii_last": "Frost",
-              "first": "Morgan",
-              "full": "Morgan Frost",
-              "last": "Frost"
-             }
-            },
-            {
-             "editorial_team_abbr": "CGY"
-            },
-            {
-             "display_position": "C"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.2",
-             "source_team_name": "Big Papa Johns \ud83c\udfc6",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 2
-        }
-       }
-      ]
-     },
-     "38": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1793417950",
-        "transaction_id": "169",
-        "transaction_key": "477.l.12088.tr.169",
-        "type": "add/drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.5734"
-            },
-            {
-             "player_id": "5734"
+             "player_id": "30184"
             },
             {
              "name": {
-              "ascii_first": "Anthony",
-              "ascii_last": "Stolarz",
-              "first": "Anthony",
-              "full": "Anthony Stolarz",
-              "last": "Stolarz"
+              "ascii_first": "Easton",
+              "ascii_last": "Cowan",
+              "first": "Easton",
+              "full": "Easton Cowan",
+              "last": "Cowan"
              }
             },
             {
              "editorial_team_abbr": "TOR"
             },
             {
-             "display_position": "G"
-            },
-            {
-             "position_type": "G"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.2",
-              "destination_team_name": "Big Papa Johns \ud83c\udfc6",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.8282"
-            },
-            {
-             "player_id": "8282"
-            },
-            {
-             "name": {
-              "ascii_first": "Bowen",
-              "ascii_last": "Byram",
-              "first": "Bowen",
-              "full": "Bowen Byram",
-              "last": "Byram"
-             }
-            },
-            {
-             "editorial_team_abbr": "CHI"
-            },
-            {
-             "display_position": "D"
+             "display_position": "LW"
             },
             {
              "position_type": "P"
@@ -2798,8 +3059,8 @@
            {
             "transaction_data": {
              "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.2",
-             "source_team_name": "Big Papa Johns \ud83c\udfc6",
+             "source_team_key": "477.l.12088.t.5",
+             "source_team_name": "Last Dance Energy",
              "source_type": "team",
              "type": "drop"
             }
@@ -2811,14 +3072,14 @@
        }
       ]
      },
-     "39": {
+     "7": {
       "transaction": [
        {
         "status": "successful",
-        "timestamp": "1793413633",
-        "transaction_id": "168",
-        "transaction_key": "477.l.12088.tr.168",
-        "type": "add/drop"
+        "timestamp": "1794105740",
+        "transaction_id": "204",
+        "transaction_key": "477.l.12088.tr.204",
+        "type": "add"
        },
        {
         "players": {
@@ -2826,25 +3087,25 @@
           "player": [
            [
             {
-             "player_key": "477.p.8654"
+             "player_key": "477.p.3638"
             },
             {
-             "player_id": "8654"
+             "player_id": "3638"
             },
             {
              "name": {
-              "ascii_first": "Dylan",
-              "ascii_last": "Holloway",
-              "first": "Dylan",
-              "full": "Dylan Holloway",
-              "last": "Holloway"
+              "ascii_first": "Evgeni",
+              "ascii_last": "Malkin",
+              "first": "Evgeni",
+              "full": "Evgeni Malkin",
+              "last": "Malkin"
              }
             },
             {
-             "editorial_team_abbr": "STL"
+             "editorial_team_abbr": "PIT"
             },
             {
-             "display_position": "C,LW"
+             "display_position": "C,LW,RW"
             },
             {
              "position_type": "P"
@@ -2863,51 +3124,12 @@
            }
           ]
          },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.6406"
-            },
-            {
-             "player_id": "6406"
-            },
-            {
-             "name": {
-              "ascii_first": "Alex",
-              "ascii_last": "Nedeljkovic",
-              "first": "Alex",
-              "full": "Alex Nedeljkovic",
-              "last": "Nedeljkovic"
-             }
-            },
-            {
-             "editorial_team_abbr": "SJ"
-            },
-            {
-             "display_position": "G"
-            },
-            {
-             "position_type": "G"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.4",
-             "source_team_name": "Hugh Jasule \ud83c\udfc6",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 2
+         "count": 1
         }
        }
       ]
      },
-     "4": {
+     "8": {
       "transaction": [
        {
         "status": "successful",
@@ -3003,7 +3225,7 @@
        }
       ]
      },
-     "5": {
+     "9": {
       "transaction": [
        {
         "status": "successful",
@@ -3060,314 +3282,12 @@
        }
       ]
      },
-     "6": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1794068848",
-        "transaction_id": "201",
-        "transaction_key": "477.l.12088.tr.201",
-        "type": "drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.5689"
-            },
-            {
-             "player_id": "5689"
-            },
-            {
-             "name": {
-              "ascii_first": "Jacob",
-              "ascii_last": "Trouba",
-              "first": "Jacob",
-              "full": "Jacob Trouba",
-              "last": "Trouba"
-             }
-            },
-            {
-             "editorial_team_abbr": "SJ"
-            },
-            {
-             "display_position": "D"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.4",
-             "source_team_name": "Hugh Jasule \ud83c\udfc6",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 1
-        }
-       }
-      ]
-     },
-     "7": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1794017818",
-        "transaction_id": "200",
-        "transaction_key": "477.l.12088.tr.200",
-        "type": "drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.4969"
-            },
-            {
-             "player_id": "4969"
-            },
-            {
-             "name": {
-              "ascii_first": "Mikael",
-              "ascii_last": "Granlund",
-              "first": "Mikael",
-              "full": "Mikael Granlund",
-              "last": "Granlund"
-             }
-            },
-            {
-             "editorial_team_abbr": "ANA"
-            },
-            {
-             "display_position": "C,LW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.10",
-             "source_team_name": "Tom's Toolmen \ud83c\udfc6\ud83c\udfc6\ud83c\udfc6",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 1
-        }
-       }
-      ]
-     },
-     "8": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1793980629",
-        "transaction_id": "199",
-        "transaction_key": "477.l.12088.tr.199",
-        "type": "add/drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.6827"
-            },
-            {
-             "player_id": "6827"
-            },
-            {
-             "name": {
-              "ascii_first": "Tommy",
-              "ascii_last": "Novak",
-              "first": "Tommy",
-              "full": "Tommy Novak",
-              "last": "Novak"
-             }
-            },
-            {
-             "editorial_team_abbr": "PIT"
-            },
-            {
-             "display_position": "C,LW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.7",
-              "destination_team_name": "monsieurjbaby \ud83c\udfc6",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.30546"
-            },
-            {
-             "player_id": "30546"
-            },
-            {
-             "name": {
-              "ascii_first": "Adam",
-              "ascii_last": "Fantilli",
-              "first": "Adam",
-              "full": "Adam Fantilli",
-              "last": "Fantilli"
-             }
-            },
-            {
-             "editorial_team_abbr": "CBJ"
-            },
-            {
-             "display_position": "C"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.7",
-             "source_team_name": "monsieurjbaby \ud83c\udfc6",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 2
-        }
-       }
-      ]
-     },
-     "9": {
-      "transaction": [
-       {
-        "status": "successful",
-        "timestamp": "1793968997",
-        "transaction_id": "198",
-        "transaction_key": "477.l.12088.tr.198",
-        "type": "add/drop"
-       },
-       {
-        "players": {
-         "0": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.8286"
-            },
-            {
-             "player_id": "8286"
-            },
-            {
-             "name": {
-              "ascii_first": "Philip",
-              "ascii_last": "Broberg",
-              "first": "Philip",
-              "full": "Philip Broberg",
-              "last": "Broberg"
-             }
-            },
-            {
-             "editorial_team_abbr": "STL"
-            },
-            {
-             "display_position": "D"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": [
-             {
-              "destination_team_key": "477.l.12088.t.8",
-              "destination_team_name": "Quinn\u2019s sick Book Club",
-              "destination_type": "team",
-              "source_type": "freeagents",
-              "type": "add"
-             }
-            ]
-           }
-          ]
-         },
-         "1": {
-          "player": [
-           [
-            {
-             "player_key": "477.p.8881"
-            },
-            {
-             "player_id": "8881"
-            },
-            {
-             "name": {
-              "ascii_first": "Kent",
-              "ascii_last": "Johnson",
-              "first": "Kent",
-              "full": "Kent Johnson",
-              "last": "Johnson"
-             }
-            },
-            {
-             "editorial_team_abbr": "CBJ"
-            },
-            {
-             "display_position": "LW,RW"
-            },
-            {
-             "position_type": "P"
-            }
-           ],
-           {
-            "transaction_data": {
-             "destination_type": "waivers",
-             "source_team_key": "477.l.12088.t.8",
-             "source_team_name": "Quinn\u2019s sick Book Club",
-             "source_type": "team",
-             "type": "drop"
-            }
-           }
-          ]
-         },
-         "count": 2
-        }
-       }
-      ]
-     },
      "count": 40
     }
    }
   ],
   "refresh_rate": "30",
-  "time": "53.874969482422ms",
+  "time": "53.235054016113ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/transactions;types=add,drop,trade;count=40"
  }
