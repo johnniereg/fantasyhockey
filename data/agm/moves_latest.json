@@ -1,6 +1,6 @@
 {
- "generated_at_et": "2026-11-09T05:42-05:00",
- "data_fetched_utc": "2026-11-09T10:41:38+00:00",
+ "generated_at_et": "2026-11-09T13:55-05:00",
+ "data_fetched_utc": "2026-11-09T18:55:05+00:00",
  "dates": [
   "2026-11-09",
   "2026-11-10",
@@ -11,17 +11,17 @@
   "2026-11-15"
  ],
  "weights": {
-  "G": 8.12,
-  "A": 3.6,
-  "PPP": 7.7,
-  "PIM": 2.85,
-  "PM": 4.43,
-  "GWG": 20.87
+  "G": 7.84,
+  "A": 3.16,
+  "PPP": 6.97,
+  "PIM": 2.94,
+  "PM": 4.42,
+  "GWG": 20.36
  },
  "season_weights": {
   "G": 8.99,
   "A": 6.8,
-  "PPP": 10.93,
+  "PPP": 10.92,
   "PIM": 2.87,
   "PM": 3.99,
   "GWG": 23.07
@@ -29,56 +29,56 @@
  "matchup": {
   "G": {
    "us": 12.2,
-   "them": 11.9,
-   "p_win": 0.52
+   "them": 13.0,
+   "p_win": 0.43
   },
   "A": {
    "us": 17.4,
-   "them": 24.1,
-   "p_win": 0.15
+   "them": 24.9,
+   "p_win": 0.12
   },
   "PPP": {
    "us": 9.9,
-   "them": 12.0,
-   "p_win": 0.33
+   "them": 12.8,
+   "p_win": 0.27
   },
   "PIM": {
    "us": 19.4,
-   "them": 11.9,
-   "p_win": 0.75
+   "them": 12.6,
+   "p_win": 0.73
   },
   "PM": {
    "us": 1.1,
-   "them": 4.0,
-   "p_win": 0.37
+   "them": 3.5,
+   "p_win": 0.39
   },
   "GWG": {
    "us": 1.8,
-   "them": 1.8,
-   "p_win": 0.51
+   "them": 2.0,
+   "p_win": 0.47
   }
  },
- "base_week_value": 316.03,
- "adds_left": 4,
+ "base_week_value": 299.73,
+ "adds_left": 3,
  "recommendations": [
   {
-   "add": "Mikael Granlund",
-   "add_team": "ANA",
-   "add_pos": "C,LW",
+   "add": "Bo Horvat",
+   "add_team": "NYI",
+   "add_pos": "C",
    "waiver": false,
-   "own_pct": 51,
+   "own_pct": 89,
    "drop": "Joel Farabee",
    "drop_team": "CGY",
    "drop_keeper": false,
-   "week_gain": 3.2,
-   "ros_gain_per_week": 10.0,
+   "week_gain": 4.3,
+   "ros_gain_per_week": 9.1,
    "add_proj": {
-    "G": 0.3,
-    "A": 0.65,
-    "PPP": 0.38,
-    "PIM": 0.21,
-    "PM": -0.1,
-    "GWG": 0.05
+    "G": 0.44,
+    "A": 0.46,
+    "PPP": 0.25,
+    "PIM": 0.36,
+    "PM": -0.01,
+    "GWG": 0.07
    },
    "drop_proj": {
     "G": 0.31,
@@ -88,7 +88,7 @@
     "PM": -0.14,
     "GWG": 0.05
    },
-   "add_games": 3,
+   "add_games": 2,
    "drop_games": 3
   },
   {
@@ -100,7 +100,7 @@
    "drop": "Thomas Harley",
    "drop_team": "DAL",
    "drop_keeper": false,
-   "week_gain": 2.5,
+   "week_gain": 2.1,
    "ros_gain_per_week": 5.4,
    "add_proj": {
     "G": 0.15,
@@ -126,14 +126,14 @@
   {
    "name": "Thomas Harley",
    "team": "DAL",
-   "value_pg": 9.29,
+   "value_pg": 9.28,
    "keeper": false,
    "keeper_top8": false
   },
   {
    "name": "Joel Farabee",
    "team": "CGY",
-   "value_pg": 9.54,
+   "value_pg": 9.53,
    "keeper": false,
    "keeper_top8": false
   },
@@ -154,21 +154,21 @@
   {
    "name": "Jack Quinn",
    "team": "BUF",
-   "value_pg": 11.02,
+   "value_pg": 11.01,
    "keeper": false,
    "keeper_top8": false
   },
   {
    "name": "Cole Hutson",
    "team": "WSH",
-   "value_pg": 11.42,
+   "value_pg": 11.41,
    "keeper": true,
    "keeper_top8": true
   },
   {
    "name": "Carter Verhaeghe",
    "team": "FLA",
-   "value_pg": 12.13,
+   "value_pg": 12.12,
    "keeper": false,
    "keeper_top8": true
   },
@@ -189,7 +189,7 @@
   {
    "name": "Pavel Zacha",
    "team": "BOS",
-   "value_pg": 12.32,
+   "value_pg": 12.31,
    "keeper": false,
    "keeper_top8": true
   },
@@ -210,7 +210,7 @@
   {
    "name": "Cutter Gauthier",
    "team": "ANA",
-   "value_pg": 16.29,
+   "value_pg": 16.28,
    "keeper": true,
    "keeper_top8": true
   }
@@ -221,7 +221,7 @@
    "team": "OTT",
    "ours": false,
    "status": "",
-   "sv_season": 0.88944,
+   "sv_season": 0.89,
    "gs": 6,
    "share": 1.0,
    "team_games": 3,
@@ -819,18 +819,32 @@
    "team_sa_pg": 27.8
   },
   {
+   "name": "Anthony Stolarz",
+   "team": "TOR",
+   "ours": false,
+   "status": "",
+   "sv_season": 0.90776,
+   "gs": 7,
+   "share": 0.33,
+   "team_games": 3,
+   "exp_starts": 1.0,
+   "team_win_pct": 0.405,
+   "team_ga_pg": 3.46,
+   "team_sa_pg": 31.0
+  },
+  {
    "name": "Alex Nedeljkovic",
    "team": "SJS",
    "ours": false,
    "status": "",
-   "sv_season": 0.89497,
+   "sv_season": 0.89545,
    "gs": 7,
    "share": 0.33,
    "team_games": 3,
    "exp_starts": 1.0,
    "team_win_pct": 0.423,
    "team_ga_pg": 3.56,
-   "team_sa_pg": 29.8
+   "team_sa_pg": 29.9
   },
   {
    "name": "Arvid Soderblom",
