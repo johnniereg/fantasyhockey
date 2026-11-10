@@ -339,10 +339,10 @@
           "week": 7
          },
          {
-          "value": 7
+          "value": 6
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -440,10 +440,10 @@
           "week": 7
          },
          {
-          "value": 3
+          "value": 2
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -826,9 +826,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794325613
+        }
        ],
        {
         "percent_owned": [
@@ -837,10 +843,10 @@
           "week": 7
          },
          {
-          "value": 1
+          "value": 2
          },
          {
-          "delta": "-1"
+          "delta": "0"
          }
         ]
        }
@@ -1140,10 +1146,10 @@
           "week": 7
          },
          {
-          "value": 19
+          "value": 18
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -1243,10 +1249,10 @@
           "week": 7
          },
          {
-          "value": 23
+          "value": 21
          },
          {
-          "delta": "9"
+          "delta": "7"
          }
         ]
        }
@@ -1332,9 +1338,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793983787
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794327677
         }
        ],
        {
@@ -1344,10 +1352,10 @@
           "week": 7
          },
          {
-          "value": 14
+          "value": 16
          },
          {
-          "delta": "3"
+          "delta": "5"
          }
         ]
        }
@@ -2577,7 +2585,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "83.104133605957ms",
+  "time": "68.715810775757ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/percent_owned"
  }
