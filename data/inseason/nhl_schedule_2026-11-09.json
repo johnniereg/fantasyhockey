@@ -15,32 +15,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg",
       "id": 3,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.33"
-       },
-       {
-        "providerId": 7,
-        "value": "+132"
-       },
-       {
-        "providerId": 9,
-        "value": "+136"
-       },
-       {
-        "providerId": 6,
-        "value": "2.22"
-       },
-       {
-        "providerId": 8,
-        "value": "+134"
-       },
-       {
-        "providerId": 10,
-        "value": "3.10"
-       }
-      ],
       "placeName": {
        "default": "New York"
       },
@@ -48,12 +22,17 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/nyr-at-edm-condensed-game-6408166260112",
+     "condensedGameFr": "/fr/video/match-condense-rangers-oilers-09-11-2026-6408165474112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nyr-vs-edm/2026/11/09/2026020283",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "EDM",
@@ -64,32 +43,6 @@
       "homeSplitSquad": false,
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.62"
-       },
-       {
-        "providerId": 7,
-        "value": "-160"
-       },
-       {
-        "providerId": 9,
-        "value": "-162"
-       },
-       {
-        "providerId": 6,
-        "value": "1.67"
-       },
-       {
-        "providerId": 8,
-        "value": "-163"
-       },
-       {
-        "providerId": 10,
-        "value": "2.05"
-       }
-      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -97,19 +50,19 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 3
      },
      "id": 2026020283,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-10T01:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006513A61AA4D7?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM11",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A61AA4D7?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM11",
+     "threeMinRecap": "/video/nyr-at-edm-recap-6408167927112",
+     "threeMinRecapFr": "/fr/video/nyr-vs-edm-09-11-2026-resume-6408167036112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -137,7 +90,25 @@
       "default": "Rogers Place"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Draisaitl"
+      },
+      "playerId": 8477934
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Levi"
+      },
+      "playerId": 8482221
+     }
     },
     {
      "awayTeam": {
@@ -149,32 +120,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
       "id": 4,
       "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.22"
-       },
-       {
-        "providerId": 8,
-        "value": "-138"
-       },
-       {
-        "providerId": 9,
-        "value": "-135"
-       },
-       {
-        "providerId": 7,
-        "value": "-137"
-       },
-       {
-        "providerId": 3,
-        "value": "1.73"
-       },
-       {
-        "providerId": 10,
-        "value": "2.20"
-       }
-      ],
       "placeName": {
        "default": "Philadelphia",
        "fr": "Philadelphie"
@@ -183,12 +128,16 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/phi-at-van-condensed-game-6408168283112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/phi-vs-van/2026/11/09/2026020284",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VAN",
@@ -199,32 +148,6 @@
       "homeSplitSquad": false,
       "id": 23,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.65"
-       },
-       {
-        "providerId": 8,
-        "value": "+114"
-       },
-       {
-        "providerId": 9,
-        "value": "+114"
-       },
-       {
-        "providerId": 7,
-        "value": "+114"
-       },
-       {
-        "providerId": 3,
-        "value": "2.14"
-       },
-       {
-        "providerId": 10,
-        "value": "2.80"
-       }
-      ],
       "placeName": {
        "default": "Vancouver"
       },
@@ -232,19 +155,19 @@
        "default": "Vancouver",
        "fr": "de Vancouver"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+      "score": 1
      },
      "id": 2026020284,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-10T02:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006503F0A8BB85?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM9&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F0A8BB85?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM9&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
+     "threeMinRecap": "/video/phi-at-van-recap-6408169654112",
+     "threeMinRecapFr": "/fr/video/phi-vs-van-09-11-2026-resume-6408169746112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -265,7 +188,25 @@
       "default": "Rogers Arena"
      },
      "venueTimezone": "America/Vancouver",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Konecny"
+      },
+      "playerId": 8478439
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Woll"
+      },
+      "playerId": 8479361
+     }
     },
     {
      "awayTeam": {
@@ -277,32 +218,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg",
       "id": 2,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "2.15"
-       },
-       {
-        "providerId": 3,
-        "value": "1.71"
-       },
-       {
-        "providerId": 7,
-        "value": "-142"
-       },
-       {
-        "providerId": 9,
-        "value": "-142"
-       },
-       {
-        "providerId": 8,
-        "value": "-143"
-       },
-       {
-        "providerId": 10,
-        "value": "2.17"
-       }
-      ],
       "placeName": {
        "default": "New York"
       },
@@ -310,12 +225,17 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYI/20262027/NYI-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/nyi-at-sjs-condensed-game-6408171746112",
+     "condensedGameFr": "/fr/video/match-condense-islanders-sharks-09-11-2026-6408170106112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nyi-vs-sjs/2026/11/09/2026020285",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -326,32 +246,6 @@
       "homeSplitSquad": false,
       "id": 28,
       "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.70"
-       },
-       {
-        "providerId": 3,
-        "value": "2.17"
-       },
-       {
-        "providerId": 7,
-        "value": "+116"
-       },
-       {
-        "providerId": 9,
-        "value": "+120"
-       },
-       {
-        "providerId": 8,
-        "value": "+117"
-       },
-       {
-        "providerId": 10,
-        "value": "2.85"
-       }
-      ],
       "placeName": {
        "default": "San Jose"
       },
@@ -359,19 +253,19 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "score": 3
      },
      "id": 2026020285,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-10T03:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1C0064E79ADE9B9D?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1C0064E79ADE9B9D?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM9",
+     "threeMinRecap": "/video/nyi-at-sjs-recap-6408170478112",
+     "threeMinRecapFr": "/fr/video/nyi-vs-sjs-09-11-2026-resume-6408170016112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -401,7 +295,16 @@
       "fr": "SAP Center de San Jose"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "Y."
+      },
+      "lastName": {
+       "default": "Askarov"
+      },
+      "playerId": 8482137
+     }
     }
    ],
    "numberOfGames": 3
