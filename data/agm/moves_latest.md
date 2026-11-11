@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-11T05:42-05:00 ET (data 2026-11-11T10:41:42+00:00 UTC)
+# AGM moves — 2026-11-11T11:19-05:00 ET (data 2026-11-11T16:18:35+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,18 +6,18 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 11.8 | 10.9 | 58% | 9.06 | 9.01 |
-| A | 18.7 | 21.0 | 34% | 6.4 | 6.81 |
-| PPP | 9.4 | 10.9 | 36% | 9.01 | 10.93 |
-| PIM | 28.6 | 13.7 | 94% | 1.28 | 2.87 |
-| +/- | 0.1 | -0.1 | 51% | 5.24 | 3.99 |
-| GWG | 2.5 | 1.4 | 75% | 18.95 | 23.12 |
+| G | 11.8 | 10.3 | 63% | 8.87 | 9.01 |
+| A | 18.7 | 20.4 | 38% | 6.71 | 6.81 |
+| PPP | 9.4 | 10.7 | 38% | 9.19 | 10.94 |
+| PIM | 28.6 | 13.2 | 94% | 1.16 | 2.87 |
+| +/- | 0.1 | -0.3 | 52% | 5.32 | 3.99 |
+| GWG | 2.5 | 1.3 | 77% | 18.39 | 23.12 |
 
 ## Recommended moves (3 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Darren Raddysh** (TOR D) · **drop Joel Farabee** (CGY) — week +10.5 (2 vs 2 games left), later weeks +4.4/wk
+- **Add Darren Raddysh** (TOR D) · **drop Joel Farabee** (CGY) — week +10.7 (2 vs 2 games left), later weeks +4.4/wk
   - add proj/g: {'G': 0.16, 'A': 0.6, 'PPP': 0.29, 'PIM': 0.51, 'PM': 0.04, 'GWG': 0.02}
   - drop proj/g: {'G': 0.31, 'A': 0.38, 'PPP': 0.22, 'PIM': 0.41, 'PM': -0.14, 'GWG': 0.05}
 - **Add Bo Horvat** (NYI C) · **drop Jack Quinn** (BUF) — week +1.3 (2 vs 2 games left), later weeks +3.1/wk
