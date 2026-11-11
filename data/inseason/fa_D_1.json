@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-11-10",
+    "current_date": "2026-11-11",
     "current_week": 7,
     "draft_status": "postdraft",
-    "edit_key": "2026-11-11",
+    "edit_key": "2026-11-12",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -21,7 +21,7 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1794301402",
+    "league_update_timestamp": "1794387814",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
     "matchup_week": 7,
     "max_teams": "10",
@@ -256,10 +256,10 @@
           "week": 7
          },
          {
-          "value": 58
+          "value": 57
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -471,10 +471,10 @@
           "week": 7
          },
          {
-          "value": 14
+          "value": 13
          },
          {
-          "delta": "-2"
+          "delta": "-3"
          }
         ]
        }
@@ -749,8 +749,8 @@
         {
          "is_keeper": {
           "cost": false,
-          "kept": true,
-          "status": true
+          "kept": false,
+          "status": false
          }
         },
         {
@@ -800,9 +800,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793507360
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794375395
         }
        ],
        {
@@ -812,10 +814,10 @@
           "week": 7
          },
          {
-          "value": 97
+          "value": 96
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -1034,10 +1036,10 @@
           "week": 7
          },
          {
-          "value": 16
+          "value": 15
          },
          {
-          "delta": "-1"
+          "delta": "-2"
          }
         ]
        }
@@ -1773,9 +1775,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1793501935
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794380648
         }
        ],
        {
@@ -1881,9 +1885,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794382231
+        }
        ],
        {
         "percent_owned": [
@@ -2203,13 +2213,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1793510469
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -2654,10 +2660,10 @@
           "week": 7
          },
          {
-          "value": 74
+          "value": 73
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -2750,13 +2756,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1793513865
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -2779,7 +2781,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "100.3999710083ms",
+  "time": "78.423976898193ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=D;sort=AR;count=25;start=25/percent_owned"
  }

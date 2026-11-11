@@ -331,12 +331,17 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+      "score": 6
      },
+     "condensedGame": "/video/col-at-tor-condensed-game-6408214456112",
+     "condensedGameFr": "/fr/video/match-condense-avalanche-maple-leafs-10-11-2026-6408215809112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/col-vs-tor/2026/11/10/2026020286",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "TOR",
@@ -354,19 +359,19 @@
        "default": "Toronto",
        "fr": "de Toronto"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TOR/20262027/TOR-radio.m3u8"
+      "score": 3
      },
      "id": 2026020286,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/100064FECCFCF845?brand=nhl&wt.mc_id=NHL_LEAGUE_TOR_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_TOR&utm_content=SCHED_PG_GM12",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/100064FECCFCF845?brand=nhl&wt.mc_id=NHL_LEAGUE_TOR_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_TOR&utm_content=SCHED_PG_GM12",
+     "threeMinRecap": "/video/col-at-tor-recap-6408215316112",
+     "threeMinRecapFr": "/fr/video/col-vs-tor-10-11-2026-resume-6408215698112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -394,7 +399,25 @@
       "default": "Scotiabank Arena"
      },
      "venueTimezone": "America/Toronto",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "G."
+      },
+      "lastName": {
+       "default": "Landeskog"
+      },
+      "playerId": 8476455
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Blackwood"
+      },
+      "playerId": 8478406
+     }
     },
     {
      "awayTeam": {
@@ -413,12 +436,17 @@
        "default": "Minnesota",
        "fr": "du Minnesota"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MIN/20262027/MIN-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/min-at-mtl-condensed-game-6408215259112",
+     "condensedGameFr": "/fr/video/match-condense-wild-canadiens-10-11-2026-6408216515112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/min-vs-mtl/2026/11/10/2026020287",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "MTL",
@@ -436,19 +464,19 @@
        "default": "Montr\u00e9al",
        "fr": "de Montr\u00e9al"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
+      "score": 1
      },
      "id": 2026020287,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/310064FACACD8751?lang=en-ca&brand=nhl&wt.mc_id=NHL_LEAGUE_MTL_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_MTL&utm_content=SCHED_PG_GM10",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/310064FACACD8751?lang=fr-ca&brand=nhl&wt.mc_id=NHL_LEAGUE_MTL_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_MTL&utm_content=SCHED_PG_GM10",
+     "threeMinRecap": "/video/min-at-mtl-recap-6408214953112",
+     "threeMinRecapFr": "/fr/video/min-vs-mtl-10-11-2026-resume-6408214956112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -483,7 +511,25 @@
       "default": "Centre Bell"
      },
      "venueTimezone": "America/Montreal",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "K."
+      },
+      "lastName": {
+       "default": "Kaprizov"
+      },
+      "playerId": 8478864
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Wallstedt"
+      },
+      "playerId": 8482661
+     }
     },
     {
      "awayTeam": {
@@ -502,12 +548,17 @@
        "default": "Washington",
        "fr": "de Washington"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20262027/WSH-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/wsh-at-ott-condensed-game-6408214741112",
+     "condensedGameFr": "/fr/video/match-condense-capitals-senators-10-11-2026-6408214746112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/wsh-vs-ott/2026/11/10/2026020288",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "OTT",
@@ -526,19 +577,19 @@
        "default": "Ottawa",
        "fr": "d'Ottawa"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/OTT/20262027/OTT-radio.m3u8"
+      "score": 2
      },
      "id": 2026020288,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/31006507E9063438?brand=ottawasenators&artistid=805997&landing=s&wt.mc_id=NHL_TEAM_OTT_SGT_PG_GM9&",
-     "ticketsLinkFr": "https://www.nhl.com/fr/senators/tickets/",
+     "threeMinRecap": "/video/wsh-at-ott-recap-6408216201112",
+     "threeMinRecapFr": "/fr/video/wsh-vs-ott-10-11-2026-resume-6408214835112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -567,7 +618,25 @@
       "fr": "Centre Canadian Tire"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Hutson"
+      },
+      "playerId": 8484873
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Thompson"
+      },
+      "playerId": 8480313
+     }
     },
     {
      "awayTeam": {
@@ -586,12 +655,16 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/njd-at-wpg-condensed-game-6408214225112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/njd-vs-wpg/2026/11/10/2026020291",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "WPG",
@@ -609,19 +682,19 @@
        "default": "Winnipeg",
        "fr": "de Winnipeg"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WPG/20262027/WPG-radio.m3u8"
+      "score": 4
      },
      "id": 2026020291,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006505D01BAF31?brand=nhl&wt.mc_id=NHL_LEAGUE_WPG_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_WPG&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006505D01BAF31?brand=nhl&wt.mc_id=NHL_LEAGUE_WPG_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_WPG&utm_content=SCHED_PG_GM9",
+     "threeMinRecap": "/video/njd-at-wpg-recap-6408215300112",
+     "threeMinRecapFr": "/fr/video/njd-vs-wpg-10-11-2026-resume-6408214213112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -642,7 +715,25 @@
       "default": "Canada Life Centre"
      },
      "venueTimezone": "America/Winnipeg",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Mercer"
+      },
+      "playerId": 8482110
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "N."
+      },
+      "lastName": {
+       "default": "Daws"
+      },
+      "playerId": 8482076
+     }
     },
     {
      "awayTeam": {
@@ -662,12 +753,16 @@
        "default": "Florida",
        "fr": "de la Floride"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/FLA/20262027/FLA-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/fla-at-cbj-condensed-game-6408216127112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/fla-vs-cbj/2026/11/10/2026020289",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CBJ",
@@ -685,19 +780,19 @@
        "default": "Columbus",
        "fr": "de Columbus"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CBJ/20262027/CBJ-radio.m3u8"
+      "score": 1
      },
      "id": 2026020289,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/050064EDB0CE803A?brand=nhl&wt.mc_id=NHL_LEAGUE_CBJ_SCHED_PG_GM10&utm_source=web_schedule&utm_medium=NHL.com&utm_campaign=NHL_LEAGUE_CBJ&utm_content=SCHED_PG_GM10",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/050064EDB0CE803A?brand=nhl&wt.mc_id=NHL_LEAGUE_CBJ_SCHED_PG_GM10&utm_source=web_schedule&utm_medium=NHL.com&utm_campaign=NHL_LEAGUE_CBJ&utm_content=SCHED_PG_GM10",
+     "threeMinRecap": "/video/fla-at-cbj-recap-6408214969112",
+     "threeMinRecapFr": "/fr/video/fla-vs-cbj-10-11-2026-resume-6408215045112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -732,7 +827,29 @@
       "default": "Nationwide Arena"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "L."
+      },
+      "lastName": {
+       "default": "Eller"
+      },
+      "playerId": 8474189
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "cs": "Markstr\u00f6m",
+       "default": "Markstrom",
+       "fi": "Markstr\u00f6m",
+       "sk": "Markstr\u00f6m",
+       "sv": "Markstr\u00f6m"
+      },
+      "playerId": 8474593
+     }
     },
     {
      "awayTeam": {
@@ -751,12 +868,16 @@
        "default": "Detroit",
        "fr": "de Detroit"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/det-at-stl-condensed-game-6408218407112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/det-vs-stl/2026/11/10/2026020290",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "STL",
@@ -774,19 +895,19 @@
        "default": "St. Louis",
        "fr": "de St. Louis"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/STL/20262027/STL-radio.m3u8"
+      "score": 3
      },
      "id": 2026020290,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T01:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/060064EECE0D1B3E?brand=nhl&wt.mc_id=NHL_LEAGUE_STL_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_STL&utm_content=SCHED_PG_GM8",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/060064EECE0D1B3E?brand=nhl&wt.mc_id=NHL_LEAGUE_STL_SCHED_PG_GM8&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_STL&utm_content=SCHED_PG_GM8",
+     "threeMinRecap": "/video/det-at-stl-recap-6408216652112",
+     "threeMinRecapFr": "/fr/video/det-vs-stl-10-11-2026-resume-6408218210112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -814,7 +935,25 @@
       "default": "Enterprise Center"
      },
      "venueTimezone": "US/Central",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Snuggerud"
+      },
+      "playerId": 8483516
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Hofer"
+      },
+      "playerId": 8480981
+     }
     },
     {
      "awayTeam": {
@@ -833,12 +972,16 @@
        "default": "Nashville",
        "fr": "de Nashville"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/nsh-at-lak-condensed-game-6408219813112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nsh-vs-lak/2026/11/10/2026020292",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "LAK",
@@ -856,19 +999,19 @@
        "default": "Los Angeles",
        "fr": "de Los Angeles"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/LAK/20262027/LAK-radio.m3u8"
+      "score": 0
      },
      "id": 2026020292,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-11T03:00:00Z",
-     "ticketsLink": "https://www.axs.com/events/1457743/la-kings-vs-nashville-predators-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261110&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261110&tags=LAKWEB",
-     "ticketsLinkFr": "https://www.axs.com/events/1457743/la-kings-vs-nashville-predators-tickets?skin=lakings&cpch=LAKSCHEDNHL&cpdn=website&cpdate=LAK261110&cpsrc=single-game&utm_source=LAKSCHEDNHL&utm_medium=NHLwebsite&utm_campaign=single-game&utm_content=LAK261110&tags=LAKWEB",
+     "threeMinRecap": "/video/nsh-at-lak-recap-6408222362112",
+     "threeMinRecapFr": "/fr/video/nsh-vs-lak-10-11-2026-resume-6408222556112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -903,7 +1046,25 @@
       "default": "Crypto.com Arena"
      },
      "venueTimezone": "America/Los_Angeles",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "F."
+      },
+      "lastName": {
+       "default": "Forsberg"
+      },
+      "playerId": 8476887
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Saros"
+      },
+      "playerId": 8477424
+     }
     }
    ],
    "numberOfGames": 7
