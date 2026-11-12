@@ -1091,12 +1091,16 @@
        "default": "Tampa Bay",
        "fr": "de Tampa Bay"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/TBL/20262027/TBL-radio.m3u8"
+      "score": 8
      },
+     "condensedGame": "/video/tbl-at-buf-condensed-game-6408265905112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/tbl-vs-buf/2026/11/11/2026020293",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "BUF",
@@ -1114,19 +1118,19 @@
        "default": "Buffalo",
        "fr": "de Buffalo"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BUF/20262027/BUF-radio.m3u8"
+      "score": 3
      },
      "id": 2026020293,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T00:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/000064EFCB36805A?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM10",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/000064EFCB36805A?brand=nhl&wt.mc_id=NHL_LEAGUE_BUF_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_BUF&utm_content=SCHED_PG_GM10",
+     "threeMinRecap": "/video/tbl-at-buf-recap-6408263848112",
+     "threeMinRecapFr": "/fr/video/tbl-vs-buf-11-11-2026-resume-6408265211112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1154,7 +1158,28 @@
       "default": "KeyBank Center"
      },
      "venueTimezone": "America/New_York",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "Y."
+      },
+      "lastName": {
+       "default": "Gourde"
+      },
+      "playerId": 8476826
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "A."
+      },
+      "lastName": {
+       "cs": "Vasilevskij",
+       "default": "Vasilevskiy",
+       "fi": "Vasilevski",
+       "sk": "Vasilevskij"
+      },
+      "playerId": 8476883
+     }
     },
     {
      "awayTeam": {
@@ -1173,12 +1198,17 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/nyr-at-cgy-condensed-game-6408268201112",
+     "condensedGameFr": "/fr/video/match-condense-rangers-flames-11-11-2026-6408267234112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nyr-vs-cgy/2026/11/11/2026020294",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "CGY",
@@ -1196,19 +1226,19 @@
        "default": "Calgary",
        "fr": "de Calgary"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/CGY/20262027/CGY-radio.m3u8"
+      "score": 1
      },
      "id": 2026020294,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/110064FB8C6434B6?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM11",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/110064FB8C6434B6?brand=nhl&wt.mc_id=NHL_LEAGUE_CGY_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_CGY&utm_content=SCHED_PG_GM11",
+     "threeMinRecap": "/video/nyr-at-cgy-recap-6408265855112",
+     "threeMinRecapFr": "/fr/video/nyr-vs-cgy-11-11-2026-resume-6408268013112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1229,7 +1259,25 @@
       "default": "Scotiabank Saddledome"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "M."
+      },
+      "lastName": {
+       "default": "Zibanejad"
+      },
+      "playerId": 8476459
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Korpisalo"
+      },
+      "playerId": 8476914
+     }
     },
     {
      "awayTeam": {
@@ -1249,12 +1297,16 @@
        "default": "Philadelphia",
        "fr": "de Philadelphie"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PHI/20262027/PHI-radio.m3u8"
+      "score": 2
      },
+     "condensedGame": "/video/phi-at-edm-condensed-game-6408268802112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/phi-vs-edm/2026/11/11/2026020295",
+     "gameOutcome": {
+      "lastPeriodType": "OT"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "EDM",
@@ -1272,19 +1324,19 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 3
      },
      "id": 2026020295,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 4,
+      "periodType": "OT"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T02:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006513A620A4E5?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM12",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A620A4E5?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM12",
+     "threeMinRecap": "/video/phi-at-edm-recap-6408269251112",
+     "threeMinRecapFr": "/fr/video/phi-vs-edm-11-11-2026-resume-6408267688112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1305,7 +1357,25 @@
       "default": "Rogers Place"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "E."
+      },
+      "lastName": {
+       "default": "Bouchard"
+      },
+      "playerId": 8480803
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "T."
+      },
+      "lastName": {
+       "default": "Jarry"
+      },
+      "playerId": 8477465
+     }
     },
     {
      "awayTeam": {
@@ -1324,12 +1394,16 @@
        "default": "Utah",
        "fr": "de l'Utah"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/uta-at-vgk-condensed-game-6408269382112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/uta-vs-vgk/2026/11/11/2026020296",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VGK",
@@ -1347,19 +1421,19 @@
        "default": "Vegas",
        "fr": "de Vegas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+      "score": 5
      },
      "id": 2026020296,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T02:30:00Z",
-     "ticketsLink": "https://www.nhl.com/goldenknights/tickets/",
-     "ticketsLinkFr": "https://www.nhl.com/goldenknights/tickets/",
+     "threeMinRecap": "/video/uta-at-vgk-recap-6408270078112",
+     "threeMinRecapFr": "/fr/video/uta-vs-vgk-11-11-2026-resume-6408269589112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1387,7 +1461,28 @@
       "default": "T-Mobile Arena"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "I."
+      },
+      "lastName": {
+       "cs": "Barba\u0161ev",
+       "default": "Barbashev",
+       "fi": "Barbashov",
+       "sk": "Barba\u0161ev"
+      },
+      "playerId": 8477964
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Hart"
+      },
+      "playerId": 8479394
+     }
     },
     {
      "awayTeam": {
@@ -1406,12 +1501,16 @@
        "default": "Nashville",
        "fr": "de Nashville"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/nsh-at-ana-condensed-game-6408270884112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nsh-vs-ana/2026/11/11/2026020297",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "ANA",
@@ -1429,19 +1528,19 @@
        "default": "Anaheim",
        "fr": "d'Anaheim"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/ANA/20262027/ANA-radio.m3u8"
+      "score": 2
      },
      "id": 2026020297,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T03:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/090064EA2F278825?brand=nhl&wt.mc_id=NHL_LEAGUE_ANA_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_ANA&utm_content=SCHED_PG_GM9",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/090064EA2F278825?brand=nhl&wt.mc_id=NHL_LEAGUE_ANA_SCHED_PG_GM9&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_ANA&utm_content=SCHED_PG_GM9",
+     "threeMinRecap": "/video/nsh-at-ana-recap-6408271660112",
+     "threeMinRecapFr": "/fr/video/nsh-vs-ana-11-11-2026-resume-6408272150112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1469,7 +1568,25 @@
       "default": "Honda Center"
      },
      "venueTimezone": "America/Los_Angeles",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Wright"
+      },
+      "playerId": 8483524
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Annunen"
+      },
+      "playerId": 8481020
+     }
     },
     {
      "awayTeam": {
@@ -1488,12 +1605,16 @@
        "default": "Pittsburgh",
        "fr": "de Pittsburgh"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20262027/PIT-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/pit-at-sjs-condensed-game-6408272471112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/pit-vs-sjs/2026/11/11/2026020298",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "SJS",
@@ -1511,19 +1632,19 @@
        "default": "San Jose",
        "fr": "de San Jose"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/SJS/20262027/SJS-radio.m3u8"
+      "score": 2
      },
      "id": 2026020298,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-12T03:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/1C0064E79AE49BAC?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM10",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/1C0064E79AE49BAC?brand=nhl&wt.mc_id=NHL_LEAGUE_SJS_SCHED_PG_GM10&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_SJS&utm_content=SCHED_PG_GM10",
+     "threeMinRecap": "/video/pit-at-sjs-recap-6408270815112",
+     "threeMinRecapFr": "/fr/video/pit-vs-sjs-11-11-2026-resume-6408270905112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1546,7 +1667,16 @@
       "fr": "SAP Center de San Jose"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Murashov"
+      },
+      "playerId": 8483703
+     }
     }
    ],
    "numberOfGames": 6
