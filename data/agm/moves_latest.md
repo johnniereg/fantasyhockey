@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-13T05:48-05:00 ET (data 2026-11-13T10:47:33+00:00 UTC)
+# AGM moves — 2026-11-13T11:33-05:00 ET (data 2026-11-13T16:32:49+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 12.4 | 10.1 | 76% | 9.64 | 9.03 |
 | A | 26.0 | 18.8 | 95% | 2.26 | 6.82 |
-| PPP | 8.6 | 12.0 | 13% | 6.98 | 10.98 |
+| PPP | 8.6 | 12.0 | 13% | 6.98 | 10.99 |
 | PIM | 25.1 | 17.7 | 85% | 3.28 | 2.88 |
 | +/- | -4.5 | 2.4 | 11% | 3.32 | 3.99 |
 | GWG | 2.8 | 1.8 | 80% | 22.5 | 23.18 |
@@ -30,9 +30,9 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 ## Drop order (lowest projected value first, all skaters)
 
 - Thomas Harley (DAL) 9.39
-- Joel Farabee (CGY) 9.5
+- Joel Farabee (CGY) 9.51
 - Moritz Seider (DET) 10.07
-- Will Smith (SJS) 11.12 · keeper
+- Will Smith (SJS) 11.13 · keeper
 - Jack Quinn (BUF) 11.41
 - Pavel Zacha (BOS) 11.85
 - Joel Eriksson Ek (MIN) 11.9

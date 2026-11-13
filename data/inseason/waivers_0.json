@@ -133,9 +133,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1794495209
         }
@@ -926,6 +924,10 @@
          "url": "https://sports.yahoo.com/nhl/players/33750"
         },
         {
+         "status": "NA",
+         "status_full": "Not Active"
+        },
+        {
          "editorial_player_key": "nhl.p.33750"
         },
         {
@@ -984,9 +986,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794323620
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794583962
         }
        ]
       ]
@@ -996,7 +1000,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "79.391956329346ms",
+  "time": "98.618984222412ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=W;count=25;start=0"
  }
