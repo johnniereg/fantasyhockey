@@ -1,48 +1,50 @@
 {
  "current_week": 7,
- "date_et": "2026-11-13",
+ "date_et": "2026-11-14",
  "errors": {},
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": []
+   "written": [
+    "2026-11-13"
+   ]
   },
   "fa_snapshot": {
-   "date": "2026-11-13",
-   "players": 202,
-   "rows_read": 385
+   "date": "2026-11-14",
+   "players": 200,
+   "rows_read": 382
   },
   "goalie_starts": {
-   "games_added": 0,
+   "games_added": 2,
    "games_pending": 0,
-   "rows": 1236
+   "rows": 1244
   },
   "scoreboard_archive": {
    "archived": "scoreboard_week_06.json"
   },
   "skater_games": {
-   "games_added": 0,
+   "games_added": 2,
    "games_pending": 0
   },
   "waivers_0": "saved",
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-11-13T16:32:49+00:00",
- "finished_at_utc": "2026-11-13T16:33:05+00:00",
+ "fetched_at_utc": "2026-11-14T10:41:04+00:00",
+ "finished_at_utc": "2026-11-14T10:41:28+00:00",
  "games": {
   "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-11-13",
+   "date": "2026-11-14",
    "final": 0,
-   "games": 2
+   "games": 14
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-11-12",
-   "final": 11,
-   "games": 11
+   "date": "2026-11-13",
+   "final": 2,
+   "games": 2
   }
  },
  "league_key": "477.l.12088",
@@ -64,8 +66,6 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-11-13",
-  "opp_roster_2026-11-13",
   "my_roster_2026-11-14",
   "opp_roster_2026-11-14",
   "my_roster_2026-11-15",
@@ -103,12 +103,11 @@
  ],
  "opp_team_key": "477.l.12088.t.8",
  "roster_dates": [
-  "2026-11-13",
   "2026-11-14",
   "2026-11-15"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
   "7": [

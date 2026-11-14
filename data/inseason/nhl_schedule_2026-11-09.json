@@ -2916,12 +2916,17 @@
        "default": "New York",
        "fr": "de New York"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NYR/20262027/NYR-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/nyr-at-van-condensed-game-6408368515112",
+     "condensedGameFr": "/fr/video/match-condense-rangers-canucks-13-11-2026-6408367453112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nyr-vs-van/2026/11/13/2026020310",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VAN",
@@ -2939,19 +2944,19 @@
        "default": "Vancouver",
        "fr": "de Vancouver"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VAN/20262027/VAN-radio.m3u8"
+      "score": 1
      },
      "id": 2026020310,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-14T02:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006503F0ADBB93?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM10&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006503F0ADBB93?brand=nhl&wt.mc_id=NHL_LEAGUE_VAN_SCHED_PG_GM10&utm_medium=Web&utm_source=Web&utm_campaign=26.27-VAN-LEAGUE-WEB",
+     "threeMinRecap": "/video/nyr-at-van-recap-6408368255112",
+     "threeMinRecapFr": "/fr/video/nyr-vs-van-13-11-2026-resume-6408369110112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -2979,7 +2984,25 @@
       "default": "Rogers Arena"
      },
      "venueTimezone": "America/Vancouver",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "O."
+      },
+      "lastName": {
+       "default": "Bjorkstrand"
+      },
+      "playerId": 8477416
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "D."
+      },
+      "lastName": {
+       "default": "Garand"
+      },
+      "playerId": 8482193
+     }
     },
     {
      "awayTeam": {
@@ -2998,12 +3021,16 @@
        "default": "Nashville",
        "fr": "de Nashville"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NSH/20262027/NSH-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/nsh-at-vgk-condensed-game-6408370739112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/nsh-vs-vgk/2026/11/13/2026020311",
+     "gameOutcome": {
+      "lastPeriodType": "SO"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "VGK",
@@ -3021,19 +3048,19 @@
        "default": "Vegas",
        "fr": "de Vegas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+      "score": 2
      },
      "id": 2026020311,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
-      "periodType": "REG"
+      "number": 5,
+      "periodType": "SO"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-14T03:00:00Z",
-     "ticketsLink": "https://www.nhl.com/goldenknights/tickets/",
-     "ticketsLinkFr": "https://www.nhl.com/goldenknights/tickets/",
+     "threeMinRecap": "/video/nsh-at-vgk-recap-6408371126112",
+     "threeMinRecapFr": "/fr/video/nsh-vs-vgk-13-11-2026-resume-6408370449112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -3054,7 +3081,16 @@
       "default": "T-Mobile Arena"
      },
      "venueTimezone": "US/Pacific",
-     "venueUTCOffset": "-08:00"
+     "venueUTCOffset": "-08:00",
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Saros"
+      },
+      "playerId": 8477424
+     }
     }
    ],
    "numberOfGames": 2
