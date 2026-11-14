@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-14T05:41-05:00 ET (data 2026-11-14T10:41:04+00:00 UTC)
+# AGM moves — 2026-11-14T10:11-05:00 ET (data 2026-11-14T15:11:08+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -17,7 +17,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Trevor Zegras** (PHI C,LW,RW) · **drop Moritz Seider** (DET) — week +10.9 (1 vs 0 games left), later weeks +3.4/wk
+- **Add Trevor Zegras** (PHI C,LW,RW) · **drop Moritz Seider** (DET) — week +10.9 (1 vs 0 games left), later weeks +3.3/wk
   - add proj/g: {'G': 0.25, 'A': 0.45, 'PPP': 0.24, 'PIM': 0.93, 'PM': -0.11, 'GWG': 0.04}
   - drop proj/g: {'G': 0.09, 'A': 0.57, 'PPP': 0.28, 'PIM': 0.67, 'PM': 0.01, 'GWG': 0.01}
 - **Add Sam Bennett** (FLA C) · **drop Joel Farabee** (CGY) — week +3.7 (1 vs 1 games left), later weeks +2.8/wk
