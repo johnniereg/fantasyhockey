@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-15T05:43-05:00 ET (data 2026-11-15T10:41:03+00:00 UTC)
+# AGM moves — 2026-11-15T10:43-05:00 ET (data 2026-11-15T15:42:57+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,12 +8,12 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 10.2 | 9.2 | 69% | 19.1 | 9.07 |
 | A | 27.9 | 20.3 | 100% | 0.07 | 6.84 |
-| PPP | 8.7 | 12.3 | 2% | 2.71 | 11.02 |
+| PPP | 8.7 | 12.3 | 2% | 2.71 | 11.01 |
 | PIM | 26.2 | 19.1 | 98% | 1.6 | 2.88 |
 | +/- | -4.2 | 8.2 | 0% | 0.0 | 3.99 |
 | GWG | 2.3 | 1.2 | 94% | 15.85 | 23.28 |
 
-## Recommended moves (3 adds left this week)
+## Recommended moves (2 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
@@ -23,9 +23,6 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - **Add Bo Horvat** (NYI C) · **drop Thomas Harley** (DAL) — week +0.0 (0 vs 0 games left), later weeks +10.4/wk
   - add proj/g: {'G': 0.45, 'A': 0.46, 'PPP': 0.25, 'PIM': 0.33, 'PM': 0.05, 'GWG': 0.07}
   - drop proj/g: {'G': 0.15, 'A': 0.53, 'PPP': 0.2, 'PIM': 0.44, 'PM': 0.19, 'GWG': 0.02}
-- **Add Dylan Strome** (WSH C) · **drop Moritz Seider** (DET) — week +0.0 (0 vs 0 games left), later weeks +5.9/wk
-  - add proj/g: {'G': 0.26, 'A': 0.6, 'PPP': 0.29, 'PIM': 0.41, 'PM': -0.06, 'GWG': 0.04}
-  - drop proj/g: {'G': 0.09, 'A': 0.54, 'PPP': 0.26, 'PIM': 0.66, 'PM': 0.03, 'GWG': 0.01}
 
 ## Drop order (lowest projected value first, all skaters)
 
@@ -34,8 +31,8 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Moritz Seider (DET) 9.77
 - Jack Quinn (BUF) 10.98
 - Will Smith (SJS) 11.43 · keeper
-- Joel Eriksson Ek (MIN) 11.56
-- Pavel Zacha (BOS) 11.61
+- Joel Eriksson Ek (MIN) 11.55
+- Pavel Zacha (BOS) 11.6
 - Carter Verhaeghe (FLA) 12.12
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
