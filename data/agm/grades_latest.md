@@ -1,2 +1,29 @@
 | Logged | Add | Drop | Add next 7d GP G-A-PIM-+/- | Drop next 7d | Value add vs drop | Verdict |
 |---|---|---|---|---|---|---|
+| 2026-11-02 | Evgeni Malkin | Mika Zibanejad | 3 0-5-0--1 | 4 0-4-2-+0 | -2.9 | drop better |
+| 2026-11-02 | Evgeni Malkin | Mika Zibanejad | 3 0-5-0--1 | 4 0-4-2-+0 | -2.9 | drop better |
+| 2026-11-02 | Evgeni Malkin | Mika Zibanejad | 3 0-5-0--1 | 4 0-4-2-+0 | -2.9 | drop better |
+| 2026-11-02 | Evgeni Malkin | Mika Zibanejad | 3 0-5-0--1 | 4 0-4-2-+0 | -2.9 | drop better |
+| 2026-11-03 | Pavel Zacha | Shea Theodore | 2 2-2-2-+3 | 2 0-1-0-+2 | +34.7 | add better |
+| 2026-11-03 | Carter Verhaeghe | Mika Zibanejad | 4 2-2-4-+1 | 3 0-4-0-+0 | +20.0 | add better |
+| 2026-11-03 | Evgeni Malkin | Moritz Seider | 3 0-5-0--1 | 3 1-0-9--2 | +3.2 | add better |
+| 2026-11-03 | Pavel Zacha | Shea Theodore | 2 2-2-2-+3 | 2 0-1-0-+2 | +34.7 | add better |
+| 2026-11-03 | Carter Verhaeghe | Mika Zibanejad | 4 2-2-4-+1 | 3 0-4-0-+0 | +20.0 | add better |
+| 2026-11-03 | Evgeni Malkin | Moritz Seider | 3 0-5-0--1 | 3 1-0-9--2 | +3.2 | add better |
+| 2026-11-03 | Pavel Zacha | Shea Theodore | 2 2-2-2-+3 | 2 0-1-0-+2 | +34.7 | add better |
+| 2026-11-03 | Evgeni Malkin | Mika Zibanejad | 3 0-5-0--1 | 3 0-4-0-+0 | +2.8 | add better |
+| 2026-11-03 | Pavel Zacha | Shea Theodore | 2 2-2-2-+3 | 2 0-1-0-+2 | +34.7 | add better |
+| 2026-11-04 | Pavel Zacha | Brock Nelson | 2 2-2-2-+3 | 3 1-1-0-+1 | +29.6 | add better |
+| 2026-11-04 | Nico Hischier | Joel Farabee | 4 1-2-2--1 | 3 2-0-0--2 | +14.3 | add better |
+| 2026-11-04 | Pavel Zacha | Brock Nelson | 2 2-2-2-+3 | 3 1-1-0-+1 | +29.6 | add better |
+| 2026-11-04 | Nico Hischier | Joel Farabee | 4 1-2-2--1 | 3 2-0-0--2 | +14.3 | add better |
+| 2026-11-04 | Pavel Zacha | Brock Nelson | 2 2-2-2-+3 | 3 1-1-0-+1 | +29.6 | add better |
+| 2026-11-04 | Nico Hischier | Joel Farabee | 4 1-2-2--1 | 3 2-0-0--2 | +14.3 | add better |
+| 2026-11-04 | Pavel Zacha | Brock Nelson | 2 2-2-2-+3 | 3 1-1-0-+1 | +29.6 | add better |
+| 2026-11-05 | Pavel Zacha | Thomas Harley | 2 0-2-0--1 | 2 1-4-0--4 | -10.8 | drop better |
+| 2026-11-05 | Pavel Zacha | Thomas Harley | 2 0-2-0--1 | 2 1-4-0--4 | -10.8 | drop better |
+| 2026-11-05 | Pavel Zacha | Thomas Harley | 2 0-2-0--1 | 2 1-4-0--4 | -10.8 | drop better |
+| 2026-11-06 | Pavel Zacha | Brock Nelson | 2 0-2-0--1 | 3 1-1-0-+1 | -10.2 | drop better |
+| 2026-11-06 | Pavel Zacha | Brock Nelson | 2 0-2-0--1 | 3 1-1-0-+1 | -10.2 | drop better |
+| 2026-11-07 | Pavel Zacha | Thomas Harley | 3 0-3-0--3 | 2 0-2-2--1 | -6.9 | drop better |
+| 2026-11-07 | Pavel Zacha | Thomas Harley | 3 0-3-0--3 | 2 0-2-2--1 | -6.9 | drop better |
