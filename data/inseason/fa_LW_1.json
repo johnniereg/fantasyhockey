@@ -356,13 +356,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1793983054
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -371,10 +367,10 @@
           "week": 8
          },
          {
-          "value": 12
+          "value": 11
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -704,10 +700,10 @@
           "week": 8
          },
          {
-          "value": 15
+          "value": 14
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -803,9 +799,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794027686
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1794853015
         }
        ],
        {
@@ -923,10 +921,10 @@
           "week": 8
          },
          {
-          "value": 7
+          "value": 11
          },
          {
-          "delta": "3"
+          "delta": "7"
          }
         ]
        }
@@ -1252,10 +1250,10 @@
           "week": 8
          },
          {
-          "value": 17
+          "value": 16
          },
          {
-          "delta": "5"
+          "delta": "4"
          }
         ]
        }
@@ -1363,10 +1361,10 @@
           "week": 8
          },
          {
-          "value": 11
+          "value": 17
          },
          {
-          "delta": "2"
+          "delta": "8"
          }
         ]
        }
@@ -1472,9 +1470,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1794767130
         }
@@ -2254,9 +2250,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1794758922
         }
@@ -2403,8 +2397,8 @@
          "url": "https://sports.yahoo.com/nhl/players/30611"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
          "injury_note": "Illness"
@@ -2606,10 +2600,10 @@
           "week": 8
          },
          {
-          "value": 13
+          "value": 15
          },
          {
-          "delta": "0"
+          "delta": "2"
          }
         ]
        }
@@ -2824,10 +2818,10 @@
           "week": 8
          },
          {
-          "value": 26
+          "value": 23
          },
          {
-          "delta": "0"
+          "delta": "-3"
          }
         ]
        }
@@ -2838,7 +2832,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "85.894823074341ms",
+  "time": "130.40399551392ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=LW;sort=AR;count=25;start=25/percent_owned"
  }

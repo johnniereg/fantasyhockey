@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-16T05:42-05:00 ET (data 2026-11-16T10:41:38+00:00 UTC)
+# AGM moves — 2026-11-16T13:40-05:00 ET (data 2026-11-16T18:40:22+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 9.6 | 12.2 | 29% | 7.3 | 9.07 |
 | A | 15.7 | 20.6 | 21% | 4.77 | 6.84 |
-| PPP | 8.4 | 10.8 | 29% | 7.79 | 11.02 |
+| PPP | 8.4 | 10.8 | 29% | 7.79 | 11.01 |
 | PIM | 16.9 | 12.9 | 64% | 3.42 | 2.88 |
 | +/- | 1.8 | 3.7 | 41% | 4.81 | 3.99 |
 | GWG | 1.5 | 1.9 | 41% | 21.4 | 23.27 |
@@ -27,10 +27,10 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 ## Drop order (lowest projected value first, all skaters)
 
 - Sean Walker (CAR) 6.31
-- Moritz Seider (DET) 9.77
-- Thomas Harley (DAL) 9.93
+- Moritz Seider (DET) 9.76
+- Thomas Harley (DAL) 9.92
 - Jack Quinn (BUF) 10.98
-- Will Smith (SJS) 11.45 · keeper
+- Will Smith (SJS) 11.44 · keeper
 - Joel Eriksson Ek (MIN) 11.55
 - Pavel Zacha (BOS) 11.6
 - Carter Verhaeghe (FLA) 11.84
@@ -45,12 +45,12 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | Devin Cooley | CGY | ✔ | 0.5 | 10 | 3 | 1.5 | 0.422 | 3.33 | 30.0 | 0.906 |
 | Dustin Wolf | CGY | ✔ | 0.5 | 10 | 3 | 1.5 | 0.422 | 3.33 | 30.0 | 0.875 |
 | Samuel Ersson | OTT |  | 0.6 | 7 | 3 | 1.8 | 0.579 | 2.95 | 25.5 | 0.885 |
-| Daniil Tarasov | DET |  | 0.5 | 7 | 2 | 1.0 | 0.439 | 3.02 | 26.9 | 0.931 |
-| John Gibson | DET |  | 0.5 | 13 | 2 | 1.0 | 0.439 | 3.02 | 26.9 | 0.862 |
+| Akira Schmid | FLA |  | 0.5 | 10 | 2 | 1.0 | 0.518 | 3.09 | 26.3 | 0.885 |
+| Daniil Tarasov | DET |  | 0.5 | 7 | 2 | 1.0 | 0.439 | 3.02 | 27.0 | 0.931 |
+| John Gibson | DET |  | 0.5 | 13 | 2 | 1.0 | 0.439 | 3.02 | 27.0 | 0.862 |
 | Sebastian Cossa | UTA |  | 0.5 | 7 | 2 | 1.0 | 0.500 | 3.21 | 25.5 | 0.863 |
 | Jet Greaves | CBJ |  | 0.5 | 10 | 3 | 1.5 | 0.441 | 3.14 | 28.3 | 0.875 |
 | Cam Talbot | CBJ |  | 0.5 | 8 | 3 | 1.5 | 0.441 | 3.14 | 28.3 | 0.909 |
 | Dan Vladar | PHI |  | 0.5 | 12 | 3 | 1.5 | 0.383 | 3.12 | 26.9 | 0.877 |
 | Joseph Woll | PHI |  | 0.5 | 11 | 3 | 1.5 | 0.383 | 3.12 | 26.9 | 0.902 |
-| Arturs Silovs | PIT |  | 0.5 | 12 | 3 | 1.5 | 0.425 | 3.32 | 27.7 | 0.873 |
-| Sergei Murashov | PIT |  | 0.5 | 8 | 3 | 1.5 | 0.425 | 3.32 | 27.7 | 0.893 |
+| Arturs Silovs | PIT |  | 0.5 | 12 | 3 | 1.5 | 0.425 | 3.32 | 27.8 | 0.873 |
