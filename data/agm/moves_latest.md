@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-17T05:41-05:00 ET (data 2026-11-17T10:41:35+00:00 UTC)
+# AGM moves — 2026-11-17T12:41-05:00 ET (data 2026-11-17T17:40:36+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 9.3 | 12.2 | 27% | 7.13 | 9.06 |
 | A | 16.1 | 20.8 | 22% | 4.89 | 6.83 |
-| PPP | 8.1 | 11.1 | 25% | 7.19 | 10.99 |
+| PPP | 8.1 | 11.1 | 25% | 7.19 | 11.01 |
 | PIM | 15.8 | 12.9 | 61% | 3.58 | 2.88 |
 | +/- | 2.9 | 3.8 | 46% | 4.96 | 3.99 |
 | GWG | 1.4 | 1.8 | 41% | 21.46 | 23.25 |
@@ -27,13 +27,13 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 ## Drop order (lowest projected value first, all skaters)
 
 - Sean Walker (CAR) 6.3
-- Moritz Seider (DET) 9.75
-- Thomas Harley (DAL) 9.91
+- Moritz Seider (DET) 9.76
+- Thomas Harley (DAL) 9.92
 - Jack Quinn (BUF) 10.97
-- Will Smith (SJS) 11.43 · keeper
+- Will Smith (SJS) 11.44 · keeper
 - Joel Eriksson Ek (MIN) 11.54
-- Pavel Zacha (BOS) 11.59
-- Carter Verhaeghe (FLA) 11.82
+- Pavel Zacha (BOS) 11.6
+- Carter Verhaeghe (FLA) 11.83
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
