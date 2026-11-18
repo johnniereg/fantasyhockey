@@ -415,9 +415,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795017795
+        }
        ],
        {
         "player_stats": {
@@ -2986,9 +2992,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1794923699
         }
@@ -3613,7 +3617,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "107.36894607544ms",
+  "time": "154.1109085083ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/stats;type=lastweek"
  }

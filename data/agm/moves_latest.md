@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-18T05:41-05:00 ET (data 2026-11-18T10:41:19+00:00 UTC)
+# AGM moves — 2026-11-18T12:21-05:00 ET (data 2026-11-18T17:20:54+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 12.7 | 16.9 | 15% | 5.77 | 9.08 |
 | A | 19.1 | 19.6 | 47% | 7.84 | 6.85 |
-| PPP | 11.0 | 9.6 | 64% | 10.15 | 11.06 |
+| PPP | 11.0 | 9.6 | 64% | 10.15 | 11.09 |
 | PIM | 12.2 | 10.7 | 56% | 4.31 | 2.88 |
 | +/- | 2.2 | 6.8 | 25% | 4.62 | 3.99 |
 | GWG | 2.0 | 2.4 | 41% | 25.31 | 23.29 |
@@ -29,11 +29,11 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Sean Walker (CAR) 6.32
 - Moritz Seider (DET) 9.79
 - Miro Heiskanen (DAL) 10.31 · keeper
-- Jack Quinn (BUF) 10.78
-- Pavel Zacha (BOS) 11.12
-- Will Smith (SJS) 11.16 · keeper (top-8, protected)
-- Carter Verhaeghe (FLA) 11.78
-- Joel Eriksson Ek (MIN) 11.92
+- Jack Quinn (BUF) 10.79
+- Pavel Zacha (BOS) 11.13
+- Will Smith (SJS) 11.17 · keeper (top-8, protected)
+- Carter Verhaeghe (FLA) 11.79
+- Joel Eriksson Ek (MIN) 11.93
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
