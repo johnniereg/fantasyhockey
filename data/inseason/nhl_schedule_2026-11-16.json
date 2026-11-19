@@ -1422,32 +1422,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg",
       "id": 6,
       "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.95"
-       },
-       {
-        "providerId": 8,
-        "value": "-111"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 3,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.50"
-       }
-      ],
       "placeName": {
        "default": "Boston"
       },
@@ -1455,12 +1429,16 @@
        "default": "Boston",
        "fr": "de Boston"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/BOS/20262027/BOS-radio.m3u8"
+      "score": 4
      },
+     "condensedGame": "/video/bos-at-det-condensed-game-6408575230112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/bos-vs-det/2026/11/18/2026020344",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "DET",
@@ -1471,32 +1449,6 @@
       "homeSplitSquad": false,
       "id": 17,
       "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg",
-      "odds": [
-       {
-        "providerId": 6,
-        "value": "1.85"
-       },
-       {
-        "providerId": 8,
-        "value": "-111"
-       },
-       {
-        "providerId": 7,
-        "value": "-110"
-       },
-       {
-        "providerId": 9,
-        "value": "-110"
-       },
-       {
-        "providerId": 3,
-        "value": "1.92"
-       },
-       {
-        "providerId": 10,
-        "value": "2.45"
-       }
-      ],
       "placeName": {
        "default": "Detroit"
       },
@@ -1504,13 +1456,13 @@
        "default": "Detroit",
        "fr": "de Detroit"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/DET/20262027/DET-radio.m3u8"
+      "score": 1
      },
      "id": 2026020344,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
@@ -1522,8 +1474,8 @@
       "parentId": 44
      },
      "startTimeUTC": "2026-11-19T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCHED_PG_GM11",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/080064EED7D87FD6?brand=nhl&wt.mc_id=NHL_LEAGUE_DET_SCHED_PG_GM11&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_DET&utm_content=SCHED_PG_GM11",
+     "threeMinRecap": "/video/bos-at-det-recap-6408575122112",
+     "threeMinRecapFr": "/fr/video/bos-vs-det-18-11-2026-resume-6408575906112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1544,7 +1496,25 @@
       "default": "Little Caesars Arena"
      },
      "venueTimezone": "America/Detroit",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "P."
+      },
+      "lastName": {
+       "default": "Zacha"
+      },
+      "playerId": 8478401
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Swayman"
+      },
+      "playerId": 8480280
+     }
     },
     {
      "awayTeam": {
@@ -1556,32 +1526,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
       "id": 8,
       "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "+141"
-       },
-       {
-        "providerId": 7,
-        "value": "+140"
-       },
-       {
-        "providerId": 9,
-        "value": "+142"
-       },
-       {
-        "providerId": 6,
-        "value": "2.32"
-       },
-       {
-        "providerId": 3,
-        "value": "2.38"
-       },
-       {
-        "providerId": 10,
-        "value": "3.20"
-       }
-      ],
       "placeName": {
        "default": "Montr\u00e9al"
       },
@@ -1589,12 +1533,17 @@
        "default": "Montr\u00e9al",
        "fr": "de Montr\u00e9al"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/MTL/20262027/MTL-radio.m3u8"
+      "score": 3
      },
+     "condensedGame": "/video/mtl-at-njd-condensed-game-6408577465112",
+     "condensedGameFr": "/fr/video/match-condense-canadiens-devils-18-11-2026-6408575239112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/mtl-vs-njd/2026/11/18/2026020345",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "NJD",
@@ -1605,32 +1554,6 @@
       "homeSplitSquad": false,
       "id": 1,
       "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-173"
-       },
-       {
-        "providerId": 7,
-        "value": "-170"
-       },
-       {
-        "providerId": 9,
-        "value": "-170"
-       },
-       {
-        "providerId": 6,
-        "value": "1.60"
-       },
-       {
-        "providerId": 3,
-        "value": "1.60"
-       },
-       {
-        "providerId": 10,
-        "value": "2.00"
-       }
-      ],
       "placeName": {
        "default": "New Jersey"
       },
@@ -1638,19 +1561,19 @@
        "default": "New Jersey",
        "fr": "du New Jersey"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/NJD/20262027/NJD-radio.m3u8"
+      "score": 2
      },
      "id": 2026020345,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-19T00:30:00Z",
-     "ticketsLink": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM12",
-     "ticketsLinkFr": "https://www.ticketmaster.com/event/020064F091C59CCF?brand=nhl&wt.mc_id=NHL_LEAGUE_NJD_SCHED_PG_GM12&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NJD&utm_content=SCHED_PG_GM12",
+     "threeMinRecap": "/video/mtl-at-njd-recap-6408575338112",
+     "threeMinRecapFr": "/fr/video/mtl-vs-njd-18-11-2026-resume-6408576231112",
      "tvBroadcasts": [
       {
        "countryCode": "CA",
@@ -1671,7 +1594,25 @@
       "default": "Prudential Center"
      },
      "venueTimezone": "US/Eastern",
-     "venueUTCOffset": "-05:00"
+     "venueUTCOffset": "-05:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Evans"
+      },
+      "playerId": 8478133
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Fowler"
+      },
+      "playerId": 8484170
+     }
     },
     {
      "awayTeam": {
@@ -1683,28 +1624,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg",
       "id": 21,
       "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-107"
-       },
-       {
-        "providerId": 7,
-        "value": "-102"
-       },
-       {
-        "providerId": 9,
-        "value": "-105"
-       },
-       {
-        "providerId": 6,
-        "value": "1.85"
-       },
-       {
-        "providerId": 3,
-        "value": "1.95"
-       }
-      ],
       "placeName": {
        "default": "Colorado"
       },
@@ -1712,12 +1631,16 @@
        "default": "Colorado",
        "fr": "du Colorado"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/COL/20262027/COL-radio.m3u8"
+      "score": 1
      },
+     "condensedGame": "/video/col-at-uta-condensed-game-6408581754112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/col-vs-uta/2026/11/18/2026020346",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "UTA",
@@ -1728,28 +1651,6 @@
       "homeSplitSquad": false,
       "id": 68,
       "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg",
-      "odds": [
-       {
-        "providerId": 8,
-        "value": "-114"
-       },
-       {
-        "providerId": 7,
-        "value": "-118"
-       },
-       {
-        "providerId": 9,
-        "value": "-115"
-       },
-       {
-        "providerId": 6,
-        "value": "1.95"
-       },
-       {
-        "providerId": 3,
-        "value": "1.89"
-       }
-      ],
       "placeName": {
        "default": "Utah"
       },
@@ -1757,19 +1658,19 @@
        "default": "Utah",
        "fr": "de l'Utah"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/UTA/20262027/UTA-radio.m3u8"
+      "score": 4
      },
      "id": 2026020346,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-19T03:00:00Z",
-     "ticketsLink": "https://www.nhl.com/utah/tickets/",
-     "ticketsLinkFr": "https://www.nhl.com/utah/tickets/",
+     "threeMinRecap": "/video/col-at-uta-recap-6408579975112",
+     "threeMinRecapFr": "/fr/video/col-vs-uta-18-11-2026-resume-6408582111112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -1797,7 +1698,25 @@
       "default": "Delta Center"
      },
      "venueTimezone": "America/Denver",
-     "venueUTCOffset": "-07:00"
+     "venueUTCOffset": "-07:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "V."
+      },
+      "lastName": {
+       "default": "Trocheck"
+      },
+      "playerId": 8476389
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "S."
+      },
+      "lastName": {
+       "default": "Cossa"
+      },
+      "playerId": 8482657
+     }
     }
    ],
    "numberOfGames": 3

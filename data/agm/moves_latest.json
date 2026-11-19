@@ -1,62 +1,61 @@
 {
- "generated_at_et": "2026-11-18T12:21-05:00",
- "data_fetched_utc": "2026-11-18T17:20:54+00:00",
+ "generated_at_et": "2026-11-19T05:42-05:00",
+ "data_fetched_utc": "2026-11-19T10:41:31+00:00",
  "dates": [
-  "2026-11-18",
   "2026-11-19",
   "2026-11-20",
   "2026-11-21",
   "2026-11-22"
  ],
  "weights": {
-  "G": 5.77,
-  "A": 7.84,
-  "PPP": 10.15,
-  "PIM": 4.31,
-  "PM": 4.62,
-  "GWG": 25.31
+  "G": 5.93,
+  "A": 8.14,
+  "PPP": 9.03,
+  "PIM": 4.3,
+  "PM": 4.12,
+  "GWG": 23.98
  },
  "season_weights": {
   "G": 9.08,
   "A": 6.85,
-  "PPP": 11.09,
+  "PPP": 11.06,
   "PIM": 2.88,
   "PM": 3.99,
-  "GWG": 23.29
+  "GWG": 23.3
  },
  "matchup": {
   "G": {
-   "us": 12.7,
-   "them": 16.9,
+   "us": 13.4,
+   "them": 17.4,
    "p_win": 0.15
   },
   "A": {
    "us": 19.1,
-   "them": 19.6,
-   "p_win": 0.47
+   "them": 18.5,
+   "p_win": 0.55
   },
   "PPP": {
-   "us": 11.0,
-   "them": 9.6,
-   "p_win": 0.64
+   "us": 11.5,
+   "them": 9.1,
+   "p_win": 0.75
   },
   "PIM": {
-   "us": 12.2,
-   "them": 10.7,
-   "p_win": 0.56
+   "us": 13.1,
+   "them": 10.0,
+   "p_win": 0.64
   },
   "PM": {
-   "us": 2.2,
+   "us": 1.1,
    "them": 6.8,
-   "p_win": 0.25
+   "p_win": 0.19
   },
   "GWG": {
-   "us": 2.0,
-   "them": 2.4,
-   "p_win": 0.41
+   "us": 3.0,
+   "them": 2.3,
+   "p_win": 0.68
   }
  },
- "base_week_value": 254.27,
+ "base_week_value": 152.03,
  "adds_left": 4,
  "recommendations": [
   {
@@ -64,11 +63,11 @@
    "add_team": "PIT",
    "add_pos": "C,LW,RW",
    "waiver": false,
-   "own_pct": 61,
+   "own_pct": 60,
    "drop": "Sean Walker",
    "drop_team": "CAR",
    "drop_keeper": false,
-   "week_gain": 7.6,
+   "week_gain": 1.1,
    "ros_gain_per_week": 23.5,
    "add_proj": {
     "G": 0.32,
@@ -86,20 +85,20 @@
     "PM": 0.14,
     "GWG": 0.02
    },
-   "add_games": 3,
-   "drop_games": 3
+   "add_games": 2,
+   "drop_games": 2
   },
   {
    "add": "Bo Horvat",
    "add_team": "NYI",
    "add_pos": "C",
    "waiver": false,
-   "own_pct": 89,
+   "own_pct": 90,
    "drop": "Pavel Zacha",
    "drop_team": "BOS",
    "drop_keeper": false,
-   "week_gain": 1.6,
-   "ros_gain_per_week": 4.5,
+   "week_gain": 0.2,
+   "ros_gain_per_week": 3.4,
    "add_proj": {
     "G": 0.43,
     "A": 0.46,
@@ -109,14 +108,14 @@
     "GWG": 0.07
    },
    "drop_proj": {
-    "G": 0.3,
+    "G": 0.31,
     "A": 0.49,
-    "PPP": 0.27,
-    "PIM": 0.35,
-    "PM": 0.02,
-    "GWG": 0.04
+    "PPP": 0.28,
+    "PIM": 0.34,
+    "PM": 0.04,
+    "GWG": 0.05
    },
-   "add_games": 2,
+   "add_games": 1,
    "drop_games": 1
   }
  ],
@@ -131,7 +130,7 @@
   {
    "name": "Moritz Seider",
    "team": "DET",
-   "value_pg": 9.79,
+   "value_pg": 9.48,
    "keeper": false,
    "keeper_top8": false
   },
@@ -145,14 +144,7 @@
   {
    "name": "Jack Quinn",
    "team": "BUF",
-   "value_pg": 10.79,
-   "keeper": false,
-   "keeper_top8": false
-  },
-  {
-   "name": "Pavel Zacha",
-   "team": "BOS",
-   "value_pg": 11.13,
+   "value_pg": 10.78,
    "keeper": false,
    "keeper_top8": false
   },
@@ -161,6 +153,13 @@
    "team": "SJS",
    "value_pg": 11.17,
    "keeper": true,
+   "keeper_top8": false
+  },
+  {
+   "name": "Pavel Zacha",
+   "team": "BOS",
+   "value_pg": 11.44,
+   "keeper": false,
    "keeper_top8": true
   },
   {
@@ -180,7 +179,7 @@
   {
    "name": "Mikael Granlund",
    "team": "ANA",
-   "value_pg": 12.98,
+   "value_pg": 12.97,
    "keeper": false,
    "keeper_top8": true
   },
@@ -208,7 +207,7 @@
   {
    "name": "Cutter Gauthier",
    "team": "ANA",
-   "value_pg": 17.77,
+   "value_pg": 17.76,
    "keeper": true,
    "keeper_top8": true
   }
@@ -222,53 +221,11 @@
    "sv_season": 0.88479,
    "gs": 7,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.589,
    "team_ga_pg": 2.9,
    "team_sa_pg": 25.4
-  },
-  {
-   "name": "Daniil Tarasov",
-   "team": "DET",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.93087,
-   "gs": 7,
-   "share": 0.5,
-   "team_games": 1,
-   "exp_starts": 0.5,
-   "team_win_pct": 0.439,
-   "team_ga_pg": 3.02,
-   "team_sa_pg": 27.0
-  },
-  {
-   "name": "John Gibson",
-   "team": "DET",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.86195,
-   "gs": 13,
-   "share": 0.5,
-   "team_games": 1,
-   "exp_starts": 0.5,
-   "team_win_pct": 0.439,
-   "team_ga_pg": 3.02,
-   "team_sa_pg": 27.0
-  },
-  {
-   "name": "Alex Lyon",
-   "team": "BUF",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.89772,
-   "gs": 3,
-   "share": 0.5,
-   "team_games": 3,
-   "exp_starts": 1.5,
-   "team_win_pct": 0.493,
-   "team_ga_pg": 3.21,
-   "team_sa_pg": 28.1
   },
   {
    "name": "Karel Vejmelka",
@@ -280,9 +237,37 @@
    "share": 0.67,
    "team_games": 1,
    "exp_starts": 0.7,
-   "team_win_pct": 0.488,
-   "team_ga_pg": 3.2,
-   "team_sa_pg": 25.5
+   "team_win_pct": 0.5,
+   "team_ga_pg": 3.15,
+   "team_sa_pg": 25.6
+  },
+  {
+   "name": "Daniil Tarasov",
+   "team": "DET",
+   "ours": false,
+   "status": "",
+   "sv_season": 0.92712,
+   "gs": 8,
+   "share": 0.67,
+   "team_games": 1,
+   "exp_starts": 0.7,
+   "team_win_pct": 0.429,
+   "team_ga_pg": 3.05,
+   "team_sa_pg": 27.1
+  },
+  {
+   "name": "Alex Lyon",
+   "team": "BUF",
+   "ours": false,
+   "status": "",
+   "sv_season": 0.89772,
+   "gs": 3,
+   "share": 0.5,
+   "team_games": 2,
+   "exp_starts": 1.0,
+   "team_win_pct": 0.493,
+   "team_ga_pg": 3.21,
+   "team_sa_pg": 28.1
   },
   {
    "name": "Dan Vladar",
@@ -292,8 +277,8 @@
    "sv_season": 0.87697,
    "gs": 12,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.397,
    "team_ga_pg": 3.12,
    "team_sa_pg": 26.7
@@ -306,8 +291,8 @@
    "sv_season": 0.89884,
    "gs": 12,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.397,
    "team_ga_pg": 3.12,
    "team_sa_pg": 26.7
@@ -320,8 +305,8 @@
    "sv_season": 0.87547,
    "gs": 10,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.43,
    "team_ga_pg": 3.19,
    "team_sa_pg": 28.7
@@ -334,8 +319,8 @@
    "sv_season": 0.90774,
    "gs": 9,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.43,
    "team_ga_pg": 3.19,
    "team_sa_pg": 28.7
@@ -348,8 +333,8 @@
    "sv_season": 0.88437,
    "gs": 12,
    "share": 0.67,
-   "team_games": 2,
-   "exp_starts": 1.3,
+   "team_games": 1,
+   "exp_starts": 0.7,
    "team_win_pct": 0.373,
    "team_ga_pg": 3.1,
    "team_sa_pg": 27.3
@@ -362,8 +347,8 @@
    "sv_season": 0.90625,
    "gs": 10,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.436,
    "team_ga_pg": 3.3,
    "team_sa_pg": 29.8
@@ -376,8 +361,8 @@
    "sv_season": 0.87804,
    "gs": 11,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.436,
    "team_ga_pg": 3.3,
    "team_sa_pg": 29.8
@@ -390,8 +375,8 @@
    "sv_season": 0.87301,
    "gs": 12,
    "share": 0.5,
-   "team_games": 3,
-   "exp_starts": 1.5,
+   "team_games": 2,
+   "exp_starts": 1.0,
    "team_win_pct": 0.425,
    "team_ga_pg": 3.32,
    "team_sa_pg": 27.8
@@ -404,8 +389,8 @@
    "sv_season": 0.89387,
    "gs": 8,
    "share": 0.5,
-   "team_games": 3,
-   "exp_starts": 1.5,
+   "team_games": 2,
+   "exp_starts": 1.0,
    "team_win_pct": 0.425,
    "team_ga_pg": 3.32,
    "team_sa_pg": 27.8
@@ -418,8 +403,8 @@
    "sv_season": 0.872,
    "gs": 9,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.455,
    "team_ga_pg": 3.39,
    "team_sa_pg": 30.0
@@ -432,8 +417,8 @@
    "sv_season": 0.89261,
    "gs": 9,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.455,
    "team_ga_pg": 3.39,
    "team_sa_pg": 30.0
@@ -446,8 +431,8 @@
    "sv_season": 0.85632,
    "gs": 6,
    "share": 0.5,
-   "team_games": 2,
-   "exp_starts": 1.0,
+   "team_games": 1,
+   "exp_starts": 0.5,
    "team_win_pct": 0.512,
    "team_ga_pg": 3.7,
    "team_sa_pg": 27.5
@@ -460,8 +445,8 @@
    "sv_season": 0.85526,
    "gs": 3,
    "share": 0.17,
-   "team_games": 2,
-   "exp_starts": 0.3,
+   "team_games": 1,
+   "exp_starts": 0.2,
    "team_win_pct": 0.633,
    "team_ga_pg": 2.52,
    "team_sa_pg": 27.7
@@ -474,8 +459,8 @@
    "sv_season": 0.90647,
    "gs": 5,
    "share": 0.33,
-   "team_games": 2,
-   "exp_starts": 0.7,
+   "team_games": 1,
+   "exp_starts": 0.3,
    "team_win_pct": 0.615,
    "team_ga_pg": 2.56,
    "team_sa_pg": 24.8
@@ -484,15 +469,15 @@
    "name": "Scott Wedgewood",
    "team": "COL",
    "ours": false,
-   "status": "DTD",
+   "status": "",
    "sv_season": 0.86335,
    "gs": 6,
-   "share": 0.33,
-   "team_games": 1,
-   "exp_starts": 0.3,
-   "team_win_pct": 0.62,
-   "team_ga_pg": 2.71,
-   "team_sa_pg": 26.7
+   "share": 0.17,
+   "team_games": 0,
+   "exp_starts": 0.0,
+   "team_win_pct": 0.605,
+   "team_ga_pg": 2.74,
+   "team_sa_pg": 26.8
   },
   {
    "name": "Dennis Hildeby",
@@ -502,8 +487,8 @@
    "sv_season": 0.89922,
    "gs": 5,
    "share": 0.33,
-   "team_games": 2,
-   "exp_starts": 0.7,
+   "team_games": 1,
+   "exp_starts": 0.3,
    "team_win_pct": 0.639,
    "team_ga_pg": 2.83,
    "team_sa_pg": 25.9
@@ -518,9 +503,9 @@
    "share": 0.33,
    "team_games": 1,
    "exp_starts": 0.3,
-   "team_win_pct": 0.585,
-   "team_ga_pg": 2.81,
-   "team_sa_pg": 28.8
+   "team_win_pct": 0.595,
+   "team_ga_pg": 2.77,
+   "team_sa_pg": 28.6
   },
   {
    "name": "Matt Tomkins",
@@ -530,7 +515,7 @@
    "sv_season": 0.88,
    "gs": 2,
    "share": 0,
-   "team_games": 3,
+   "team_games": 2,
    "exp_starts": 0,
    "team_win_pct": 0.628,
    "team_ga_pg": 2.9,
@@ -544,11 +529,25 @@
    "sv_season": 0.84761,
    "gs": 4,
    "share": 0,
-   "team_games": 2,
+   "team_games": 1,
    "exp_starts": 0,
    "team_win_pct": 0.589,
    "team_ga_pg": 2.9,
    "team_sa_pg": 25.4
+  },
+  {
+   "name": "Semyon Varlamov",
+   "team": "NYI",
+   "ours": false,
+   "status": "",
+   "sv_season": 0.89873,
+   "gs": 6,
+   "share": 0.33,
+   "team_games": 1,
+   "exp_starts": 0.3,
+   "team_win_pct": 0.512,
+   "team_ga_pg": 2.81,
+   "team_sa_pg": 28.4
   },
   {
    "name": "Jake Allen",
@@ -560,23 +559,9 @@
    "share": 0.33,
    "team_games": 1,
    "exp_starts": 0.3,
-   "team_win_pct": 0.616,
+   "team_win_pct": 0.601,
    "team_ga_pg": 2.99,
-   "team_sa_pg": 26.6
-  },
-  {
-   "name": "Semyon Varlamov",
-   "team": "NYI",
-   "ours": false,
-   "status": "",
-   "sv_season": 0.89873,
-   "gs": 6,
-   "share": 0.33,
-   "team_games": 2,
-   "exp_starts": 0.7,
-   "team_win_pct": 0.512,
-   "team_ga_pg": 2.81,
-   "team_sa_pg": 28.4
+   "team_sa_pg": 26.7
   },
   {
    "name": "Spencer Martin",
@@ -613,11 +598,11 @@
    "status": "",
    "sv_season": 0.85167,
    "gs": 8,
-   "share": 0.33,
-   "team_games": 2,
-   "exp_starts": 0.7,
-   "team_win_pct": 0.578,
-   "team_ga_pg": 3.05,
+   "share": 0.17,
+   "team_games": 1,
+   "exp_starts": 0.2,
+   "team_win_pct": 0.588,
+   "team_ga_pg": 3.03,
    "team_sa_pg": 28.0
   },
   {
@@ -677,18 +662,18 @@
    "team_sa_pg": 26.1
   },
   {
-   "name": "Michal Postava",
-   "team": "DET",
+   "name": "Sebastian Cossa",
+   "team": "UTA",
    "ours": false,
-   "status": "NA",
-   "sv_season": 0.88571,
-   "gs": 1,
-   "share": 0,
+   "status": "",
+   "sv_season": 0.87864,
+   "gs": 8,
+   "share": 0.33,
    "team_games": 1,
-   "exp_starts": 0,
-   "team_win_pct": 0.439,
-   "team_ga_pg": 3.02,
-   "team_sa_pg": 27.0
+   "exp_starts": 0.3,
+   "team_win_pct": 0.5,
+   "team_ga_pg": 3.15,
+   "team_sa_pg": 25.6
   },
   {
    "name": "Jordan Binnington",
@@ -698,25 +683,39 @@
    "sv_season": 0.84302,
    "gs": 6,
    "share": 0.33,
-   "team_games": 3,
-   "exp_starts": 1.0,
+   "team_games": 2,
+   "exp_starts": 0.7,
    "team_win_pct": 0.464,
    "team_ga_pg": 3.1,
    "team_sa_pg": 28.3
   },
   {
-   "name": "Sebastian Cossa",
-   "team": "UTA",
+   "name": "Michal Postava",
+   "team": "DET",
+   "ours": false,
+   "status": "NA",
+   "sv_season": 0.88571,
+   "gs": 1,
+   "share": 0,
+   "team_games": 1,
+   "exp_starts": 0,
+   "team_win_pct": 0.429,
+   "team_ga_pg": 3.05,
+   "team_sa_pg": 27.1
+  },
+  {
+   "name": "John Gibson",
+   "team": "DET",
    "ours": false,
    "status": "",
-   "sv_season": 0.86285,
-   "gs": 7,
+   "sv_season": 0.86195,
+   "gs": 13,
    "share": 0.33,
    "team_games": 1,
    "exp_starts": 0.3,
-   "team_win_pct": 0.488,
-   "team_ga_pg": 3.2,
-   "team_sa_pg": 25.5
+   "team_win_pct": 0.429,
+   "team_ga_pg": 3.05,
+   "team_sa_pg": 27.1
   },
   {
    "name": "Colten Ellis",
@@ -726,8 +725,8 @@
    "sv_season": 0.87292,
    "gs": 7,
    "share": 0.17,
-   "team_games": 3,
-   "exp_starts": 0.5,
+   "team_games": 2,
+   "exp_starts": 0.3,
    "team_win_pct": 0.493,
    "team_ga_pg": 3.21,
    "team_sa_pg": 28.1
@@ -740,8 +739,8 @@
    "sv_season": 0.8671,
    "gs": 11,
    "share": 0.33,
-   "team_games": 3,
-   "exp_starts": 1.0,
+   "team_games": 2,
+   "exp_starts": 0.7,
    "team_win_pct": 0.493,
    "team_ga_pg": 3.21,
    "team_sa_pg": 28.1
@@ -754,8 +753,8 @@
    "sv_season": 0.86666,
    "gs": 5,
    "share": 0.17,
-   "team_games": 2,
-   "exp_starts": 0.3,
+   "team_games": 1,
+   "exp_starts": 0.2,
    "team_win_pct": 0.525,
    "team_ga_pg": 3.28,
    "team_sa_pg": 28.0
@@ -768,8 +767,8 @@
    "sv_season": 0.90769,
    "gs": 7,
    "share": 0.33,
-   "team_games": 2,
-   "exp_starts": 0.7,
+   "team_games": 1,
+   "exp_starts": 0.3,
    "team_win_pct": 0.373,
    "team_ga_pg": 3.1,
    "team_sa_pg": 27.3
@@ -782,7 +781,7 @@
    "sv_season": 0.86991,
    "gs": 4,
    "share": 0.0,
-   "team_games": 2,
+   "team_games": 1,
    "exp_starts": 0.0,
    "team_win_pct": 0.441,
    "team_ga_pg": 3.25,
@@ -796,8 +795,8 @@
    "sv_season": 0.89156,
    "gs": 6,
    "share": 0.17,
-   "team_games": 2,
-   "exp_starts": 0.3,
+   "team_games": 1,
+   "exp_starts": 0.2,
    "team_win_pct": 0.441,
    "team_ga_pg": 3.25,
    "team_sa_pg": 27.9
@@ -810,7 +809,7 @@
    "sv_season": 0.85294,
    "gs": 1,
    "share": 0,
-   "team_games": 2,
+   "team_games": 1,
    "exp_starts": 0,
    "team_win_pct": 0.436,
    "team_ga_pg": 3.3,
@@ -838,7 +837,7 @@
    "sv_season": 0.86718,
    "gs": 5,
    "share": 0,
-   "team_games": 2,
+   "team_games": 1,
    "exp_starts": 0,
    "team_win_pct": 0.512,
    "team_ga_pg": 3.7,
@@ -852,7 +851,7 @@
    "sv_season": 0.8421,
    "gs": 4,
    "share": 0,
-   "team_games": 3,
+   "team_games": 2,
    "exp_starts": 0,
    "team_win_pct": 0.319,
    "team_ga_pg": 3.68,
@@ -866,7 +865,7 @@
    "sv_season": 0.94594,
    "gs": 1,
    "share": 0,
-   "team_games": 3,
+   "team_games": 2,
    "exp_starts": 0,
    "team_win_pct": 0.258,
    "team_ga_pg": 4.11,
@@ -880,7 +879,7 @@
    "sv_season": 0.80821,
    "gs": 8,
    "share": 0,
-   "team_games": 3,
+   "team_games": 2,
    "exp_starts": 0,
    "team_win_pct": 0.258,
    "team_ga_pg": 4.11,
