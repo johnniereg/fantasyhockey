@@ -134,9 +134,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794380389
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795186923
         }
        ],
        {
@@ -418,9 +420,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794981930
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795187088
         }
        ],
        {
@@ -2484,6 +2488,13 @@
          "url": "https://sports.yahoo.com/nhl/players/3638"
         },
         {
+         "status": "O",
+         "status_full": "Out"
+        },
+        {
+         "injury_note": "Upper Body"
+        },
+        {
          "editorial_player_key": "nhl.p.3638"
         },
         {
@@ -2537,6 +2548,9 @@
           },
           {
            "position": "RW"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -2549,9 +2563,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795191321
+        }
        ],
        {
         "player_stats": {
@@ -2622,6 +2642,13 @@
          "url": "https://sports.yahoo.com/nhl/players/6068"
         },
         {
+         "status": "DTD",
+         "status_full": "Day-to-Day"
+        },
+        {
+         "injury_note": "Upper Body"
+        },
+        {
          "editorial_player_key": "nhl.p.6068"
         },
         {
@@ -2669,6 +2696,9 @@
          "eligible_positions": [
           {
            "position": "RW"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -2690,9 +2720,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794639532
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795191589
         }
        ],
        {
@@ -3607,7 +3639,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "167.88196563721ms",
+  "time": "126.56092643738ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/stats;type=lastweek"
  }

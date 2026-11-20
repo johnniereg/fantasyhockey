@@ -1,23 +1,23 @@
 {
- "generated_at_et": "2026-11-20T05:42-05:00",
- "data_fetched_utc": "2026-11-20T10:41:56+00:00",
+ "generated_at_et": "2026-11-20T12:02-05:00",
+ "data_fetched_utc": "2026-11-20T17:01:42+00:00",
  "dates": [
   "2026-11-20",
   "2026-11-21",
   "2026-11-22"
  ],
  "weights": {
-  "G": 6.3,
-  "A": 8.46,
-  "PPP": 3.83,
+  "G": 6.35,
+  "A": 8.35,
+  "PPP": 3.71,
   "PIM": 5.53,
-  "PM": 5.23,
-  "GWG": 27.72
+  "PM": 5.3,
+  "GWG": 27.7
  },
  "season_weights": {
   "G": 9.07,
   "A": 6.85,
-  "PPP": 11.07,
+  "PPP": 11.06,
   "PIM": 2.88,
   "PM": 3.99,
   "GWG": 23.27
@@ -30,12 +30,12 @@
   },
   "A": {
    "us": 19.2,
-   "them": 16.8,
-   "p_win": 0.73
+   "them": 16.7,
+   "p_win": 0.74
   },
   "PPP": {
    "us": 11.2,
-   "them": 6.7,
+   "them": 6.6,
    "p_win": 0.95
   },
   "PIM": {
@@ -45,7 +45,7 @@
   },
   "PM": {
    "us": 3.3,
-   "them": 7.9,
+   "them": 7.8,
    "p_win": 0.19
   },
   "GWG": {
@@ -54,39 +54,9 @@
    "p_win": 0.74
   }
  },
- "base_week_value": 150.93,
+ "base_week_value": 150.07,
  "adds_left": 4,
  "recommendations": [
-  {
-   "add": "Evgeni Malkin",
-   "add_team": "PIT",
-   "add_pos": "C,LW,RW",
-   "waiver": false,
-   "own_pct": 61,
-   "drop": "Moritz Seider",
-   "drop_team": "DET",
-   "drop_keeper": false,
-   "week_gain": 5.5,
-   "ros_gain_per_week": 12.7,
-   "add_proj": {
-    "G": 0.32,
-    "A": 0.64,
-    "PPP": 0.3,
-    "PIM": 0.69,
-    "PM": -0.1,
-    "GWG": 0.05
-   },
-   "drop_proj": {
-    "G": 0.09,
-    "A": 0.52,
-    "PPP": 0.26,
-    "PIM": 0.69,
-    "PM": -0.0,
-    "GWG": 0.01
-   },
-   "add_games": 2,
-   "drop_games": 1
-  },
   {
    "add": "Kailer Yamamoto",
    "add_team": "UTA",
@@ -118,22 +88,22 @@
    "drop_games": 2
   },
   {
-   "add": "Jimmy Snuggerud",
-   "add_team": "STL",
-   "add_pos": "RW",
+   "add": "Bo Horvat",
+   "add_team": "NYI",
+   "add_pos": "C",
    "waiver": false,
-   "own_pct": 45,
+   "own_pct": 90,
    "drop": "Kailer Yamamoto",
    "drop_team": "UTA",
    "drop_keeper": false,
-   "week_gain": 10.3,
-   "ros_gain_per_week": 6.4,
+   "week_gain": 0.7,
+   "ros_gain_per_week": 11.1,
    "add_proj": {
-    "G": 0.4,
-    "A": 0.37,
-    "PPP": 0.15,
-    "PIM": 0.21,
-    "PM": 0.23,
+    "G": 0.42,
+    "A": 0.45,
+    "PPP": 0.23,
+    "PIM": 0.36,
+    "PM": 0.06,
     "GWG": 0.06
    },
    "drop_proj": {
@@ -143,6 +113,36 @@
     "PIM": 0.26,
     "PM": 0.11,
     "GWG": 0.04
+   },
+   "add_games": 1,
+   "drop_games": 1
+  },
+  {
+   "add": "Jimmy Snuggerud",
+   "add_team": "STL",
+   "add_pos": "RW",
+   "waiver": false,
+   "own_pct": 45,
+   "drop": "Moritz Seider",
+   "drop_team": "DET",
+   "drop_keeper": false,
+   "week_gain": 0.2,
+   "ros_gain_per_week": 4.4,
+   "add_proj": {
+    "G": 0.4,
+    "A": 0.37,
+    "PPP": 0.15,
+    "PIM": 0.21,
+    "PM": 0.23,
+    "GWG": 0.06
+   },
+   "drop_proj": {
+    "G": 0.09,
+    "A": 0.52,
+    "PPP": 0.26,
+    "PIM": 0.69,
+    "PM": -0.0,
+    "GWG": 0.01
    },
    "add_games": 2,
    "drop_games": 1
@@ -166,7 +166,7 @@
   {
    "name": "Miro Heiskanen",
    "team": "DAL",
-   "value_pg": 10.51,
+   "value_pg": 10.5,
    "keeper": true,
    "keeper_top8": false
   },
@@ -180,7 +180,7 @@
   {
    "name": "Pavel Zacha",
    "team": "BOS",
-   "value_pg": 11.43,
+   "value_pg": 11.42,
    "keeper": false,
    "keeper_top8": false
   },
@@ -208,7 +208,7 @@
   {
    "name": "Mikael Granlund",
    "team": "ANA",
-   "value_pg": 12.54,
+   "value_pg": 12.53,
    "keeper": false,
    "keeper_top8": true
   },
@@ -229,7 +229,7 @@
   {
    "name": "Matt Boldy",
    "team": "MIN",
-   "value_pg": 16.88,
+   "value_pg": 16.87,
    "keeper": true,
    "keeper_top8": true
   },
@@ -506,7 +506,7 @@
    "exp_starts": 0.2,
    "team_win_pct": 0.648,
    "team_ga_pg": 2.78,
-   "team_sa_pg": 25.9
+   "team_sa_pg": 25.8
   },
   {
    "name": "Michael DiPietro",

@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-20T05:42-05:00 ET (data 2026-11-20T10:41:56+00:00 UTC)
+# AGM moves — 2026-11-20T12:02-05:00 ET (data 2026-11-20T17:01:42+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,34 +6,34 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 15.7 | 19.4 | 11% | 6.3 | 9.07 |
-| A | 19.2 | 16.8 | 73% | 8.46 | 6.85 |
-| PPP | 11.2 | 6.7 | 95% | 3.83 | 11.07 |
+| G | 15.7 | 19.4 | 11% | 6.35 | 9.07 |
+| A | 19.2 | 16.7 | 74% | 8.35 | 6.85 |
+| PPP | 11.2 | 6.6 | 95% | 3.71 | 11.06 |
 | PIM | 11.0 | 9.5 | 58% | 5.53 | 2.88 |
-| +/- | 3.3 | 7.9 | 19% | 5.23 | 3.99 |
-| GWG | 2.6 | 1.8 | 74% | 27.72 | 23.27 |
+| +/- | 3.3 | 7.8 | 19% | 5.3 | 3.99 |
+| GWG | 2.6 | 1.8 | 74% | 27.7 | 23.27 |
 
 ## Recommended moves (4 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Evgeni Malkin** (PIT C,LW,RW) · **drop Moritz Seider** (DET) — week +5.5 (2 vs 1 games left), later weeks +12.7/wk
-  - add proj/g: {'G': 0.32, 'A': 0.64, 'PPP': 0.3, 'PIM': 0.69, 'PM': -0.1, 'GWG': 0.05}
-  - drop proj/g: {'G': 0.09, 'A': 0.52, 'PPP': 0.26, 'PIM': 0.69, 'PM': -0.0, 'GWG': 0.01}
 - **Add Kailer Yamamoto** (UTA RW, WAIVERS) · **drop Sean Walker** (CAR) — week +0.0 (1 vs 2 games left), later weeks +8.7/wk
   - add proj/g: {'G': 0.28, 'A': 0.39, 'PPP': 0.14, 'PIM': 0.26, 'PM': 0.11, 'GWG': 0.04}
   - drop proj/g: {'G': 0.11, 'A': 0.28, 'PPP': 0.02, 'PIM': 0.77, 'PM': 0.14, 'GWG': 0.02}
-- **Add Jimmy Snuggerud** (STL RW) · **drop Kailer Yamamoto** (UTA) — week +10.3 (2 vs 1 games left), later weeks +6.4/wk
-  - add proj/g: {'G': 0.4, 'A': 0.37, 'PPP': 0.15, 'PIM': 0.21, 'PM': 0.23, 'GWG': 0.06}
+- **Add Bo Horvat** (NYI C) · **drop Kailer Yamamoto** (UTA) — week +0.7 (1 vs 1 games left), later weeks +11.1/wk
+  - add proj/g: {'G': 0.42, 'A': 0.45, 'PPP': 0.23, 'PIM': 0.36, 'PM': 0.06, 'GWG': 0.06}
   - drop proj/g: {'G': 0.28, 'A': 0.39, 'PPP': 0.14, 'PIM': 0.26, 'PM': 0.11, 'GWG': 0.04}
+- **Add Jimmy Snuggerud** (STL RW) · **drop Moritz Seider** (DET) — week +0.2 (2 vs 1 games left), later weeks +4.4/wk
+  - add proj/g: {'G': 0.4, 'A': 0.37, 'PPP': 0.15, 'PIM': 0.21, 'PM': 0.23, 'GWG': 0.06}
+  - drop proj/g: {'G': 0.09, 'A': 0.52, 'PPP': 0.26, 'PIM': 0.69, 'PM': -0.0, 'GWG': 0.01}
 
 ## Drop order (lowest projected value first, all skaters)
 
 - Sean Walker (CAR) 6.34
 - Moritz Seider (DET) 9.47
-- Miro Heiskanen (DAL) 10.51 · keeper
+- Miro Heiskanen (DAL) 10.5 · keeper
 - Will Smith (SJS) 11.16 · keeper
-- Pavel Zacha (BOS) 11.43
+- Pavel Zacha (BOS) 11.42
 - Jack Quinn (BUF) 11.51
 - Carter Verhaeghe (FLA) 11.78
 - Joel Eriksson Ek (MIN) 12.09
