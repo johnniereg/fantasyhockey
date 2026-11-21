@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-21T05:41-05:00 ET (data 2026-11-21T10:40:55+00:00 UTC)
+# AGM moves — 2026-11-21T11:13-05:00 ET (data 2026-11-21T16:13:29+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 15.7 | 19.4 | 11% | 6.4 | 9.07 |
 | A | 19.2 | 16.7 | 74% | 8.42 | 6.85 |
-| PPP | 11.2 | 6.6 | 95% | 3.74 | 11.05 |
+| PPP | 11.2 | 6.6 | 95% | 3.74 | 11.06 |
 | PIM | 11.1 | 9.5 | 59% | 5.49 | 2.88 |
 | +/- | 3.4 | 7.8 | 20% | 5.36 | 3.99 |
 | GWG | 2.6 | 1.8 | 74% | 27.64 | 23.27 |
@@ -31,9 +31,9 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 - Miro Heiskanen (DAL) 10.5 · keeper
 - Will Smith (SJS) 11.16 · keeper
 - Pavel Zacha (BOS) 11.42
-- Jack Quinn (BUF) 11.5
+- Jack Quinn (BUF) 11.51
 - Carter Verhaeghe (FLA) 11.78
-- Joel Eriksson Ek (MIN) 12.08
+- Joel Eriksson Ek (MIN) 12.09
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
