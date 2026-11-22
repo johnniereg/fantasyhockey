@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-21T11:13-05:00 ET (data 2026-11-21T16:13:29+00:00 UTC)
+# AGM moves — 2026-11-22T05:41-05:00 ET (data 2026-11-22T10:41:24+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,34 +6,34 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 15.7 | 19.4 | 11% | 6.4 | 9.07 |
-| A | 19.2 | 16.7 | 74% | 8.42 | 6.85 |
-| PPP | 11.2 | 6.6 | 95% | 3.74 | 11.06 |
-| PIM | 11.1 | 9.5 | 59% | 5.49 | 2.88 |
-| +/- | 3.4 | 7.8 | 20% | 5.36 | 3.99 |
-| GWG | 2.6 | 1.8 | 74% | 27.64 | 23.27 |
+| G | 14.9 | 17.5 | 5% | 6.82 | 9.05 |
+| A | 16.9 | 18.3 | 25% | 15.29 | 6.84 |
+| PPP | 8.8 | 7.5 | 81% | 18.03 | 11.04 |
+| PIM | 8.6 | 9.0 | 46% | 10.48 | 2.88 |
+| +/- | 0.1 | 9.0 | 0% | 0.06 | 3.99 |
+| GWG | 2.1 | 2.2 | 45% | 56.06 | 23.23 |
 
 ## Recommended moves (4 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Thomas Harley** (DAL D) · **drop Sean Walker** (CAR) — week +1.7 (1 vs 1 games left), later weeks +11.9/wk
-  - add proj/g: {'G': 0.16, 'A': 0.54, 'PPP': 0.19, 'PIM': 0.41, 'PM': 0.2, 'GWG': 0.02}
-  - drop proj/g: {'G': 0.11, 'A': 0.28, 'PPP': 0.02, 'PIM': 0.77, 'PM': 0.14, 'GWG': 0.02}
-- **Add Bo Horvat** (NYI C) · **drop Moritz Seider** (DET) — week +0.0 (0 vs 0 games left), later weeks +9.1/wk
-  - add proj/g: {'G': 0.42, 'A': 0.45, 'PPP': 0.23, 'PIM': 0.36, 'PM': 0.06, 'GWG': 0.06}
-  - drop proj/g: {'G': 0.09, 'A': 0.52, 'PPP': 0.26, 'PIM': 0.69, 'PM': -0.0, 'GWG': 0.01}
+- **Add Bo Horvat** (NYI C) · **drop Sean Walker** (CAR) — week +0.0 (0 vs 0 games left), later weeks +17.9/wk
+  - add proj/g: {'G': 0.4, 'A': 0.43, 'PPP': 0.23, 'PIM': 0.35, 'PM': 0.06, 'GWG': 0.06}
+  - drop proj/g: {'G': 0.13, 'A': 0.27, 'PPP': 0.02, 'PIM': 0.76, 'PM': 0.16, 'GWG': 0.02}
+- **Add Nico Hischier** (NJD C) · **drop Moritz Seider** (DET) — week +0.0 (0 vs 0 games left), later weeks +7.1/wk
+  - add proj/g: {'G': 0.37, 'A': 0.4, 'PPP': 0.31, 'PIM': 0.28, 'PM': 0.0, 'GWG': 0.06}
+  - drop proj/g: {'G': 0.09, 'A': 0.54, 'PPP': 0.26, 'PIM': 0.67, 'PM': -0.02, 'GWG': 0.01}
 
 ## Drop order (lowest projected value first, all skaters)
 
-- Sean Walker (CAR) 6.34
-- Moritz Seider (DET) 9.47
-- Miro Heiskanen (DAL) 10.5 · keeper
-- Will Smith (SJS) 11.16 · keeper
-- Pavel Zacha (BOS) 11.42
-- Jack Quinn (BUF) 11.51
-- Carter Verhaeghe (FLA) 11.78
-- Joel Eriksson Ek (MIN) 12.09
+- Sean Walker (CAR) 6.51
+- Moritz Seider (DET) 9.56
+- Will Smith (SJS) 10.42 · keeper
+- Miro Heiskanen (DAL) 10.49 · keeper
+- Pavel Zacha (BOS) 11.07
+- Jack Quinn (BUF) 11.46
+- Carter Verhaeghe (FLA) 11.57
+- Cole Hutson (WSH) 12.24 · keeper (top-8, protected)
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
@@ -41,16 +41,16 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 
 | Goalie | Team | Ours | Share of last 6 (healthy) | Starts this season | Team games left | Exp starts | Team W% | Team GA/GP | Team SA/GP | Season SV% |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Karel Vejmelka | UTA | ✔ | 0.67 | 15 | 0 | 0.0 | 0.500 | 3.15 | 25.6 | 0.872 |
-| Devin Cooley | CGY | ✔ | 0.5 | 10 | 0 | 0.0 | 0.425 | 3.31 | 29.6 | 0.906 |
-| Dustin Wolf | CGY | ✔ | 0.5 | 12 | 0 | 0.0 | 0.425 | 3.31 | 29.6 | 0.876 |
-| Samuel Ersson | OTT |  | 0.5 | 8 | 0 | 0.0 | 0.575 | 2.97 | 25.2 | 0.869 |
-| Alex Lyon | BUF |  | 0.5 | 3 | 1 | 0.5 | 0.505 | 3.2 | 28.3 | 0.898 |
-| Daniil Tarasov | DET |  | 0.67 | 8 | 0 | 0.0 | 0.429 | 3.05 | 27.1 | 0.927 |
-| Jet Greaves | CBJ |  | 0.5 | 10 | 0 | 0.0 | 0.444 | 3.16 | 28.6 | 0.875 |
-| Cam Talbot | CBJ |  | 0.5 | 10 | 0 | 0.0 | 0.444 | 3.16 | 28.6 | 0.909 |
-| Darcy Kuemper | LAK |  | 0.67 | 13 | 0 | 0.0 | 0.388 | 3.1 | 27.3 | 0.885 |
-| Joseph Woll | PHI |  | 0.67 | 13 | 0 | 0.0 | 0.411 | 3.16 | 26.7 | 0.892 |
-| Joey Daccord | SEA |  | 0.5 | 9 | 0 | 0.0 | 0.469 | 3.33 | 29.8 | 0.872 |
-| Philipp Grubauer | SEA |  | 0.5 | 10 | 0 | 0.0 | 0.469 | 3.33 | 29.8 | 0.897 |
-| Arturs Silovs | PIT |  | 0.5 | 13 | 1 | 0.5 | 0.415 | 3.36 | 27.9 | 0.873 |
+| Karel Vejmelka | UTA | ✔ | 0.5 | 15 | 0 | 0.0 | 0.511 | 3.13 | 25.7 | 0.872 |
+| Dustin Wolf | CGY | ✔ | 0.67 | 13 | 0 | 0.0 | 0.416 | 3.33 | 29.7 | 0.877 |
+| Devin Cooley | CGY | ✔ | 0.33 | 10 | 0 | 0.0 | 0.416 | 3.33 | 29.7 | 0.906 |
+| Sebastian Cossa | UTA |  | 0.5 | 9 | 0 | 0.0 | 0.511 | 3.13 | 25.7 | 0.886 |
+| Daniil Tarasov | DET |  | 0.5 | 8 | 0 | 0.0 | 0.419 | 3.05 | 26.9 | 0.927 |
+| John Gibson | DET |  | 0.5 | 14 | 0 | 0.0 | 0.419 | 3.05 | 26.9 | 0.862 |
+| Alex Lyon | BUF |  | 0.67 | 4 | 0 | 0.0 | 0.493 | 3.22 | 28.4 | 0.890 |
+| Cam Talbot | CBJ |  | 0.67 | 11 | 0 | 0.0 | 0.457 | 3.15 | 28.5 | 0.907 |
+| Dan Vladar | PHI |  | 0.5 | 13 | 0 | 0.0 | 0.424 | 3.16 | 26.6 | 0.876 |
+| Joseph Woll | PHI |  | 0.5 | 13 | 0 | 0.0 | 0.424 | 3.16 | 26.6 | 0.892 |
+| Anton Forsberg | LAK |  | 0.5 | 8 | 0 | 0.0 | 0.379 | 3.12 | 27.4 | 0.901 |
+| Darcy Kuemper | LAK |  | 0.5 | 13 | 0 | 0.0 | 0.379 | 3.12 | 27.4 | 0.885 |
+| Stuart Skinner | WPG |  | 0.67 | 17 | 0 | 0.0 | 0.444 | 3.26 | 28.0 | 0.883 |
