@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-22T05:41-05:00 ET (data 2026-11-22T10:41:24+00:00 UTC)
+# AGM moves — 2026-11-22T11:25-05:00 ET (data 2026-11-22T16:25:13+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,12 +8,12 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 14.9 | 17.5 | 5% | 6.82 | 9.05 |
 | A | 16.9 | 18.3 | 25% | 15.29 | 6.84 |
-| PPP | 8.8 | 7.5 | 81% | 18.03 | 11.04 |
+| PPP | 8.8 | 7.5 | 81% | 18.03 | 11.03 |
 | PIM | 8.6 | 9.0 | 46% | 10.48 | 2.88 |
 | +/- | 0.1 | 9.0 | 0% | 0.06 | 3.99 |
 | GWG | 2.1 | 2.2 | 45% | 56.06 | 23.23 |
 
-## Recommended moves (4 adds left this week)
+## Recommended moves (3 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
