@@ -61,6 +61,7 @@ jobs:
           if [ "$(TZ=America/Toronto date +%u)" = "1" ] && [ "${{ inputs.reason }}" = "morning" ]; then
             python3 scripts/agm_backtest.py all --write > data/agm/backtest_latest.md
             python3 scripts/agm_moves.py grade > data/agm/grades_latest.md
+            python3 scripts/agm_backtest_v3.py > data/agm/backtest_v3_latest.md
           fi
 
       - name: Fetch history and rebuild dashboard
