@@ -287,7 +287,12 @@ def recommend(adds_left, verbose=True):
     shortlist = []
     for score, a, d, dw, dros, keeper, ok in sorted(best_by_add.values(), key=lambda t: (-t[6], -t[0]))[:8]:
         h = hist.get(a["name"], {"days_top": 0, "days_listed": 0, "first_listed": None})
-        shortlist.append({"add": a["name"], "add_team": a["team"], "add_pos": ",".join(a["elig"]),
+        ga = sum(1 for x in dates_add if a["team"] in games.get(x, set()))
+        gd = sum(1 for x in dates_add if d["team"] in games.get(x, set()))
+        # rough effect on this week's totals (ignores bench juggling): add's nights minus the drop's
+        cat_delta = {YAHOO[c]: round(a["proj"][c] * ga - d["proj"][c] * gd, 2) for c in SK}
+        shortlist.append({"cat_delta_week": cat_delta, "drop_games_this_week": gd,
+                          "drop_toi_season": d["proj"]["toi"], "drop_toi_recent": d["proj"]["toi_recent"],"add": a["name"], "add_team": a["team"], "add_pos": ",".join(a["elig"]),
                           "waiver": a["waiver"], "own_pct": a.get("owned"), "best_drop": d["name"],
                           "week_gain": round(dw, 1), "ros_gain_per_week": round(dros, 1),
                           "clears_bar": ok,
