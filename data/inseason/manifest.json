@@ -1,59 +1,61 @@
 {
- "current_week": 8,
- "date_et": "2026-11-22",
+ "current_week": 9,
+ "date_et": "2026-11-23",
  "errors": {},
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": []
+   "written": [
+    "2026-11-22"
+   ]
   },
   "fa_snapshot": {
-   "date": "2026-11-22",
-   "players": 205,
-   "rows_read": 389
+   "date": "2026-11-23",
+   "players": 204,
+   "rows_read": 391
   },
   "goalie_starts": {
-   "games_added": 0,
+   "games_added": 5,
    "games_pending": 0,
-   "rows": 1488
+   "rows": 1508
   },
   "scoreboard_archive": {
-   "archived": "scoreboard_week_07.json"
+   "archived": "scoreboard_week_08.json"
   },
   "skater_games": {
-   "games_added": 0,
+   "games_added": 5,
    "games_pending": 0
   },
   "waivers_0": "saved",
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-11-22T16:25:13+00:00",
- "finished_at_utc": "2026-11-22T16:25:21+00:00",
+ "fetched_at_utc": "2026-11-23T10:41:07+00:00",
+ "finished_at_utc": "2026-11-23T10:41:29+00:00",
  "games": {
   "live_now": 0,
   "today": {
    "all_final": false,
-   "date": "2026-11-22",
+   "date": "2026-11-23",
    "final": 0,
-   "games": 5
+   "games": 7
   },
   "yesterday": {
    "all_final": true,
-   "date": "2026-11-21",
-   "final": 14,
-   "games": 14
+   "date": "2026-11-22",
+   "final": 5,
+   "games": 5
   }
  },
  "league_key": "477.l.12088",
- "next_opp_team_key": "477.l.12088.t.10",
+ "next_opp_team_key": "477.l.12088.t.9",
  "nhl_blocks": [
-  "2026-11-16",
-  "2026-11-23"
+  "2026-11-23",
+  "2026-11-30"
  ],
  "nhl_range": [
-  "2026-11-16",
-  "2026-11-29"
+  "2026-11-23",
+  "2026-12-06"
  ],
  "ok": [
   "league_settings",
@@ -64,8 +66,20 @@
   "my_roster_stats",
   "my_matchup",
   "next_matchup",
-  "my_roster_2026-11-22",
-  "opp_roster_2026-11-22",
+  "my_roster_2026-11-23",
+  "opp_roster_2026-11-23",
+  "my_roster_2026-11-24",
+  "opp_roster_2026-11-24",
+  "my_roster_2026-11-25",
+  "opp_roster_2026-11-25",
+  "my_roster_2026-11-26",
+  "opp_roster_2026-11-26",
+  "my_roster_2026-11-27",
+  "opp_roster_2026-11-27",
+  "my_roster_2026-11-28",
+  "opp_roster_2026-11-28",
+  "my_roster_2026-11-29",
+  "opp_roster_2026-11-29",
   "scoreboard_current",
   "scoreboard_previous",
   "all_rosters",
@@ -86,8 +100,8 @@
   "fa_RW_lastweek",
   "fa_D_lastweek",
   "fa_G_lastweek",
-  "nhl_schedule_2026-11-16",
   "nhl_schedule_2026-11-23",
+  "nhl_schedule_2026-11-30",
   "nhl_standings",
   "waivers_0",
   "waivers_1",
@@ -97,17 +111,23 @@
   "fa_snapshot",
   "scoreboard_archive"
  ],
- "opp_team_key": "477.l.12088.t.6",
+ "opp_team_key": "477.l.12088.t.10",
  "roster_dates": [
-  "2026-11-22"
+  "2026-11-23",
+  "2026-11-24",
+  "2026-11-25",
+  "2026-11-26",
+  "2026-11-27",
+  "2026-11-28",
+  "2026-11-29"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "schedule:schedule",
+ "trigger": "workflow_dispatch:morning",
  "warnings": [],
  "week_dates": {
-  "8": [
-   "2026-11-16",
-   "2026-11-22"
+  "10": [
+   "2026-11-30",
+   "2026-12-06"
   ],
   "9": [
    "2026-11-23",
