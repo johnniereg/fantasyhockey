@@ -224,12 +224,18 @@ def recommend(adds_left, verbose=True):
     ranked = sorted([p for p in my_r if p["proj"]], key=lambda p: -val_flat(p["proj"]))
     top8 = {p["name"] for p in ranked[:8]}
     pool, fetched = fa_pool(idx)
+    nxt = next_week_games(games, dates_all)
+
+    def gpw(team):
+        # games per future week: next week's real schedule, shrunk toward the season average
+        return (nxt.get(team, GAMES_PER_WEEK) + GAMES_PER_WEEK) / 2 if nxt else GAMES_PER_WEEK
     pool = sorted(pool, key=lambda p: -(val(p["proj"]) * sum(1 for x in dates_add if p["team"] in games.get(x, set()))
-                                         + val_flat(p["proj"]) * GAMES_PER_WEEK))[:60]
+                                         + val_flat(p["proj"]) * gpw(p["team"])))[:60]
     base = lineup_value(my_r, dates_add, games, slots, val)
     recs, roster = [], list(my_r)
     used = set()
-    for _ in range(max(0, adds_left)):
+    best_by_add = {}  # first pass only: each candidate's best pair, for the shortlist
+    for it in range(max(1, adds_left)):
         best = None
         cur_base = lineup_value(roster, dates_add, games, slots, val)
         for a in pool:
@@ -245,19 +251,23 @@ def recommend(adds_left, verbose=True):
                           - cur_base)
                 else:
                     dw = lineup_value(new, dates_add, games, slots, val) - cur_base
-                dros = (val_flat(a["proj"]) - val_flat(d["proj"])) * GAMES_PER_WEEK  # per future week
+                dros = val_flat(a["proj"]) * gpw(a["team"]) - val_flat(d["proj"]) * gpw(d["team"])  # per future week
                 keeper = d["name"] in KEEPERS
                 if keeper and d["name"] in top8:
                     continue  # likely kept next year; not a candidate
+                score = dw + 2 * dros
                 ok = (dw >= WEEK_MIN and dros >= -0.5) or (dros >= ROS_MIN and dw >= 0)
                 if keeper and dros < KEEPER_ROS_MIN:
                     ok = False
+                if it == 0:  # shortlist: a pair that clears the bar beats one that doesn't
+                    prev = best_by_add.get(a["key"])
+                    if not prev or (ok, score) > (prev[6], prev[0]):
+                        best_by_add[a["key"]] = (score, a, d, dw, dros, keeper, ok)
                 if not ok:
                     continue
-                score = dw + 2 * dros
                 if not best or score > best[0]:
                     best = (score, a, d, dw, dros, keeper)
-        if not best:
+        if not best or it >= adds_left:
             break
         _, a, d, dw, dros, keeper = best
         recs.append({"add": a["name"], "add_team": a["team"], "add_pos": ",".join(a["elig"]),
@@ -270,14 +280,84 @@ def recommend(adds_left, verbose=True):
                      "drop_games": sum(1 for x in dates_add if d["team"] in games.get(x, set()))})
         used.add(a["key"])
         roster = [x for x in roster if x["key"] != d["key"]] + [a]
+    hist = rec_history(today)
+    for r in recs:
+        r.update(hist.get(r["add"], {"days_top": 0, "days_listed": 0, "first_listed": None}))
+    box = context_box()
+    shortlist = []
+    for score, a, d, dw, dros, keeper, ok in sorted(best_by_add.values(), key=lambda t: (-t[6], -t[0]))[:8]:
+        h = hist.get(a["name"], {"days_top": 0, "days_listed": 0, "first_listed": None})
+        shortlist.append({"add": a["name"], "add_team": a["team"], "add_pos": ",".join(a["elig"]),
+                          "waiver": a["waiver"], "own_pct": a.get("owned"), "best_drop": d["name"],
+                          "week_gain": round(dw, 1), "ros_gain_per_week": round(dros, 1),
+                          "clears_bar": ok,
+                          "games_this_week": sum(1 for x in dates_add if a["team"] in games.get(x, set())),
+                          "games_next_week": nxt.get(a["team"]),
+                          **box(a["proj"]), **h})
     drops = sorted([p for p in my_r if p["proj"] and p.get("slot") not in ("IR", "IR+")],
                    key=lambda p: val_flat(p["proj"]))
-    return {"generated_at_et": now.isoformat(timespec="minutes"), "data_fetched_utc": fetched,
+    return {"shortlist": shortlist,"generated_at_et": now.isoformat(timespec="minutes"), "data_fetched_utc": fetched,
             "dates": dates_all, "weights": {c: round(w[c], 2) for c in SK}, "season_weights": {c: round(sw[c], 2) for c in SK}, "matchup": info,
             "base_week_value": round(base, 2), "adds_left": adds_left, "recommendations": recs,
             "drop_order": [{"name": p["name"], "team": p["team"], "value_pg": round(val_flat(p["proj"]), 2),
                             "keeper": p["name"] in KEEPERS, "keeper_top8": p["name"] in top8}
                            for p in drops]}
+
+
+def next_week_games(games, dates_all):
+    """team -> games in the fantasy week after this one (empty if the schedule isn't fetched yet)."""
+    if not dates_all:
+        return {}
+    start = dt.date.fromisoformat(dates_all[-1]) + dt.timedelta(days=1)
+    days = [(start + dt.timedelta(days=i)).isoformat() for i in range(7)]
+    if not all(d in games for d in days):
+        return {}
+    out = defaultdict(int)
+    for d in days:
+        for t in games[d]:
+            out[t] += 1
+    return dict(out)
+
+
+def rec_history(today, lookback=14):
+    """add name -> how often the engine has already put him forward (distinct days in the last 2 weeks).
+    A pick that has sat at the top for days without being acted on is a small edge, not news:
+    graded so far, repeat picks (Zacha, Malkin) returned a fraction of first-time picks."""
+    p = os.path.join(OUTDIR, "moves_log.json")
+    log = json.load(open(p)) if os.path.exists(p) else []
+    since = (today - dt.timedelta(days=lookback)).isoformat()
+    top, listed = defaultdict(set), defaultdict(set)
+    for e in log:
+        d = e["generated_at_et"][:10]
+        if d < since or d >= today.isoformat():
+            continue
+        for i, r in enumerate(e.get("recommendations", [])):
+            listed[r["add"]].add(d)
+            if i == 0:
+                top[r["add"]].add(d)
+    return {n: {"days_top": len(top[n]), "days_listed": len(ds), "first_listed": min(ds)} for n, ds in listed.items()}
+
+
+def context_box():
+    """Recent-role context from box scores: ice time trend (tested: +2 min predicts +0.08 P/GP beyond
+    the projection) and power-play goals. Hot streaks alone are not included: tested, they predict nothing."""
+    rows = P._CACHE.setdefault("box", P._box_rows())
+    by = defaultdict(list)
+    for r in rows:
+        by[r["player_id"]].append(r)
+
+    def f(pr):
+        rs = sorted(by.get(pr["pid"], []), key=lambda r: r["date"])
+        last3 = rs[-3:]
+        before = rs[:-3]
+        t3 = sum(r["toi_min"] or 0 for r in last3) / len(last3) if last3 else None
+        tb = sum(r["toi_min"] or 0 for r in before) / len(before) if before else None
+        return {"toi_season": pr["toi"], "toi_last3": round(t3, 1) if t3 else None,
+                "toi_jump": round(t3 - tb, 1) if t3 and tb else None,
+                "ppg_last10": sum(r["ppg"] or 0 for r in rs[-10:]),
+                "prior_gp": pr.get("prior_gp"), "age": pr.get("age"),
+                "proj_pg": {c: round(pr[c], 2) for c in SK}}
+    return f
 
 
 def adds_left():
@@ -344,11 +424,37 @@ def goalies():
         share = 0 if g["name"] in out_g else (mine_recent / team_gs[g["team"]] if team_gs[g["team"]] else 0)
         tg = sum(1 for d in dates if g["team"] in games.get(d, set()))
         rows.append({**g, "share": round(share, 2), "team_games": tg, "exp_starts": round(share * tg, 1),
+                     "exp_wins": round(share * tg * t.get("win_pct", 0), 2),
                      "team_win_pct": round(t.get("win_pct", 0), 3), "team_ga_pg": round(t.get("ga_pg", 0), 2),
                      "team_sa_pg": round(t.get("sa_pg", 0), 1), "ours": g["name"] in mine,
                      "status": status.get(g["name"], "")})
     # quality = team goals against (lower better) and win%, for goalies who actually start
     return sorted(rows, key=lambda r: (r["share"] < 0.4, r["team_ga_pg"] - 2 * r["team_win_pct"])), None
+
+
+GOALIE_MIN = 3        # league minimum goalie appearances per week
+GOALIE_W_EDGE = 0.5   # expected-wins edge over our weakest goalie before a streaming add is worth an add
+
+
+def goalie_plan(rows, adds_left):
+    """Streaming call. Tested on 22 days: ranking available goalies by expected wins (recent start share x
+    team games x team win%) found as many wins as the old table order with 5x the variety of names; ranking by
+    expected starts alone did worse (more starts, half the wins)."""
+    ours = [r for r in rows if r["ours"] and r["status"] not in OUT_STATUSES]
+    fa = [r for r in rows if not r["ours"] and r["status"] not in OUT_STATUSES and r["share"] >= 0.4]
+    starts = round(sum(r["exp_starts"] for r in ours), 1)
+    best = max(fa, key=lambda r: r["exp_wins"], default=None)
+    worst = min(ours, key=lambda r: r["exp_wins"], default=None)
+    plan = {"our_exp_starts": starts, "short_of_min": starts < GOALIE_MIN, "rec": None}
+    if not best or adds_left <= 0:
+        return plan
+    edge = best["exp_wins"] - (worst["exp_wins"] if worst else 0)
+    if plan["short_of_min"] or edge >= GOALIE_W_EDGE:
+        plan["rec"] = {"add": best["name"], "add_team": best["team"], "add_exp_starts": best["exp_starts"],
+                       "add_exp_wins": best["exp_wins"], "drop": worst["name"] if worst else None,
+                       "drop_exp_wins": worst["exp_wins"] if worst else None, "exp_wins_edge": round(edge, 2),
+                       "reason": "short of 3 appearances" if plan["short_of_min"] else "expected-wins upgrade"}
+    return plan
 
 
 def grade():
@@ -397,7 +503,8 @@ def main():
     res = recommend(adds_left())
     gl, lg = goalies()
     res["goalies"] = [{k: r[k] for k in ("name", "team", "ours", "status", "sv_season", "gs", "share", "team_games",
-                                         "exp_starts", "team_win_pct", "team_ga_pg", "team_sa_pg")} for r in gl]
+                                         "exp_starts", "exp_wins", "team_win_pct", "team_ga_pg", "team_sa_pg")} for r in gl]
+    res["goalie_plan"] = goalie_plan(res["goalies"], res["adds_left"])
     print(f"# AGM moves — {res['generated_at_et']} ET (data {res['data_fetched_utc']} UTC)\n")
     print("## Matchup categories (projected end-of-week totals)\n")
     print("_Weight = percentage points of win probability per unit (one goal, one PIM...) this week; "
@@ -416,6 +523,16 @@ def main():
               f"**drop {r['drop']}** ({r['drop_team']}{', keeper' if r['drop_keeper'] else ''}) — "
               f"week +{r['week_gain']} ({r['add_games']} vs {r['drop_games']} games left), later weeks {r['ros_gain_per_week']:+}/wk")
         print(f"  - add proj/g: {r['add_proj']}\n  - drop proj/g: {r['drop_proj']}")
+        if r.get("days_top"):
+            print(f"  - REPEAT: top pick on {r['days_top']} earlier day(s), listed on {r['days_listed']} since {r['first_listed']}")
+    print("\n## Shortlist for a second opinion (best pair per candidate, ranked)\n")
+    print("| Add | Team | Best drop | Week | Later/wk | Clears bar | GP this wk / next | TOI season → last 3 (jump) | PPG last 10 | Prior GP | Days listed |")
+    print("|---|---|---|---|---|---|---|---|---|---|---|")
+    for c in res["shortlist"]:
+        print(f"| {c['add']}{' (W)' if c['waiver'] else ''} | {c['add_team']} | {c['best_drop']} | {c['week_gain']:+} | "
+              f"{c['ros_gain_per_week']:+} | {'yes' if c['clears_bar'] else 'no'} | {c['games_this_week']} / "
+              f"{c['games_next_week'] if c['games_next_week'] is not None else '?'} | {c['toi_season']} → {c['toi_last3']} "
+              f"({c['toi_jump'] if c['toi_jump'] is not None else '–'}) | {c['ppg_last10']} | {c['prior_gp']} | {c['days_listed']} |")
     print("\n## Drop order (lowest projected value first, all skaters)\n")
     for d in res["drop_order"][:8]:
         print(f"- {d['name']} ({d['team']}) {d['value_pg']}{' · keeper' if d['keeper'] else ''}"
@@ -428,6 +545,15 @@ def main():
     for r in [g for g in res["goalies"] if g["ours"]] + [g for g in res["goalies"] if not g["ours"]][:10]:
         print(f"| {r['name']}{' (' + r['status'] + ')' if r['status'] else ''} | {r['team']} | {'✔' if r['ours'] else ''} | {r['share']} | {r['gs']} | {r['team_games']} | "
               f"{r['exp_starts']} | {r['team_win_pct']:.3f} | {r['team_ga_pg']} | {r['team_sa_pg']} | {(r['sv_season'] or 0):.3f} |")
+    gp_ = res["goalie_plan"]
+    print(f"\n## Goalie plan\n\nOur expected starts rest of week: {gp_['our_exp_starts']} (minimum {GOALIE_MIN})"
+          f"{' — SHORT' if gp_['short_of_min'] else ''}.")
+    if gp_["rec"]:
+        g = gp_["rec"]
+        print(f"- **Add {g['add']}** ({g['add_team']}, {g['add_exp_starts']} exp starts, {g['add_exp_wins']} exp W) · "
+              f"drop {g['drop']} ({g['drop_exp_wins']} exp W) — {g['reason']}, edge {g['exp_wins_edge']:+} W")
+    else:
+        print("- No goalie move clears the bar.")
     if a.json or a.log:
         os.makedirs(OUTDIR, exist_ok=True)
         json.dump(res, open(os.path.join(OUTDIR, "moves_latest.json"), "w"), indent=1)
