@@ -275,13 +275,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1794581583
-        }
+        [],
+        []
        ],
        {
         "player_stats": {
@@ -916,8 +912,8 @@
          "url": "https://sports.yahoo.com/nhl/players/8002"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "O",
+         "status_full": "Out"
         },
         {
          "injury_note": "Upper Body"
@@ -994,9 +990,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795301699
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795452402
         }
        ],
        {
@@ -2340,8 +2338,8 @@
          "url": "https://sports.yahoo.com/nhl/players/3638"
         },
         {
-         "status": "O",
-         "status_full": "Out"
+         "status": "DTD",
+         "status_full": "Day-to-Day"
         },
         {
          "injury_note": "Upper Body"
@@ -3637,7 +3635,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "109.0259552002ms",
+  "time": "153.35011482239ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/stats;type=lastweek"
  }
