@@ -124,11 +124,24 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795072293
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795543896
         }
        ],
+       {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-25"
+         },
+         {
+          "is_starting": 1
+         }
+        ]
+       },
        {
         "percent_owned": [
          {
@@ -829,9 +842,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795450124
         }
@@ -1138,9 +1149,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795452604
         }
@@ -1152,10 +1161,10 @@
           "week": 9
          },
          {
-          "value": 3
+          "value": 2
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -1653,10 +1662,10 @@
           "week": 9
          },
          {
-          "value": 20
+          "value": 19
          },
          {
-          "delta": "-4"
+          "delta": "-5"
          }
         ]
        }
@@ -1857,10 +1866,10 @@
           "week": 9
          },
          {
-          "value": 21
+          "value": 20
          },
          {
-          "delta": "9"
+          "delta": "8"
          }
         ]
        }
@@ -2149,7 +2158,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1795451796
+         "player_notes_last_timestamp": 1795528901
         }
        ],
        {
@@ -2260,10 +2269,10 @@
           "week": 9
          },
          {
-          "value": 3
+          "value": 2
          },
          {
-          "delta": "2"
+          "delta": "1"
          }
         ]
        }
@@ -2358,6 +2367,17 @@
          "player_notes_last_timestamp": 1794715588
         }
        ],
+       {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-25"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
        {
         "percent_owned": [
          {
@@ -2559,7 +2579,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1795478952
+         "player_notes_last_timestamp": 1795533370
         }
        ],
        {
@@ -2583,7 +2603,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "90.421915054321ms",
+  "time": "68.658828735352ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/percent_owned"
  }

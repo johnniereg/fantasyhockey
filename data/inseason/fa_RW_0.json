@@ -66,6 +66,13 @@
          "url": "https://sports.yahoo.com/nhl/players/30849"
         },
         {
+         "status": "DTD",
+         "status_full": "Day-to-Day"
+        },
+        {
+         "injury_note": "Undisclosed"
+        },
+        {
          "editorial_player_key": "nhl.p.30849"
         },
         {
@@ -113,6 +120,9 @@
          "eligible_positions": [
           {
            "position": "RW"
+          },
+          {
+           "position": "IR+"
           }
          ]
         },
@@ -134,9 +144,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795413625
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795545118
         }
        ],
        {
@@ -467,9 +479,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1794986508
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795529030
         }
        ],
        {
@@ -917,9 +931,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795452402
         }
@@ -931,10 +943,10 @@
           "week": 9
          },
          {
-          "value": 18
+          "value": 17
          },
          {
-          "delta": "-4"
+          "delta": "-5"
          }
         ]
        }
@@ -1042,10 +1054,10 @@
           "week": 9
          },
          {
-          "value": 11
+          "value": 10
          },
          {
-          "delta": "1"
+          "delta": "0"
          }
         ]
        }
@@ -1264,10 +1276,10 @@
           "week": 9
          },
          {
-          "value": 39
+          "value": 38
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -2842,7 +2854,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "95.255136489868ms",
+  "time": "120.31388282776ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/percent_owned"
  }

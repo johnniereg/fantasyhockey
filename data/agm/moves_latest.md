@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-24T05:42-05:00 ET (data 2026-11-24T10:42:00+00:00 UTC)
+# AGM moves — 2026-11-24T14:34-05:00 ET (data 2026-11-24T19:33:32+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -8,7 +8,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 |---|---|---|---|---|---|
 | G | 12.9 | 10.2 | 73% | 7.36 | 9.07 |
 | A | 19.2 | 18.1 | 58% | 7.0 | 6.85 |
-| PPP | 10.3 | 9.2 | 60% | 9.24 | 11.07 |
+| PPP | 10.3 | 9.2 | 60% | 9.24 | 11.06 |
 | PIM | 16.8 | 16.0 | 53% | 3.59 | 2.88 |
 | +/- | 6.3 | -0.9 | 82% | 3.35 | 3.99 |
 | GWG | 2.5 | 1.5 | 71% | 19.61 | 23.28 |
@@ -69,7 +69,7 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | Darcy Kuemper | LAK |  | 0.67 | 14 | 2 | 1.3 | 0.394 | 3.07 | 27.4 | 0.891 |
 | Dan Vladar | PHI |  | 0.5 | 13 | 3 | 1.5 | 0.424 | 3.16 | 26.6 | 0.876 |
 | Joseph Woll | PHI |  | 0.5 | 13 | 3 | 1.5 | 0.424 | 3.16 | 26.6 | 0.892 |
-| Stuart Skinner | WPG |  | 0.83 | 18 | 3 | 2.5 | 0.456 | 3.23 | 28.2 | 0.887 |
+| Stuart Skinner | WPG |  | 0.83 | 18 | 3 | 2.5 | 0.456 | 3.23 | 28.1 | 0.887 |
 | Joey Daccord | SEA |  | 0.5 | 10 | 3 | 1.5 | 0.471 | 3.31 | 29.7 | 0.877 |
 
 ## Goalie plan

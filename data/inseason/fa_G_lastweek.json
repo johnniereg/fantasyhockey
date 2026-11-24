@@ -124,11 +124,24 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795072293
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795543896
         }
        ],
+       {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-25"
+         },
+         {
+          "is_starting": 1
+         }
+        ]
+       },
        {
         "player_stats": {
          "0": {
@@ -1094,9 +1107,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795450124
         }
@@ -1514,9 +1525,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795452604
         }
@@ -2904,7 +2913,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1795451796
+         "player_notes_last_timestamp": 1795528901
         }
        ],
        {
@@ -3188,6 +3197,17 @@
         }
        ],
        {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-25"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
+       {
         "player_stats": {
          "0": {
           "coverage_type": "lastweek"
@@ -3462,7 +3482,7 @@
          "has_recent_player_notes": 1
         },
         {
-         "player_notes_last_timestamp": 1795478952
+         "player_notes_last_timestamp": 1795533370
         }
        ],
        {
@@ -3523,7 +3543,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "103.48391532898ms",
+  "time": "101.18794441223ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/stats;type=lastweek"
  }
