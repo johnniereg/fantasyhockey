@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-25T05:41-05:00 ET (data 2026-11-25T10:41:24+00:00 UTC)
+# AGM moves — 2026-11-25T13:41-05:00 ET (data 2026-11-25T18:41:32+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -6,44 +6,47 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 
 | Cat | Us | Them | P(win) | Weight | Season weight |
 |---|---|---|---|---|---|
-| G | 12.9 | 9.6 | 77% | 6.83 | 9.07 |
-| A | 18.9 | 18.2 | 55% | 7.1 | 6.84 |
-| PPP | 10.3 | 8.9 | 63% | 9.07 | 11.06 |
-| PIM | 14.8 | 15.8 | 46% | 3.72 | 2.88 |
-| +/- | 7.2 | -1.0 | 86% | 2.95 | 3.99 |
-| GWG | 2.5 | 1.5 | 73% | 19.25 | 23.26 |
+| G | 12.9 | 9.8 | 76% | 7.01 | 9.06 |
+| A | 19.2 | 18.8 | 53% | 7.04 | 6.84 |
+| PPP | 10.3 | 9.0 | 62% | 9.15 | 11.08 |
+| PIM | 16.8 | 16.1 | 52% | 3.58 | 2.88 |
+| +/- | 6.3 | 0.1 | 79% | 3.74 | 3.99 |
+| GWG | 2.5 | 1.5 | 72% | 19.38 | 23.26 |
 
 ## Recommended moves (4 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
-- **Add Vincent Trocheck** (UTA C,RW) · **drop Sean Walker** (CAR) — week +3.7 (2 vs 1 games left), later weeks +17.7/wk
-  - add proj/g: {'G': 0.27, 'A': 0.47, 'PPP': 0.18, 'PIM': 0.71, 'PM': -0.03, 'GWG': 0.04}
+- **Add Frank Nazar** (CHI C) · **drop Sean Walker** (CAR) — week +2.8 (2 vs 1 games left), later weeks +17.0/wk
+  - add proj/g: {'G': 0.39, 'A': 0.33, 'PPP': 0.23, 'PIM': 0.75, 'PM': -0.36, 'GWG': 0.06}
   - drop proj/g: {'G': 0.14, 'A': 0.27, 'PPP': 0.02, 'PIM': 0.74, 'PM': 0.18, 'GWG': 0.02}
+- **Add Vincent Trocheck** (UTA C,RW) · **drop Matthew Knies** (CBJ) — week +1.2 (2 vs 1 games left), later weeks +8.0/wk
+  - add proj/g: {'G': 0.27, 'A': 0.47, 'PPP': 0.18, 'PIM': 0.71, 'PM': -0.03, 'GWG': 0.04}
+  - drop proj/g: {'G': 0.31, 'A': 0.44, 'PPP': 0.2, 'PIM': 0.33, 'PM': -0.1, 'GWG': 0.05}
 
 ## Shortlist for a second opinion (best pair per candidate, ranked)
 
 | Add | Team | Best drop | Week | Later/wk | Clears bar | GP this wk / next | TOI season → last 3 (jump) | PPG last 10 | Prior GP | Days listed |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Vincent Trocheck | UTA | Sean Walker | +3.7 | +17.7 | yes | 2 / 4 | 18.7 → 20.5 (2.0) | 2 | 231 | 0 |
-| Frank Nazar | CHI | Sean Walker | +3.1 | +16.9 | yes | 2 / 4 | 18.3 → 21.7 (3.9) | 4 | 122 | 2 |
-| Mason Marchment | SJS | Sean Walker | +2.9 | +15.8 | yes | 2 / 4 | 16.5 → 15.9 (-0.7) | 1 | 211 | 0 |
-| Pierre-Luc Dubois | WSH | Sean Walker | +4.8 | +14.1 | yes | 2 / 3 | 16.7 → 17.3 (0.8) | 1 | 164 | 0 |
-| Nico Hischier | NJD | Sean Walker | +3.1 | +14.1 | yes | 2 / 3 | 18.3 → 17.6 (-0.8) | 1 | 228 | 1 |
-| Shane Pinto | OTT | Sean Walker | +2.1 | +14.4 | yes | 2 / 4 | 20.2 → 20.3 (0.2) | 0 | 183 | 0 |
-| Jimmy Snuggerud | STL | Sean Walker | +2.8 | +13.8 | yes | 2 / 3 | 17.7 → 17.5 (-0.3) | 2 | 77 | 1 |
-| Brock Nelson | COL | Sean Walker | +3.0 | +13.3 | yes | 2 / 3 | 17.7 → 19.7 (2.3) | 1 | 243 | 0 |
+| Frank Nazar | CHI | Sean Walker | +2.8 | +17.0 | yes | 2 / 4 | 18.3 → 21.7 (3.9) | 4 | 122 | 2 |
+| Tyler Bertuzzi | CHI | Sean Walker | +1.2 | +10.4 | yes | 2 / 4 | 16.9 → 16.6 (-0.4) | 2 | 241 | 0 |
+| Pavel Zacha | BOS | Sean Walker | +3.3 | +8.5 | yes | 2 / 2 | 19.2 → 18.7 (-0.6) | 1 | 238 | 1 |
+| Filip Hronek | VAN | Sean Walker | +8.9 | +4.8 | yes | 2 / 3 | 26.8 → 28.4 (1.9) | 0 | 224 | 2 |
+| Neal Pionk | WPG | Sean Walker | +7.4 | +5.1 | yes | 2 / 4 | 24.2 → 22.4 (-2.1) | 0 | 202 | 1 |
+| Vincent Trocheck | UTA | Matthew Knies | +1.2 | +8.0 | yes | 2 / 4 | 18.7 → 20.5 (2.0) | 2 | 231 | 0 |
+| Charle-Edouard D'Astous | TBL | Sean Walker | +11.3 | +2.4 | yes | 2 / 2 | 17.9 → 18.4 (0.6) | 1 | 70 | 0 |
+| Logan Stanley | NYI | Sean Walker | +9.9 | +2.3 | yes | 2 / 3 | 20.9 → 18.2 (-3.1) | 0 | 164 | 0 |
 
 ## Drop order (lowest projected value first, all skaters)
 
 - Sean Walker (CAR) 6.7
-- Moritz Seider (DET) 9.57
-- Will Smith (SJS) 9.92 · keeper
-- Miro Heiskanen (DAL) 10.14 · keeper
-- Bo Horvat (NYI) 11.05
+- Moritz Seider (DET) 9.58
+- Matthew Knies (CBJ) 9.75
+- Will Smith (SJS) 9.93 · keeper
+- Miro Heiskanen (DAL) 10.15 · keeper
+- Bo Horvat (NYI) 11.06
+- Jack Quinn (BUF) 11.32
 - Carter Verhaeghe (FLA) 11.59
-- Cole Hutson (WSH) 12.25 · keeper (top-8, protected)
-- Mikael Granlund (ANA) 12.44
 
 ## Goalies — starters first, ranked by team goals against and win % (blend of last season and this)
 
