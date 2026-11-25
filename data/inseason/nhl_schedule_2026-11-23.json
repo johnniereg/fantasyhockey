@@ -763,32 +763,6 @@
       "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg",
       "id": 54,
       "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "1.84"
-       },
-       {
-        "providerId": 6,
-        "value": "1.90"
-       },
-       {
-        "providerId": 7,
-        "value": "-122"
-       },
-       {
-        "providerId": 9,
-        "value": "-125"
-       },
-       {
-        "providerId": 8,
-        "value": "-123"
-       },
-       {
-        "providerId": 10,
-        "value": "2.40"
-       }
-      ],
       "placeName": {
        "default": "Vegas"
       },
@@ -796,12 +770,17 @@
        "default": "Vegas",
        "fr": "de Vegas"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/VGK/20262027/VGK-radio.m3u8"
+      "score": 5
      },
+     "condensedGame": "/video/vgk-at-edm-condensed-game-6408853435112",
+     "condensedGameFr": "/fr/video/match-condense-knights-oilers-24-11-2026-6408852952112",
      "easternUTCOffset": "-05:00",
      "gameCenterLink": "/gamecenter/vgk-vs-edm/2026/11/24/2026020385",
+     "gameOutcome": {
+      "lastPeriodType": "REG"
+     },
      "gameScheduleState": "OK",
-     "gameState": "FUT",
+     "gameState": "OFF",
      "gameType": 2,
      "homeTeam": {
       "abbrev": "EDM",
@@ -812,32 +791,6 @@
       "homeSplitSquad": false,
       "id": 22,
       "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
-      "odds": [
-       {
-        "providerId": 3,
-        "value": "2.00"
-       },
-       {
-        "providerId": 6,
-        "value": "1.90"
-       },
-       {
-        "providerId": 7,
-        "value": "+102"
-       },
-       {
-        "providerId": 9,
-        "value": "+105"
-       },
-       {
-        "providerId": 8,
-        "value": "+101"
-       },
-       {
-        "providerId": 10,
-        "value": "2.60"
-       }
-      ],
       "placeName": {
        "default": "Edmonton"
       },
@@ -845,19 +798,19 @@
        "default": "Edmonton",
        "fr": "d'Edmonton"
       },
-      "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/EDM/20262027/EDM-radio.m3u8"
+      "score": 3
      },
      "id": 2026020385,
      "neutralSite": false,
      "periodDescriptor": {
       "maxRegulationPeriods": 3,
-      "number": 1,
+      "number": 3,
       "periodType": "REG"
      },
      "season": 20262027,
      "startTimeUTC": "2026-11-25T01:00:00Z",
-     "ticketsLink": "https://www.ticketmaster.ca/event/11006513A625A4EE?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM13&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM13",
-     "ticketsLinkFr": "https://www.ticketmaster.ca/event/11006513A625A4EE?brand=nhl&wt.mc_id=NHL_LEAGUE_EDM_SCHED_PG_GM13&utm_source=NHL.com&utm_medium=client_PM&utm_campaign=NHL_LEAGUE_EDM&utm_content=SCHED_PG_GM13",
+     "threeMinRecap": "/video/vgk-at-edm-recap-6408853929112",
+     "threeMinRecapFr": "/fr/video/vgk-vs-edm-24-11-2026-resume-6408853748112",
      "tvBroadcasts": [
       {
        "countryCode": "US",
@@ -892,7 +845,25 @@
       "default": "Rogers Place"
      },
      "venueTimezone": "America/Edmonton",
-     "venueUTCOffset": "-06:00"
+     "venueUTCOffset": "-06:00",
+     "winningGoalScorer": {
+      "firstInitial": {
+       "default": "J."
+      },
+      "lastName": {
+       "default": "Eichel"
+      },
+      "playerId": 8478403
+     },
+     "winningGoalie": {
+      "firstInitial": {
+       "default": "C."
+      },
+      "lastName": {
+       "default": "Hart"
+      },
+      "playerId": 8479394
+     }
     }
    ],
    "numberOfGames": 1
