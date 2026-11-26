@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-26T05:41-05:00 ET (data 2026-11-26T10:41:02+00:00 UTC)
+# AGM moves — 2026-11-26T13:29-05:00 ET (data 2026-11-26T18:29:19+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -13,7 +13,7 @@ _Weight = percentage points of win probability per unit (one goal, one PIM...) t
 | +/- | 4.7 | -0.2 | 78% | 4.64 | 3.99 |
 | GWG | 2.0 | 0.9 | 78% | 20.86 | 23.27 |
 
-## Recommended moves (4 adds left this week)
+## Recommended moves (3 adds left this week)
 
 _Gain = percentage points of category wins (+10 = +0.1 categories). This week counts nights from tomorrow; later weeks = average per future week._
 
@@ -32,12 +32,12 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 |---|---|---|---|---|---|---|---|---|---|---|
 | Frank Nazar | CHI | Sean Walker | +1.3 | +17.1 | yes | 2 / 4 | 18.4 → 21.4 (3.5) | 4 | 122 | 3 |
 | Pavel Zacha | BOS | Sean Walker | +3.7 | +9.3 | yes | 2 / 2 | 19.3 → 19.1 (-0.1) | 1 | 238 | 1 |
+| Tyler Bertuzzi | CHI | Sean Walker | +0.5 | +10.6 | yes | 2 / 4 | 16.9 → 16.6 (-0.4) | 2 | 241 | 0 |
 | Blake Coleman | MIN | Sean Walker | +1.4 | +8.1 | yes | 2 / 3 | 15.9 → 15.6 (-0.3) | 0 | 147 | 0 |
 | Filip Hronek | VAN | Sean Walker | +8.0 | +4.3 | yes | 2 / 3 | 26.8 → 27.3 (0.6) | 0 | 224 | 2 |
 | Shea Theodore | VGK | Sean Walker | +8.7 | +3.4 | yes | 2 / 3 | 22.3 → 23.7 (1.6) | 0 | 184 | 0 |
 | Vincent Trocheck | UTA | Matthew Knies | +0.8 | +7.2 | yes | 2 / 4 | 18.8 → 20.3 (1.7) | 2 | 231 | 1 |
 | Neal Pionk | WPG | Sean Walker | +5.8 | +4.5 | yes | 2 / 4 | 24.1 → 22.6 (-1.6) | 0 | 202 | 1 |
-| Dougie Hamilton | NJD | Sean Walker | +7.2 | +3.4 | yes | 2 / 3 | 20.8 → 21.6 (0.9) | 1 | 161 | 0 |
 
 ## Drop order (lowest projected value first, all skaters)
 
@@ -60,8 +60,8 @@ _Individual save % doesn't predict next season (tested r = -0.12); team defence 
 | Dustin Wolf | CGY | ✔ | 0.67 | 14 | 2 | 1.3 | 0.419 | 3.29 | 29.7 | 0.878 |
 | Sebastian Cossa | UTA |  | 0.5 | 10 | 2 | 1.0 | 0.511 | 3.14 | 25.5 | 0.880 |
 | Alex Lyon | BUF |  | 0.5 | 4 | 1 | 0.5 | 0.515 | 3.15 | 28.4 | 0.890 |
-| John Gibson | DET |  | 0.5 | 14 | 2 | 1.0 | 0.432 | 3.0 | 26.9 | 0.862 |
 | Daniil Tarasov | DET |  | 0.5 | 9 | 2 | 1.0 | 0.432 | 3.0 | 26.9 | 0.930 |
+| John Gibson | DET |  | 0.5 | 14 | 2 | 1.0 | 0.432 | 3.0 | 26.9 | 0.862 |
 | Cam Talbot | CBJ |  | 0.83 | 13 | 1 | 0.8 | 0.436 | 3.12 | 28.5 | 0.907 |
 | Stuart Skinner | WPG |  | 0.67 | 18 | 2 | 1.3 | 0.468 | 3.21 | 28.0 | 0.887 |
 | Darcy Kuemper | LAK |  | 0.67 | 14 | 2 | 1.3 | 0.394 | 3.07 | 27.4 | 0.891 |

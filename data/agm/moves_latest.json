@@ -84,6 +84,47 @@
   },
   {
    "cat_delta_week": {
+    "G": 0.44,
+    "A": 0.33,
+    "PPP": 0.39,
+    "PIM": 0.4,
+    "+/-": -0.69,
+    "GWG": 0.07
+   },
+   "drop_games_this_week": 1,
+   "drop_toi_season": 20.8,
+   "drop_toi_recent": 19.9,
+   "add": "Tyler Bertuzzi",
+   "add_team": "CHI",
+   "add_pos": "LW,RW",
+   "waiver": false,
+   "own_pct": 14,
+   "best_drop": "Sean Walker",
+   "week_gain": 0.5,
+   "ros_gain_per_week": 10.6,
+   "clears_bar": true,
+   "games_this_week": 2,
+   "games_next_week": 4,
+   "toi_season": 16.9,
+   "toi_last3": 16.6,
+   "toi_jump": -0.4,
+   "ppg_last10": 2,
+   "prior_gp": 241,
+   "age": 31.8,
+   "proj_pg": {
+    "G": 0.29,
+    "A": 0.3,
+    "PPP": 0.21,
+    "PIM": 0.58,
+    "PM": -0.26,
+    "GWG": 0.04
+   },
+   "days_top": 0,
+   "days_listed": 0,
+   "first_listed": null
+  },
+  {
+   "cat_delta_week": {
     "G": 0.5,
     "A": 0.18,
     "PPP": 0.09,
@@ -286,51 +327,10 @@
    "days_top": 0,
    "days_listed": 1,
    "first_listed": "2026-11-23"
-  },
-  {
-   "cat_delta_week": {
-    "G": 0.12,
-    "A": 0.57,
-    "PPP": 0.31,
-    "PIM": 0.08,
-    "+/-": -0.07,
-    "GWG": 0.02
-   },
-   "drop_games_this_week": 1,
-   "drop_toi_season": 20.8,
-   "drop_toi_recent": 19.9,
-   "add": "Dougie Hamilton",
-   "add_team": "NJD",
-   "add_pos": "D",
-   "waiver": false,
-   "own_pct": 79,
-   "best_drop": "Sean Walker",
-   "week_gain": 7.2,
-   "ros_gain_per_week": 3.4,
-   "clears_bar": true,
-   "games_this_week": 2,
-   "games_next_week": 3,
-   "toi_season": 20.8,
-   "toi_last3": 21.6,
-   "toi_jump": 0.9,
-   "ppg_last10": 1,
-   "prior_gp": 161,
-   "age": 33.4,
-   "proj_pg": {
-    "G": 0.13,
-    "A": 0.41,
-    "PPP": 0.16,
-    "PIM": 0.42,
-    "PM": 0.05,
-    "GWG": 0.02
-   },
-   "days_top": 0,
-   "days_listed": 0,
-   "first_listed": null
   }
  ],
- "generated_at_et": "2026-11-26T05:41-05:00",
- "data_fetched_utc": "2026-11-26T10:41:02+00:00",
+ "generated_at_et": "2026-11-26T13:29-05:00",
+ "data_fetched_utc": "2026-11-26T18:29:19+00:00",
  "dates": [
   "2026-11-26",
   "2026-11-27",
@@ -386,7 +386,7 @@
   }
  },
  "base_week_value": 195.39,
- "adds_left": 4,
+ "adds_left": 3,
  "recommendations": [
   {
    "add": "Frank Nazar",
@@ -557,12 +557,12 @@
  ],
  "goalies": [
   {
-   "name": "Sebastian Cossa",
+   "name": "Karel Vejmelka",
    "team": "UTA",
-   "ours": false,
+   "ours": true,
    "status": "",
-   "sv_season": 0.88047,
-   "gs": 10,
+   "sv_season": 0.87277,
+   "gs": 16,
    "share": 0.5,
    "team_games": 2,
    "exp_starts": 1.0,
@@ -572,12 +572,12 @@
    "team_sa_pg": 25.5
   },
   {
-   "name": "Karel Vejmelka",
+   "name": "Sebastian Cossa",
    "team": "UTA",
-   "ours": true,
+   "ours": false,
    "status": "",
-   "sv_season": 0.87277,
-   "gs": 16,
+   "sv_season": 0.88047,
+   "gs": 10,
    "share": 0.5,
    "team_games": 2,
    "exp_starts": 1.0,
@@ -602,12 +602,12 @@
    "team_sa_pg": 28.4
   },
   {
-   "name": "John Gibson",
+   "name": "Daniil Tarasov",
    "team": "DET",
    "ours": false,
    "status": "",
-   "sv_season": 0.86206,
-   "gs": 14,
+   "sv_season": 0.9304,
+   "gs": 9,
    "share": 0.5,
    "team_games": 2,
    "exp_starts": 1.0,
@@ -617,12 +617,12 @@
    "team_sa_pg": 26.9
   },
   {
-   "name": "Daniil Tarasov",
+   "name": "John Gibson",
    "team": "DET",
    "ours": false,
    "status": "",
-   "sv_season": 0.9304,
-   "gs": 9,
+   "sv_season": 0.86206,
+   "gs": 14,
    "share": 0.5,
    "team_games": 2,
    "exp_starts": 1.0,
@@ -977,21 +977,6 @@
    "team_sa_pg": 27.9
   },
   {
-   "name": "Matt Murray",
-   "team": "NSH",
-   "ours": false,
-   "status": "NA",
-   "sv_season": 0.9,
-   "gs": 1,
-   "share": 0,
-   "team_games": 2,
-   "exp_starts": 0,
-   "exp_wins": 0.0,
-   "team_win_pct": 0.506,
-   "team_ga_pg": 3.0,
-   "team_sa_pg": 29.5
-  },
-  {
    "name": "Justus Annunen",
    "team": "NSH",
    "ours": false,
@@ -1002,6 +987,21 @@
    "team_games": 2,
    "exp_starts": 0.7,
    "exp_wins": 0.34,
+   "team_win_pct": 0.506,
+   "team_ga_pg": 3.0,
+   "team_sa_pg": 29.5
+  },
+  {
+   "name": "Matt Murray",
+   "team": "NSH",
+   "ours": false,
+   "status": "NA",
+   "sv_season": 0.9,
+   "gs": 1,
+   "share": 0,
+   "team_games": 2,
+   "exp_starts": 0,
+   "exp_wins": 0.0,
    "team_win_pct": 0.506,
    "team_ga_pg": 3.0,
    "team_sa_pg": 29.5
