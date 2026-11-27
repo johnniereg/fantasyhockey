@@ -4,10 +4,10 @@
   "league": [
    {
     "allow_add_to_dl_extra_pos": 0,
-    "current_date": "2026-11-26",
+    "current_date": "2026-11-27",
     "current_week": 9,
     "draft_status": "postdraft",
-    "edit_key": "2026-11-27",
+    "edit_key": "2026-11-28",
     "end_date": "2027-04-10",
     "end_week": "27",
     "felo_tier": "silver",
@@ -22,7 +22,7 @@
     "league_id": "12088",
     "league_key": "477.l.12088",
     "league_type": "private",
-    "league_update_timestamp": "1795683843",
+    "league_update_timestamp": "1795770166",
     "logo_url": "https://s.yimg.com/ep/cx/blendr/v2/image-hockey-player-emoji-png_1721256348578.png",
     "matchup_week": 9,
     "max_teams": "10",
@@ -474,9 +474,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795320609
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795718309
         }
        ],
        {
@@ -1143,10 +1145,10 @@
           "week": 9
          },
          {
-          "value": 2
+          "value": 3
          },
          {
-          "delta": "1"
+          "delta": "2"
          }
         ]
        }
@@ -2000,9 +2002,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795678404
         }
@@ -2789,7 +2789,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "94.405889511108ms",
+  "time": "88.632106781006ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=C;sort=AR;count=25;start=25/percent_owned"
  }
