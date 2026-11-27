@@ -5,13 +5,11 @@
  "extras": {
   "daily_stats": {
    "backfill_remaining": 0,
-   "written": [
-    "2026-11-26"
-   ]
+   "written": []
   },
   "fa_snapshot": {
    "date": "2026-11-27",
-   "players": 200,
+   "players": 201,
    "rows_read": 380
   },
   "goalie_starts": {
@@ -30,10 +28,10 @@
   "waivers_1": "saved"
  },
  "extras_errors": {},
- "fetched_at_utc": "2026-11-27T10:41:40+00:00",
- "finished_at_utc": "2026-11-27T10:42:06+00:00",
+ "fetched_at_utc": "2026-11-27T18:16:28+00:00",
+ "finished_at_utc": "2026-11-27T18:17:03+00:00",
  "games": {
-  "live_now": 0,
+  "live_now": 3,
   "today": {
    "all_final": false,
    "date": "2026-11-27",
@@ -110,7 +108,7 @@
   "2026-11-29"
  ],
  "team_key": "477.l.12088.t.1",
- "trigger": "workflow_dispatch:morning",
+ "trigger": "schedule:schedule",
  "warnings": [],
  "week_dates": {
   "10": [

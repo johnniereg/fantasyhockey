@@ -124,9 +124,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795704656
         }
@@ -1368,11 +1366,24 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795188817
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795795488
         }
        ],
+       {
+        "starting_status": [
+         {
+          "coverage_type": "date",
+          "date": "2026-11-28"
+         },
+         {
+          "is_starting": 0
+         }
+        ]
+       },
        {
         "player_stats": {
          "0": {
@@ -2747,9 +2758,15 @@
         },
         [],
         [],
-        [],
-        [],
-        []
+        {
+         "has_player_notes": 1
+        },
+        {
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795802424
+        }
        ],
        {
         "player_stats": {
@@ -2884,9 +2901,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795528901
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795800674
         }
        ],
        {
@@ -3022,9 +3041,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795701933
         }
@@ -3505,7 +3522,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "99.694967269897ms",
+  "time": "10714.84708786ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=G;sort=AR;count=25;start=0/stats;type=lastweek"
  }

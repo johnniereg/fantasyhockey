@@ -66,11 +66,14 @@
          "url": "https://sports.yahoo.com/nhl/players/30849"
         },
         {
-         "status": "DTD",
-         "status_full": "Day-to-Day"
+         "status": "IR",
+         "status_full": "Injured Reserve"
         },
         {
          "injury_note": "Upper Body"
+        },
+        {
+         "on_disabled_list": "1"
         },
         {
          "editorial_player_key": "nhl.p.30849"
@@ -122,6 +125,9 @@
            "position": "RW"
           },
           {
+           "position": "IR"
+          },
+          {
            "position": "IR+"
           }
          ]
@@ -144,9 +150,11 @@
         {
          "has_player_notes": 1
         },
-        [],
         {
-         "player_notes_last_timestamp": 1795633100
+         "has_recent_player_notes": 1
+        },
+        {
+         "player_notes_last_timestamp": 1795802059
         }
        ],
        {
@@ -156,10 +164,10 @@
           "week": 9
          },
          {
-          "value": 54
+          "value": 53
          },
          {
-          "delta": "6"
+          "delta": "5"
          }
         ]
        }
@@ -263,10 +271,10 @@
           "week": 9
          },
          {
-          "value": 67
+          "value": 66
          },
          {
-          "delta": "-3"
+          "delta": "-4"
          }
         ]
        }
@@ -608,10 +616,10 @@
           "week": 9
          },
          {
-          "value": 62
+          "value": 61
          },
          {
-          "delta": "9"
+          "delta": "8"
          }
         ]
        }
@@ -707,9 +715,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795706568
         }
@@ -721,10 +727,10 @@
           "week": 9
          },
          {
-          "value": 36
+          "value": 37
          },
          {
-          "delta": "2"
+          "delta": "3"
          }
         ]
        }
@@ -1252,9 +1258,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795704904
         }
@@ -1362,13 +1366,9 @@
         },
         [],
         [],
-        {
-         "has_player_notes": 1
-        },
         [],
-        {
-         "player_notes_last_timestamp": 1794923699
-        }
+        [],
+        []
        ],
        {
         "percent_owned": [
@@ -1377,10 +1377,10 @@
           "week": 9
          },
          {
-          "value": 42
+          "value": 41
          },
          {
-          "delta": "0"
+          "delta": "-1"
          }
         ]
        }
@@ -1488,10 +1488,10 @@
           "week": 9
          },
          {
-          "value": 42
+          "value": 41
          },
          {
-          "delta": "18"
+          "delta": "17"
          }
         ]
        }
@@ -1708,9 +1708,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795704379
         }
@@ -2275,9 +2273,7 @@
         {
          "has_player_notes": 1
         },
-        {
-         "has_recent_player_notes": 1
-        },
+        [],
         {
          "player_notes_last_timestamp": 1795709591
         }
@@ -2289,10 +2285,10 @@
           "week": 9
          },
          {
-          "value": 41
+          "value": 40
          },
          {
-          "delta": "-7"
+          "delta": "-8"
          }
         ]
        }
@@ -2618,10 +2614,10 @@
           "week": 9
          },
          {
-          "value": 21
+          "value": 20
          },
          {
-          "delta": "5"
+          "delta": "4"
          }
         ]
        }
@@ -2866,7 +2862,7 @@
    }
   ],
   "refresh_rate": "30",
-  "time": "127.68316268921ms",
+  "time": "80.820083618164ms",
   "xml:lang": "en-US",
   "yahoo:uri": "/fantasy/v2/league/477.l.12088/players;status=A;position=RW;sort=AR;count=25;start=0/percent_owned"
  }

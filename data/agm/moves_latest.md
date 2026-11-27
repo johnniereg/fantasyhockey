@@ -1,4 +1,4 @@
-# AGM moves — 2026-11-27T05:42-05:00 ET (data 2026-11-27T10:41:40+00:00 UTC)
+# AGM moves — 2026-11-27T13:17-05:00 ET (data 2026-11-27T18:16:28+00:00 UTC)
 
 ## Matchup categories (projected end-of-week totals)
 
@@ -33,10 +33,10 @@ _Gain = percentage points of category wins (+10 = +0.1 categories). This week co
 | Vincent Trocheck | UTA | Logan Mailloux | +0.8 | +20.5 | yes | 1 / 4 | 18.8 → 20.3 (1.7) | 2 | 231 | 2 |
 | Brock Nelson | COL | Logan Mailloux | +2.0 | +18.7 | yes | 1 / 3 | 17.8 → 20.0 (2.5) | 1 | 243 | 0 |
 | Pierre-Luc Dubois | WSH | Logan Mailloux | +1.5 | +17.4 | yes | 1 / 3 | 16.7 → 17.6 (1.1) | 1 | 164 | 0 |
-| Jimmy Snuggerud | STL | Logan Mailloux | +1.8 | +17.2 | yes | 1 / 3 | 17.7 → 17.5 (-0.3) | 2 | 77 | 1 |
 | Nico Hischier | NJD | Logan Mailloux | +1.2 | +17.3 | yes | 1 / 3 | 18.3 → 17.3 (-1.1) | 1 | 228 | 1 |
 | Shane Pinto | OTT | Logan Mailloux | +0.4 | +17.7 | yes | 1 / 4 | 20.3 → 21.5 (1.3) | 0 | 183 | 0 |
 | Mason Marchment | SJS | Logan Mailloux | +0.0 | +17.8 | yes | 1 / 4 | 16.4 → 14.2 (-2.6) | 1 | 211 | 0 |
+| Ryan Leonard | WSH | Logan Mailloux | +0.6 | +16.9 | yes | 1 / 3 | 14.4 → 15.2 (0.9) | 2 | 84 | 0 |
 
 ## Drop order (lowest projected value first, all skaters)
 
